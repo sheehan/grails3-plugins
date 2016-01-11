@@ -1,0 +1,33 @@
+<div class="plugin-info">
+    <div>
+        <a class="plugin-name" href="#" data-id="{{name}}">{{name}}</a>
+
+        <div class="input-group dependency-clip">
+            <input type="text" class="form-control" value="{{dependency}}" readonly>
+            <div class="input-group-addon btn clippy"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span></div>
+        </div>
+        <span class="external-links ">
+            {{#if githubHref}}
+                <a href="{{githubHref}}"><img src="src/img/plainicon.com-50224-svg.svg"></a>
+            {{/if}}
+            <a href="{{bintrayHref}}"><img src="src/img/plainicon.com-50186-svg.svg"></a>
+        </span>
+    </div>
+    <span class="plugin-description">{{desc}}</span>
+    {{#if labels}}
+        <div class="plugin-labels">
+            {{#each labels}}
+                <span class="label">{{this}}</span>
+            {{/each}}
+        </div>
+    {{/if}}
+    <div>
+        <label>version</label>
+        <span class="">{{latest_version}}</span>
+        <label>updated</label>
+        <span class="plugin-updated">{{fromNow updated}}</span>
+        <label>owner</label>
+        <span class="">{{owner}}</span>
+    </div>
+</div>
+<div class="readme"></div>
