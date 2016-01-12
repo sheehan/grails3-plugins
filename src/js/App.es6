@@ -65,7 +65,7 @@
             // labels.delete("plugins");
 
             $('.labels-section')
-                .html(Handlebars.templates['labels']({labels: Array.from(labels)}));
+                .html(Handlebars.templates['labels']({labels: (Array.from(labels)).sort()}));
 
             $('.search-input').keyup(this.doSearch.bind(this));
             $('.clear-search').click(event => {
