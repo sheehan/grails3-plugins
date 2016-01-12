@@ -26,13 +26,3 @@ $ export BINTRAY_PASS=apikey
 $ groovy src/groovy/fetch.groovy
 ```
 The data is stored under `data/plugins.json`
-
-## Ideas
-
-* possibly add tags as facets on the left
-* ability to sort plugins by date updated
-* possibly add recent activity panel?
-* investigate what other Bintray and github data could be useful to display in search results or detail
-* script to update data
-* script to diff data and generate tweets & recent-activity.json
-* Add metadata Plugins that need `buildscript` dependancies and/or `runtime` vs `compile`  (such as ap or dbm)
