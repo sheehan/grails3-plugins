@@ -17,9 +17,14 @@
 
         route() {
             var hashId = window.location.hash;
+
             if (hashId) {
-                hashId = hashId.substring(1);
-                this.showPlugin(hashId);
+                if (hashId.substring(0, 5) == "#tag/") {
+                    this.showLabel(hashId.substring(5));
+                } else {
+                    hashId = hashId.substring(1);
+                    this.showPlugin(hashId);
+                }
             } else {
                 this.showPluginList();
             }
@@ -28,6 +33,8 @@
         onLoadPluginData(data) {
             window.addEventListener('hashchange', this.onHashChange.bind(this), false);
 
+            let labels = new Set();
+
             data = _.sortBy(data, pluginData => pluginData.name.toLowerCase());
             this.plugins = data;
             this.plugins.forEach(pluginData => {
@@ -35,6 +42,11 @@
                     pluginData.dependency = pluginData.system_ids[0] + ':' + pluginData.latest_version;
                 }
                 pluginData.labels.sort();
+
+                pluginData.labels.forEach(label => {
+                    labels.add(label);
+                });
+
                 pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
                 if (pluginData.vcs_url.indexOf('github') !== -1) {
                     pluginData.githubHref = pluginData.vcs_url;
@@ -45,6 +57,15 @@
                     }
                 }
             });
+
+            // TODO: Remove invalid labels, need to find better way to exclude invalid labels
+            // labels.delete("grails plugin");
+            // labels.delete("grails");
+            // labels.delete("plugin");
+            // labels.delete("plugins");
+
+            $('.labels-section')
+                .html(Handlebars.templates['labels']({labels: Array.from(labels)}));
 
             $('.search-input').keyup(this.doSearch.bind(this));
             $('.clear-search').click(event => {
@@ -101,6 +122,16 @@
                     _.delay(() => $clippy.tooltip('hide'), 2000);
                 });
             }
+        },
+
+        showLabel(labelName) {
+            let matches = this.plugins.filter(pluginData => {
+                return pluginData.labels.indexOf(labelName) !== -1;
+            });
+            $('.main-content').children().addClass('hide');
+            $('.main-content').find('.plugin-page')
+                .removeClass('hide')
+                .html(Handlebars.templates['plugins']({plugins: matches}))
         },
 
         doSearch() {

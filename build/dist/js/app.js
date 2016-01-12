@@ -18,9 +18,14 @@
         },
         route: function route() {
             var hashId = window.location.hash;
+
             if (hashId) {
-                hashId = hashId.substring(1);
-                this.showPlugin(hashId);
+                if (hashId.substring(0, 5) == "#tag/") {
+                    this.showLabel(hashId.substring(5));
+                } else {
+                    hashId = hashId.substring(1);
+                    this.showPlugin(hashId);
+                }
             } else {
                 this.showPluginList();
             }
@@ -29,6 +34,8 @@
             var _this = this;
 
             window.addEventListener('hashchange', this.onHashChange.bind(this), false);
+
+            var labels = new Set();
 
             data = _.sortBy(data, function (pluginData) {
                 return pluginData.name.toLowerCase();
@@ -39,6 +46,11 @@
                     pluginData.dependency = pluginData.system_ids[0] + ':' + pluginData.latest_version;
                 }
                 pluginData.labels.sort();
+
+                pluginData.labels.forEach(function (label) {
+                    labels.add(label);
+                });
+
                 pluginData.bintrayHref = 'https://bintray.com/' + pluginData.owner + '/' + pluginData.repo + '/' + pluginData.name;
                 if (pluginData.vcs_url.indexOf('github') !== -1) {
                     pluginData.githubHref = pluginData.vcs_url;
@@ -49,6 +61,14 @@
                     }
                 }
             });
+
+            // TODO: Remove invalid labels, need to find better way to exclude invalid labels
+            // labels.delete("grails plugin");
+            // labels.delete("grails");
+            // labels.delete("plugin");
+            // labels.delete("plugins");
+
+            $('.labels-section').html(Handlebars.templates['labels']({ labels: Array.from(labels) }));
 
             $('.search-input').keyup(this.doSearch.bind(this));
             $('.clear-search').click(function (event) {
@@ -108,6 +128,13 @@
                 })();
             }
         },
+        showLabel: function showLabel(labelName) {
+            var matches = this.plugins.filter(function (pluginData) {
+                return pluginData.labels.indexOf(labelName) !== -1;
+            });
+            $('.main-content').children().addClass('hide');
+            $('.main-content').find('.plugin-page').removeClass('hide').html(Handlebars.templates['plugins']({ plugins: matches }));
+        },
         doSearch: function doSearch() {
             var val = $('.search-input').val();
             $('.clear-search').toggleClass('hide', !val);
@@ -125,6 +152,21 @@
         }
     }.initialize();
 })(jQuery);
+this["Handlebars"] = this["Handlebars"] || {};
+this["Handlebars"]["templates"] = this["Handlebars"]["templates"] || {};
+this["Handlebars"]["templates"]["labels"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
+  var lambda=this.lambda, escapeExpression=this.escapeExpression;
+  return "        <a href=\"#tag/"
+    + escapeExpression(lambda(depth0, depth0))
+    + "\"><span class=\"label\">"
+    + escapeExpression(lambda(depth0, depth0))
+    + "</span></a>\n";
+},"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  var stack1, buffer = "<div class=\"plugin-labels\">\n";
+  stack1 = helpers.each.call(depth0, (depth0 != null ? depth0.labels : depth0), {"name":"each","hash":{},"fn":this.program(1, data),"inverse":this.noop,"data":data});
+  if (stack1 != null) { buffer += stack1; }
+  return buffer + "</div>\n";
+},"useData":true});
 this["Handlebars"] = this["Handlebars"] || {};
 this["Handlebars"]["templates"] = this["Handlebars"]["templates"] || {};
 this["Handlebars"]["templates"]["plugin"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
