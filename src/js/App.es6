@@ -2,6 +2,50 @@
 
     Handlebars.registerHelper('fromNow', string => string ? moment(string).fromNow(): '');
 
+    Handlebars.registerHelper('gradleFormat', function(plugin){
+        console.log(plugin.attribute_names);
+        var buildScript = "";
+        var applyPlugin = "";
+        var pluginScope = "";
+        var sourceSets = "";
+
+        plugin.attribute_names.forEach(function (attributes) {
+            if(attributes.name == "buildScript") {
+                buildScript = "buildScript {\n";
+                buildScript += "    dependencies {\n"
+                buildScript += "        " + attributes.values + "\n";
+                buildScript += "    }\n"
+                buildScript += "}\n"
+            }
+            if(attributes.name == "applyPlugin") {
+                applyPlugin += "\napply '" + attributes.values + "'\n";
+            }
+
+            if(attributes.name == "pluginScope") {
+                pluginScope += "\ndependancies {\n"
+                pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n"
+                pluginScope += "}\n"
+            }
+            if(attributes.name == "sourceSets") {
+                sourceSets += "\nsourceSets {\n"
+                sourceSets += "    main {\n"
+                sourceSets += "        resources {\n"
+                sourceSets += "            srcDir '" + attributes.values + "'\n"
+                sourceSets += "        }\n"
+                sourceSets += "    }\n"
+                sourceSets += "}\n"
+            }
+        });
+
+        if(pluginScope == "") {
+            pluginScope += "\ndependancies {\n"
+            pluginScope += "    compile '" + plugin.dependency + "'\n"
+            pluginScope += "}\n"
+        }
+
+        return buildScript + applyPlugin + pluginScope + sourceSets;
+    });
+
     window.App = {
 
         initialize() {

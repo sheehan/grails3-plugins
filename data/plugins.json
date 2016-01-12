@@ -2065,7 +2065,9 @@
     },
     {
         "attribute_names": [
-            
+          {"name": "buildScript", "values" : ["classpath 'org.grails.plugins:database-migration:2.0.0.RC1'"], "type": "string"},
+          {"name": "pluginScope", "values" : ["compile"], "type": "string"},
+          {"name": "sourceSets", "values" : ["grails-app/migrations"], "type": "string"}
         ],
         "created": "2015-03-12T08:51:44.206Z",
         "custom_licenses": [
