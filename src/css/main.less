@@ -18,7 +18,19 @@
   width: 980px;
   margin: auto;
 }
+.labels-section {
+  width: 110px;
+
+  float: left;
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
 .search-section {
+  margin-left: 130px;
+}
+.search-input-section {
   padding: 10px 0;
   .form-group {
     position: relative;
@@ -130,5 +142,9 @@
   .label {
     background-color: #aaa;
     //background-color: @light-green;
+    &:hover {
+      background-color: #666;
+      text-decoration: none;
+    }
   }
 }
