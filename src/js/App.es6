@@ -16,14 +16,14 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
 
     plugin.attribute_names.forEach(function (attributes) {
         if(attributes.name == "pluginScope") {
-            pluginScope += "\ndependancies {\n"
+            pluginScope += "\ndependencies {\n"
             pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n"
             pluginScope += "}\n"
         }
     });
 
     if(pluginScope == "") {
-        pluginScope += "\ndependancies {\n"
+        pluginScope += "\ndependencies {\n"
         pluginScope += "    compile '" + plugin.dependency + "'\n"
         pluginScope += "}\n"
     }

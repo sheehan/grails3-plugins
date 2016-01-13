@@ -10,7 +10,7 @@ It is published as a static site at: <http://sheehan.github.io/grails3-plugins/>
 ### Frontend
 
 ```bash
-# Install js dependancies
+# Install js dependencies
 $ npm install
 # This Gulp task starts up a local server with live-reload.
 $ gulp connect
