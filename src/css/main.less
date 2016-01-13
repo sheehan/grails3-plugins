@@ -1,26 +1,49 @@
 @dark-green: #4d8618;
 @light-green: #79b94c;
+@header-link-color: #fff;
+
+.page-width {
+  max-width: 980px;
+  margin: auto;
+  padding: 0 10px 10px;
+}
 
 .navbar {
   background: @dark-green;
   border-radius: 0;
+  .navbar-header {
+    float: left;
+  }
   .navbar-brand {
-    color: #fff;
+    color: @header-link-color;
     text-shadow: none;
+    padding: 15px 0;
     img {
       width: 40px;
       display: inline;
     }
+    &:hover, &:active {
+      color: @header-link-color;
+    }
+  }
+  .grails-logo {
+    margin-left: -5px;
+  }
+  .navbar-link-list {
+    float: right;
+    margin: 0;
+    padding: 15px 0;
+    li {
+      list-style-type: none;
+      float: left;
+      margin-left: 10px;
+      a {
+        color: @header-link-color;
+      }
+    }
   }
 }
 
-.main-content {
-  max-width: 980px;
-  margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
 .labels-section {
   width: 110px;
 
@@ -30,9 +53,11 @@
     text-decoration: none;
   }
 }
+
 .search-section {
   margin-left: 130px;
 }
+
 .search-input-section {
   padding: 10px 0;
   .form-group {
@@ -138,7 +163,6 @@
     font-size: 12px;
   }
 }
-
 
 .plugin-labels {
   margin: 5px 0;
