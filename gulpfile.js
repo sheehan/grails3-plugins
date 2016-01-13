@@ -11,6 +11,7 @@ const watch       = require('gulp-watch');
 const del         = require('del');
 const merge       = require('merge-stream');
 const babel       = require('gulp-babel');
+const jsonminify  = require('gulp-jsonminify');
 
 gulp.task('templates', () => {
     var templates = gulp.src('./src/templates/*.hbs')
@@ -43,8 +44,14 @@ gulp.task('less', () => {
         .pipe(gulp.dest('./build/dist/css/'));
 });
 
+gulp.task('minifyJson', function () {
+    return gulp.src(['data/*.json'])
+        .pipe(jsonminify())
+        .pipe(gulp.dest('./build/dist/data/'));
+    });
+
 gulp.task('watch', () => {
-    gulp.watch(['./src/**/*', 'gulpfile.js'], ['build']);
+    gulp.watch(['./src/**/*', 'gulpfile.js', './data/*.json'], ['build']);
 });
 
 gulp.task('connect', ['watch'], () => {
@@ -55,6 +62,6 @@ gulp.task('clean', () => {
     del.sync(['build']);
 });
 
-gulp.task('build', ['templates', 'less']);
+gulp.task('build', ['templates', 'less', 'minifyJson']);
 
 gulp.task('default', ['build']);

@@ -1,7 +1,7 @@
 class Plugins {
 
     static fetch() {
-        return $.get('data/plugins.json').then(data => new Plugins(data));
+        return $.get('build/dist/data/plugins.json').then(data => new Plugins(data));
     }
 
     constructor(data) {
