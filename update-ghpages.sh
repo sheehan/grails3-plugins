@@ -3,14 +3,14 @@
 echo "Starting Grails 3 Plugins Deploy..."
 
 if ! git diff-index --quiet HEAD --; then
-	echo "FAILED: There are uncommited changes"
-	exit 1
+    echo "FAILED: There are uncommited changes"
+    exit 1
 fi
 
 BRANCH=$(git symbolic-ref --short -q HEAD)
 
 if [ "$BRANCH" != "master" ]; then
-	echo "FAILED: Run on master branch"
+    echo "FAILED: Run on master branch"
     exit 1
 fi
 
