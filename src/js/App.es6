@@ -55,6 +55,8 @@ window.App = {
     showPluginList() {
         $('.main-content').children().addClass('hide');
         $('.main-content').find('.list-page').removeClass('hide');
+
+        this.searchbyOwnerClickHandler();
     },
 
     showPlugin(pluginName) {
@@ -97,6 +99,7 @@ window.App = {
                 _.delay(() => $clippy.tooltip('hide'), 2000);
             });
         }
+        this.searchbyOwnerClickHandler();
     },
 
     doSearch() {
@@ -108,5 +111,21 @@ window.App = {
         $('.search-results')
             .html('')
             .append(Handlebars.templates['plugins']({plugins: matches}))
+
+        this.searchbyOwnerClickHandler();
+    },
+
+    searchbyOwnerClickHandler() {
+        $('.searchby-owner').click(e => {
+            e.preventDefault();
+            let value = $(e.currentTarget).find('span').text();
+            if (/\s/.test(value)) {
+                value = `"${value}"`;
+            }
+            $('.main-content').children().addClass('hide');
+            $('.main-content').find('.list-page').removeClass('hide');
+            $('.search-input').val(`owner:${value}`);
+            this.doSearch();
+        });
     }
 }.initialize();

@@ -44,10 +44,15 @@ class Plugins {
                 let labelMatch = val.match(/label:"?([^"]*)"?/);
                 if (labelMatch) {
                     return _.contains(pluginData.labels, labelMatch[1]);
-                } else {
-                    return pluginData.name.toLowerCase().indexOf(val.toLowerCase()) !== -1 ||
-                        pluginData.labels.some(label => label.toLowerCase().indexOf(val.toLowerCase()) !== -1);
                 }
+
+                let ownerMatch = val.match(/owner:"?([^"]*)"?/);
+                if (ownerMatch) {
+                    return pluginData.owner == ownerMatch[1];
+                }
+
+                return pluginData.name.toLowerCase().indexOf(val.toLowerCase()) !== -1 ||
+                    pluginData.labels.some(label => label.toLowerCase().indexOf(val.toLowerCase()) !== -1);
             });
         }
         return matches;
