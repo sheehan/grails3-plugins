@@ -16,16 +16,16 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
 
     plugin.attribute_names.forEach(function (attributes) {
         if(attributes.name == "pluginScope") {
-            pluginScope += "\ndependencies {\n"
-            pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n"
-            pluginScope += "}\n"
+            pluginScope += "\ndependencies {\n";
+            pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n";
+            pluginScope += "}\n";
         }
     });
 
     if(pluginScope == "") {
-        pluginScope += "\ndependencies {\n"
-        pluginScope += "    compile '" + plugin.dependency + "'\n"
-        pluginScope += "}\n"
+        pluginScope += "\ndependencies {\n";
+        pluginScope += "    compile '" + plugin.dependency + "'\n";
+        pluginScope += "}\n";
     }
 
     return buildScript + applyPlugin + pluginScope + sourceSets;
@@ -68,26 +68,44 @@ window.App = {
             if (/\s/.test(value)) {
                 value = `"${value}"`;
             }
-            $('.search-input').val(`label:${value}`);
-            this.doSearch();
+            this.updateSearchField(`label:${value}`);
         });
 
         $('.search-input').keyup(this.doSearch.bind(this));
         $('.clear-search').click(event => {
             event.preventDefault();
-            $('.search-input').val('');
+            this.updateSearchField('');
+        });
+
+        this.sort = 'name';
+        $('.main-content').delegate('.search-select .dropdown-menu a', 'click', e => {
+            e.preventDefault();
+            this.sort = $(e.currentTarget).data('sort');
             this.doSearch();
+        });
+
+        $('.main-content').delegate('.searchby-owner', 'click', e => {
+            e.preventDefault();
+            let value = $(e.currentTarget).find('span').text();
+            if (/\s/.test(value)) {
+                value = `"${value}"`;
+            }
+            this.updateSearchField(`owner:${value}`);
         });
 
         this.doSearch();
         this.route();
     },
 
+    updateSearchField(value) {
+        this.showPluginList();
+        $('.search-input').val(value);
+        this.doSearch();
+    },
+
     showPluginList() {
         $('.main-content').children().addClass('hide');
         $('.main-content').find('.list-page').removeClass('hide');
-
-        this.searchbyOwnerClickHandler();
     },
 
     showPlugin(pluginName) {
@@ -130,33 +148,27 @@ window.App = {
                 _.delay(() => $clippy.tooltip('hide'), 2000);
             });
         }
-        this.searchbyOwnerClickHandler();
     },
 
     doSearch() {
         let val = $('.search-input').val();
         $('.clear-search').toggleClass('hide', !val);
 
-        let matches = this.plugins.search(val);
+        let matches = this.plugins.search(val, this.sort);
 
-        $('.search-results')
-            .html('')
-            .append(Handlebars.templates['plugins']({plugins: matches}))
+        let searchCount;
+        if (!val) {
+            searchCount = `Showing all ${matches.length} plugins`;
+        } else if (!matches.length) {
+            searchCount = 'No matching plugins';
+        } else {
+            searchCount = `Showing ${matches.length} matching ${matches.length === 1 ? 'plugin' : 'plugins'}`;
+        }
 
-        this.searchbyOwnerClickHandler();
-    },
-
-    searchbyOwnerClickHandler() {
-        $('.searchby-owner').click(e => {
-            e.preventDefault();
-            let value = $(e.currentTarget).find('span').text();
-            if (/\s/.test(value)) {
-                value = `"${value}"`;
-            }
-            $('.main-content').children().addClass('hide');
-            $('.main-content').find('.list-page').removeClass('hide');
-            $('.search-input').val(`owner:${value}`);
-            this.doSearch();
-        });
+        $('.search-results').html(Handlebars.templates['plugins']({
+            plugins: matches,
+            searchCount: searchCount
+        }));
+        $(`.search-select .dropdown-menu a[data-sort="${this.sort}"]`).addClass('selected');
     }
 }.initialize();

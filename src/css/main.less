@@ -22,7 +22,7 @@
       width: 40px;
       display: inline;
     }
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       color: @header-link-color;
     }
   }
@@ -92,6 +92,27 @@
     padding: 24px 47px;
     font-size: 18px;
     line-height: 22px;
+  }
+}
+
+.list-page {
+  .search-count {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #888;
+    .dropdown-toggle {
+      color: #888;
+    }
+    .dropdown-menu {
+      min-width: 120px;
+      .checkmark {
+        margin-right: 5px;
+        visibility: hidden;
+      }
+      a.selected .checkmark {
+        visibility: visible;
+      }
+    }
   }
 }
 

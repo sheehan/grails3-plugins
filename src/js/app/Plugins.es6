@@ -15,9 +15,7 @@ class Plugins {
             }
             pluginData.labels.sort();
 
-            pluginData.labels.forEach(label => {
-                this.labels.add(label);
-            });
+            pluginData.labels.forEach(label => this.labels.add(label));
 
             pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
             if (pluginData.vcs_url.indexOf('github') !== -1) {
@@ -37,29 +35,33 @@ class Plugins {
         // labels.delete("plugins");
     }
 
-    search(val) {
+    search(val, sort = 'name') {
         let matches = this._plugins;
+
         if (val) {
-            matches = this._plugins.filter(pluginData => {
-                let labelMatch = val.match(/label:"?([^"]*)"?/);
-                if (labelMatch) {
-                    return _.contains(pluginData.labels, labelMatch[1]);
-                }
+            let labelMatch = val.match(/label:"?([^"]*)"?/);
+            let ownerMatch = val.match(/owner:"?([^"]*)"?/);
 
-                let ownerMatch = val.match(/owner:"?([^"]*)"?/);
-                if (ownerMatch) {
-                    return pluginData.owner == ownerMatch[1];
-                }
-
-                return pluginData.name.toLowerCase().indexOf(val.toLowerCase()) !== -1 ||
-                    pluginData.labels.some(label => label.toLowerCase().indexOf(val.toLowerCase()) !== -1);
-            });
+            if (labelMatch) {
+                matches = this._plugins.filter(pluginData => _.contains(pluginData.labels, labelMatch[1]));
+            } else if (ownerMatch) {
+                matches = this._plugins.filter(pluginData => pluginData.owner === ownerMatch[1]);
+            } else {
+                matches = this._plugins.filter(pluginData => pluginData.name.toLowerCase().indexOf(val.toLowerCase()) !== -1);
+            }
         }
+
+        if (sort === 'name') {
+            matches = _.sortBy(matches, it => it.name.toLowerCase());
+        } else if (sort === 'date') {
+            matches = _.sortBy(matches, it => it.updated ? new Date(it.updated) : undefined).reverse();
+        }
+
         return matches;
     }
 
     findByName(name) {
-        return _.find(this._plugins, plugin => plugin.name === name);
+        return _.findWhere(this._plugins, {name: name});
     }
 
     getLabels() {
