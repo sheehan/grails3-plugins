@@ -15,14 +15,14 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
     var sourceSets = "";
 
     plugin.attribute_names.forEach(function (attributes) {
-        if(attributes.name == "pluginScope") {
+        if(attributes.name == "pluginScope" && plugin.dependency) {
             pluginScope += "\ndependencies {\n";
             pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n";
             pluginScope += "}\n";
         }
     });
 
-    if(pluginScope == "") {
+    if(pluginScope == "" && plugin.dependency) {
         pluginScope += "\ndependencies {\n";
         pluginScope += "    compile '" + plugin.dependency + "'\n";
         pluginScope += "}\n";

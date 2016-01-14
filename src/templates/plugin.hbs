@@ -2,10 +2,12 @@
     <div>
         <a class="plugin-name" href="#" data-id="{{name}}">{{name}}</a>
 
+        {{#if this.dependency}}
         <div class="input-group dependency-clip">
             <input type="text" class="form-control" value="{{dependency}}" readonly>
             <div class="input-group-addon btn clippy"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span></div>
         </div>
+        {{/if}}
         <span class="external-links ">
             {{#if githubHref}}
                 <a href="{{githubHref}}"><img src="src/img/plainicon.com-50224-svg.svg"></a>
@@ -30,7 +32,9 @@
         <a href="#" class="searchby-owner"><span class="owner">{{owner}}</span></a>
     </div>
     <div>
+      {{#if this.dependency}}
         <pre>{{gradleFormat this}}</pre>
+      {{/if}}
     </div>
 </div>
 <div class="readme"></div>
