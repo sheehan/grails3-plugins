@@ -47,8 +47,8 @@ window.App = {
     route() {
         var hashId = window.location.hash;
 
-        if (hashId) {
-            this.showPlugin(hashId.substring(1));
+        if (hashId && hashId.indexOf('#plugin/') === 0) {
+            this.showPlugin(hashId.substring('#plugin/'.length));
         } else {
             this.showPluginList();
         }
