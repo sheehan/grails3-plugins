@@ -3,10 +3,10 @@
         <a class="plugin-name" href="#plugin/{{name}}">{{name}}</a>
 
         {{#if this.dependency}}
-        <div class="input-group dependency-clip">
-            <input type="text" class="form-control" value="{{dependency}}" readonly>
-            <div class="input-group-addon btn clippy"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span></div>
-        </div>
+            <div class="input-group dependency-clip">
+                <input type="text" class="form-control" value="{{dependency}}" readonly>
+                <div class="input-group-addon btn clippy"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span></div>
+            </div>
         {{/if}}
         <span class="external-links ">
             {{#if githubHref}}
@@ -31,10 +31,10 @@
         <label>owner</label>
         <a href="#" class="searchby-owner"><span class="owner">{{owner}}</span></a>
     </div>
-    <div>
-      {{#if this.dependency}}
-        <pre>{{gradleFormat this}}</pre>
-      {{/if}}
-    </div>
+    {{#if this.dependency}}
+        <div class="gradle-format">
+            <pre>{{gradleFormat this}}</pre>
+        </div>
+    {{/if}}
 </div>
 <div class="readme"></div>

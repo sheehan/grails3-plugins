@@ -124,7 +124,7 @@ window.App = {
             }).fail(jqXhr => {
                 if (jqXhr.status === 404) {
                     console.log('readme not available');
-                    // TODO display on page
+                    $('.plugin-page .readme').html('<span class="not-found">Readme not available.</span>');
                 }
             });
         }
