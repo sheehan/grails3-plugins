@@ -22,7 +22,11 @@ gulp.task('templates', () => {
         }))
         .pipe(concat('templates.js'));
 
-    var js = gulp.src(['./src/js/app/**/*.es6', './src/js/App.es6'])
+    var js = gulp.src([
+        './src/js/app/**/*.es6',
+        './src/js/init.es6',
+        './src/js/App.es6'
+    ])
         .pipe(babel({
             presets: ['es2015']
         }));
