@@ -2568,7 +2568,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.3",
+        "latest_version": "3.0.4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2585,9 +2585,10 @@
         "system_ids": [
             "org.grails.plugins:grails-cxf-client"
         ],
-        "updated": "2015-12-30T20:02:03.264Z",
+        "updated": "2016-01-15T20:30:16.761Z",
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
         "versions": [
+            "3.0.4",
             "3.0.3",
             "3.0.2",
             "3.0.1",
