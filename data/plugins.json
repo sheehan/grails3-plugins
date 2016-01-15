@@ -3,46 +3,6 @@
         "attribute_names": [
             
         ],
-        "created": "2015-03-05T15:46:33.219Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails RemoteSSH Plugin",
-        "followers_count": 0,
-        "issue_tracker_url": "https://github.com/vahidhedayati/RemoteSSH/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "3.0.1",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
-        "name": "RemoteSSH",
-        "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "maven",
-        "system_ids": [
-            "org.grails.plugins:RemoteSSH"
-        ],
-        "updated": "2015-10-31T08:29:15.192Z",
-        "vcs_url": "https://github.com/vahidhedayati/RemoteSSH",
-        "versions": [
-            "3.0.1",
-            "0.4"
-        ],
-        "website_url": "https://github.com/vahidhedayati/RemoteSSH"
-    },
-    {
-        "attribute_names": [
-            
-        ],
         "created": "2015-07-27T20:00:58.090Z",
         "custom_licenses": [
             
@@ -398,7 +358,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.4.3",
+        "latest_version": "1.4.4",
         "licenses": [
             "BSD 2-Clause"
         ],
@@ -418,9 +378,10 @@
             "net.errbuddy.plugins:react-asset-pipeline",
             "net.errbuddy.plugins:babel-asset-pipeline"
         ],
-        "updated": "2015-12-14T19:52:21.608Z",
+        "updated": "2016-01-13T07:50:30.770Z",
         "vcs_url": "https://github.com/errbuddy/babel-asset-pipeline",
         "versions": [
+            "1.4.4",
             "1.4.3",
             "1.4.2",
             "1.4.1",
@@ -599,6 +560,48 @@
             "3.0.0"
         ],
         "website_url": "http://grails.org/plugin/build-test-data"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2015-01-27T16:01:06.919Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails cache plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/grails-plugins/grails-cache",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            
+        ],
+        "name": "cache",
+        "owner": "grails",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:cache"
+        ],
+        "updated": "2016-01-13T12:35:29.911Z",
+        "vcs_url": "https://github.com/grails-plugins/grails-cache/issues",
+        "versions": [
+            "3.0.2",
+            "3.0.1",
+            "3.0.0",
+            "3.0.0.M2",
+            "3.0.0.M1"
+        ],
+        "website_url": "http://grails.org/plugin/cache"
     },
     {
         "attribute_names": [
@@ -1127,12 +1130,90 @@
         "system_ids": [
             "org.grails.plugins:grails-mailgun"
         ],
-        "updated": "2016-01-06T20:13:08.928Z",
+        "updated": "2016-01-12T09:17:32.486Z",
         "vcs_url": "https://github.com/orkonano/grails-mailgun",
         "versions": [
             "2.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-mailgun"
+        "website_url": "https://github.com/orkonano/grails-mailgun"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2016-01-11T22:40:39.941Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails grails-middleware plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/driverpt/grails-middleware/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "grails-middleware",
+        "owner": "lduarte",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-middleware"
+        ],
+        "updated": "2016-01-12T13:25:22.188Z",
+        "vcs_url": "https://github.com/driverpt/grails-middleware",
+        "versions": [
+            "0.0.2",
+            "0.0.1"
+        ],
+        "website_url": "https://github.com/driverpt/grails-middleware"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2016-01-12T21:24:54.520Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "A plugin that allows you to display human readable, relative timestamps.",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/cazacugmihai/grails-pretty-time/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "4.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "jcenter",
+            "plugins"
+        ],
+        "name": "grails-pretty-time",
+        "owner": "cazacugmihai",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-pretty-time"
+        ],
+        "updated": "2016-01-12T22:01:40.695Z",
+        "vcs_url": "https://github.com/cazacugmihai/grails-pretty-time",
+        "versions": [
+            "4.0.0"
+        ],
+        "website_url": "https://github.com/cazacugmihai/grails-pretty-time"
     },
     {
         "attribute_names": [
@@ -1333,7 +1414,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0",
+        "latest_version": "1.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1350,9 +1431,11 @@
         "system_ids": [
             "org.grails.plugins:http-builder-helper"
         ],
-        "updated": "2015-10-06T13:08:30.183Z",
+        "updated": "2016-01-14T19:34:13.142Z",
         "vcs_url": "https://github.com/bobbywarner/grails-http-builder-helper",
         "versions": [
+            "1.0.2",
+            "1.0.1",
             "1.0.0"
         ],
         "website_url": "https://bobbywarner.github.io/grails-http-builder-helper"
@@ -1395,6 +1478,45 @@
             "2.0.1"
         ],
         "website_url": "http://grails.org/plugin/excel-export"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2016-01-08T11:49:53.685Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails jaxrs plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/grails3-plugins/jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.12",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins",
+            "plugins"
+        ],
+        "name": "jaxrs",
+        "owner": "donald-jackson",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:jaxrs"
+        ],
+        "updated": "2016-01-14T16:17:33.208Z",
+        "vcs_url": "https://github.com/donald-jackson/grails-jaxrs",
+        "versions": [
+            "0.12"
+        ],
+        "website_url": "http://grails.org/plugin/jaxrs"
     },
     {
         "attribute_names": [
@@ -1653,7 +1775,7 @@
             
         ],
         "desc": "Grails mail plugin",
-        "followers_count": 0,
+        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails3-plugins/mail/issues",
         "labels": [
             
@@ -1675,7 +1797,7 @@
         "system_ids": [
             "org.grails.plugins:mail"
         ],
-        "updated": "2015-11-24T16:15:27.365Z",
+        "updated": "2016-01-08T19:50:16.318Z",
         "vcs_url": "https://github.com/grails3-plugins/mail",
         "versions": [
             "2.0.0.RC4"
@@ -1850,47 +1972,6 @@
             "1.9.33"
         ],
         "website_url": "http://grails.org/plugin/aws-sdk"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "created": "2015-01-27T16:01:06.919Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails cache plugin",
-        "followers_count": 0,
-        "issue_tracker_url": "https://github.com/grails3-plugins/cache",
-        "labels": [
-            
-        ],
-        "latest_version": "3.0.1",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            
-        ],
-        "name": "org.grails.plugins:cache",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:cache"
-        ],
-        "updated": "2015-03-26T10:10:48.637Z",
-        "vcs_url": "https://github.com/grails3-plugins/cache/issues",
-        "versions": [
-            "3.0.1",
-            "3.0.0",
-            "3.0.0.M2",
-            "3.0.0.M1"
-        ],
-        "website_url": "http://grails.org/plugin/cache"
     },
     {
         "attribute_names": [
@@ -2072,7 +2153,7 @@
             
         ],
         "desc": "Grails database-migration plugin",
-        "followers_count": 2,
+        "followers_count": 3,
         "issue_tracker_url": "https://github.com/yamkazu/database-migration/issues",
         "labels": [
             
@@ -2095,7 +2176,7 @@
         "system_ids": [
             "org.grails.plugins:database-migration"
         ],
-        "updated": "2015-12-02T13:44:04.133Z",
+        "updated": "2016-01-14T18:59:02.778Z",
         "vcs_url": "https://github.com/yamkazu/database-migration",
         "versions": [
             "2.0.0.RC1",
@@ -2345,6 +2426,44 @@
         "attribute_names": [
             
         ],
+        "created": "2016-01-10T19:41:20.233Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails AWS Plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/grails-aws/grails-aws/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.3",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "org.grails.plugins:grails-aws",
+        "owner": "grails-aws",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-aws"
+        ],
+        "updated": "2016-01-12T22:01:48.437Z",
+        "vcs_url": "https://github.com/grails-aws/grails-aws",
+        "versions": [
+            "2.0.3"
+        ],
+        "website_url": "http://grails.org/plugin/grails-aws"
+    },
+    {
+        "attribute_names": [
+            
+        ],
         "created": "2015-11-04T05:55:46.173Z",
         "custom_licenses": [
             
@@ -2353,7 +2472,12 @@
         "followers_count": 0,
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
-            
+            "cookie",
+            "grails",
+            "cookie-service",
+            "cookieservice",
+            "request",
+            "response"
         ],
         "latest_version": "2.0.3",
         "licenses": [
@@ -2372,12 +2496,11 @@
         "system_ids": [
             "org.grails.plugins:grails-cookie"
         ],
-        "updated": "2016-01-04T07:59:11.511Z",
+        "updated": "2016-01-10T14:46:23.050Z",
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
         "versions": [
             "2.0.3",
             "2.0.2",
-            "2.0.1",
             "2.0"
         ],
         "website_url": "http://grails.org/plugin/grails-cookie"
@@ -3803,12 +3926,12 @@
             
         ],
         "desc": "Grails quartz plugin",
-        "followers_count": 0,
+        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails-plugins/grails-quartz/issues",
         "labels": [
             
         ],
-        "latest_version": "2.0.4",
+        "latest_version": "2.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3825,9 +3948,10 @@
         "system_ids": [
             "org.grails.plugins:quartz"
         ],
-        "updated": "2015-12-31T04:17:12.932Z",
+        "updated": "2016-01-12T07:17:10.005Z",
         "vcs_url": "https://github.com/grails-plugins/grails-quartz",
         "versions": [
+            "2.0.5",
             "2.0.4",
             "2.0.3",
             "2.0.2",
@@ -3875,6 +3999,46 @@
             "3.0.0RC1"
         ],
         "website_url": "https://github.com/iamthechad/grails3-recaptcha"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2015-03-05T15:46:33.219Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails RemoteSSH Plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/vahidhedayati/RemoteSSH/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins",
+            "jcenter"
+        ],
+        "name": "RemoteSSH",
+        "owner": "vahid",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "maven",
+        "system_ids": [
+            "org.grails.plugins:RemoteSSH"
+        ],
+        "updated": "2015-10-31T08:29:15.192Z",
+        "vcs_url": "https://github.com/vahidhedayati/RemoteSSH",
+        "versions": [
+            "3.0.1",
+            "0.4"
+        ],
+        "website_url": "https://github.com/vahidhedayati/RemoteSSH"
     },
     {
         "attribute_names": [
@@ -4013,6 +4177,45 @@
         "attribute_names": [
             
         ],
+        "created": "2016-01-14T18:37:22.334Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails scaffolding plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/grails3-plugins/scaffolding/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.2.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            
+        ],
+        "name": "scaffolding",
+        "owner": "grails",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:scaffolding"
+        ],
+        "updated": "2016-01-14T19:23:24.576Z",
+        "vcs_url": "https://github.com/grails3-plugins/scaffolding",
+        "versions": [
+            "3.2.0",
+            "3.1.3"
+        ],
+        "website_url": "http://grails.org/plugin/scaffolding"
+    },
+    {
+        "attribute_names": [
+            
+        ],
         "created": "2015-12-08T11:20:48.992Z",
         "custom_licenses": [
             
@@ -4133,12 +4336,12 @@
             
         ],
         "desc": "Grails spring-security-core plugin",
-        "followers_count": 0,
+        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-core/issues",
         "labels": [
             
         ],
-        "latest_version": "3.0.2",
+        "latest_version": "3.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4155,15 +4358,54 @@
         "system_ids": [
             "org.grails.plugins:spring-security-core"
         ],
-        "updated": "2016-01-06T09:45:19.971Z",
+        "updated": "2016-01-14T18:59:31.804Z",
         "vcs_url": "https://github.com/grails-plugins/grails-spring-security-core",
         "versions": [
+            "3.0.3",
             "3.0.2",
             "3.0.1",
             "3.0.0",
             "3.0.0.M2"
         ],
         "website_url": "http://grails-plugins.github.io/grails-spring-security-core/"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2016-01-08T15:54:16.703Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails spring-security-jaxrs plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/grails3-plugins/spring-security-jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.1.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "spring-security-jaxrs",
+        "owner": "donald-jackson",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-jaxrs"
+        ],
+        "updated": "2016-01-08T15:57:56.017Z",
+        "vcs_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
+        "versions": [
+            "1.1.0"
+        ],
+        "website_url": "http://grails.org/plugin/spring-security-jaxrs"
     },
     {
         "attribute_names": [
@@ -4257,7 +4499,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.0.M1",
+        "latest_version": "2.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4274,9 +4516,10 @@
         "system_ids": [
             "org.grails.plugins:spring-security-rest"
         ],
-        "updated": "2016-01-07T16:15:04.326Z",
+        "updated": "2016-01-08T12:44:53.520Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
+            "2.0.0.M2",
             "2.0.0.M1"
         ],
         "website_url": "https://github.com/alvarosanchez/grails-spring-security-rest"
@@ -4295,7 +4538,7 @@
         "labels": [
             
         ],
-        "latest_version": null,
+        "latest_version": "2.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4310,12 +4553,12 @@
         "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:spring-security-rest-gorm"
         ],
-        "updated": "2016-01-07T15:39:15.403Z",
+        "updated": "2016-01-08T12:44:55.275Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
-            
+            "2.0.0.M2"
         ],
         "website_url": ""
     },
@@ -4333,7 +4576,7 @@
         "labels": [
             
         ],
-        "latest_version": null,
+        "latest_version": "2.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4348,12 +4591,12 @@
         "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:spring-security-rest-grailscache"
         ],
-        "updated": "2016-01-07T15:39:51.193Z",
+        "updated": "2016-01-08T12:45:00.424Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
-            
+            "2.0.0.M2"
         ],
         "website_url": ""
     },
@@ -4371,7 +4614,7 @@
         "labels": [
             
         ],
-        "latest_version": null,
+        "latest_version": "2.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4386,12 +4629,12 @@
         "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:spring-security-rest-memcached"
         ],
-        "updated": "2016-01-07T15:40:25.070Z",
+        "updated": "2016-01-08T12:44:58.670Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
-            
+            "2.0.0.M2"
         ],
         "website_url": ""
     },
@@ -4426,7 +4669,7 @@
         "system_ids": [
             "org.grails.plugins:spring-security-rest-redis"
         ],
-        "updated": "2016-01-07T16:32:42.451Z",
+        "updated": "2016-01-08T12:44:56.949Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
             "2.0.0.M2"
@@ -4464,7 +4707,7 @@
         "system_ids": [
             
         ],
-        "updated": "2016-01-07T15:41:17.904Z",
+        "updated": "2016-01-08T09:49:56.403Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
             
@@ -4546,6 +4789,44 @@
             "3.0.0.M1"
         ],
         "website_url": "http://grails-plugins.github.io/grails-spring-security-ui/"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "created": "2016-01-08T15:42:28.404Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails swagger4jaxrs plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/grails3-plugins/swagger4jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.4",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "swagger4jaxrs",
+        "owner": "donald-jackson",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:swagger4jaxrs"
+        ],
+        "updated": "2016-01-08T15:46:43.353Z",
+        "vcs_url": "https://github.com/donald-jackson/swagger4jaxrs",
+        "versions": [
+            "0.4"
+        ],
+        "website_url": "http://grails.org/plugin/swagger4jaxrs"
     },
     {
         "attribute_names": [
