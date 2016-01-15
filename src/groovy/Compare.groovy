@@ -35,7 +35,7 @@ class Compare {
         newJson.each { plugin ->
             Map match = oldJson.find { it.name == plugin.name }
             if (!match) {
-                tweet "$plugin.name $plugin.latest_version released: http://sheehan.github.io/grails3-plugins/#plugin/$plugin.name"
+                tweet "$plugin.name $plugin.latest_version released: http://grails-plugins.org/#plugin/$plugin.name"
                 return
             }
 
@@ -43,7 +43,7 @@ class Compare {
                 List versions = plugin.versions - match.versions
                 if (versions) {
                     versions.reverse().each { String version ->
-                        tweet "$plugin.name $version released: http://sheehan.github.io/grails3-plugins/#plugin/$plugin.name"
+                        tweet "$plugin.name $version released: http://grails-plugins.org/#plugin/$plugin.name"
                     }
                 }
             }
