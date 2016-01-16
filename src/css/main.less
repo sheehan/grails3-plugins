@@ -36,10 +36,13 @@
     li {
       list-style-type: none;
       float: left;
-      margin-left: 10px;
+      margin-left: 15px;
       a {
         color: @header-link-color;
       }
+    }
+    .twitter {
+      display: none;
     }
   }
 }
@@ -223,5 +226,35 @@
 @media (max-width: 1300px) {
   .github-fork-ribbon-wrapper {
     display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbar .navbar-link-list .twitter {
+    display: list-item;
+  }
+  .list-page {
+    .timeline-wrapper {
+      display: none;
+    }
+    .search-section {
+      margin-right: 0;
+    }
+  }
+  .plugin-page {
+    .dependency-clip {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .list-page {
+    .labels-section {
+      display: none;
+    }
+    .search-section {
+      margin-left: 0;
+    }
   }
 }

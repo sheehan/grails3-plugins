@@ -58,7 +58,7 @@ gulp.task('watch', () => {
     gulp.watch(['./src/**/*', 'gulpfile.js', './data/*.json'], ['build']);
 });
 
-gulp.task('connect', ['watch'], () => {
+gulp.task('connect', ['clean', 'build', 'watch'], () => {
     connect.server();
 });
 
