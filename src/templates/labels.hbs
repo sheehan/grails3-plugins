@@ -1,5 +1,5 @@
 <div class="plugin-labels">
     {{#each labels}}
-        <a href="#" class="searchby-label"><span class="label">{{this}}</span></a>
+        <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="label">{{this}}</span></a>
     {{/each}}
 </div>

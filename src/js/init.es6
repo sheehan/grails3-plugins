@@ -1,5 +1,7 @@
 Handlebars.registerHelper('fromNow', string => string ? moment(string).fromNow() : '');
 
+Handlebars.registerHelper('quoteIfWhitespace', string =>  /\s/.test(string) ? `"${string}"` : string);
+
 /*
  * Grab metadata from repo attributes to create build.gradle syntax.
  * Example metadata:
@@ -30,3 +32,9 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
 
     return buildScript + applyPlugin + pluginScope + sourceSets;
 });
+
+let grailsplugins = {};
+
+window.onload = () => {
+    window.app = new grailsplugins.App();
+};

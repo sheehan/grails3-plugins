@@ -48,7 +48,7 @@
                 <label>updated</label>
                 <span class="plugin-updated">{{fromNow updated}}</span>
                 <label>owner</label>
-                <a href="#" class="searchby-owner"><span class="owner">{{owner}}</span></a>
+                <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
             </div>
         </li>
     {{/each}}

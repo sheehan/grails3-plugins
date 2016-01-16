@@ -1,21 +1,22 @@
-class Plugins {
+grailsplugins.Plugins = class  {
 
     static fetch() {
-        return $.get('build/dist/data/plugins.json').then(data => new Plugins(data));
+        return $.get('build/dist/data/plugins.json').then(data => new grailsplugins.Plugins(data));
     }
 
     constructor(data) {
         this._plugins = _.sortBy(data, pluginData => pluginData.name.toLowerCase());
 
-        this.labels = new Set();
+        let labelsToIgnore = ['grails plugin', 'grails', 'plugin', 'plugins'];
 
         this._plugins.forEach(pluginData => {
             if (pluginData.system_ids.length) {
                 pluginData.dependency = pluginData.system_ids[0] + ':' + pluginData.latest_version;
             }
-            pluginData.labels.sort();
-
-            pluginData.labels.forEach(label => this.labels.add(label));
+            pluginData.labels = _.chain(pluginData.labels)
+                .without(...labelsToIgnore)
+                .sortBy(it => it.toLowerCase())
+                .value();
 
             pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
             if (pluginData.vcs_url.indexOf('github') !== -1) {
@@ -28,11 +29,12 @@ class Plugins {
             }
         });
 
-        // TODO: Remove invalid labels, need to find better way to exclude invalid labels
-        // labels.delete("grails plugin");
-        // labels.delete("grails");
-        // labels.delete("plugin");
-        // labels.delete("plugins");
+        this._allLabels = _.chain(this._plugins)
+            .pluck('labels')
+            .flatten()
+            .unique()
+            .sortBy(it => it.toLowerCase())
+            .value();
     }
 
     search(val, sort = 'name') {
@@ -65,6 +67,6 @@ class Plugins {
     }
 
     getLabels() {
-        return (Array.from(this.labels)).sort();
+        return this._allLabels;
     }
-}
+};
