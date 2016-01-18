@@ -8,6 +8,8 @@
 #export TWITTER_ACCESS_TOKEN=x
 #export TWITTER_ACCESS_TOKEN_SECRET=x
 
+git checkout master
+
 echo "Starting Grails 3 Plugins Update..."
 
 if ! git diff-index --quiet HEAD --; then
