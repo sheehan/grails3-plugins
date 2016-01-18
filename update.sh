@@ -53,4 +53,4 @@ git add ./data/plugins.json
 git commit -m 'Updating plugin data'
 git push --force --quiet "https://${GITHUB_USER}:${GITHUB_PASS}@github.com/${GITHUB_REPO}.git"
 
-#./update-ghpages.sh
+./update-ghpages.sh

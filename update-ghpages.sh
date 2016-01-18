@@ -30,7 +30,7 @@ if [ "$LOCAL" = "$REMOTE" ]; then
     gulp clean build
     git add build/ -f
     git commit -m 'Deploying latest to GitHub pages'
-    git push -f origin gh-pages
+    git push --force --quiet "https://${GITHUB_USER}:${GITHUB_PASS}@github.com/${GITHUB_REPO}.git"
     git checkout master
 elif [ "$LOCAL" = "$BASE" ]; then
     echo "FAILED: Need to pull"
