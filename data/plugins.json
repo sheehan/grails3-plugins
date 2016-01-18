@@ -1284,8 +1284,9 @@
             "Apache-2.0"
         ],
         "website_url": "https://github.com/zyro23/grails-spring-websocket",
-        "latest_version": "2.3.0.M1",
+        "latest_version": "2.3.0.M2",
         "versions": [
+            "2.3.0.M2",
             "2.3.0.M1",
             "2.2.0",
             "2.1.0",
@@ -1300,7 +1301,7 @@
         ],
         "followers_count": 0,
         "name": "grails-spring-websocket",
-        "updated": "2015-12-06T09:56:44.686Z",
+        "updated": "2016-01-18T20:06:50.594Z",
         "system_ids": [
             "org.grails.plugins:grails-spring-websocket"
         ],
