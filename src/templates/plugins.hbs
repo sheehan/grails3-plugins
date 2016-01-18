@@ -38,7 +38,7 @@
             {{#if labels}}
                 <div class="plugin-labels">
                     {{#each labels}}
-                        <span class="label">{{this}}</span>
+                        <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="label">{{this}}</span></a>
                     {{/each}}
                 </div>
             {{/if}}
