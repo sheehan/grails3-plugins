@@ -8,9 +8,27 @@
 #export TWITTER_ACCESS_TOKEN=x
 #export TWITTER_ACCESS_TOKEN_SECRET=x
 
+
+### 
+# Go to travis and enable builds for this repo
+# First remove all secure: env from the travis file
+# Run the following in the root directory with the corrected values to get the .travis.yaml updated
+#
+# travis encrypt -r sheehan/grails3-plugins GITHUB_REPO=sheehan/grails3-plugins --add
+# travis encrypt -r sheehan/grails3-plugins BINTRAY_USER=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins BINTRAY_PASS=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins GITHUB_USER=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins GITHUB_USER=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins TWITTER_CONSUMER_KEY=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins TWITTER_CONSUMER_KEY_SECRET=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins TWITTER_ACCESS_TOKEN=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins TWITTER_ACCESS_TOKEN_SECRET=xxxx --add
+
 git checkout master
-git config --global user.email "acetrike@gmail.com"
-git config --global user.name "Christian Oestreich"
+
+### Update as needed
+#git config --global user.email "acetrike@gmail.com"
+#git config --global user.name "Christian Oestreich"
 
 echo "Starting Grails 3 Plugins Update..."
 
@@ -33,6 +51,6 @@ groovy src/groovy/Fetch ./data/plugins.new.json
 
 git add ./data/plugins.json
 git commit -m 'Updating plugin data'
-git push --force --quiet "https://ctoestreich@github.com/ctoestreich/grails3-plugins.git" origin master
+git push --force --quiet "https://${GITHUB_USER}:${GITHUB_PASS}@github.com/${GITHUB_REPO}.git" origin master
 
 #./update-ghpages.sh
