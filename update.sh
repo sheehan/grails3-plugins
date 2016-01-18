@@ -27,8 +27,8 @@
 git checkout master
 
 ### Update as needed
-#git config --global user.email "acetrike@gmail.com"
-#git config --global user.name "Christian Oestreich"
+git config --global user.email "acetrike@gmail.com"
+git config --global user.name "Christian Oestreich"
 
 echo "Starting Grails 3 Plugins Update..."
 
