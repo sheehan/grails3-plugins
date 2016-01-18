@@ -32,6 +32,11 @@ class Compare {
     }
 
     void compare(oldJson, newJson) {
+        if(!TWITTER_CONSUMER_KEY || !TWITTER_CONSUMER_KEY_SECRET || !TWITTER_ACCESS_TOKEN || !TWITTER_ACCESS_TOKEN_SECRET){
+            println "You are missing your twitter keys, exiting!"
+            return
+        }
+
         newJson.each { plugin ->
             Map match = oldJson.find { it.name == plugin.name }
             if (!match) {
