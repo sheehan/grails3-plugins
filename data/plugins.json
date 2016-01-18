@@ -682,7 +682,7 @@
         "linked_to_repos": [
             "plugins"
         ],
-        "name": "Cookie",
+        "name": "cookie",
         "owner": "ctoestreich",
         "permissions": [
             
@@ -692,14 +692,14 @@
         "system_ids": [
             "org.grails.plugins:grails-cookie"
         ],
-        "updated": "2016-01-18T16:51:40.901Z",
+        "updated": "2016-01-18T18:32:56.421Z",
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
         "versions": [
             "2.0.3",
             "2.0.2",
             "2.0"
         ],
-        "website_url": "http://grails-plugins.org/#plugin/org.grails.plugins:grails-cookie"
+        "website_url": "http://grails-plugins.org/#plugin/cookie"
     },
     {
         "attribute_names": [
