@@ -23,12 +23,12 @@ if [ "$BRANCH" != "master" ]; then
 fi
 
 groovy src/groovy/Fetch ./data/plugins.new.json
-groovy src/groovy/Compare ./data/plugins.json ./data/plugins.new.json
+#groovy src/groovy/Compare ./data/plugins.json ./data/plugins.new.json
 
 mv ./data/plugins.new.json ./data/plugins.json
 
 git add ./data/plugins.json
 git commit -m 'Updating plugin data'
-git push origin master
+git push --force --quiet "https://${GITHUB_TOKEN}@$github.com/${GITHUB_REPO}.git" origin master
 
 ./update-ghpages.sh
