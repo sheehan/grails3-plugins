@@ -18,7 +18,7 @@
 # travis encrypt -r sheehan/grails3-plugins BINTRAY_USER=xxxx --add
 # travis encrypt -r sheehan/grails3-plugins BINTRAY_PASS=xxxx --add
 # travis encrypt -r sheehan/grails3-plugins GITHUB_USER=xxxx --add
-# travis encrypt -r sheehan/grails3-plugins GITHUB_USER=xxxx --add
+# travis encrypt -r sheehan/grails3-plugins GITHUB_PASS=xxxx --add
 # travis encrypt -r sheehan/grails3-plugins TWITTER_CONSUMER_KEY=xxxx --add
 # travis encrypt -r sheehan/grails3-plugins TWITTER_CONSUMER_KEY_SECRET=xxxx --add
 # travis encrypt -r sheehan/grails3-plugins TWITTER_ACCESS_TOKEN=xxxx --add
