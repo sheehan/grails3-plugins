@@ -1,7 +1,7 @@
 language: groovy
 sudo: false
 jdk:
-- openjdk8
+- oraclejdk8
 script: ./update.sh
 env:
   global:  	
