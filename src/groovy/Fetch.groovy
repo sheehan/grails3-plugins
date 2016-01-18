@@ -45,14 +45,14 @@ class Fetch {
                 query: [start_pos: start]
             )
 
-            total = resp.headers['X-RangeLimit-Total'].value.toInteger()
+            total = 99 //resp.headers['X-RangeLimit-Total'].value.toInteger()
             start = resp.headers['X-RangeLimit-EndPos'].value.toInteger() + 1
 
             packages.addAll resp.data
 
             client.shutdown()
 
-            if (start == total) break
+            if (start >= total) break
         }
         packages
     }
