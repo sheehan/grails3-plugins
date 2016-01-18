@@ -7,8 +7,6 @@
 #export TWITTER_CONSUMER_KEY_SECRET=x
 #export TWITTER_ACCESS_TOKEN=x
 #export TWITTER_ACCESS_TOKEN_SECRET=x
-export GITHUB_TOKEN=226cad8dfd5c65df7bfe072065519f7c6a04d90a
-export GITHUB_REPO=ctoestreich/grails3-plugins
 
 git checkout master
 git config --global user.email "acetrike@gmail.com"
@@ -35,6 +33,6 @@ groovy src/groovy/Fetch ./data/plugins.new.json
 
 git add ./data/plugins.json
 git commit -m 'Updating plugin data'
-git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git" origin master
+git push --force --quiet "https://ctoestreich@github.com/ctoestreich/grails3-plugins.git" origin master
 
 #./update-ghpages.sh
