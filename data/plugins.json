@@ -660,6 +660,51 @@
         "attribute_names": [
             
         ],
+        "created": "2015-11-04T05:55:46.173Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails Cookie Plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
+        "labels": [
+            "cookie",
+            "grails",
+            "cookie-service",
+            "cookieservice",
+            "request",
+            "response"
+        ],
+        "latest_version": "2.0.3",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "Cookie",
+        "owner": "ctoestreich",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-cookie"
+        ],
+        "updated": "2016-01-18T16:51:40.901Z",
+        "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
+        "versions": [
+            "2.0.3",
+            "2.0.2",
+            "2.0"
+        ],
+        "website_url": "http://grails-plugins.org/#plugin/org.grails.plugins:grails-cookie"
+    },
+    {
+        "attribute_names": [
+            
+        ],
         "created": "2015-09-16T21:14:58.711Z",
         "custom_licenses": [
             
@@ -2464,51 +2509,6 @@
         "attribute_names": [
             
         ],
-        "created": "2015-11-04T05:55:46.173Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Cookie Plugin",
-        "followers_count": 0,
-        "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
-        "labels": [
-            "cookie",
-            "grails",
-            "cookie-service",
-            "cookieservice",
-            "request",
-            "response"
-        ],
-        "latest_version": "2.0.3",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            "plugins"
-        ],
-        "name": "org.grails.plugins:grails-cookie",
-        "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "grails-plugins",
-        "system_ids": [
-            "org.grails.plugins:grails-cookie"
-        ],
-        "updated": "2016-01-10T14:46:23.050Z",
-        "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
-        "versions": [
-            "2.0.3",
-            "2.0.2",
-            "2.0"
-        ],
-        "website_url": "http://grails.org/plugin/grails-cookie"
-    },
-    {
-        "attribute_names": [
-            
-        ],
         "created": "2015-10-28T22:31:36.035Z",
         "custom_licenses": [
             
@@ -2517,7 +2517,9 @@
         "followers_count": 0,
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf/issues",
         "labels": [
-            
+            "apache",
+            "cxf",
+            "soap"
         ],
         "latest_version": "3.0.9",
         "licenses": [
@@ -2536,7 +2538,7 @@
         "system_ids": [
             "org.grails.plugins:grails-cxf"
         ],
-        "updated": "2015-12-30T18:49:08.595Z",
+        "updated": "2016-01-18T16:26:45.235Z",
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf",
         "versions": [
             "3.0.9",
@@ -2566,7 +2568,10 @@
         "followers_count": 0,
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client/issues",
         "labels": [
-            
+            "apache",
+            "cxf",
+            "soap",
+            "client"
         ],
         "latest_version": "3.0.4",
         "licenses": [
@@ -2585,7 +2590,7 @@
         "system_ids": [
             "org.grails.plugins:grails-cxf-client"
         ],
-        "updated": "2016-01-15T20:30:16.761Z",
+        "updated": "2016-01-18T16:28:32.891Z",
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
         "versions": [
             "3.0.4",
@@ -2647,7 +2652,10 @@
         "followers_count": 0,
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            
+            "jesque",
+            "redis",
+            "jedis",
+            "queue"
         ],
         "latest_version": "1.0.6",
         "licenses": [
@@ -2666,7 +2674,7 @@
         "system_ids": [
             "org.grails.plugins:grails-jesque"
         ],
-        "updated": "2015-11-20T01:41:26.087Z",
+        "updated": "2016-01-18T16:28:07.552Z",
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque",
         "versions": [
             "1.0.6",
