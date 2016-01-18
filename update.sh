@@ -45,7 +45,7 @@ if [ "$BRANCH" != "master" ]; then
 fi
 
 groovy src/groovy/Fetch ./data/plugins.new.json
-#groovy src/groovy/Compare ./data/plugins.json ./data/plugins.new.json
+groovy src/groovy/Compare ./data/plugins.json ./data/plugins.new.json
 
 mv ./data/plugins.new.json ./data/plugins.json
 
