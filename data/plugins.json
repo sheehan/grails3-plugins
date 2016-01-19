@@ -607,6 +607,46 @@
         "attribute_names": [
             
         ],
+        "created": "2015-12-16T20:52:06.133Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails Cascade Validation Plugin",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cascade-validation/issues",
+        "labels": [
+            "validation"
+        ],
+        "latest_version": "2.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "cascade-validation",
+        "owner": "ctoestreich",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-cascade-validation",
+            "org.grails.plugins:cascade-validation"
+        ],
+        "updated": "2016-01-19T07:54:14.840Z",
+        "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cascade-validation",
+        "versions": [
+            "2.0.2",
+            "2.0.1"
+        ],
+        "website_url": "http://grails.org/plugin/grails-cascade-validation"
+    },
+    {
+        "attribute_names": [
+            
+        ],
         "created": "2014-11-29T16:46:51.038Z",
         "custom_licenses": [
             
