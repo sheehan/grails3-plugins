@@ -660,6 +660,50 @@
         "attribute_names": [
             
         ],
+        "created": "2015-04-09T04:25:07.161Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails Console Plugin",
+        "followers_count": 1,
+        "issue_tracker_url": "https://github.com/sheehan/grails-console/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.4",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "jcenter",
+            "plugins"
+        ],
+        "name": "console",
+        "owner": "sheehan",
+        "permissions": [
+            
+        ],
+        "rating": 5,
+        "rating_count": 1,
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-console"
+        ],
+        "updated": "2016-01-19T05:19:25.881Z",
+        "vcs_url": "https://github.com/sheehan/grails-console",
+        "versions": [
+            "2.0.4",
+            "2.0.3",
+            "2.0.2",
+            "2.0.1",
+            "2.0.0"
+        ],
+        "website_url": "https://grails.org/plugin/console"
+    },
+    {
+        "attribute_names": [
+            
+        ],
         "created": "2015-11-04T05:55:46.173Z",
         "custom_licenses": [
             
@@ -2305,49 +2349,6 @@
             "2.0.0.M1"
         ],
         "website_url": "http://grails-plugins.github.io/clojure/latest/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "created": "2015-04-09T04:25:07.161Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Console Plugin",
-        "followers_count": 1,
-        "issue_tracker_url": "https://github.com/sheehan/grails-console/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.3",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
-        "name": "org.grails.plugins:console",
-        "owner": "sheehan",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
-        "repo": "grails-plugins",
-        "system_ids": [
-            "org.grails.plugins:grails-console"
-        ],
-        "updated": "2016-01-19T04:59:16.354Z",
-        "vcs_url": "https://github.com/sheehan/grails-console",
-        "versions": [
-            "2.0.3",
-            "2.0.2",
-            "2.0.1",
-            "2.0.0"
-        ],
-        "website_url": "https://grails.org/plugin/console"
     },
     {
         "attribute_names": [
