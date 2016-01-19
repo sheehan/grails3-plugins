@@ -2339,7 +2339,7 @@
         "system_ids": [
             "org.grails.plugins:grails-console"
         ],
-        "updated": "2015-09-15T03:57:19.315Z",
+        "updated": "2016-01-19T04:59:16.354Z",
         "vcs_url": "https://github.com/sheehan/grails-console",
         "versions": [
             "2.0.3",
