@@ -11,7 +11,7 @@ grailsplugins.Plugins = class  {
 
         this._plugins.forEach(pluginData => {
             if (pluginData.system_ids.length) {
-                pluginData.dependency = pluginData.system_ids[0] + ':' + pluginData.latest_version;
+                pluginData.dependency = pluginData.system_ids[pluginData.system_ids.length - 1] + ':' + pluginData.latest_version;
             }
             pluginData.labels = _.chain(pluginData.labels)
                 .without(...labelsToIgnore)
