@@ -2314,7 +2314,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2331,9 +2331,10 @@
         "system_ids": [
             "org.grails.plugins:cassandra"
         ],
-        "updated": "2015-12-21T11:47:26.661Z",
+        "updated": "2016-01-20T11:12:44.152Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1",
@@ -3016,7 +3017,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3033,9 +3034,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate3"
         ],
-        "updated": "2015-12-21T11:47:29.530Z",
+        "updated": "2016-01-20T11:12:47.180Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1"
@@ -3056,7 +3058,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3073,9 +3075,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate4"
         ],
-        "updated": "2015-12-21T11:47:43.117Z",
+        "updated": "2016-01-20T11:13:01.539Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1"
@@ -3096,7 +3099,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3113,9 +3116,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate5"
         ],
-        "updated": "2015-12-21T11:47:45.983Z",
+        "updated": "2016-01-20T11:13:05.096Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1"
@@ -3370,7 +3374,7 @@
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3387,9 +3391,10 @@
         "system_ids": [
             "org.grails.plugins:mongodb"
         ],
-        "updated": "2015-12-21T11:48:00.343Z",
+        "updated": "2016-01-20T11:13:18.819Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1",
@@ -3422,7 +3427,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3439,9 +3444,10 @@
         "system_ids": [
             "org.grails.plugins:neo4j"
         ],
-        "updated": "2015-12-21T11:48:03.625Z",
+        "updated": "2016-01-20T11:13:22.165Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1",
@@ -3637,7 +3643,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC3",
+        "latest_version": "5.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3654,9 +3660,10 @@
         "system_ids": [
             "org.grails.plugins:redis-gorm"
         ],
-        "updated": "2015-12-21T11:48:17.086Z",
+        "updated": "2016-01-20T11:13:36.988Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.0.RC1"
