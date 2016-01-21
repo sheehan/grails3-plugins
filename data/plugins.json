@@ -3958,7 +3958,7 @@
             
         ],
         "desc": "Grails quartz plugin",
-        "followers_count": 1,
+        "followers_count": 2,
         "issue_tracker_url": "https://github.com/grails-plugins/grails-quartz/issues",
         "labels": [
             
@@ -3980,7 +3980,7 @@
         "system_ids": [
             "org.grails.plugins:quartz"
         ],
-        "updated": "2016-01-12T07:17:10.005Z",
+        "updated": "2016-01-21T13:13:18.494Z",
         "vcs_url": "https://github.com/grails-plugins/grails-quartz",
         "versions": [
             "2.0.5",
