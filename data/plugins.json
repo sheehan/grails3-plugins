@@ -1940,7 +1940,7 @@
             
         ],
         "desc": "Grails jaxrs plugin",
-        "followers_count": 0,
+        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails3-plugins/jaxrs/issues",
         "labels": [
             
@@ -1963,7 +1963,7 @@
         "system_ids": [
             "org.grails.plugins:jaxrs"
         ],
-        "updated": "2016-01-14T16:17:33.208Z",
+        "updated": "2016-01-21T17:55:37.183Z",
         "vcs_url": "https://github.com/donald-jackson/grails-jaxrs",
         "versions": [
             "0.12"
@@ -2276,7 +2276,7 @@
             
         ],
         "desc": "Grails mail plugin",
-        "followers_count": 1,
+        "followers_count": 2,
         "issue_tracker_url": "https://github.com/grails3-plugins/mail/issues",
         "labels": [
             
@@ -2298,7 +2298,7 @@
         "system_ids": [
             "org.grails.plugins:mail"
         ],
-        "updated": "2016-01-08T19:50:16.318Z",
+        "updated": "2016-01-21T17:55:53.225Z",
         "vcs_url": "https://github.com/grails3-plugins/mail",
         "versions": [
             "2.0.0.RC4"
@@ -4872,7 +4872,7 @@
             
         ],
         "desc": "Grails swagger4jaxrs plugin",
-        "followers_count": 0,
+        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails3-plugins/swagger4jaxrs/issues",
         "labels": [
             
@@ -4894,7 +4894,7 @@
         "system_ids": [
             "org.grails.plugins:swagger4jaxrs"
         ],
-        "updated": "2016-01-08T15:46:43.353Z",
+        "updated": "2016-01-21T17:54:58.318Z",
         "vcs_url": "https://github.com/donald-jackson/swagger4jaxrs",
         "versions": [
             "0.4"
