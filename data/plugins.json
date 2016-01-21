@@ -780,7 +780,7 @@
         "system_ids": [
             "org.grails.plugins:grails-console"
         ],
-        "updated": "2016-01-19T05:19:25.881Z",
+        "updated": "2016-01-21T14:13:04.457Z",
         "vcs_url": "https://github.com/sheehan/grails-console",
         "versions": [
             "2.0.4",
@@ -789,7 +789,7 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "https://grails.org/plugin/console"
+        "website_url": "http://grails-plugins.org/#plugin/console"
     },
     {
         "attribute_names": [
