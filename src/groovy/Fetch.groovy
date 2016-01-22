@@ -10,16 +10,32 @@ class Fetch {
     static String BINTRAY_USER = System.getenv('BINTRAY_USER')
     static String BINTRAY_PASS = System.getenv('BINTRAY_PASS')
 
-    static void main(String[] args) {
-        def newJson = fetchPluginsFromBintray()
+    final RESTClient anonymousClient
+    final RESTClient authenticatedClient
 
-        println "\nsaving to ${args[0]}"
-        File f = new File(args[0])
-        f.write JsonOutput.prettyPrint(JsonOutput.toJson(newJson))
+    static void main(String[] args) {
+        Fetch fetch = new Fetch()
+        try {
+            fetch.fetch(new File(args[0]))
+        } finally {
+            fetch.close()
+        }
     }
 
-    static def fetchPluginsFromBintray() {
-        List packages = getPackages()
+    Fetch() {
+        anonymousClient = new RESTClient('https://api.bintray.com/')
+        authenticatedClient = new RESTClient('https://api.bintray.com/')
+        authenticatedClient.headers['Authorization'] = 'Basic ' + "$BINTRAY_USER:$BINTRAY_PASS".bytes.encodeBase64()
+    }
+
+    void fetch(File outputFile) {
+        def newJson = fetchPluginsFromBintray()
+        println "\nsaving to $outputFile.name"
+        outputFile.write JsonOutput.prettyPrint(JsonOutput.toJson(newJson))
+    }
+
+    List fetchPluginsFromBintray() {
+        List packages = getPackageList()
 
         println '\nfetching packages...'
         packages.sort { it.name.toLowerCase() }.collect {
@@ -28,16 +44,13 @@ class Fetch {
         }
     }
 
-    static List getPackages() {
+    List getPackageList() {
         int start = 0
         int total
         List packages = []
 
         while (true) {
-            RESTClient client = new RESTClient('https://api.bintray.com/')
-            if (start >= 100) {
-                client.headers['Authorization'] = 'Basic ' + "$BINTRAY_USER:$BINTRAY_PASS".bytes.encodeBase64()
-            }
+            RESTClient client = start >= 100 ? authenticatedClient : anonymousClient
 
             println "fetching package list. start=$start"
             HttpResponseDecorator resp = client.get(
@@ -50,21 +63,20 @@ class Fetch {
 
             packages.addAll resp.data
 
-            client.shutdown()
-
             if (start == total) break
         }
         packages
     }
 
-    static def getPackage(String pkg) {
-        RESTClient client = new RESTClient('https://api.bintray.com/')
+    Map getPackage(String pkg) {
+        Map data = anonymousClient.get(path: "packages/grails/plugins/$pkg").data
+        data.attributes = anonymousClient.get(path: "packages/grails/plugins/$pkg/attributes").data
 
-        HttpResponseDecorator resp = client.get(
-            path: "packages/grails/plugins/$pkg"
-        )
-        client.shutdown()
-        
-        resp.data
+        data
+    }
+
+    void close() {
+        anonymousClient.shutdown()
+        authenticatedClient.shutdown()
     }
 }

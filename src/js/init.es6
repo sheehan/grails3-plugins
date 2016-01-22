@@ -16,7 +16,7 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
     var applyPlugin = "";
     var sourceSets = "";
 
-    plugin.attribute_names.forEach(function (attributes) {
+    plugin.attributes.forEach(function (attributes) {
         if(attributes.name == "pluginScope" && plugin.dependency) {
             pluginScope += "\ndependencies {\n";
             pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n";
