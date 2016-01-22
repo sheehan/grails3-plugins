@@ -9,6 +9,11 @@ grailsplugins.SearchView  = class {
             .html(Handlebars.templates['labels']({labels: this.plugins.getLabels()}));
 
         $el.find('.search-input').keyup(this.doSearch.bind(this));
+        $el.find('.search-form').submit(e => {
+            e.preventDefault();
+            let val = this.$el.find('.search-input').val();
+            window.location.href = `#q/${val}`;
+        });
         $el.find('.clear-search').click(event => {
             event.preventDefault();
             if (window.location.hash) {
