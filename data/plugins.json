@@ -749,7 +749,7 @@
     },
     {
         "attribute_names": [
-            
+            "pluginScope"
         ],
         "created": "2015-04-09T04:25:07.161Z",
         "custom_licenses": [
@@ -780,7 +780,7 @@
         "system_ids": [
             "org.grails.plugins:grails-console"
         ],
-        "updated": "2016-01-21T14:13:04.457Z",
+        "updated": "2016-01-22T16:29:01.337Z",
         "vcs_url": "https://github.com/sheehan/grails-console",
         "versions": [
             "2.0.4",
