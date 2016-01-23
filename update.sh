@@ -32,13 +32,15 @@ groovy src/groovy/Compare ./data/plugins.json ./data/plugins.new.json
 
 mv ./data/plugins.new.json ./data/plugins.json
 
-if ! git diff-index --quiet HEAD --; then
+if [ -n "$(git status --porcelain)" ]; then
+    echo "INFO: There are plugin updates"
     git add ./data/plugins.json
     git commit -m 'Updating plugin data'
     git push origin master
     ./update-ghpages.sh
 elif [ "$LOCAL" != "$REMOTE" ]; then
+    echo "INFO: There are code changes"
     ./update-ghpages.sh
 else
-    echo "No changes on master or plugin updates, skipping deploy to GitHub pages"
+    echo "INFO: No code changes or plugin updates"
 fi
