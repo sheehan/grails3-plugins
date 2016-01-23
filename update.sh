@@ -22,13 +22,23 @@ if [ "$BRANCH" != "master" ]; then
     exit 1
 fi
 
+git remote update
+LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse @{u})
+
+git pull
 groovy src/groovy/Fetch ./data/plugins.new.json
 groovy src/groovy/Compare ./data/plugins.json ./data/plugins.new.json
 
 mv ./data/plugins.new.json ./data/plugins.json
 
-git add ./data/plugins.json
-git commit -m 'Updating plugin data'
-git push origin master
-
-./update-ghpages.sh
+if ! git diff-index --quiet HEAD --; then
+    git add ./data/plugins.json
+    git commit -m 'Updating plugin data'
+    git push origin master
+    ./update-ghpages.sh
+elif [ "$LOCAL" != "$REMOTE" ]; then
+    ./update-ghpages.sh
+else
+    echo "No changes on master or plugin updates, skipping deploy to GitHub pages"
+fi
