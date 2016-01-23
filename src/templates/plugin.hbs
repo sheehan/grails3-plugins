@@ -2,7 +2,7 @@
     <div>
         <a class="plugin-name" href="#plugin/{{name}}">{{name}}</a>
 
-        {{#if this.dependency}}
+        {{#if dependency}}
             <div class="input-group dependency-clip">
                 <input type="text" class="form-control" value="{{dependency}}" readonly>
                 <div class="input-group-addon btn clippy"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span></div>
@@ -31,9 +31,13 @@
         <label>owner</label>
         <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
     </div>
-    {{#if this.dependency}}
+    {{#if dependency}}
         <div class="gradle-format">
-            <pre>{{gradleFormat this}}</pre>
+<pre class="hljs lang-groovy">
+dependencies {
+    {{dependencyScope}} '{{dependency}}'
+}
+</pre>
         </div>
     {{/if}}
 </div>

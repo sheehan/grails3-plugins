@@ -16,20 +16,6 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
     var applyPlugin = "";
     var sourceSets = "";
 
-    plugin.attributes.forEach(function (attributes) {
-        if(attributes.name == "pluginScope" && plugin.dependency) {
-            pluginScope += "\ndependencies {\n";
-            pluginScope += "    " + attributes.values + " '" + plugin.dependency + "'\n";
-            pluginScope += "}\n";
-        }
-    });
-
-    if(pluginScope == "" && plugin.dependency) {
-        pluginScope += "\ndependencies {\n";
-        pluginScope += "    compile '" + plugin.dependency + "'\n";
-        pluginScope += "}\n";
-    }
-
     return buildScript + applyPlugin + pluginScope + sourceSets;
 });
 

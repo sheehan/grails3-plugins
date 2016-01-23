@@ -5,29 +5,10 @@ grailsplugins.Plugins = class  {
     }
 
     constructor(data) {
+        this.labelsToIgnore = ['grails plugin', 'grails', 'plugin', 'plugins'];
+
         this._plugins = _.sortBy(data, pluginData => pluginData.name.toLowerCase());
-
-        let labelsToIgnore = ['grails plugin', 'grails', 'plugin', 'plugins'];
-
-        this._plugins.forEach(pluginData => {
-            if (pluginData.system_ids.length) {
-                pluginData.dependency = pluginData.system_ids[pluginData.system_ids.length - 1] + ':' + pluginData.latest_version;
-            }
-            pluginData.labels = _.chain(pluginData.labels)
-                .without(...labelsToIgnore)
-                .sortBy(it => it.toLowerCase())
-                .value();
-
-            pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
-            if (pluginData.vcs_url.indexOf('github') !== -1) {
-                pluginData.githubHref = pluginData.vcs_url;
-
-                let matchResult = pluginData.vcs_url.match(/.*github\.com\/([^\/]+\/[^\/]+)/);
-                if (matchResult) {
-                    pluginData.githubRepo = matchResult[1];
-                }
-            }
-        });
+        this._plugins.forEach(this._processPlugin, this);
 
         this._allLabels = _.chain(this._plugins)
             .pluck('labels')
@@ -35,6 +16,32 @@ grailsplugins.Plugins = class  {
             .unique()
             .sortBy(it => it.toLowerCase())
             .value();
+    }
+
+    _processPlugin(pluginData) {
+        if (pluginData.system_ids.length) {
+            pluginData.dependency = pluginData.system_ids[pluginData.system_ids.length - 1] + ':' + pluginData.latest_version;
+            pluginData.dependencyScope = this._parseAttr(pluginData, 'pluginScope', 'compile');
+        }
+        pluginData.labels = _.chain(pluginData.labels)
+            .without(...this.labelsToIgnore)
+            .sortBy(it => it.toLowerCase())
+            .value();
+
+        pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
+        if (pluginData.vcs_url.indexOf('github') !== -1) {
+            pluginData.githubHref = pluginData.vcs_url;
+
+            let matchResult = pluginData.vcs_url.match(/.*github\.com\/([^\/]+\/[^\/]+)/);
+            if (matchResult) {
+                pluginData.githubRepo = matchResult[1];
+            }
+        }
+    }
+
+    _parseAttr(pluginData, name, defaultVal) {
+        let attr = _.findWhere(pluginData.attributes, {name: name});
+        return attr && attr.values && attr.values[0] ? attr.values[0] : defaultVal;
     }
 
     search(val, sort = 'name') {

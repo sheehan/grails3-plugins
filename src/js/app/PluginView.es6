@@ -40,6 +40,10 @@ grailsplugins.PluginView = class {
                 $clippy.tooltip('show');
                 _.delay(() => $clippy.tooltip('hide'), 2000);
             });
+
+            this.$el.find('.hljs').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
         }
     }
 };
