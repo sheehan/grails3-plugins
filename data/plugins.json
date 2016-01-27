@@ -789,7 +789,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -806,9 +806,10 @@
         "system_ids": [
             "org.grails.plugins:cassandra"
         ],
-        "updated": "2016-01-21T04:57:10.148Z",
+        "updated": "2016-01-27T10:52:42.208Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
@@ -2117,7 +2118,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2134,9 +2135,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate3"
         ],
-        "updated": "2016-01-21T04:54:41.128Z",
+        "updated": "2016-01-27T10:52:52.298Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
@@ -2168,7 +2170,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2185,9 +2187,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate4"
         ],
-        "updated": "2016-01-21T04:55:02.507Z",
+        "updated": "2016-01-27T10:53:03.897Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
@@ -2219,7 +2222,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2236,9 +2239,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate5"
         ],
-        "updated": "2016-01-21T04:55:18.943Z",
+        "updated": "2016-01-27T10:53:08.733Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
@@ -2824,7 +2828,7 @@
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2841,9 +2845,10 @@
         "system_ids": [
             "org.grails.plugins:mongodb"
         ],
-        "updated": "2016-01-21T04:55:41.708Z",
+        "updated": "2016-01-27T10:53:24.664Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
@@ -2935,7 +2940,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2952,9 +2957,10 @@
         "system_ids": [
             "org.grails.plugins:neo4j"
         ],
-        "updated": "2016-01-21T04:58:33.770Z",
+        "updated": "2016-01-27T10:53:37.294Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
@@ -4602,7 +4608,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0.RC4",
+        "latest_version": "5.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4619,9 +4625,10 @@
         "system_ids": [
             "org.grails.plugins:redis-gorm"
         ],
-        "updated": "2016-01-21T04:57:54.659Z",
+        "updated": "2016-01-27T10:53:41.961Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
