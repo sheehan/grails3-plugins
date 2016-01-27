@@ -291,12 +291,12 @@
             
         ],
         "desc": "Grails asset-pipeline plugin",
-        "followers_count": 1,
+        "followers_count": 3,
         "issue_tracker_url": "https://github.com/grails3-plugins/asset-pipeline/issues",
         "labels": [
             
         ],
-        "latest_version": "3.0.15",
+        "latest_version": "3.0.8",
         "licenses": [
             "Apache-2.0"
         ],
@@ -314,16 +314,29 @@
         "system_ids": [
             "org.grails.plugins:asset-pipeline"
         ],
-        "updated": "2015-12-15T15:19:28.689Z",
+        "updated": "2016-01-27T03:00:48.239Z",
         "vcs_url": "https://github.com/grails3-plugins/asset-pipeline",
         "versions": [
+            "3.0.8",
+            "3.0.7",
+            "3.0.6",
+            "3.0.5",
+            "3.0.4",
+            "3.0.3",
             "3.0.15",
+            "3.0.2",
             "3.0.14",
+            "3.0.1",
             "3.0.13",
+            "3.0.0",
             "3.0.12",
+            "3.0.0.M4",
             "3.0.11",
             "3.0.10",
-            "3.0.9"
+            "3.0.0.M3",
+            "3.0.0.M2",
+            "3.0.9",
+            "3.0.0.M1"
         ],
         "website_url": "http://grails.org/plugin/asset-pipeline"
     },
@@ -2451,12 +2464,12 @@
             
         ],
         "desc": "Grails mail plugin",
-        "followers_count": 2,
+        "followers_count": 9,
         "issue_tracker_url": "https://github.com/grails3-plugins/mail/issues",
         "labels": [
             
         ],
-        "latest_version": "2.0.0.RC4",
+        "latest_version": "2.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2473,10 +2486,12 @@
         "system_ids": [
             "org.grails.plugins:mail"
         ],
-        "updated": "2016-01-21T17:55:53.225Z",
+        "updated": "2016-01-27T03:03:56.886Z",
         "vcs_url": "https://github.com/grails3-plugins/mail",
         "versions": [
-            "2.0.0.RC4"
+            "2.0.0.RC2",
+            "2.0.0.RC4",
+            "2.0.0.RC1"
         ],
         "website_url": "http://grails.org/plugin/mail"
     },
@@ -2633,59 +2648,6 @@
             "4.0.0.M3"
         ],
         "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2015-01-27T13:52:46.450Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails asset-pipeline plugin",
-        "followers_count": 2,
-        "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "3.0.8",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            
-        ],
-        "name": "org.grails.plugins:asset-pipeline",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:asset-pipeline"
-        ],
-        "updated": "2015-09-01T01:28:34.499Z",
-        "vcs_url": "http://github.com/bertramdev/asset-pipeline",
-        "versions": [
-            "3.0.8",
-            "3.0.7",
-            "3.0.6",
-            "3.0.5",
-            "3.0.4",
-            "3.0.3",
-            "3.0.2",
-            "3.0.1",
-            "3.0.0",
-            "3.0.0.M4",
-            "3.0.0.M3",
-            "3.0.0.M2",
-            "3.0.0.M1"
-        ],
-        "website_url": "http://grails.org/plugin/asset-pipeline"
     },
     {
         "attribute_names": [
@@ -3646,49 +3608,6 @@
         "attributes": [
             
         ],
-        "created": "2015-03-31T21:09:29.286Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails mail plugin",
-        "followers_count": 7,
-        "issue_tracker_url": "https://github.com/grails3-plugins/mail/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.0.RC2",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            
-        ],
-        "name": "org.grails.plugins:mail",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 4,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:mail"
-        ],
-        "updated": "2016-01-20T09:44:37.193Z",
-        "vcs_url": "https://github.com/grails3-plugins/mail",
-        "versions": [
-            "2.0.0.RC2",
-            "2.0.0.RC1"
-        ],
-        "website_url": "http://grails.org/plugin/mail"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
         "created": "2015-08-30T08:55:45.632Z",
         "custom_licenses": [
             
@@ -3772,51 +3691,6 @@
             "4.6.1"
         ],
         "website_url": "http://grails.org/plugin/postgresql-extensions"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2015-02-26T18:06:04.927Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails quartz plugin",
-        "followers_count": 2,
-        "issue_tracker_url": "https://github.com/grails3-plugins/quartz/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.0",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            "jcenter"
-        ],
-        "name": "org.grails.plugins:quartz",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:quartz"
-        ],
-        "updated": "2015-07-22T15:04:44.544Z",
-        "vcs_url": "https://github.com/grails3-plugins/quartz",
-        "versions": [
-            "2.0.0",
-            "2.0.0.RC1",
-            "2.0.0.M5",
-            "2.0.0.M4",
-            "2.0.0.M2"
-        ],
-        "website_url": "http://grails3-plugins.github.io/quartz/latest/"
     },
     {
         "attribute_names": [
@@ -3909,55 +3783,6 @@
         "attributes": [
             
         ],
-        "created": "2015-01-27T08:41:28.159Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails scaffolding plugin",
-        "followers_count": 2,
-        "issue_tracker_url": "https://github.com/grails3-plugins/scaffolding/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "3.1.2",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            
-        ],
-        "name": "org.grails.plugins:scaffolding",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:scaffolding"
-        ],
-        "updated": "2015-11-06T04:01:35.996Z",
-        "vcs_url": "https://github.com/grails3-plugins/scaffolding/",
-        "versions": [
-            "3.1.2",
-            "3.1.1",
-            "3.1.0",
-            "3.0.3",
-            "3.0.2",
-            "3.0.1",
-            "3.0.0",
-            "3.0.0.M2",
-            "3.0.0.M1"
-        ],
-        "website_url": "http://grails.org/plugin/scaffolding"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
         "created": "2015-03-22T21:55:25.232Z",
         "custom_licenses": [
             
@@ -4035,48 +3860,6 @@
             "6.0.0"
         ],
         "website_url": "http://grails.org/plugin/sentry"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2015-09-08T13:28:09.921Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails views-gradle plugin",
-        "followers_count": 0,
-        "issue_tracker_url": "https://github.com/grails3-plugins/views-gradle/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "1.0.0.M2",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            
-        ],
-        "name": "org.grails.plugins:views-gradle",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:views-gradle"
-        ],
-        "updated": "2015-09-10T06:41:11.593Z",
-        "vcs_url": "https://github.com/grails3-plugins/views-gradle",
-        "versions": [
-            "1.0.0.M2",
-            "1.0.0.M1"
-        ],
-        "website_url": "http://grails.org/plugin/views-gradle"
     },
     {
         "attribute_names": [
@@ -4215,7 +3998,7 @@
             
         ],
         "desc": "Grails quartz plugin",
-        "followers_count": 2,
+        "followers_count": 4,
         "issue_tracker_url": "https://github.com/grails-plugins/grails-quartz/issues",
         "labels": [
             
@@ -4237,14 +4020,19 @@
         "system_ids": [
             "org.grails.plugins:quartz"
         ],
-        "updated": "2016-01-21T13:13:18.494Z",
+        "updated": "2016-01-27T03:05:01.958Z",
         "vcs_url": "https://github.com/grails-plugins/grails-quartz",
         "versions": [
             "2.0.5",
+            "2.0.0",
             "2.0.4",
+            "2.0.0.RC1",
+            "2.0.0.M5",
             "2.0.3",
             "2.0.2",
-            "2.0.1"
+            "2.0.1",
+            "2.0.0.M4",
+            "2.0.0.M2"
         ],
         "website_url": "http://grails-plugins.github.io/grails-quartz/"
     },
@@ -4533,12 +4321,12 @@
             
         ],
         "desc": "Grails scaffolding plugin",
-        "followers_count": 0,
+        "followers_count": 2,
         "issue_tracker_url": "https://github.com/grails3-plugins/scaffolding/issues",
         "labels": [
             
         ],
-        "latest_version": "3.2.0",
+        "latest_version": "3.1.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4555,11 +4343,20 @@
         "system_ids": [
             "org.grails.plugins:scaffolding"
         ],
-        "updated": "2016-01-14T19:23:24.576Z",
+        "updated": "2016-01-27T03:05:53.153Z",
         "vcs_url": "https://github.com/grails3-plugins/scaffolding",
         "versions": [
+            "3.1.2",
+            "3.1.1",
+            "3.1.0",
+            "3.0.3",
+            "3.0.2",
+            "3.0.1",
             "3.2.0",
-            "3.1.3"
+            "3.0.0",
+            "3.1.3",
+            "3.0.0.M2",
+            "3.0.0.M1"
         ],
         "website_url": "http://grails.org/plugin/scaffolding"
     },
@@ -5261,13 +5058,15 @@
         "system_ids": [
             "org.grails.plugins:views-gradle"
         ],
-        "updated": "2015-12-17T16:31:32.366Z",
+        "updated": "2016-01-27T03:06:49.321Z",
         "vcs_url": "https://github.com/grails3-plugins/views-gradle",
         "versions": [
             "1.0.0.RC4",
             "1.0.0.RC3",
             "1.0.0.RC2",
-            "1.0.0.RC1"
+            "1.0.0.M2",
+            "1.0.0.RC1",
+            "1.0.0.M1"
         ],
         "website_url": "http://grails.org/plugin/views-gradle"
     },
