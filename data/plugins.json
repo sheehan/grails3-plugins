@@ -638,7 +638,7 @@
         "githubRepo": {
             "full_name": "longwa/build-test-data",
             "html_url": "https://github.com/longwa/build-test-data",
-            "forks_count": 22,
+            "forks_count": 23,
             "stargazers_count": 54,
             "watchers_count": 54
         },
@@ -1883,8 +1883,8 @@
             "full_name": "zyro23/grails-spring-websocket",
             "html_url": "https://github.com/zyro23/grails-spring-websocket",
             "forks_count": 13,
-            "stargazers_count": 55,
-            "watchers_count": 55
+            "stargazers_count": 56,
+            "watchers_count": 56
         },
         "issue_tracker_url": "https://github.com/zyro23/grails-spring-websocket/issues",
         "labels": [
