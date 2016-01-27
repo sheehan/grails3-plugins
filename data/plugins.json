@@ -377,7 +377,7 @@
         "githubRepo": {
             "full_name": "robertoschwald/grails-audit-logging-plugin",
             "html_url": "https://github.com/robertoschwald/grails-audit-logging-plugin",
-            "forks_count": 31,
+            "forks_count": 32,
             "stargazers_count": 29,
             "watchers_count": 29
         },
@@ -5257,7 +5257,7 @@
         "githubRepo": {
             "full_name": "grails-plugins/grails-spring-security-ldap",
             "html_url": "https://github.com/grails-plugins/grails-spring-security-ldap",
-            "forks_count": 23,
+            "forks_count": 24,
             "stargazers_count": 8,
             "watchers_count": 8
         },
