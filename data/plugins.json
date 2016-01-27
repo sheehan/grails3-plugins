@@ -74,10 +74,11 @@
         "system_ids": [
             "org.grails.plugins:ajax-tags"
         ],
-        "updated": "2016-01-05T03:49:05.805Z",
+        "updated": "2016-01-27T02:59:50.221Z",
         "vcs_url": "https://github.com/grails3-plugins/ajax-tags",
         "versions": [
-            "1.0.0"
+            "1.0.0",
+            "1.0.0.RC1"
         ],
         "website_url": "http://grails.org/plugin/ajax-tags"
     },
@@ -2632,47 +2633,6 @@
             "4.0.0.M3"
         ],
         "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2015-03-23T15:10:02.478Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails ajax-tags plugin",
-        "followers_count": 0,
-        "issue_tracker_url": "https://github.com/grails3-plugins/ajax-tags/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "1.0.0.RC1",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "linked_to_repos": [
-            
-        ],
-        "name": "org.grails.plugins:ajax-tags",
-        "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:ajax-tags"
-        ],
-        "updated": "2015-03-23T15:10:28.292Z",
-        "vcs_url": "https://github.com/grails3-plugins/ajax-tags",
-        "versions": [
-            "1.0.0.RC1"
-        ],
-        "website_url": "http://grails.org/plugin/ajax-tags"
     },
     {
         "attribute_names": [
