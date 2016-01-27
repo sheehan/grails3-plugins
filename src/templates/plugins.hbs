@@ -24,32 +24,7 @@
 <ul class="plugins-list">
     {{#each plugins}}
         <li>
-            <div>
-                <a class="plugin-name" href="#plugin/{{name}}">{{name}}</a>
-                <!--<span class="plugin-dependency pull-right"><code>{{dependency}}</code></span>-->
-                <span class="external-links ">
-                    {{#if githubHref}}
-                        <a href="{{githubHref}}"><img src="src/img/plainicon.com-50224-svg.svg"></a>
-                    {{/if}}
-                    <a href="{{bintrayHref}}"><img src="src/img/bintray-black.png"></a>
-                </span>
-            </div>
-            <span class="plugin-description">{{desc}}</span>
-            {{#if labels}}
-                <div class="plugin-labels">
-                    {{#each labels}}
-                        <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="label">{{this}}</span></a>
-                    {{/each}}
-                </div>
-            {{/if}}
-            <div>
-                <label>version</label>
-                <span class="">{{latest_version}}</span>
-                <label>updated</label>
-                <span class="plugin-updated">{{fromNow updated}}</span>
-                <label>owner</label>
-                <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
-            </div>
+            {{> plugin}}
         </li>
     {{/each}}
 </ul>

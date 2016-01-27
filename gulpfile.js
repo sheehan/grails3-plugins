@@ -14,23 +14,37 @@ const babel       = require('gulp-babel');
 const jsonminify  = require('gulp-jsonminify');
 
 gulp.task('templates', () => {
-    var templates = gulp.src('./src/templates/*.hbs')
-        .pipe(handlebars())
+    var partials = gulp.src(['./src/templates/_*.hbs'])
+        .pipe(handlebars({
+            handlebars: require('handlebars')
+        }))
+        .pipe(wrap('Handlebars.registerPartial(<%= processPartialName(file.relative) %>, Handlebars.template(<%= contents %>));', {}, {
+            imports: {
+                processPartialName: function(fileName) {
+                    return JSON.stringify(path.basename(fileName, '.js').substr(1));
+                }
+            }
+        }));
+
+    var templates = gulp.src('./src/templates/**/[^_]*.hbs')
+        .pipe(handlebars({
+            handlebars: require('handlebars')
+        }))
         .pipe(wrap('Handlebars.template(<%= contents %>)'))
         .pipe(declare({
             namespace: 'Handlebars.templates'
-        }))
-        .pipe(concat('templates.js'));
+        }));
 
     var js = gulp.src([
-        './src/js/init.es6',
-        './src/js/app/**/*.es6'
-    ])
+            './src/js/init.es6',
+            './src/js/app/**/*.es6'
+        ])
         .pipe(babel({
             presets: ['es2015']
         }));
 
-    return merge(js, templates)
+
+    return merge(js, partials, templates)
         .pipe(concat('app.js'))
         .pipe(gulp.dest('./build/dist/js/'));
 });

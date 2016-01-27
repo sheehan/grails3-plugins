@@ -11,43 +11,49 @@ grailsplugins.PluginView = class {
             this.$el.html(Handlebars.templates['plugin'](plugin));
             if (plugin.githubRepo) {
                 $.ajax({
-                    url:     `https://api.github.com/repos/${plugin.githubRepo}/readme`,
+                    url:     `https://api.github.com/repos/${plugin.githubRepo.full_name}/readme`,
                     headers: {'Accept': 'application/vnd.github.VERSION.html'},
                     type:    'GET'
                 }).done(html => {
                     this.$el.find('.readme').html(html);
                 }).fail(jqXhr => {
                     if (jqXhr.status === 404) {
-                        this.$el.find('.readme').html('<span class="not-found">Readme not available.</span>');
+                        this._showReadmeNotAvailable();
                     }
                 });
+            } else {
+                this._showReadmeNotAvailable();
             }
 
+
             if (plugin.dependency) {
-                this.clipboard = new Clipboard('.plugin-page .dependency-clip .clippy', {
-                    text: function (trigger) {
-                        return $(trigger).closest('.input-group').find('input').val();
-                    }
-                });
+                var $copy = this.$el.find('.clippy');
 
-                let $clippy = this.$el.find('.clippy');
-                $clippy.tooltip({
-                    title:   'Copied!',
-                    trigger: 'manual'
-                });
+                if ($copy.length) {
+                    this.clipboard = new Clipboard($copy[0]);
 
-                $clippy.click(e => {
-                    e.preventDefault();
-                    $clippy.tooltip('show');
-                    _.delay(() => $clippy.tooltip('hide'), 2000);
-                });
+                    $copy.tooltip({
+                        title:   'Copied!',
+                        trigger: 'manual'
+                    });
 
-                this.$el.find('.hljs').each(function(i, block) {
+                    $copy.click(e => {
+                        e.preventDefault();
+                        $copy.tooltip('show');
+                        _.delay(() => $copy.tooltip('hide'), 2000);
+                    });
+                }
+
+                this.$el.find('.hljs').each(function (i, block) {
                     hljs.highlightBlock(block);
                 });
             }
         } else {
             this.$el.html(Handlebars.templates['pluginNotFound']);
         }
+    }
+
+    _showReadmeNotAvailable() {
+        this.$el.find('.readme').html('<span class="not-found">Readme not available.</span>');
     }
 };

@@ -3,6 +3,9 @@
 #export BINTRAY_USER=x
 #export BINTRAY_PASS=x
 
+#export GITHUB_USER=x
+#export GITHUB_PASS=x
+
 #export TWITTER_CONSUMER_KEY=x
 #export TWITTER_CONSUMER_KEY_SECRET=x
 #export TWITTER_ACCESS_TOKEN=x

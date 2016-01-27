@@ -1,4 +1,4 @@
-grailsplugins.Plugins = class  {
+grailsplugins.Plugins = class {
 
     static fetch() {
         return $.get('build/dist/data/plugins.json').then(data => new grailsplugins.Plugins(data));
@@ -29,14 +29,7 @@ grailsplugins.Plugins = class  {
             .value();
 
         pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
-        if (pluginData.vcs_url.indexOf('github') !== -1) {
-            pluginData.githubHref = pluginData.vcs_url;
-
-            let matchResult = pluginData.vcs_url.match(/.*github\.com\/([^\/]+\/[^\/]+)/);
-            if (matchResult) {
-                pluginData.githubRepo = matchResult[1];
-            }
-        }
+        pluginData.bintrayRepo = `${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
     }
 
     _parseAttr(pluginData, name, defaultVal) {

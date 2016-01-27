@@ -56,6 +56,7 @@ grailsplugins.SearchView  = class {
             plugins: matches,
             searchCount: searchCount
         }));
+
         this.$el.find(`.search-select .dropdown-menu a[data-sort="${this.sort}"]`).addClass('selected');
     }
 };
