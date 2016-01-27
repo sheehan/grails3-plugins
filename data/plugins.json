@@ -1948,7 +1948,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0.RC4",
+        "latest_version": "1.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1966,9 +1966,10 @@
             "org.grails.plugins:views-json",
             "org.grails.plugins:views-markup"
         ],
-        "updated": "2015-12-17T16:32:00.266Z",
+        "updated": "2016-01-27T09:37:52.535Z",
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.0",
             "1.0.0.RC4",
             "1.0.0.RC3",
             "1.0.0.RC2",
@@ -4635,6 +4636,54 @@
         "attributes": [
             
         ],
+        "created": "2015-12-22T11:15:02.607Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails remote-pagination plugin",
+        "followers_count": 0,
+        "githubRepo": {
+            "full_name": "amitjain1982/remote-pagination",
+            "html_url": "https://github.com/amitjain1982/remote-pagination",
+            "forks_count": 13,
+            "stargazers_count": 10,
+            "watchers_count": 10
+        },
+        "issue_tracker_url": "https://github.com/amitjain1982/remote-pagination/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.5.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "remote-pagination",
+        "owner": "amitjain",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:remote-pagination"
+        ],
+        "updated": "2016-01-27T09:47:35.274Z",
+        "vcs_url": "https://github.com/amitjain1982/remote-pagination",
+        "versions": [
+            "0.5.0"
+        ],
+        "website_url": "http://grails.org/plugin/remote-pagination"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "attributes": [
+            
+        ],
         "created": "2015-03-05T15:46:33.219Z",
         "custom_licenses": [
             
@@ -5685,7 +5734,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0.RC4",
+        "latest_version": "1.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5702,9 +5751,10 @@
         "system_ids": [
             "org.grails.plugins:views-gradle"
         ],
-        "updated": "2016-01-27T03:06:49.321Z",
+        "updated": "2016-01-27T09:37:00.300Z",
         "vcs_url": "https://github.com/grails3-plugins/views-gradle",
         "versions": [
+            "1.0.0",
             "1.0.0.RC4",
             "1.0.0.RC3",
             "1.0.0.RC2",
