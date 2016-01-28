@@ -629,6 +629,54 @@
         "attributes": [
             
         ],
+        "created": "2016-01-27T20:15:00.631Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails Browser Detection Plugin",
+        "followers_count": 0,
+        "githubRepo": {
+            "full_name": "mathifonseca/grails-browser-detection",
+            "html_url": "https://github.com/mathifonseca/grails-browser-detection",
+            "forks_count": 7,
+            "stargazers_count": 3,
+            "watchers_count": 3
+        },
+        "issue_tracker_url": "https://github.com/mathifonseca/grails-browser-detection/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "browser-detection",
+        "owner": "mathifonseca",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:browser-detection"
+        ],
+        "updated": "2016-01-28T08:27:45.233Z",
+        "vcs_url": "https://github.com/mathifonseca/grails-browser-detection",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/mathifonseca/grails-browser-detection"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "attributes": [
+            
+        ],
         "created": "2015-10-23T21:52:21.602Z",
         "custom_licenses": [
             
@@ -2938,7 +2986,9 @@
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
-            
+            "gorm",
+            "neo4j",
+            "graph"
         ],
         "latest_version": "5.0.0",
         "licenses": [
@@ -2957,7 +3007,7 @@
         "system_ids": [
             "org.grails.plugins:neo4j"
         ],
-        "updated": "2016-01-27T10:53:37.294Z",
+        "updated": "2016-01-28T08:29:49.077Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
             "5.0.0",
@@ -4947,6 +4997,54 @@
             "3.0.0.M1"
         ],
         "website_url": "http://grails.org/plugin/scaffolding"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "attributes": [
+            
+        ],
+        "created": "2016-01-27T21:06:53.015Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails Slack Integration Plugin",
+        "followers_count": 0,
+        "githubRepo": {
+            "full_name": "mathifonseca/grails-slack",
+            "html_url": "https://github.com/mathifonseca/grails-slack",
+            "forks_count": 1,
+            "stargazers_count": 5,
+            "watchers_count": 5
+        },
+        "issue_tracker_url": "https://github.com/mathifonseca/grails-slack/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "slack",
+        "owner": "mathifonseca",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-slack"
+        ],
+        "updated": "2016-01-28T08:27:12.465Z",
+        "vcs_url": "https://github.com/mathifonseca/grails-slack",
+        "versions": [
+            "2.0.0"
+        ],
+        "website_url": "https://github.com/mathifonseca/grails-slack"
     },
     {
         "attribute_names": [
