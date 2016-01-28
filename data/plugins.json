@@ -491,8 +491,8 @@
             "full_name": "kensiprell/bootstrap-framework",
             "html_url": "https://github.com/kensiprell/bootstrap-framework",
             "forks_count": 4,
-            "stargazers_count": 8,
-            "watchers_count": 8
+            "stargazers_count": 9,
+            "watchers_count": 9
         },
         "issue_tracker_url": "https://github.com/kensiprell/bootstrap-framework/issues",
         "labels": [
@@ -830,8 +830,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -1939,7 +1939,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.3.0.M2",
+        "latest_version": "2.3.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1958,9 +1958,10 @@
         "system_ids": [
             "org.grails.plugins:grails-spring-websocket"
         ],
-        "updated": "2016-01-18T20:06:50.594Z",
+        "updated": "2016-01-28T16:57:36.658Z",
         "vcs_url": "https://github.com/zyro23/grails-spring-websocket",
         "versions": [
+            "2.3.0",
             "2.3.0.M2",
             "2.3.0.M1",
             "2.2.0",
@@ -2095,8 +2096,8 @@
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "forks_count": 28,
-            "stargazers_count": 44,
-            "watchers_count": 44
+            "stargazers_count": 45,
+            "watchers_count": 45
         },
         "issue_tracker_url": "",
         "labels": [
@@ -2159,8 +2160,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -2211,8 +2212,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -2263,8 +2264,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -2866,8 +2867,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
@@ -2981,8 +2982,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -3823,8 +3824,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -4651,8 +4652,8 @@
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
-            "stargazers_count": 65,
-            "watchers_count": 65
+            "stargazers_count": 66,
+            "watchers_count": 66
         },
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
@@ -4891,8 +4892,8 @@
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "forks_count": 28,
-            "stargazers_count": 44,
-            "watchers_count": 44
+            "stargazers_count": 45,
+            "watchers_count": 45
         },
         "issue_tracker_url": "",
         "labels": [
