@@ -109,6 +109,13 @@
         ],
         "desc": "Grails ajaxdependancyselection plugin",
         "followers_count": 0,
+        "githubRepo": {
+            "full_name": "vahidhedayati/ajaxdependancyselection",
+            "html_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
+            "forks_count": 4,
+            "stargazers_count": 4,
+            "watchers_count": 4
+        },
         "issue_tracker_url": "https://github.com/vahidhedayati/ajaxdependancyselection/issues",
         "labels": [
             
@@ -543,6 +550,13 @@
         ],
         "desc": "Websocket autocomplete/ multi dependency selection plugin for grails 3",
         "followers_count": 0,
+        "githubRepo": {
+            "full_name": "vahidhedayati/grails-boselecta-plugin",
+            "html_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0
+        },
         "issue_tracker_url": "https://github.com/vahidhedayati/grails-boselecta-plugin/issues",
         "labels": [
             
@@ -731,6 +745,13 @@
         ],
         "desc": "Grails cache plugin",
         "followers_count": 0,
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-cache",
+            "html_url": "https://github.com/grails-plugins/grails-cache",
+            "forks_count": 24,
+            "stargazers_count": 10,
+            "watchers_count": 10
+        },
         "issue_tracker_url": "https://github.com/grails-plugins/grails-cache",
         "labels": [
             
@@ -1486,6 +1507,13 @@
         ],
         "desc": "Grails fields plugin",
         "followers_count": 2,
+        "githubRepo": {
+            "full_name": "grails-fields-plugin/grails-fields",
+            "html_url": "https://github.com/grails-fields-plugin/grails-fields",
+            "forks_count": 81,
+            "stargazers_count": 63,
+            "watchers_count": 63
+        },
         "issue_tracker_url": "https://github.com/grails-fields-plugin/grails-fields",
         "labels": [
             
@@ -2657,6 +2685,13 @@
         ],
         "desc": "Grails j2ssh plugin",
         "followers_count": 0,
+        "githubRepo": {
+            "full_name": "vahidhedayati/jssh",
+            "html_url": "https://github.com/vahidhedayati/jssh",
+            "forks_count": 0,
+            "stargazers_count": 3,
+            "watchers_count": 3
+        },
         "issue_tracker_url": "https://github.com/vahidhedayati/jssh/issues",
         "labels": [
             
@@ -3429,6 +3464,13 @@
         ],
         "desc": "Grails geb plugin",
         "followers_count": 0,
+        "githubRepo": {
+            "full_name": "grails3-plugins/geb",
+            "html_url": "https://github.com/grails3-plugins/geb",
+            "forks_count": 2,
+            "stargazers_count": 1,
+            "watchers_count": 1
+        },
         "issue_tracker_url": "https://github.com/grails3-plugins/geb/issues",
         "labels": [
             
