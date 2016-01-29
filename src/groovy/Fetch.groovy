@@ -81,7 +81,7 @@ class Fetch {
         data.attributes = anonymousBintrayClient.get(path: "packages/grails/plugins/$pkg/attributes").data
 
         if (data.vcs_url) {
-            def matcher = data.vcs_url =~ /.*github\.com\/([^\/]+\/[^\/]+)/
+            def matcher = data.vcs_url =~ /.*github\.com\/([^\/]+\/[^\/]+).*/
             if (matcher.matches()) {
                 String ownerAndRepo = matcher[0][1]
                 try {
