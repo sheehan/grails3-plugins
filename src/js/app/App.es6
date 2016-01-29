@@ -28,6 +28,8 @@ grailsplugins.App = class {
         this.searchView = new grailsplugins.SearchView($('.search-page'), this.plugins);
         this.pluginView = new grailsplugins.PluginView($('.plugin-page'));
 
+        $('.page-loading').remove();
+        $('.main-content').removeClass('hide');
         this.route();
     }
 
