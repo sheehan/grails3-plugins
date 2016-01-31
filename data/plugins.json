@@ -375,6 +375,47 @@
         "attributes": [
             
         ],
+        "created": "2016-01-29T17:26:08.542Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
+        "followers_count": 0,
+        "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0.RC1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "asynchronous-mail",
+        "owner": "kefirsf",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:asynchronous-mail"
+        ],
+        "updated": "2016-01-31T11:01:26.310Z",
+        "vcs_url": "https://github.com/kefirfromperm/grails-asynchronous-mail.git",
+        "versions": [
+            "2.0.0.RC1"
+        ],
+        "website_url": "https://grails.org/plugin/asynchronous-mail"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "attributes": [
+            
+        ],
         "created": "2015-12-29T18:09:16.459Z",
         "custom_licenses": [
             
@@ -2884,6 +2925,54 @@
             "2.0.0.RC1"
         ],
         "website_url": "http://grails.org/plugin/mail"
+    },
+    {
+        "attribute_names": [
+            
+        ],
+        "attributes": [
+            
+        ],
+        "created": "2016-01-26T09:50:24.840Z",
+        "custom_licenses": [
+            
+        ],
+        "desc": "Grails middleware plugin",
+        "followers_count": 0,
+        "githubRepo": {
+            "full_name": "driverpt/grails-middleware",
+            "html_url": "https://github.com/driverpt/grails-middleware",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0
+        },
+        "issue_tracker_url": "https://github.com/driverpt/grails-middleware/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.0.3",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "linked_to_repos": [
+            "plugins"
+        ],
+        "name": "middleware",
+        "owner": "lduarte",
+        "permissions": [
+            
+        ],
+        "rating_count": 0,
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:middleware"
+        ],
+        "updated": "2016-01-31T11:01:39.044Z",
+        "vcs_url": "https://github.com/driverpt/grails-middleware",
+        "versions": [
+            "0.0.3"
+        ],
+        "website_url": "http://grails.org/plugin/middleware"
     },
     {
         "attribute_names": [
