@@ -30,7 +30,36 @@
 <ul class="plugins-list">
     {{#each plugins}}
         <li>
-            {{> plugin}}
+            <div>
+                <a class="plugin-name" href="#plugin/{{name}}">{{name}}</a>
+                <span class="external-links">
+                    {{#if githubRepo}}
+                        <a href="{{githubRepo.html_url}}" title="Github repository"><img src="src/img/plainicon.com-50224-svg.svg"></a>
+                    {{/if}}
+                    <a href="{{bintrayHref}}" title="Bintray package"><img src="src/img/bintray-black.png"></a>
+                </span>
+            </div>
+            <span class="plugin-description">{{desc}}</span>
+            {{#if latest_version}}
+                <div class="bintray-section">
+                    <strong>{{latest_version}}</strong> published {{fromNow latest_version_created}} by
+                    <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
+                </div>
+            {{/if}}
+            {{#if labels}}
+                <div class="plugin-labels">
+                    {{#each labels}}
+                        <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="plugin-label label">{{this}}</span></a>
+                    {{/each}}
+                </div>
+            {{/if}}
+            {{#if githubRepo}}
+                <div class="github-section">
+                    <span class="github-btn github-stargazers" id="github-btn"><a class="gh-btn" id="gh-btn" href="{{githubRepo.html_url}}">
+                        <i class="fa fa-github"></i> <span class="gh-text" id="gh-text">Star</span></a><a class="gh-count" id="gh-count" href="{{githubRepo.html_url}}/stargazers">{{githubRepo.stargazers_count}}</a>
+                    </span>
+                </div>
+            {{/if}}
         </li>
     {{/each}}
 </ul>

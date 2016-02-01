@@ -1,24 +1,6 @@
 [
     {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2015-07-27T20:00:58.090Z",
-        "custom_licenses": [
-            
-        ],
         "desc": "Airbrake Client for Grails",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "cavneb/airbrake-grails",
-            "html_url": "https://github.com/cavneb/airbrake-grails",
-            "forks_count": 7,
-            "stargazers_count": 4,
-            "watchers_count": 4
-        },
         "issue_tracker_url": "https://github.com/cavneb/airbrake-grails/issues",
         "labels": [
             
@@ -27,15 +9,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "airbrake-grails",
         "owner": "bostanio",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:airbrake-grails"
@@ -45,28 +20,22 @@
         "versions": [
             "1.0.0.RC1"
         ],
-        "website_url": "https://github.com/cavneb/airbrake-grails"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/cavneb/airbrake-grails",
         "attributes": [
             
         ],
-        "created": "2016-01-05T03:48:48.780Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails ajax-tags plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails3-plugins/ajax-tags",
-            "html_url": "https://github.com/grails3-plugins/ajax-tags",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "cavneb/airbrake-grails",
+            "html_url": "https://github.com/cavneb/airbrake-grails",
+            "forks_count": 7,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-27T22:34:48.962Z"
+    },
+    {
+        "desc": "Grails ajax-tags plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/ajax-tags/issues",
         "labels": [
             
@@ -75,15 +44,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "ajax-tags",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:ajax-tags"
@@ -94,28 +56,22 @@
             "1.0.0",
             "1.0.0.RC1"
         ],
-        "website_url": "http://grails.org/plugin/ajax-tags"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/ajax-tags",
         "attributes": [
             
         ],
-        "created": "2015-03-05T14:27:44.012Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails ajaxdependancyselection plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "vahidhedayati/ajaxdependancyselection",
-            "html_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
-            "forks_count": 4,
-            "stargazers_count": 4,
-            "watchers_count": 4
+            "full_name": "grails3-plugins/ajax-tags",
+            "html_url": "https://github.com/grails3-plugins/ajax-tags",
+            "forks_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-05T03:48:49.177Z"
+    },
+    {
+        "desc": "Grails ajaxdependancyselection plugin",
         "issue_tracker_url": "https://github.com/vahidhedayati/ajaxdependancyselection/issues",
         "labels": [
             
@@ -124,16 +80,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "ajaxdependancyselection",
         "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:ajaxdependancyselection"
@@ -143,21 +91,22 @@
         "versions": [
             "1.0"
         ],
-        "website_url": "https://github.com/vahidhedayati/ajaxdependancyselection"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
         "attributes": [
             
         ],
-        "created": "2014-12-01T19:29:11.088Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "vahidhedayati/ajaxdependancyselection",
+            "html_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
+            "forks_count": 4,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-04-19T13:18:03.898Z"
+    },
+    {
         "desc": "AngularJS Annotate for Asset Pipeline 2.0+",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/craigburke/angular-annotate-asset-pipeline/issues",
         "labels": [
             
@@ -166,16 +115,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "angular-annotate-asset-pipeline",
         "owner": "craigburke",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.craigburke.angular:angular-annotate-asset-pipeline"
@@ -200,21 +141,14 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "https://github.com/craigburke/angular-annotate-asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/craigburke/angular-annotate-asset-pipeline",
         "attributes": [
             
         ],
-        "created": "2014-12-01T19:29:32.478Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-11-16T21:53:22.627Z"
+    },
+    {
         "desc": "AngularJS Templates for Asset Pipeline 2.0+",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/craigburke/angular-template-asset-pipeline/issues",
         "labels": [
             
@@ -223,16 +157,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "angular-template-asset-pipeline",
         "owner": "craigburke",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.craigburke.angular:angular-template-asset-pipeline"
@@ -257,28 +183,14 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "https://github.com/craigburke/angular-template-asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/craigburke/angular-template-asset-pipeline",
         "attributes": [
             
         ],
-        "created": "2015-07-09T11:35:57.537Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-10-13T18:58:32.940Z"
+    },
+    {
         "desc": "Grails json-annotations-marshaller plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "anthofo/grails3-json-annotations-marshaller",
-            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
-        },
         "issue_tracker_url": "https://github.com/anthofo/grails3-json-annotations-marshaller/issues",
         "labels": [
             
@@ -287,15 +199,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter"
-        ],
         "name": "anthofo.plugins:json-annotations-marshaller",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "anthofo.plugins:json-annotations-marshaller"
@@ -305,21 +210,22 @@
         "versions": [
             "1.0"
         ],
-        "website_url": "http://grails.org/plugin/json-annotations-marshaller"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/json-annotations-marshaller",
         "attributes": [
             
         ],
-        "created": "2015-10-22T16:26:30.782Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "anthofo/grails3-json-annotations-marshaller",
+            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
+            "forks_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-07-09T11:35:57.579Z"
+    },
+    {
         "desc": "Grails asset-pipeline plugin",
-        "followers_count": 3,
         "issue_tracker_url": "https://github.com/grails3-plugins/asset-pipeline/issues",
         "labels": [
             
@@ -328,16 +234,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "asset-pipeline",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:asset-pipeline"
@@ -366,21 +264,14 @@
             "3.0.0.M2",
             "3.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/asset-pipeline",
         "attributes": [
             
         ],
-        "created": "2016-01-29T17:26:08.542Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-11-24T16:10:55.937Z"
+    },
+    {
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
             
@@ -389,15 +280,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "asynchronous-mail",
         "owner": "kefirsf",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:asynchronous-mail"
@@ -407,28 +291,22 @@
         "versions": [
             "2.0.0.RC1"
         ],
-        "website_url": "https://grails.org/plugin/asynchronous-mail"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://grails.org/plugin/asynchronous-mail",
         "attributes": [
             
         ],
-        "created": "2015-12-29T18:09:16.459Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails 3.x Audit-Logging Plugin.",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "robertoschwald/grails-audit-logging-plugin",
-            "html_url": "https://github.com/robertoschwald/grails-audit-logging-plugin",
-            "forks_count": 32,
-            "stargazers_count": 29,
-            "watchers_count": 29
+            "full_name": "kefirfromperm/grails-asynchronous-mail",
+            "html_url": "https://github.com/kefirfromperm/grails-asynchronous-mail",
+            "forks_count": 22,
+            "stargazers_count": 11,
+            "watchers_count": 11,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-29T17:29:40.379Z"
+    },
+    {
+        "desc": "Grails 3.x Audit-Logging Plugin.",
         "issue_tracker_url": "https://github.com/robertoschwald/grails-audit-logging-plugin/issues",
         "labels": [
             
@@ -437,16 +315,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "audit-logging",
         "owner": "robertoschwald",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:audit-logging"
@@ -456,28 +326,22 @@
         "versions": [
             "2.0.0"
         ],
-        "website_url": "https://robertoschwald.github.io/grails-audit-logging-plugin"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://robertoschwald.github.io/grails-audit-logging-plugin",
         "attributes": [
             
         ],
-        "created": "2015-07-17T13:28:38.235Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Babel.js transformation for Asset-pipeline",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "errbuddy/babel-asset-pipeline",
-            "html_url": "https://github.com/errbuddy/babel-asset-pipeline",
-            "forks_count": 3,
-            "stargazers_count": 4,
-            "watchers_count": 4
+            "full_name": "robertoschwald/grails-audit-logging-plugin",
+            "html_url": "https://github.com/robertoschwald/grails-audit-logging-plugin",
+            "forks_count": 32,
+            "stargazers_count": 29,
+            "watchers_count": 29,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-29T18:09:17.349Z"
+    },
+    {
+        "desc": "Babel.js transformation for Asset-pipeline",
         "issue_tracker_url": "https://github.com/errbuddy/babel-asset-pipeline/issues",
         "labels": [
             
@@ -486,16 +350,8 @@
         "licenses": [
             "BSD 2-Clause"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "babel-asset-pipeline",
         "owner": "errbuddy",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "net.errbuddy.plugins:add",
@@ -520,28 +376,22 @@
             "1.1.0",
             "1.0.0"
         ],
-        "website_url": "https://github.com/errbuddy/babel-asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/errbuddy/babel-asset-pipeline",
         "attributes": [
             
         ],
-        "created": "2015-07-21T14:04:06.782Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Gradle plugin for integrating the Bootstrap Framework",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "kensiprell/bootstrap-framework",
-            "html_url": "https://github.com/kensiprell/bootstrap-framework",
-            "forks_count": 4,
-            "stargazers_count": 11,
-            "watchers_count": 11
+            "full_name": "errbuddy/babel-asset-pipeline",
+            "html_url": "https://github.com/errbuddy/babel-asset-pipeline",
+            "forks_count": 3,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-13T07:50:07.350Z"
+    },
+    {
+        "desc": "Gradle plugin for integrating the Bootstrap Framework",
         "issue_tracker_url": "https://github.com/kensiprell/bootstrap-framework/issues",
         "labels": [
             "gradle",
@@ -552,16 +402,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "bootstrap-framework",
         "owner": "kensiprell",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "gradle-plugins",
         "system_ids": [
             "com.siprell.plugins:bootstrap-framework"
@@ -576,28 +418,22 @@
             "0.9.4",
             "0.9.3"
         ],
-        "website_url": "https://github.com/kensiprell/bootstrap-framework"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/kensiprell/bootstrap-framework",
         "attributes": [
             
         ],
-        "created": "2015-05-10T15:35:53.658Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Websocket autocomplete/ multi dependency selection plugin for grails 3",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "vahidhedayati/grails-boselecta-plugin",
-            "html_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "kensiprell/bootstrap-framework",
+            "html_url": "https://github.com/kensiprell/bootstrap-framework",
+            "forks_count": 4,
+            "stargazers_count": 11,
+            "watchers_count": 11,
+            "has_issues": true
         },
+        "latest_version_created": "2015-08-21T16:16:54.398Z"
+    },
+    {
+        "desc": "Websocket autocomplete/ multi dependency selection plugin for grails 3",
         "issue_tracker_url": "https://github.com/vahidhedayati/grails-boselecta-plugin/issues",
         "labels": [
             
@@ -606,16 +442,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "boselecta",
         "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:boselecta"
@@ -626,28 +454,22 @@
             "3.0.2",
             "3.0.1"
         ],
-        "website_url": "https://github.com/vahidhedayati/grails-boselecta-plugin"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
         "attributes": [
             
         ],
-        "created": "2015-07-27T22:36:10.057Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Airbrake Client for Grails",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "cavneb/airbrake-grails",
-            "html_url": "https://github.com/cavneb/airbrake-grails",
-            "forks_count": 7,
-            "stargazers_count": 4,
-            "watchers_count": 4
+            "full_name": "vahidhedayati/grails-boselecta-plugin",
+            "html_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-11-13T21:44:45.576Z"
+    },
+    {
+        "desc": "Airbrake Client for Grails",
         "issue_tracker_url": "https://github.com/cavneb/airbrake-grails/issues",
         "labels": [
             
@@ -656,15 +478,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "bostanio.plugins:airbrake-grails",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "bostanio.plugins:airbrake-grails",
@@ -675,28 +490,22 @@
         "versions": [
             "1.0.RC1"
         ],
-        "website_url": "https://github.com/cavneb/airbrake-grails"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/cavneb/airbrake-grails",
         "attributes": [
             
         ],
-        "created": "2016-01-27T20:15:00.631Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Browser Detection Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "mathifonseca/grails-browser-detection",
-            "html_url": "https://github.com/mathifonseca/grails-browser-detection",
+            "full_name": "cavneb/airbrake-grails",
+            "html_url": "https://github.com/cavneb/airbrake-grails",
             "forks_count": 7,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-27T22:36:10.159Z"
+    },
+    {
+        "desc": "Grails Browser Detection Plugin",
         "issue_tracker_url": "https://github.com/mathifonseca/grails-browser-detection/issues",
         "labels": [
             
@@ -705,15 +514,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "browser-detection",
         "owner": "mathifonseca",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:browser-detection"
@@ -723,28 +525,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "https://github.com/mathifonseca/grails-browser-detection"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/mathifonseca/grails-browser-detection",
         "attributes": [
             
         ],
-        "created": "2015-10-23T21:52:21.602Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails build-test-data plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "longwa/build-test-data",
-            "html_url": "https://github.com/longwa/build-test-data",
-            "forks_count": 23,
-            "stargazers_count": 54,
-            "watchers_count": 54
+            "full_name": "mathifonseca/grails-browser-detection",
+            "html_url": "https://github.com/mathifonseca/grails-browser-detection",
+            "forks_count": 7,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": false
         },
+        "latest_version_created": "2016-01-27T20:15:01.718Z"
+    },
+    {
+        "desc": "Grails build-test-data plugin",
         "issue_tracker_url": "https://github.com/longwa/build-test-data/issues",
         "labels": [
             
@@ -753,15 +549,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "build-test-data",
         "owner": "longwa",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:build-test-data"
@@ -771,28 +560,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails.org/plugin/build-test-data"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/build-test-data",
         "attributes": [
             
         ],
-        "created": "2015-01-27T16:01:06.919Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails cache plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-cache",
-            "html_url": "https://github.com/grails-plugins/grails-cache",
-            "forks_count": 24,
-            "stargazers_count": 10,
-            "watchers_count": 10
+            "full_name": "longwa/build-test-data",
+            "html_url": "https://github.com/longwa/build-test-data",
+            "forks_count": 23,
+            "stargazers_count": 54,
+            "watchers_count": 54,
+            "has_issues": true
         },
+        "latest_version_created": "2015-10-23T21:52:21.951Z"
+    },
+    {
+        "desc": "Grails cache plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-cache",
         "labels": [
             
@@ -801,15 +584,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "cache",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:cache"
@@ -823,28 +599,22 @@
             "3.0.0.M2",
             "3.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/cache"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/cache",
         "attributes": [
             
         ],
-        "created": "2015-12-16T20:52:06.133Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Cascade Validation Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "Grails-Plugin-Consortium/grails-cascade-validation",
-            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cascade-validation",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "grails-plugins/grails-cache",
+            "html_url": "https://github.com/grails-plugins/grails-cache",
+            "forks_count": 24,
+            "stargazers_count": 10,
+            "watchers_count": 10,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-13T12:35:14.849Z"
+    },
+    {
+        "desc": "Grails Cascade Validation Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cascade-validation/issues",
         "labels": [
             "validation"
@@ -853,15 +623,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "cascade-validation",
         "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-cascade-validation",
@@ -873,28 +636,22 @@
             "2.0.2",
             "2.0.1"
         ],
-        "website_url": "http://grails.org/plugin/grails-cascade-validation"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-cascade-validation",
         "attributes": [
             
         ],
-        "created": "2015-03-12T09:17:07.413Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "forks_count": 104,
-            "stargazers_count": 68,
-            "watchers_count": 68
+            "full_name": "Grails-Plugin-Consortium/grails-cascade-validation",
+            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cascade-validation",
+            "forks_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": false
         },
+        "latest_version_created": "2016-01-18T21:53:51.598Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             
@@ -903,15 +660,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "cassandra",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:cassandra"
@@ -935,28 +685,22 @@
             "4.0.0.M4",
             "4.0.0.M3"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2014-11-29T16:46:51.038Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Adds coffeescript transpiling support to the jvm asset-pipeline plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "bertramdev/coffee-asset-pipeline",
-            "html_url": "https://github.com/bertramdev/coffee-asset-pipeline",
-            "forks_count": 2,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "forks_count": 104,
+            "stargazers_count": 68,
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:52:16.841Z"
+    },
+    {
+        "desc": "Adds coffeescript transpiling support to the jvm asset-pipeline plugin",
         "issue_tracker_url": "https://github.com/bertramdev/coffee-asset-pipeline/issues",
         "labels": [
             "coffee",
@@ -968,17 +712,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "coffee-asset-pipeline",
         "owner": "bertramlabs",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.bertramlabs.plugins:coffee-asset-pipeline"
@@ -998,34 +733,22 @@
             "2.0.5",
             "2.0.2"
         ],
-        "website_url": "https://github.com/bertramdev/coffee-asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            "pluginScope"
-        ],
+        "website_url": "https://github.com/bertramdev/coffee-asset-pipeline",
         "attributes": [
-            {
-                "name": "pluginScope",
-                "type": "string",
-                "values": [
-                    "runtime"
-                ]
-            }
-        ],
-        "created": "2015-04-09T04:25:07.161Z",
-        "custom_licenses": [
             
         ],
-        "desc": "Grails Console Plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "sheehan/grails-console",
-            "html_url": "https://github.com/sheehan/grails-console",
-            "forks_count": 24,
-            "stargazers_count": 39,
-            "watchers_count": 39
+            "full_name": "bertramdev/coffee-asset-pipeline",
+            "html_url": "https://github.com/bertramdev/coffee-asset-pipeline",
+            "forks_count": 2,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-01T21:22:48.112Z"
+    },
+    {
+        "desc": "Grails Console Plugin",
         "issue_tracker_url": "https://github.com/sheehan/grails-console/issues",
         "labels": [
             
@@ -1034,17 +757,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "console",
         "owner": "sheehan",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-console"
@@ -1058,28 +772,28 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "http://grails-plugins.org/#plugin/console"
+        "website_url": "http://grails-plugins.org/#plugin/console",
+        "attributes": [
+            {
+                "name": "pluginScope",
+                "type": "string",
+                "values": [
+                    "runtime"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "sheehan/grails-console",
+            "html_url": "https://github.com/sheehan/grails-console",
+            "forks_count": 24,
+            "stargazers_count": 39,
+            "watchers_count": 39,
+            "has_issues": true
+        },
+        "latest_version_created": "2016-01-19T05:19:05.194Z"
     },
     {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2015-11-04T05:55:46.173Z",
-        "custom_licenses": [
-            
-        ],
         "desc": "Grails Cookie Plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "Grails-Plugin-Consortium/grails-cookie",
-            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
-            "forks_count": 1,
-            "stargazers_count": 0,
-            "watchers_count": 0
-        },
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
@@ -1093,15 +807,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "cookie",
         "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-cookie",
@@ -1115,21 +822,22 @@
             "2.0.2",
             "2.0"
         ],
-        "website_url": "http://grails-plugins.org/#plugin/cookie"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.org/#plugin/cookie",
         "attributes": [
             
         ],
-        "created": "2015-09-16T21:14:58.711Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "Grails-Plugin-Consortium/grails-cookie",
+            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
+            "forks_count": 1,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
+        },
+        "latest_version_created": "2016-01-18T21:14:32.365Z"
+    },
+    {
         "desc": "Grails cookiesession plugin",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/benlucchesi/grails-cookie-session",
         "labels": [
             
@@ -1138,16 +846,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "cookie-session",
         "owner": "benlucchesi",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:cookie-session"
@@ -1157,28 +857,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "https://github.com/benlucchesi/grails-cookie-session"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/benlucchesi/grails-cookie-session",
         "attributes": [
             
         ],
-        "created": "2015-10-28T22:31:36.035Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails CXF Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "Grails-Plugin-Consortium/grails-cxf",
-            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf",
-            "forks_count": 39,
-            "stargazers_count": 38,
-            "watchers_count": 38
+            "full_name": "benlucchesi/grails-cookie-session",
+            "html_url": "https://github.com/benlucchesi/grails-cookie-session",
+            "forks_count": 28,
+            "stargazers_count": 20,
+            "watchers_count": 20,
+            "has_issues": true
         },
+        "latest_version_created": "2015-09-16T21:14:59.137Z"
+    },
+    {
+        "desc": "Grails CXF Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf/issues",
         "labels": [
             "apache",
@@ -1189,15 +883,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "cxf",
         "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-cxf",
@@ -1223,28 +910,22 @@
             "3.0.3",
             "3.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-cxf"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-cxf",
         "attributes": [
             
         ],
-        "created": "2015-12-04T20:30:55.192Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails CXF Client Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "Grails-Plugin-Consortium/grails-cxf-client",
-            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
-            "forks_count": 24,
-            "stargazers_count": 25,
-            "watchers_count": 25
+            "full_name": "Grails-Plugin-Consortium/grails-cxf",
+            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf",
+            "forks_count": 39,
+            "stargazers_count": 38,
+            "watchers_count": 38,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-18T21:07:24.548Z"
+    },
+    {
+        "desc": "Grails CXF Client Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client/issues",
         "labels": [
             "apache",
@@ -1256,15 +937,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "cxf-client",
         "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-cxf-client",
@@ -1281,28 +955,22 @@
             "3.0.1",
             "3.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-cxf-client"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-cxf-client",
         "attributes": [
             
         ],
-        "created": "2015-12-23T21:46:47.752Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails db-reverse-engineer plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-db-reverse-engineer",
-            "html_url": "https://github.com/grails-plugins/grails-db-reverse-engineer",
-            "forks_count": 17,
-            "stargazers_count": 13,
-            "watchers_count": 13
+            "full_name": "Grails-Plugin-Consortium/grails-cxf-client",
+            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
+            "forks_count": 24,
+            "stargazers_count": 25,
+            "watchers_count": 25,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-18T21:12:03.043Z"
+    },
+    {
+        "desc": "Grails db-reverse-engineer plugin",
         "issue_tracker_url": "http://jira.grails.org/browse/GPREVERSEENGINEER",
         "labels": [
             
@@ -1311,15 +979,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "db-reverse-engineer",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:db-reverse-engineer"
@@ -1329,28 +990,22 @@
         "versions": [
             "4.0.0"
         ],
-        "website_url": "https://github.com/grails-plugins/grails-db-reverse-engineer"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/grails-plugins/grails-db-reverse-engineer",
         "attributes": [
             
         ],
-        "created": "2015-09-01T07:04:56.343Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails oauth plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "antony/grails-oauth-scribe",
-            "html_url": "https://github.com/antony/grails-oauth-scribe",
-            "forks_count": 31,
-            "stargazers_count": 22,
-            "watchers_count": 22
+            "full_name": "grails-plugins/grails-db-reverse-engineer",
+            "html_url": "https://github.com/grails-plugins/grails-db-reverse-engineer",
+            "forks_count": 17,
+            "stargazers_count": 13,
+            "watchers_count": 13,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-23T21:46:48.249Z"
+    },
+    {
+        "desc": "Grails oauth plugin",
         "issue_tracker_url": "https://github.com/antony/grails-oauth-scribe/issues",
         "labels": [
             
@@ -1359,15 +1014,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "desirableobjects.grails.plugins:oauth",
         "owner": "desirable-objects",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:oauth"
@@ -1377,28 +1025,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails.org/plugin/oauth"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/oauth",
         "attributes": [
             
         ],
-        "created": "2015-06-19T22:14:42.038Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails grails-simple-captcha plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "domurtag/grails-simple-captcha",
-            "html_url": "https://github.com/domurtag/grails-simple-captcha",
-            "forks_count": 8,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "full_name": "antony/grails-oauth-scribe",
+            "html_url": "https://github.com/antony/grails-oauth-scribe",
+            "forks_count": 31,
+            "stargazers_count": 22,
+            "watchers_count": 22,
+            "has_issues": true
         },
+        "latest_version_created": "2015-09-01T07:04:57.018Z"
+    },
+    {
+        "desc": "Grails grails-simple-captcha plugin",
         "issue_tracker_url": "https://github.com/domurtag/grails-simple-captcha/issues",
         "labels": [
             
@@ -1407,15 +1049,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "domurtag.plugins:grails-simple-captcha",
         "owner": "domurtag",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "domurtag.plugins:grails-simple-captcha"
@@ -1425,28 +1060,22 @@
         "versions": [
             "1.0.0-grails3"
         ],
-        "website_url": "http://grails.org/plugin/grails-simple-captcha"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-simple-captcha",
         "attributes": [
             
         ],
-        "created": "2015-06-19T21:55:51.777Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails runtime-datasources plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "domurtag/runtime-datasources",
-            "html_url": "https://github.com/domurtag/runtime-datasources",
-            "forks_count": 3,
-            "stargazers_count": 2,
-            "watchers_count": 2
+            "full_name": "domurtag/grails-simple-captcha",
+            "html_url": "https://github.com/domurtag/grails-simple-captcha",
+            "forks_count": 8,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
         },
+        "latest_version_created": "2015-06-19T22:14:42.732Z"
+    },
+    {
+        "desc": "Grails runtime-datasources plugin",
         "issue_tracker_url": "https://github.com/domurtag/runtime-datasources/issues",
         "labels": [
             
@@ -1455,15 +1084,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "domurtag.plugins:runtime-datasources",
         "owner": "domurtag",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "domurtag.plugins:runtime-datasources"
@@ -1473,28 +1095,22 @@
         "versions": [
             "0.2-grails3"
         ],
-        "website_url": "http://grails.org/plugin/runtime-datasources"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/runtime-datasources",
         "attributes": [
             
         ],
-        "created": "2014-11-29T16:48:45.133Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Compiles hbs or handlebars files for the asset-pipeline into the Ember.TEMPLATES cache",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "bertramdev/ember-asset-pipeline",
-            "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "domurtag/runtime-datasources",
+            "html_url": "https://github.com/domurtag/runtime-datasources",
+            "forks_count": 3,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "has_issues": true
         },
+        "latest_version_created": "2015-06-19T21:55:52.455Z"
+    },
+    {
+        "desc": "Compiles hbs or handlebars files for the asset-pipeline into the Ember.TEMPLATES cache",
         "issue_tracker_url": "https://github.com/bertramdev/ember-asset-pipeline/issues",
         "labels": [
             
@@ -1503,17 +1119,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "ember-asset-pipeline",
         "owner": "bertramlabs",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.bertramlabs.plugins:ember-asset-pipeline"
@@ -1533,28 +1140,22 @@
             "1.7.0",
             "2.0.2"
         ],
-        "website_url": "https://github.com/bertramdev/ember-asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/bertramdev/ember-asset-pipeline",
         "attributes": [
             
         ],
-        "created": "2015-01-27T11:11:34.585Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails fields plugin",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "grails-fields-plugin/grails-fields",
-            "html_url": "https://github.com/grails-fields-plugin/grails-fields",
-            "forks_count": 81,
-            "stargazers_count": 63,
-            "watchers_count": 63
+            "full_name": "bertramdev/ember-asset-pipeline",
+            "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-01T21:22:59.559Z"
+    },
+    {
+        "desc": "Grails fields plugin",
         "issue_tracker_url": "https://github.com/grails-fields-plugin/grails-fields",
         "labels": [
             
@@ -1563,15 +1164,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "fields",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:fields"
@@ -1587,28 +1181,22 @@
             "2.0.0",
             "2.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/fields"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/fields",
         "attributes": [
             
         ],
-        "created": "2015-10-14T15:08:33.383Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "Grails-Plugin-Consortium/grails-filterpane",
-            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane",
-            "forks_count": 36,
-            "stargazers_count": 14,
-            "watchers_count": 14
+            "full_name": "grails-fields-plugin/grails-fields",
+            "html_url": "https://github.com/grails-fields-plugin/grails-fields",
+            "forks_count": 81,
+            "stargazers_count": 63,
+            "watchers_count": 63,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-01T10:56:23.262Z"
+    },
+    {
+        "desc": "",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane/issues",
         "labels": [
             "filterpane",
@@ -1618,15 +1206,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "filterpane",
         "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-filterpane",
@@ -1639,28 +1220,22 @@
             "3.0.1",
             "3.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-filterpane"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-filterpane",
         "attributes": [
             
         ],
-        "created": "2015-10-09T10:51:44.829Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails grails-google-visualization plugin",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "bmuschko/grails-google-visualization",
-            "html_url": "https://github.com/bmuschko/grails-google-visualization",
-            "forks_count": 38,
-            "stargazers_count": 24,
-            "watchers_count": 24
+            "full_name": "Grails-Plugin-Consortium/grails-filterpane",
+            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane",
+            "forks_count": 36,
+            "stargazers_count": 14,
+            "watchers_count": 14,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-18T21:20:50.848Z"
+    },
+    {
+        "desc": "Grails grails-google-visualization plugin",
         "issue_tracker_url": "https://github.com/bmuschko/grails-google-visualization/issues",
         "labels": [
             
@@ -1669,16 +1244,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "grails-google-visualization",
         "owner": "aruizca",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:grails-google-visualization"
@@ -1688,28 +1255,22 @@
         "versions": [
             "2.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-google-visualization"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-google-visualization",
         "attributes": [
             
         ],
-        "created": "2015-08-21T11:31:05.612Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Run Groovy scripts in Grails",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "frnktrgr/grails-gscripting",
-            "html_url": "https://github.com/frnktrgr/grails-gscripting",
-            "forks_count": 2,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "bmuschko/grails-google-visualization",
+            "html_url": "https://github.com/bmuschko/grails-google-visualization",
+            "forks_count": 38,
+            "stargazers_count": 24,
+            "watchers_count": 24,
+            "has_issues": true
         },
+        "latest_version_created": "2015-10-09T10:53:18.246Z"
+    },
+    {
+        "desc": "Run Groovy scripts in Grails",
         "issue_tracker_url": "https://github.com/frnktrgr/grails-gscripting/issues",
         "labels": [
             
@@ -1718,16 +1279,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "grails-gscripting",
         "owner": "frnktrgr",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:gscripting"
@@ -1737,28 +1290,22 @@
         "versions": [
             "1.0.0"
         ],
-        "website_url": "http://grails.org/plugin/gscripting"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/gscripting",
         "attributes": [
             
         ],
-        "created": "2015-09-18T10:48:12.091Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "fingo/grails-hibernate-filter",
-            "html_url": "https://github.com/fingo/grails-hibernate-filter",
-            "forks_count": 1,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "frnktrgr/grails-gscripting",
+            "html_url": "https://github.com/frnktrgr/grails-gscripting",
+            "forks_count": 2,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-08-21T11:31:06.435Z"
+    },
+    {
+        "desc": "",
         "issue_tracker_url": "https://github.com/fingo/grails-hibernate-filter/issues",
         "labels": [
             
@@ -1767,16 +1314,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "grails-hibernate-filter",
         "owner": "piotrchowaniec",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-hibernate-filter"
@@ -1788,27 +1327,22 @@
             "0.1.1",
             "0.1.0"
         ],
-        "website_url": "http://grails.org/plugin/hibernate-filter"
-    },
-    {
-        "attribute_names": [
-            "grails-plugin"
-        ],
+        "website_url": "http://grails.org/plugin/hibernate-filter",
         "attributes": [
-            {
-                "name": "grails-plugin",
-                "type": "string",
-                "values": [
-                    "org.grails.plugins:grails-json-apis"
-                ]
-            }
-        ],
-        "created": "2015-08-06T09:53:51.043Z",
-        "custom_licenses": [
             
         ],
+        "githubRepo": {
+            "full_name": "fingo/grails-hibernate-filter",
+            "html_url": "https://github.com/fingo/grails-hibernate-filter",
+            "forks_count": 1,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-09-18T12:08:08.484Z"
+    },
+    {
         "desc": "",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/gregopet/grails-json-apis/issues",
         "labels": [
             
@@ -1817,15 +1351,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "grails-json-apis",
         "owner": "gregopet",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:json-apis"
@@ -1836,28 +1363,28 @@
             "0.98",
             "0.96"
         ],
-        "website_url": ""
+        "website_url": "",
+        "attributes": [
+            {
+                "name": "grails-plugin",
+                "type": "string",
+                "values": [
+                    "org.grails.plugins:grails-json-apis"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "gregopet/grails-json-apis",
+            "html_url": "https://github.com/gregopet/grails-json-apis",
+            "forks_count": 3,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-12-07T12:15:42.508Z"
     },
     {
-        "attribute_names": [
-            
-        ],
-        "attributes": [
-            
-        ],
-        "created": "2016-01-06T10:15:20.775Z",
-        "custom_licenses": [
-            
-        ],
         "desc": "Grails grails-mailgun plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "orkonano/grails-mailgun",
-            "html_url": "https://github.com/orkonano/grails-mailgun",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
-        },
         "issue_tracker_url": "https://github.com/orkonano/grails-mailgun/issues",
         "labels": [
             
@@ -1866,15 +1393,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "grails-mailgun",
         "owner": "orkonano",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugin",
         "system_ids": [
             "org.grails.plugins:grails-mailgun"
@@ -1884,28 +1404,22 @@
         "versions": [
             "2.0.0"
         ],
-        "website_url": "https://github.com/orkonano/grails-mailgun"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/orkonano/grails-mailgun",
         "attributes": [
             
         ],
-        "created": "2016-01-11T22:40:39.941Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails grails-middleware plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "driverpt/grails-middleware",
-            "html_url": "https://github.com/driverpt/grails-middleware",
+            "full_name": "orkonano/grails-mailgun",
+            "html_url": "https://github.com/orkonano/grails-mailgun",
             "forks_count": 0,
             "stargazers_count": 0,
-            "watchers_count": 0
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-06T10:15:21.816Z"
+    },
+    {
+        "desc": "Grails grails-middleware plugin",
         "issue_tracker_url": "https://github.com/driverpt/grails-middleware/issues",
         "labels": [
             
@@ -1914,15 +1428,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "grails-middleware",
         "owner": "lduarte",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:grails-middleware"
@@ -1933,28 +1440,22 @@
             "0.0.2",
             "0.0.1"
         ],
-        "website_url": "https://github.com/driverpt/grails-middleware"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/driverpt/grails-middleware",
         "attributes": [
             
         ],
-        "created": "2016-01-12T21:24:54.520Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "A plugin that allows you to display human readable, relative timestamps.",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "cazacugmihai/grails-pretty-time",
-            "html_url": "https://github.com/cazacugmihai/grails-pretty-time",
-            "forks_count": 8,
-            "stargazers_count": 10,
-            "watchers_count": 10
+            "full_name": "driverpt/grails-middleware",
+            "html_url": "https://github.com/driverpt/grails-middleware",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-12T13:22:01.110Z"
+    },
+    {
+        "desc": "A plugin that allows you to display human readable, relative timestamps.",
         "issue_tracker_url": "https://github.com/cazacugmihai/grails-pretty-time/issues",
         "labels": [
             
@@ -1963,16 +1464,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "grails-pretty-time",
         "owner": "cazacugmihai",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:grails-pretty-time"
@@ -1982,28 +1475,22 @@
         "versions": [
             "4.0.0"
         ],
-        "website_url": "https://github.com/cazacugmihai/grails-pretty-time"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/cazacugmihai/grails-pretty-time",
         "attributes": [
             
         ],
-        "created": "2015-02-26T17:12:16.195Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "zyro23/grails-spring-websocket",
-            "html_url": "https://github.com/zyro23/grails-spring-websocket",
-            "forks_count": 14,
-            "stargazers_count": 58,
-            "watchers_count": 58
+            "full_name": "cazacugmihai/grails-pretty-time",
+            "html_url": "https://github.com/cazacugmihai/grails-pretty-time",
+            "forks_count": 8,
+            "stargazers_count": 10,
+            "watchers_count": 10,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-12T21:25:51.656Z"
+    },
+    {
+        "desc": "",
         "issue_tracker_url": "https://github.com/zyro23/grails-spring-websocket/issues",
         "labels": [
             
@@ -2012,17 +1499,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "grails-spring-websocket",
         "owner": "zyro",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:grails-spring-websocket"
@@ -2041,28 +1519,22 @@
             "2.0.0.M2",
             "2.0.0.M1"
         ],
-        "website_url": "https://github.com/zyro23/grails-spring-websocket"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/zyro23/grails-spring-websocket",
         "attributes": [
             
         ],
-        "created": "2015-10-14T08:44:46.785Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Views",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails/grails-views",
-            "html_url": "https://github.com/grails/grails-views",
-            "forks_count": 3,
-            "stargazers_count": 12,
-            "watchers_count": 12
+            "full_name": "zyro23/grails-spring-websocket",
+            "html_url": "https://github.com/zyro23/grails-spring-websocket",
+            "forks_count": 14,
+            "stargazers_count": 58,
+            "watchers_count": 58,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-28T16:57:00.786Z"
+    },
+    {
+        "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
             
@@ -2071,15 +1543,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter"
-        ],
         "name": "grails-views",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:views-json",
@@ -2094,28 +1559,22 @@
             "1.0.0.RC2",
             "1.0.0.RC1"
         ],
-        "website_url": "https://github.com/grails/grails-views"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/grails/grails-views",
         "attributes": [
             
         ],
-        "created": "2015-08-19T07:15:49.397Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "appcela/grails3-cors-interceptor",
-            "html_url": "https://github.com/appcela/grails3-cors-interceptor",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "grails/grails-views",
+            "html_url": "https://github.com/grails/grails-views",
+            "forks_count": 3,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T09:36:59.474Z"
+    },
+    {
+        "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
         "issue_tracker_url": "",
         "labels": [
             "grails",
@@ -2125,16 +1584,8 @@
         "licenses": [
             "MIT"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "grails3-cors-interceptor",
         "owner": "appcela",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:grails3-cors-interceptor"
@@ -2146,28 +1597,22 @@
             "0.1.1",
             "0.1.0"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2014-11-29T16:47:38.716Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "bertramdev/asset-pipeline",
-            "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "forks_count": 28,
-            "stargazers_count": 45,
-            "watchers_count": 45
+            "full_name": "appcela/grails3-cors-interceptor",
+            "html_url": "https://github.com/appcela/grails3-cors-interceptor",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-09-08T17:31:19.824Z"
+    },
+    {
+        "desc": "",
         "issue_tracker_url": "",
         "labels": [
             
@@ -2176,17 +1621,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "handlebars-asset-pipeline",
         "owner": "bertramlabs",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.bertramlabs.plugins:handlebars-asset-pipeline"
@@ -2210,28 +1646,22 @@
             "2.0.13",
             "1.3.0"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2015-11-23T15:18:29.324Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "forks_count": 104,
-            "stargazers_count": 68,
-            "watchers_count": 68
+            "full_name": "bertramdev/asset-pipeline",
+            "html_url": "https://github.com/bertramdev/asset-pipeline",
+            "forks_count": 28,
+            "stargazers_count": 45,
+            "watchers_count": 45,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-01T21:23:17.373Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             
@@ -2240,15 +1670,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "hibernate3",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:hibernate3"
@@ -2262,28 +1685,22 @@
             "5.0.0.RC2",
             "5.0.0.RC1"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2015-11-23T15:18:44.172Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
             "stargazers_count": 68,
-            "watchers_count": 68
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:52:28.327Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             
@@ -2292,15 +1709,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "hibernate4",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:hibernate4"
@@ -2314,28 +1724,22 @@
             "5.0.0.RC2",
             "5.0.0.RC1"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2015-11-23T15:19:01.597Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
             "forks_count": 104,
             "stargazers_count": 68,
-            "watchers_count": 68
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:52:38.656Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             
@@ -2344,15 +1748,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "hibernate5",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:hibernate5"
@@ -2366,28 +1763,22 @@
             "5.0.0.RC2",
             "5.0.0.RC1"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2015-10-06T13:08:15.118Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails HTTP Builder Helper Plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "bobbywarner/grails-http-builder-helper",
-            "html_url": "https://github.com/bobbywarner/grails-http-builder-helper",
-            "forks_count": 15,
-            "stargazers_count": 16,
-            "watchers_count": 16
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "forks_count": 104,
+            "stargazers_count": 68,
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:52:50.264Z"
+    },
+    {
+        "desc": "Grails HTTP Builder Helper Plugin",
         "issue_tracker_url": "https://github.com/bobbywarner/grails-http-builder-helper/issues",
         "labels": [
             
@@ -2396,15 +1787,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "http-builder-helper",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:http-builder-helper"
@@ -2416,28 +1800,22 @@
             "1.0.1",
             "1.0.0"
         ],
-        "website_url": "https://bobbywarner.github.io/grails-http-builder-helper"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://bobbywarner.github.io/grails-http-builder-helper",
         "attributes": [
             
         ],
-        "created": "2015-07-08T16:06:02.909Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails excel-export plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "TouK/excel-export",
-            "html_url": "https://github.com/TouK/excel-export",
-            "forks_count": 21,
-            "stargazers_count": 32,
-            "watchers_count": 32
+            "full_name": "bobbywarner/grails-http-builder-helper",
+            "html_url": "https://github.com/bobbywarner/grails-http-builder-helper",
+            "forks_count": 15,
+            "stargazers_count": 16,
+            "watchers_count": 16,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-14T19:33:57.326Z"
+    },
+    {
+        "desc": "Grails excel-export plugin",
         "issue_tracker_url": "https://github.com/TouK/excel-export/issues",
         "labels": [
             
@@ -2446,15 +1824,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "jakubnabrdalik.plugins:excel-export",
         "owner": "jakubnabrdalik",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "pl.touk:excel-export",
@@ -2465,28 +1836,22 @@
         "versions": [
             "2.0.1"
         ],
-        "website_url": "http://grails.org/plugin/excel-export"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/excel-export",
         "attributes": [
             
         ],
-        "created": "2016-01-08T11:49:53.685Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails jaxrs plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "donald-jackson/grails-jaxrs",
-            "html_url": "https://github.com/donald-jackson/grails-jaxrs",
-            "forks_count": 2,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "TouK/excel-export",
+            "html_url": "https://github.com/TouK/excel-export",
+            "forks_count": 21,
+            "stargazers_count": 32,
+            "watchers_count": 32,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-08T16:06:03.644Z"
+    },
+    {
+        "desc": "Grails jaxrs plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/jaxrs/issues",
         "labels": [
             
@@ -2495,16 +1860,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "plugins"
-        ],
         "name": "jaxrs",
         "owner": "donald-jackson",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:jaxrs"
@@ -2514,28 +1871,22 @@
         "versions": [
             "0.12"
         ],
-        "website_url": "http://grails.org/plugin/jaxrs"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/jaxrs",
         "attributes": [
             
         ],
-        "created": "2015-03-05T15:35:16.195Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Jenjir plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "vahidhedayati/grails-jenkins-plugin",
-            "html_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
-            "forks_count": 1,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "donald-jackson/grails-jaxrs",
+            "html_url": "https://github.com/donald-jackson/grails-jaxrs",
+            "forks_count": 2,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": false
         },
+        "latest_version_created": "2016-01-08T11:49:54.879Z"
+    },
+    {
+        "desc": "Grails Jenjir plugin",
         "issue_tracker_url": "https://github.com/vahidhedayati/grails-jenkins-plugin/issues",
         "labels": [
             
@@ -2544,16 +1895,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "jenjir",
         "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:jenjir"
@@ -2563,28 +1906,22 @@
         "versions": [
             "3.0.1"
         ],
-        "website_url": "https://github.com/vahidhedayati/grails-jenkins-plugin"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
         "attributes": [
             
         ],
-        "created": "2015-11-10T04:15:14.199Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Jesque Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "Grails-Plugin-Consortium/grails-jesque",
-            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "vahidhedayati/grails-jenkins-plugin",
+            "html_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
+            "forks_count": 1,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-05-24T20:18:59.374Z"
+    },
+    {
+        "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
             "jesque",
@@ -2596,15 +1933,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "jesque",
         "owner": "ctoestreich",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-jesque",
@@ -2622,21 +1952,22 @@
             "1.0.1",
             "1.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-jesque"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-jesque",
         "attributes": [
             
         ],
-        "created": "2016-01-04T15:47:36.371Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "Grails-Plugin-Consortium/grails-jesque",
+            "html_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
+        },
+        "latest_version_created": "2016-01-18T21:23:08.049Z"
+    },
+    {
         "desc": "Grails joda-time plugin",
-        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails3-plugins/joda-time/issues",
         "labels": [
             
@@ -2645,15 +1976,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "joda-time",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:joda-time"
@@ -2663,28 +1987,14 @@
         "versions": [
             "2.0.0"
         ],
-        "website_url": "http://grails.org/plugin/joda-time"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/joda-time",
         "attributes": [
             
         ],
-        "created": "2015-07-07T15:55:47.474Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2016-01-04T15:47:36.758Z"
+    },
+    {
         "desc": "Grails 3 plugin for managing JSON marshalling through annotations",
-        "followers_count": 2,
-        "githubRepo": {
-            "full_name": "anthofo/grails3-json-annotations-marshaller",
-            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
-        },
         "issue_tracker_url": "",
         "labels": [
             
@@ -2693,15 +2003,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "json-annotations-marshaller",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             
@@ -2711,28 +2014,22 @@
         "versions": [
             "v1.0"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2015-03-05T15:07:12.540Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails j2ssh plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "vahidhedayati/jssh",
-            "html_url": "https://github.com/vahidhedayati/jssh",
+            "full_name": "anthofo/grails3-json-annotations-marshaller",
+            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
             "forks_count": 0,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-07T15:55:47.519Z"
+    },
+    {
+        "desc": "Grails j2ssh plugin",
         "issue_tracker_url": "https://github.com/vahidhedayati/jssh/issues",
         "labels": [
             
@@ -2741,16 +2038,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "jssh",
         "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:jssh"
@@ -2760,28 +2049,22 @@
         "versions": [
             "3.0.1"
         ],
-        "website_url": "https://github.com/vahidhedayati/jssh/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/vahidhedayati/jssh/",
         "attributes": [
             
         ],
-        "created": "2015-10-06T13:12:12.763Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails LDAP Server Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "bobbywarner/grails-ldap-server",
-            "html_url": "https://github.com/bobbywarner/grails-ldap-server",
-            "forks_count": 2,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "vahidhedayati/jssh",
+            "html_url": "https://github.com/vahidhedayati/jssh",
+            "forks_count": 0,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
         },
+        "latest_version_created": "2015-05-24T18:30:19.851Z"
+    },
+    {
+        "desc": "Grails LDAP Server Plugin",
         "issue_tracker_url": "https://github.com/bobbywarner/grails-ldap-server/issues",
         "labels": [
             
@@ -2790,15 +2073,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "ldap-server",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:ldap-server"
@@ -2808,28 +2084,22 @@
         "versions": [
             "1.0.0"
         ],
-        "website_url": "https://github.com/bobbywarner/grails-ldap-server"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/bobbywarner/grails-ldap-server",
         "attributes": [
             
         ],
-        "created": "2014-10-29T13:35:42.685Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "LESS Compiler for the Asset-Pipeline",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "bertramdev/less-asset-pipeline",
-            "html_url": "https://github.com/bertramdev/less-asset-pipeline",
-            "forks_count": 4,
-            "stargazers_count": 5,
-            "watchers_count": 5
+            "full_name": "bobbywarner/grails-ldap-server",
+            "html_url": "https://github.com/bobbywarner/grails-ldap-server",
+            "forks_count": 2,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": false
         },
+        "latest_version_created": "2015-10-06T13:12:13.182Z"
+    },
+    {
+        "desc": "LESS Compiler for the Asset-Pipeline",
         "issue_tracker_url": "https://github.com/bertramdev/less-asset-pipeline/issues",
         "labels": [
             
@@ -2838,17 +2108,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "less-asset-pipeline",
         "owner": "bertramlabs",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 2,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.bertramlabs.plugins:less-asset-pipeline"
@@ -2874,28 +2135,22 @@
             "2.0.2",
             "2.0.0"
         ],
-        "website_url": "https://github.com/bertramdev/less-asset-pipeline"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/bertramdev/less-asset-pipeline",
         "attributes": [
             
         ],
-        "created": "2015-11-24T16:15:10.958Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails mail plugin",
-        "followers_count": 9,
         "githubRepo": {
-            "full_name": "grails3-plugins/mail",
-            "html_url": "https://github.com/grails3-plugins/mail",
-            "forks_count": 6,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "full_name": "bertramdev/less-asset-pipeline",
+            "html_url": "https://github.com/bertramdev/less-asset-pipeline",
+            "forks_count": 4,
+            "stargazers_count": 5,
+            "watchers_count": 5,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-01T21:23:27.274Z"
+    },
+    {
+        "desc": "Grails mail plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/mail/issues",
         "labels": [
             
@@ -2904,15 +2159,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "mail",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:mail"
@@ -2924,28 +2172,22 @@
             "2.0.0.RC2",
             "2.0.0.RC1"
         ],
-        "website_url": "http://grails.org/plugin/mail"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/mail",
         "attributes": [
             
         ],
-        "created": "2016-01-26T09:50:24.840Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails middleware plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "driverpt/grails-middleware",
-            "html_url": "https://github.com/driverpt/grails-middleware",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "grails3-plugins/mail",
+            "html_url": "https://github.com/grails3-plugins/mail",
+            "forks_count": 6,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
         },
+        "latest_version_created": "2015-11-24T16:15:11.330Z"
+    },
+    {
+        "desc": "Grails middleware plugin",
         "issue_tracker_url": "https://github.com/driverpt/grails-middleware/issues",
         "labels": [
             
@@ -2954,15 +2196,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "middleware",
         "owner": "lduarte",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:middleware"
@@ -2972,28 +2207,22 @@
         "versions": [
             "0.0.3"
         ],
-        "website_url": "http://grails.org/plugin/middleware"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/middleware",
         "attributes": [
             
         ],
-        "created": "2015-01-23T10:49:58.899Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM for MongoDB",
-        "followers_count": 3,
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "forks_count": 104,
-            "stargazers_count": 68,
-            "watchers_count": 68
+            "full_name": "driverpt/grails-middleware",
+            "html_url": "https://github.com/driverpt/grails-middleware",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-26T09:50:25.194Z"
+    },
+    {
+        "desc": "GORM for MongoDB",
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
             "gorm",
@@ -3005,15 +2234,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "mongodb",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:mongodb"
@@ -3039,28 +2261,22 @@
             "4.0.0.M2",
             "4.0.0.M1"
         ],
-        "website_url": "http://grails.org"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org",
         "attributes": [
             
         ],
-        "created": "2015-12-27T16:18:20.989Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": null,
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "ejaz-ahmed/grails-multitenant-plugin",
-            "html_url": "https://github.com/ejaz-ahmed/grails-multitenant-plugin",
-            "forks_count": 0,
-            "stargazers_count": 2,
-            "watchers_count": 2
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "forks_count": 104,
+            "stargazers_count": 68,
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:52:59.666Z"
+    },
+    {
+        "desc": null,
         "issue_tracker_url": "https://github.com/ejaz-ahmed/grails-multitenant-plugin/issues",
         "labels": [
             
@@ -3069,15 +2285,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "multitenant",
         "owner": "troutbird",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:multitenant"
@@ -3087,28 +2296,22 @@
         "versions": [
             "0.1"
         ],
-        "website_url": "https://ejaz-ahmed.github.io/grails-multitenant-plugin"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://ejaz-ahmed.github.io/grails-multitenant-plugin",
         "attributes": [
             
         ],
-        "created": "2015-03-12T09:17:40.910Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "forks_count": 104,
-            "stargazers_count": 68,
-            "watchers_count": 68
+            "full_name": "ejaz-ahmed/grails-multitenant-plugin",
+            "html_url": "https://github.com/ejaz-ahmed/grails-multitenant-plugin",
+            "forks_count": 0,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-27T16:18:22.635Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             "gorm",
@@ -3119,15 +2322,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "neo4j",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:neo4j"
@@ -3151,28 +2347,22 @@
             "4.0.0.M4",
             "4.0.0.M3"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2015-04-30T21:24:51.489Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails AWS SDK plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "agorapulse/grails-aws-sdk",
-            "html_url": "https://github.com/agorapulse/grails-aws-sdk",
-            "forks_count": 21,
-            "stargazers_count": 30,
-            "watchers_count": 30
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "forks_count": 104,
+            "stargazers_count": 68,
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:53:08.427Z"
+    },
+    {
+        "desc": "Grails AWS SDK plugin",
         "issue_tracker_url": "https://github.com/agorapulse/grails-aws-sdk/issues",
         "labels": [
             
@@ -3181,16 +2371,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:aws-sdk",
         "owner": "agorapulse",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:aws-sdk"
@@ -3204,28 +2386,22 @@
             "1.10.7",
             "1.9.33"
         ],
-        "website_url": "http://grails.org/plugin/aws-sdk"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/aws-sdk",
         "attributes": [
             
         ],
-        "created": "2015-07-12T18:00:36.558Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails clojure plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/clojure",
-            "html_url": "https://github.com/grails-plugins/clojure",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "agorapulse/grails-aws-sdk",
+            "html_url": "https://github.com/agorapulse/grails-aws-sdk",
+            "forks_count": 21,
+            "stargazers_count": 30,
+            "watchers_count": 30,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-04T08:49:14.162Z"
+    },
+    {
+        "desc": "Grails clojure plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/clojure/issues",
         "labels": [
             
@@ -3234,15 +2410,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "org.grails.plugins:clojure",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:clojure"
@@ -3254,28 +2423,22 @@
             "2.0.0.RC1",
             "2.0.0.M1"
         ],
-        "website_url": "http://grails-plugins.github.io/clojure/latest/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/clojure/latest/",
         "attributes": [
             
         ],
-        "created": "2015-07-15T10:35:17.865Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails CSV plugin",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "vsachinv/grails-csv",
-            "html_url": "https://github.com/vsachinv/grails-csv",
-            "forks_count": 1,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "grails-plugins/clojure",
+            "html_url": "https://github.com/grails-plugins/clojure",
+            "forks_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-31T19:08:46.911Z"
+    },
+    {
+        "desc": "Grails CSV plugin",
         "issue_tracker_url": "https://github.com/vsachinv/grails-csv/issues",
         "labels": [
             
@@ -3284,15 +2447,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:csv",
         "owner": "sachinverma",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             
@@ -3302,28 +2458,21 @@
         "versions": [
             
         ],
-        "website_url": "http://grails.org/plugin/csv"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/csv",
         "attributes": [
             
         ],
-        "created": "2015-03-12T08:51:44.206Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails database-migration plugin",
-        "followers_count": 4,
         "githubRepo": {
-            "full_name": "yamkazu/database-migration",
-            "html_url": "https://github.com/yamkazu/database-migration",
+            "full_name": "vsachinv/grails-csv",
+            "html_url": "https://github.com/vsachinv/grails-csv",
             "forks_count": 1,
-            "stargazers_count": 7,
-            "watchers_count": 7
-        },
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
+        }
+    },
+    {
+        "desc": "Grails database-migration plugin",
         "issue_tracker_url": "https://github.com/yamkazu/database-migration/issues",
         "labels": [
             
@@ -3332,16 +2481,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:database-migration",
         "owner": "yamkazu",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:database-migration"
@@ -3352,28 +2493,22 @@
             "2.0.0.RC1",
             "2.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/database-migration"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/database-migration",
         "attributes": [
             
         ],
-        "created": "2015-10-02T10:48:15.455Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails enforcer plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "virtualdogbert/Enforcer",
-            "html_url": "https://github.com/virtualdogbert/Enforcer",
+            "full_name": "yamkazu/database-migration",
+            "html_url": "https://github.com/yamkazu/database-migration",
             "forks_count": 1,
-            "stargazers_count": 2,
-            "watchers_count": 2
+            "stargazers_count": 7,
+            "watchers_count": 7,
+            "has_issues": true
         },
+        "latest_version_created": "2015-03-25T00:16:52.956Z"
+    },
+    {
+        "desc": "Grails enforcer plugin",
         "issue_tracker_url": "https://github.com/virtualdogbert/Enforcer/issues",
         "labels": [
             
@@ -3382,15 +2517,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:enforcer",
         "owner": "virtualdogbert",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:enforcer"
@@ -3400,21 +2528,22 @@
         "versions": [
             "0.3.1"
         ],
-        "website_url": "https://virtualdogbert.github.io/Enforcer"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://virtualdogbert.github.io/Enforcer",
         "attributes": [
             
         ],
-        "created": "2015-06-29T18:40:17.267Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "virtualdogbert/Enforcer",
+            "html_url": "https://github.com/virtualdogbert/Enforcer",
+            "forks_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-10-02T10:48:15.791Z"
+    },
+    {
         "desc": "Grails export plugin",
-        "followers_count": 1,
         "issue_tracker_url": "https://github.com/grails3-plugins/export/issues",
         "labels": [
             
@@ -3423,15 +2552,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "org.grails.plugins:export",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:export"
@@ -3441,28 +2563,14 @@
         "versions": [
             "2.0.0"
         ],
-        "website_url": "http://grails.org/plugin/export"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/export",
         "attributes": [
             
         ],
-        "created": "2015-03-21T10:03:54.236Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-06-29T18:40:17.597Z"
+    },
+    {
         "desc": "Grails Facebook SDK plugin",
-        "followers_count": 1,
-        "githubRepo": {
-            "full_name": "agorapulse/grails-facebook-sdk",
-            "html_url": "https://github.com/agorapulse/grails-facebook-sdk",
-            "forks_count": 9,
-            "stargazers_count": 27,
-            "watchers_count": 27
-        },
         "issue_tracker_url": "https://github.com/agorapulse/grails-facebook-sdk/issues",
         "labels": [
             
@@ -3471,15 +2579,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:facebook-sdk",
         "owner": "agorapulse",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:facebook-sdk"
@@ -3490,28 +2591,22 @@
             "2.5.0",
             "2.4.0"
         ],
-        "website_url": "http://grails.org/plugin/facebook-sdk"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/facebook-sdk",
         "attributes": [
             
         ],
-        "created": "2015-09-09T21:56:06.617Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails feature-switch plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "desirable-objects/grails-feature-switch",
-            "html_url": "https://github.com/desirable-objects/grails-feature-switch",
-            "forks_count": 12,
-            "stargazers_count": 11,
-            "watchers_count": 11
+            "full_name": "agorapulse/grails-facebook-sdk",
+            "html_url": "https://github.com/agorapulse/grails-facebook-sdk",
+            "forks_count": 9,
+            "stargazers_count": 27,
+            "watchers_count": 27,
+            "has_issues": true
         },
+        "latest_version_created": "2015-10-30T11:38:48.622Z"
+    },
+    {
+        "desc": "Grails feature-switch plugin",
         "issue_tracker_url": "https://github.com/antony/grails-feature-switch/issues",
         "labels": [
             
@@ -3520,15 +2615,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:feature-switch",
         "owner": "desirable-objects",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:feature-switch"
@@ -3538,28 +2626,22 @@
         "versions": [
             "1.0"
         ],
-        "website_url": "https://github.com/antony/grails-feature-switch"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/antony/grails-feature-switch",
         "attributes": [
             
         ],
-        "created": "2015-01-27T14:03:15.339Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails geb plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails3-plugins/geb",
-            "html_url": "https://github.com/grails3-plugins/geb",
-            "forks_count": 2,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "desirable-objects/grails-feature-switch",
+            "html_url": "https://github.com/desirable-objects/grails-feature-switch",
+            "forks_count": 12,
+            "stargazers_count": 11,
+            "watchers_count": 11,
+            "has_issues": true
         },
+        "latest_version_created": "2015-09-09T21:56:07.401Z"
+    },
+    {
+        "desc": "Grails geb plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/geb/issues",
         "labels": [
             
@@ -3568,16 +2650,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "org.grails.plugins:geb",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:geb"
@@ -3592,28 +2666,22 @@
             "1.0.0.M2",
             "1.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/geb"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/geb",
         "attributes": [
             
         ],
-        "created": "2015-07-28T14:59:58.073Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "The gorm-envers Grails plugin add auditting functionality to GROM in your Grails application using Hibernate Envers. The only thing you need to do is add @Audited annotation to the Domain Class that you want to audit. Hibernate Envers will create audit table in the Database for the annotated domain and log all change history.",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "Yingliang-Du/gorm-envers-grails-plugin",
-            "html_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin",
+            "full_name": "grails3-plugins/geb",
+            "html_url": "https://github.com/grails3-plugins/geb",
             "forks_count": 2,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-09-09T08:17:22.768Z"
+    },
+    {
+        "desc": "The gorm-envers Grails plugin add auditting functionality to GROM in your Grails application using Hibernate Envers. The only thing you need to do is add @Audited annotation to the Domain Class that you want to audit. Hibernate Envers will create audit table in the Database for the annotated domain and log all change history.",
         "issue_tracker_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin/issues",
         "labels": [
             "grails",
@@ -3623,15 +2691,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:gorm-envers",
         "owner": "yingliang-du",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:gorm-envers"
@@ -3643,28 +2704,22 @@
             "0.2",
             "0.1"
         ],
-        "website_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin",
         "attributes": [
             
         ],
-        "created": "2016-01-10T19:41:20.233Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails AWS Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-aws/grails-aws",
-            "html_url": "https://github.com/grails-aws/grails-aws",
-            "forks_count": 28,
-            "stargazers_count": 39,
-            "watchers_count": 39
+            "full_name": "Yingliang-Du/gorm-envers-grails-plugin",
+            "html_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin",
+            "forks_count": 2,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-08-09T20:44:00.380Z"
+    },
+    {
+        "desc": "Grails AWS Plugin",
         "issue_tracker_url": "https://github.com/grails-aws/grails-aws/issues",
         "labels": [
             
@@ -3673,15 +2728,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:grails-aws",
         "owner": "grails-aws",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-aws"
@@ -3691,21 +2739,22 @@
         "versions": [
             "2.0.3"
         ],
-        "website_url": "http://grails.org/plugin/grails-aws"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-aws",
         "attributes": [
             
         ],
-        "created": "2015-09-14T01:25:40.930Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "grails-aws/grails-aws",
+            "html_url": "https://github.com/grails-aws/grails-aws",
+            "forks_count": 28,
+            "stargazers_count": 39,
+            "watchers_count": 39,
+            "has_issues": true
+        },
+        "latest_version_created": "2016-01-10T19:41:20.648Z"
+    },
+    {
         "desc": "Grails grails-markdown plugin",
-        "followers_count": 1,
         "issue_tracker_url": "https://bitbucket.org/tednaleid/grails-markdown/issues",
         "labels": [
             
@@ -3714,15 +2763,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:grails-markdown",
         "owner": "tednaleid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-markdown"
@@ -3733,28 +2775,14 @@
             "3.0.0",
             "TODO"
         ],
-        "website_url": "https://bitbucket.org/tednaleid/grails-markdown"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://bitbucket.org/tednaleid/grails-markdown",
         "attributes": [
             
         ],
-        "created": "2015-03-19T01:55:37.081Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-09-14T01:28:08.002Z"
+    },
+    {
         "desc": "Grails grails-redis plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "grails-plugins/grails-redis",
-            "html_url": "https://github.com/grails-plugins/grails-redis",
-            "forks_count": 35,
-            "stargazers_count": 48,
-            "watchers_count": 48
-        },
         "issue_tracker_url": "https://github.com/grails-plugins/grails-redis/issues",
         "labels": [
             
@@ -3763,15 +2791,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:grails-redis",
         "owner": "tednaleid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-redis"
@@ -3783,21 +2804,22 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails-redis"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails-redis",
         "attributes": [
             
         ],
-        "created": "2015-06-03T10:08:44.039Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-redis",
+            "html_url": "https://github.com/grails-plugins/grails-redis",
+            "forks_count": 35,
+            "stargazers_count": 48,
+            "watchers_count": 48,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-06-26T04:26:35.141Z"
+    },
+    {
         "desc": null,
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
             "plugins",
@@ -3808,16 +2830,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "org.grails.plugins:grails3-cas-client",
         "owner": "cwang",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:grails3-cas-client"
@@ -3827,28 +2841,22 @@
         "versions": [
             "3.0"
         ],
-        "website_url": "https://github.com/cwang/grails3-cas-client/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/cwang/grails3-cas-client/",
         "attributes": [
             
         ],
-        "created": "2015-09-06T18:39:33.347Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails grails3-i18n-enums plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "sbglasius/I18nEnumsGrails3Plugin",
-            "html_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin",
-            "forks_count": 1,
+            "full_name": "cwang/grails3-cas-client",
+            "html_url": "https://github.com/cwang/grails3-cas-client",
+            "forks_count": 0,
             "stargazers_count": 1,
-            "watchers_count": 1
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-06-03T10:08:44.953Z"
+    },
+    {
+        "desc": "Grails grails3-i18n-enums plugin",
         "issue_tracker_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin/issues",
         "labels": [
             
@@ -3857,15 +2865,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:grails3-i18n-enums",
         "owner": "sbglasius",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:grails3-i18n-enums"
@@ -3875,28 +2876,22 @@
         "versions": [
             "2.0.0"
         ],
-        "website_url": "http://grails.org/plugin/grails3-i18n-enums"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/grails3-i18n-enums",
         "attributes": [
             
         ],
-        "created": "2015-03-17T20:55:14.368Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grooscript Grails 3 Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "chiquitinxx/grooscript-grails3-plugin",
-            "html_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin",
-            "forks_count": 0,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "full_name": "sbglasius/I18nEnumsGrails3Plugin",
+            "html_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin",
+            "forks_count": 1,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-09-06T18:40:17.340Z"
+    },
+    {
+        "desc": "Grooscript Grails 3 Plugin",
         "issue_tracker_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin/issues",
         "labels": [
             "javascript",
@@ -3909,16 +2904,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "org.grails.plugins:grooscript",
         "owner": "chiquitinxx",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grooscript",
         "system_ids": [
             "org.grails.plugins:grooscript"
@@ -3936,28 +2923,22 @@
             "1.0.0.RC1",
             "1.0.0.M1"
         ],
-        "website_url": "http://grooscript.org/grails3-plugin"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grooscript.org/grails3-plugin",
         "attributes": [
             
         ],
-        "created": "2015-01-28T10:00:10.998Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "forks_count": 104,
-            "stargazers_count": 68,
-            "watchers_count": 68
+            "full_name": "chiquitinxx/grooscript-grails3-plugin",
+            "html_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin",
+            "forks_count": 0,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-19T15:34:37.965Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             
@@ -3966,15 +2947,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "maven"
-        ],
         "name": "org.grails.plugins:hibernate",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:hibernate"
@@ -3995,21 +2969,22 @@
             "4.3.8.0.M2",
             "4.3.7.0.M1"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2015-10-05T05:27:22.044Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "forks_count": 104,
+            "stargazers_count": 68,
+            "watchers_count": 68,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-10-13T15:27:35.321Z"
+    },
+    {
         "desc": "Grails iCalendar plugin",
-        "followers_count": 1,
         "issue_tracker_url": "https://github.com/saw303/grails-ic-alender/issues",
         "labels": [
             
@@ -4018,15 +2993,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:iCalendar",
         "owner": "saw303",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:iCalendar"
@@ -4037,28 +3005,22 @@
             "0.5.1",
             "0.5.0"
         ],
-        "website_url": "http://grails.org/plugin/iCalendar"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/iCalendar",
         "attributes": [
             
         ],
-        "created": "2015-08-22T02:22:28.914Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "dtanner/grails-jasypt",
-            "html_url": "https://github.com/dtanner/grails-jasypt",
-            "forks_count": 2,
-            "stargazers_count": 10,
-            "watchers_count": 10
+            "full_name": "saw303/grails-ic-alender",
+            "html_url": "https://github.com/saw303/grails-ic-alender",
+            "forks_count": 9,
+            "stargazers_count": 7,
+            "watchers_count": 7,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-15T07:07:39.481Z"
+    },
+    {
+        "desc": "Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration",
         "issue_tracker_url": "https://github.com/dtanner/grails-jasypt/issues",
         "labels": [
             
@@ -4067,15 +3029,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:jasypt-encryption",
         "owner": "dtanner",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:jasypt-encryption"
@@ -4085,21 +3040,22 @@
         "versions": [
             "2.0.1"
         ],
-        "website_url": "http://grails.org/plugin/jasypt-encryption"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/jasypt-encryption",
         "attributes": [
             
         ],
-        "created": "2015-07-23T21:37:29.291Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "dtanner/grails-jasypt",
+            "html_url": "https://github.com/dtanner/grails-jasypt",
+            "forks_count": 2,
+            "stargazers_count": 10,
+            "watchers_count": 10,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-08-22T02:22:29.208Z"
+    },
+    {
         "desc": "Grails jms plugin",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/grails3-plugins/jms/issues",
         "labels": [
             
@@ -4108,15 +3064,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "org.grails.plugins:jms",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:jms"
@@ -4126,28 +3075,14 @@
         "versions": [
             "2.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/jms"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/jms",
         "attributes": [
             
         ],
-        "created": "2015-07-09T08:53:58.252Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-07-23T21:37:53.066Z"
+    },
+    {
         "desc": "Grails json-annotations-marshaller plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "anthofo/grails3-json-annotations-marshaller",
-            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
-        },
         "issue_tracker_url": "https://github.com/anthofo/grails3-json-annotations-marshaller/issues",
         "labels": [
             
@@ -4156,15 +3091,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:json-annotations-marshaller",
         "owner": "anthofo",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:json-annotations-marshaller"
@@ -4174,28 +3102,22 @@
         "versions": [
             "1.0"
         ],
-        "website_url": "http://grails.org/plugin/json-annotations-marshaller"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/json-annotations-marshaller",
         "attributes": [
             
         ],
-        "created": "2015-10-05T13:55:47.768Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "A simple plugin to log Hibernate statistics across controller actions.",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "ishults/log-hibernate-stats",
-            "html_url": "https://github.com/ishults/log-hibernate-stats",
-            "forks_count": 1,
-            "stargazers_count": 2,
-            "watchers_count": 2
+            "full_name": "anthofo/grails3-json-annotations-marshaller",
+            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
+            "forks_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-09T08:53:58.827Z"
+    },
+    {
+        "desc": "A simple plugin to log Hibernate statistics across controller actions.",
         "issue_tracker_url": "https://github.com/ishults/log-hibernate-stats/issues",
         "labels": [
             
@@ -4204,15 +3126,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:log-hibernate-stats",
         "owner": "ishults",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:log-hibernate-stats"
@@ -4222,28 +3137,22 @@
         "versions": [
             "1.0.20"
         ],
-        "website_url": "https://github.com/ishults/log-hibernate-stats"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/ishults/log-hibernate-stats",
         "attributes": [
             
         ],
-        "created": "2015-08-30T08:55:45.632Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails NewRelic plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "agorapulse/grails-newrelic",
-            "html_url": "https://github.com/agorapulse/grails-newrelic",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "ishults/log-hibernate-stats",
+            "html_url": "https://github.com/ishults/log-hibernate-stats",
+            "forks_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "has_issues": true
         },
+        "latest_version_created": "2015-10-05T14:50:40.418Z"
+    },
+    {
+        "desc": "Grails NewRelic plugin",
         "issue_tracker_url": "https://github.com/agorapulse/grails-newrelic/issues",
         "labels": [
             
@@ -4252,15 +3161,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:newrelic",
         "owner": "agorapulse",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:newrelic"
@@ -4273,28 +3175,22 @@
             "0.2",
             "0.1"
         ],
-        "website_url": "http://grails.org/plugin/newrelic"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/newrelic",
         "attributes": [
             
         ],
-        "created": "2015-08-02T11:00:53.037Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "This plugin provides hibernate user types to support for Postgresql Native Types like Array, HStore, JSON,\u2026 as well as new criterias to query this native types.",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "kaleidos/grails-postgresql-extensions",
-            "html_url": "https://github.com/kaleidos/grails-postgresql-extensions",
-            "forks_count": 33,
-            "stargazers_count": 32,
-            "watchers_count": 32
+            "full_name": "agorapulse/grails-newrelic",
+            "html_url": "https://github.com/agorapulse/grails-newrelic",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-08-31T20:06:32.606Z"
+    },
+    {
+        "desc": "This plugin provides hibernate user types to support for Postgresql Native Types like Array, HStore, JSON,\u2026 as well as new criterias to query this native types.",
         "issue_tracker_url": "https://github.com/kaleidos/grails-postgresql-extensions/issues",
         "labels": [
             "grails",
@@ -4304,16 +3200,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "org.grails.plugins:postgresql-extensions",
         "owner": "kaleidos",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:postgresql-extensions"
@@ -4327,28 +3215,22 @@
             "4.6.2",
             "4.6.1"
         ],
-        "website_url": "http://grails.org/plugin/postgresql-extensions"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/postgresql-extensions",
         "attributes": [
             
         ],
-        "created": "2015-05-01T22:19:14.755Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails quartz-monitor plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "jamescookie/quartz-monitor",
-            "html_url": "https://github.com/jamescookie/quartz-monitor",
-            "forks_count": 35,
-            "stargazers_count": 28,
-            "watchers_count": 28
+            "full_name": "kaleidos/grails-postgresql-extensions",
+            "html_url": "https://github.com/kaleidos/grails-postgresql-extensions",
+            "forks_count": 33,
+            "stargazers_count": 32,
+            "watchers_count": 32,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-31T11:00:09.663Z"
+    },
+    {
+        "desc": "Grails quartz-monitor plugin",
         "issue_tracker_url": "https://github.com/jamescookie/quartz-monitor/issues",
         "labels": [
             
@@ -4357,15 +3239,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:quartz-monitor",
         "owner": "jamescookie",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:quartz-monitor"
@@ -4375,28 +3250,22 @@
         "versions": [
             "1.2"
         ],
-        "website_url": "http://grails.org/plugin/quartz-monitor"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/quartz-monitor",
         "attributes": [
             
         ],
-        "created": "2015-04-18T18:34:30.017Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails request-tracelog plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "nobeans/grails-request-tracelog",
-            "html_url": "https://github.com/nobeans/grails-request-tracelog",
-            "forks_count": 0,
-            "stargazers_count": 1,
-            "watchers_count": 1
+            "full_name": "jamescookie/quartz-monitor",
+            "html_url": "https://github.com/jamescookie/quartz-monitor",
+            "forks_count": 35,
+            "stargazers_count": 28,
+            "watchers_count": 28,
+            "has_issues": true
         },
+        "latest_version_created": "2015-05-01T22:19:15.720Z"
+    },
+    {
+        "desc": "Grails request-tracelog plugin",
         "issue_tracker_url": "https://github.com/nobeans/grails-request-tracelog/issues",
         "labels": [
             
@@ -4405,15 +3274,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:request-tracelog",
         "owner": "nobeans",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:request-tracelog"
@@ -4425,28 +3287,22 @@
             "1.1.0",
             "1.0.0"
         ],
-        "website_url": "http://grails.org/plugin/request-tracelog"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/request-tracelog",
         "attributes": [
             
         ],
-        "created": "2015-03-22T21:55:25.232Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Segment plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "agorapulse/grails-segmentio",
-            "html_url": "https://github.com/agorapulse/grails-segmentio",
-            "forks_count": 2,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "full_name": "nobeans/grails-request-tracelog",
+            "html_url": "https://github.com/nobeans/grails-request-tracelog",
+            "forks_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "has_issues": true
         },
+        "latest_version_created": "2015-04-27T05:57:35.911Z"
+    },
+    {
+        "desc": "Grails Segment plugin",
         "issue_tracker_url": "https://github.com/agorapulse/grails-segmentio/issues",
         "labels": [
             
@@ -4455,15 +3311,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:segment",
         "owner": "agorapulse",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:segment"
@@ -4476,28 +3325,22 @@
             "2.0.0.RC3",
             "2.0.0.RC2"
         ],
-        "website_url": "http://grails.org/plugin/segment"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/segment",
         "attributes": [
             
         ],
-        "created": "2015-09-02T08:24:42.828Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Sentry plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "agorapulse/grails-raven",
-            "html_url": "https://github.com/agorapulse/grails-raven",
-            "forks_count": 6,
-            "stargazers_count": 5,
-            "watchers_count": 5
+            "full_name": "agorapulse/grails-segmentio",
+            "html_url": "https://github.com/agorapulse/grails-segmentio",
+            "forks_count": 2,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
         },
+        "latest_version_created": "2015-10-09T12:31:49.639Z"
+    },
+    {
+        "desc": "Grails Sentry plugin",
         "issue_tracker_url": "https://github.com/agorapulse/grails-raven/issues",
         "labels": [
             
@@ -4506,15 +3349,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "org.grails.plugins:sentry",
         "owner": "agorapulse",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:sentry"
@@ -4524,21 +3360,22 @@
         "versions": [
             "6.0.0"
         ],
-        "website_url": "http://grails.org/plugin/sentry"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/sentry",
         "attributes": [
             
         ],
-        "created": "2015-09-08T13:28:29.466Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-raven",
+            "html_url": "https://github.com/agorapulse/grails-raven",
+            "forks_count": 6,
+            "stargazers_count": 5,
+            "watchers_count": 5,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-09-02T08:24:43.516Z"
+    },
+    {
         "desc": "Grails views-markup plugin",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/grails3-plugins/views-markup/issues",
         "labels": [
             
@@ -4547,15 +3384,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "org.grails.plugins:views-markup",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:views-markup"
@@ -4566,28 +3396,14 @@
             "1.0.0.M2",
             "1.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/views-markup"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/views-markup",
         "attributes": [
             
         ],
-        "created": "2016-01-05T02:56:37.563Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2015-09-10T06:41:56.173Z"
+    },
+    {
         "desc": "Grails p6spy-ui plugin",
-        "followers_count": 1,
-        "githubRepo": {
-            "full_name": "burtbeckwith/grails-p6spy-ui",
-            "html_url": "https://github.com/burtbeckwith/grails-p6spy-ui",
-            "forks_count": 4,
-            "stargazers_count": 4,
-            "watchers_count": 4
-        },
         "issue_tracker_url": "https://github.com/grails3-plugins/p6spy-ui/issues",
         "labels": [
             
@@ -4596,15 +3412,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "p6spy-ui",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:p6spy-ui"
@@ -4614,28 +3423,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails.org/plugin/p6spy-ui"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/p6spy-ui",
         "attributes": [
             
         ],
-        "created": "2015-12-30T14:05:40.809Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "A plugin that allows you to create QR codes as part of your Grails application without the need for an external service",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "goeh/grails-qrcode",
-            "html_url": "https://github.com/goeh/grails-qrcode",
-            "forks_count": 11,
-            "stargazers_count": 15,
-            "watchers_count": 15
+            "full_name": "burtbeckwith/grails-p6spy-ui",
+            "html_url": "https://github.com/burtbeckwith/grails-p6spy-ui",
+            "forks_count": 4,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-05T02:56:38.061Z"
+    },
+    {
+        "desc": "A plugin that allows you to create QR codes as part of your Grails application without the need for an external service",
         "issue_tracker_url": "https://github.com/goeh/grails-qrcode/issues",
         "labels": [
             
@@ -4644,15 +3447,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "qrcode",
         "owner": "technipelago",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:qrcode"
@@ -4663,28 +3459,22 @@
             "0.9",
             "0.8"
         ],
-        "website_url": "https://github.com/goeh/grails-qrcode"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/goeh/grails-qrcode",
         "attributes": [
             
         ],
-        "created": "2015-12-10T16:13:05.128Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails quartz plugin",
-        "followers_count": 4,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-quartz",
-            "html_url": "https://github.com/grails-plugins/grails-quartz",
-            "forks_count": 64,
-            "stargazers_count": 40,
-            "watchers_count": 40
+            "full_name": "goeh/grails-qrcode",
+            "html_url": "https://github.com/goeh/grails-qrcode",
+            "forks_count": 11,
+            "stargazers_count": 15,
+            "watchers_count": 15,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-30T18:27:51.681Z"
+    },
+    {
+        "desc": "Grails quartz plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-quartz/issues",
         "labels": [
             
@@ -4693,15 +3483,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "quartz",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:quartz"
@@ -4720,21 +3503,22 @@
             "2.0.0.M4",
             "2.0.0.M2"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-quartz/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-quartz/",
         "attributes": [
             
         ],
-        "created": "2015-08-02T23:49:55.668Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-quartz",
+            "html_url": "https://github.com/grails-plugins/grails-quartz",
+            "forks_count": 64,
+            "stargazers_count": 40,
+            "watchers_count": 40,
+            "has_issues": true
+        },
+        "latest_version_created": "2016-01-12T07:16:54.413Z"
+    },
+    {
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
             "recaptcha",
@@ -4744,15 +3528,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "recaptcha",
         "owner": "iamthechad",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:recaptcha"
@@ -4764,28 +3541,22 @@
             "3.0.0",
             "3.0.0RC1"
         ],
-        "website_url": "https://github.com/iamthechad/grails3-recaptcha"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/iamthechad/grails3-recaptcha",
         "attributes": [
             
         ],
-        "created": "2015-11-23T15:19:41.846Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "GORM - Grails Data Access Framework",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "forks_count": 104,
-            "stargazers_count": 68,
-            "watchers_count": 68
+            "full_name": "iamthechad/grails3-recaptcha",
+            "html_url": "https://github.com/iamthechad/grails3-recaptcha",
+            "forks_count": 3,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-06T02:18:33.815Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
         "labels": [
             
@@ -4794,15 +3565,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "redis-gorm",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:redis-gorm"
@@ -4816,28 +3580,22 @@
             "5.0.0.RC2",
             "5.0.0.RC1"
         ],
-        "website_url": "http://grails.org/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/",
         "attributes": [
             
         ],
-        "created": "2015-12-22T11:15:02.607Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails remote-pagination plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "amitjain1982/remote-pagination",
-            "html_url": "https://github.com/amitjain1982/remote-pagination",
-            "forks_count": 13,
-            "stargazers_count": 10,
-            "watchers_count": 10
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "forks_count": 104,
+            "stargazers_count": 68,
+            "watchers_count": 68,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T10:53:23.413Z"
+    },
+    {
+        "desc": "Grails remote-pagination plugin",
         "issue_tracker_url": "https://github.com/amitjain1982/remote-pagination/issues",
         "labels": [
             
@@ -4846,15 +3604,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "remote-pagination",
         "owner": "amitjain",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:remote-pagination"
@@ -4864,28 +3615,22 @@
         "versions": [
             "0.5.0"
         ],
-        "website_url": "http://grails.org/plugin/remote-pagination"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/remote-pagination",
         "attributes": [
             
         ],
-        "created": "2015-03-05T15:46:33.219Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails RemoteSSH Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "vahidhedayati/RemoteSSH",
-            "html_url": "https://github.com/vahidhedayati/RemoteSSH",
-            "forks_count": 4,
-            "stargazers_count": 3,
-            "watchers_count": 3
+            "full_name": "amitjain1982/remote-pagination",
+            "html_url": "https://github.com/amitjain1982/remote-pagination",
+            "forks_count": 13,
+            "stargazers_count": 10,
+            "watchers_count": 10,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-22T11:15:07.134Z"
+    },
+    {
+        "desc": "Grails RemoteSSH Plugin",
         "issue_tracker_url": "https://github.com/vahidhedayati/RemoteSSH/issues",
         "labels": [
             
@@ -4894,16 +3639,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "RemoteSSH",
         "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:RemoteSSH"
@@ -4914,21 +3651,22 @@
             "3.0.1",
             "0.4"
         ],
-        "website_url": "https://github.com/vahidhedayati/RemoteSSH"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/vahidhedayati/RemoteSSH",
         "attributes": [
             
         ],
-        "created": "2016-01-04T23:42:25.600Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "vahidhedayati/RemoteSSH",
+            "html_url": "https://github.com/vahidhedayati/RemoteSSH",
+            "forks_count": 4,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-06-23T20:08:18.298Z"
+    },
+    {
         "desc": "Grails rendering plugin",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/grails3-plugins/rendering/issues",
         "labels": [
             
@@ -4937,15 +3675,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "rendering",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:rendering"
@@ -4956,28 +3687,14 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "http://grails.org/plugin/rendering"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/rendering",
         "attributes": [
             
         ],
-        "created": "2015-07-15T11:12:40.294Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2016-01-04T23:55:24.752Z"
+    },
+    {
         "desc": "Grails csv plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "vsachinv/grails-csv",
-            "html_url": "https://github.com/vsachinv/grails-csv",
-            "forks_count": 1,
-            "stargazers_count": 0,
-            "watchers_count": 0
-        },
         "issue_tracker_url": "https://github.com/vsachinv/grails-csv/issues",
         "labels": [
             
@@ -4986,15 +3703,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "sachinverma.plugins:csv",
         "owner": "sachinverma",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:csv"
@@ -5004,28 +3714,22 @@
         "versions": [
             "1.0"
         ],
-        "website_url": "http://grails.org/plugin/csv"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/csv",
         "attributes": [
             
         ],
-        "created": "2015-01-31T15:51:31.328Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "",
-        "followers_count": 3,
         "githubRepo": {
-            "full_name": "bertramdev/asset-pipeline",
-            "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "forks_count": 28,
-            "stargazers_count": 45,
-            "watchers_count": 45
+            "full_name": "vsachinv/grails-csv",
+            "html_url": "https://github.com/vsachinv/grails-csv",
+            "forks_count": 1,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": true
         },
+        "latest_version_created": "2015-07-15T11:12:42.807Z"
+    },
+    {
+        "desc": "",
         "issue_tracker_url": "",
         "labels": [
             
@@ -5034,17 +3738,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter",
-            "plugins"
-        ],
         "name": "sass-asset-pipeline",
         "owner": "bertramlabs",
-        "permissions": [
-            
-        ],
-        "rating": 5,
-        "rating_count": 1,
         "repo": "asset-pipeline",
         "system_ids": [
             "com.bertramlabs.plugins:sass-asset-pipeline"
@@ -5070,28 +3765,22 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2016-01-14T18:37:22.334Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails scaffolding plugin",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "grails3-plugins/scaffolding",
-            "html_url": "https://github.com/grails3-plugins/scaffolding",
-            "forks_count": 12,
-            "stargazers_count": 5,
-            "watchers_count": 5
+            "full_name": "bertramdev/asset-pipeline",
+            "html_url": "https://github.com/bertramdev/asset-pipeline",
+            "forks_count": 28,
+            "stargazers_count": 45,
+            "watchers_count": 45,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-01T21:23:59.104Z"
+    },
+    {
+        "desc": "Grails scaffolding plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/scaffolding/issues",
         "labels": [
             
@@ -5100,15 +3789,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "scaffolding",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:scaffolding"
@@ -5128,28 +3810,22 @@
             "3.0.0.M2",
             "3.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/scaffolding"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/scaffolding",
         "attributes": [
             
         ],
-        "created": "2016-01-27T21:06:53.015Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails Slack Integration Plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "mathifonseca/grails-slack",
-            "html_url": "https://github.com/mathifonseca/grails-slack",
-            "forks_count": 1,
+            "full_name": "grails3-plugins/scaffolding",
+            "html_url": "https://github.com/grails3-plugins/scaffolding",
+            "forks_count": 12,
             "stargazers_count": 5,
-            "watchers_count": 5
+            "watchers_count": 5,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-14T19:23:09.175Z"
+    },
+    {
+        "desc": "Grails Slack Integration Plugin",
         "issue_tracker_url": "https://github.com/mathifonseca/grails-slack/issues",
         "labels": [
             
@@ -5158,15 +3834,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "slack",
         "owner": "mathifonseca",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "grails-plugins",
         "system_ids": [
             "org.grails.plugins:grails-slack"
@@ -5176,28 +3845,22 @@
         "versions": [
             "2.0.0"
         ],
-        "website_url": "https://github.com/mathifonseca/grails-slack"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/mathifonseca/grails-slack",
         "attributes": [
             
         ],
-        "created": "2015-12-08T11:20:48.992Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-acl plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-acl",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-acl",
-            "forks_count": 39,
-            "stargazers_count": 20,
-            "watchers_count": 20
+            "full_name": "mathifonseca/grails-slack",
+            "html_url": "https://github.com/mathifonseca/grails-slack",
+            "forks_count": 1,
+            "stargazers_count": 5,
+            "watchers_count": 5,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-27T21:06:53.968Z"
+    },
+    {
+        "desc": "Grails spring-security-acl plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-acl/issues",
         "labels": [
             
@@ -5206,15 +3869,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-acl",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-acl"
@@ -5225,28 +3881,22 @@
             "3.0.1",
             "3.0.0"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-acl/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-acl/",
         "attributes": [
             
         ],
-        "created": "2015-12-08T10:27:41.599Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-appinfo plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-appinfo",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-appinfo",
-            "forks_count": 0,
-            "stargazers_count": 2,
-            "watchers_count": 2
+            "full_name": "grails-plugins/grails-spring-security-acl",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-acl",
+            "forks_count": 39,
+            "stargazers_count": 20,
+            "watchers_count": 20,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-20T11:27:33.715Z"
+    },
+    {
+        "desc": "Grails spring-security-appinfo plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-appinfo/issues",
         "labels": [
             
@@ -5255,15 +3905,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-appinfo",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-appinfo"
@@ -5273,28 +3916,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-appinfo/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-appinfo/",
         "attributes": [
             
         ],
-        "created": "2015-12-08T10:57:38.531Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-cas plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-cas",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-cas",
-            "forks_count": 19,
-            "stargazers_count": 15,
-            "watchers_count": 15
+            "full_name": "grails-plugins/grails-spring-security-appinfo",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-appinfo",
+            "forks_count": 0,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-08T10:27:42.806Z"
+    },
+    {
+        "desc": "Grails spring-security-cas plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-cas/issues",
         "labels": [
             
@@ -5303,15 +3940,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-cas",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-cas"
@@ -5321,28 +3951,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-cas/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-cas/",
         "attributes": [
             
         ],
-        "created": "2015-11-23T18:37:56.005Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-core plugin",
-        "followers_count": 2,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-core",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-core",
-            "forks_count": 165,
-            "stargazers_count": 162,
-            "watchers_count": 162
+            "full_name": "grails-plugins/grails-spring-security-cas",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-cas",
+            "forks_count": 19,
+            "stargazers_count": 15,
+            "watchers_count": 15,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-08T10:57:39.061Z"
+    },
+    {
+        "desc": "Grails spring-security-core plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-core/issues",
         "labels": [
             
@@ -5351,15 +3975,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-core",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-core"
@@ -5373,28 +3990,22 @@
             "3.0.0",
             "3.0.0.M2"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-core/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-core/",
         "attributes": [
             
         ],
-        "created": "2016-01-08T15:54:16.703Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-jaxrs plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "donald-jackson/grails-spring-security-jaxrs",
-            "html_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "grails-plugins/grails-spring-security-core",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-core",
+            "forks_count": 165,
+            "stargazers_count": 162,
+            "watchers_count": 162,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-11T02:07:58.868Z"
+    },
+    {
+        "desc": "Grails spring-security-jaxrs plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/spring-security-jaxrs/issues",
         "labels": [
             
@@ -5403,15 +4014,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "spring-security-jaxrs",
         "owner": "donald-jackson",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-jaxrs"
@@ -5421,28 +4025,22 @@
         "versions": [
             "1.1.0"
         ],
-        "website_url": "http://grails.org/plugin/spring-security-jaxrs"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/spring-security-jaxrs",
         "attributes": [
             
         ],
-        "created": "2015-12-08T10:42:29.819Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-kerberos plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-kerberos",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-kerberos",
-            "forks_count": 3,
-            "stargazers_count": 4,
-            "watchers_count": 4
+            "full_name": "donald-jackson/grails-spring-security-jaxrs",
+            "html_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": false
         },
+        "latest_version_created": "2016-01-08T15:55:56.402Z"
+    },
+    {
+        "desc": "Grails spring-security-kerberos plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-kerberos/issues",
         "labels": [
             
@@ -5451,15 +4049,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-kerberos",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-kerberos"
@@ -5469,28 +4060,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-kerberos/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-kerberos/",
         "attributes": [
             
         ],
-        "created": "2015-11-16T23:00:53.214Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-ldap plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-ldap",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-ldap",
-            "forks_count": 24,
-            "stargazers_count": 8,
-            "watchers_count": 8
+            "full_name": "grails-plugins/grails-spring-security-kerberos",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-kerberos",
+            "forks_count": 3,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-08T10:42:30.339Z"
+    },
+    {
+        "desc": "Grails spring-security-ldap plugin",
         "issue_tracker_url": "http://jira.grails.org/browse/GPSPRINGSECURITYLDAP",
         "labels": [
             
@@ -5499,15 +4084,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-ldap",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-ldap"
@@ -5519,28 +4097,22 @@
             "3.0.0",
             "3.0.0.M1"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-ldap/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-ldap/",
         "attributes": [
             
         ],
-        "created": "2016-01-07T16:15:04.326Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-rest plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "alvarosanchez/grails-spring-security-rest",
-            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "forks_count": 75,
-            "stargazers_count": 118,
-            "watchers_count": 118
+            "full_name": "grails-plugins/grails-spring-security-ldap",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-ldap",
+            "forks_count": 24,
+            "stargazers_count": 8,
+            "watchers_count": 8,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-22T18:54:27.552Z"
+    },
+    {
+        "desc": "Grails spring-security-rest plugin",
         "issue_tracker_url": "https://github.com/alvarosanchez/grails-spring-security-rest/issues",
         "labels": [
             
@@ -5549,15 +4121,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "jcenter"
-        ],
         "name": "spring-security-rest",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-rest"
@@ -5568,28 +4133,22 @@
             "2.0.0.M2",
             "2.0.0.M1"
         ],
-        "website_url": "https://github.com/alvarosanchez/grails-spring-security-rest"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "attributes": [
             
         ],
-        "created": "2016-01-07T15:39:15.258Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Spring Security REST plugin for Grails - GORM module",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "forks_count": 75,
             "stargazers_count": 118,
-            "watchers_count": 118
+            "watchers_count": 118,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-08T12:43:46.095Z"
+    },
+    {
+        "desc": "Spring Security REST plugin for Grails - GORM module",
         "issue_tracker_url": "",
         "labels": [
             
@@ -5598,15 +4157,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-rest-gorm",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-rest-gorm"
@@ -5616,28 +4168,22 @@
         "versions": [
             "2.0.0.M2"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2016-01-07T15:39:51.049Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Spring Security REST plugin for Grails - Grails cache module",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "forks_count": 75,
             "stargazers_count": 118,
-            "watchers_count": 118
+            "watchers_count": 118,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-08T12:43:59.706Z"
+    },
+    {
+        "desc": "Spring Security REST plugin for Grails - Grails cache module",
         "issue_tracker_url": "",
         "labels": [
             
@@ -5646,15 +4192,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-rest-grailscache",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-rest-grailscache"
@@ -5664,28 +4203,22 @@
         "versions": [
             "2.0.0.M2"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2016-01-07T15:40:24.928Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Spring Security REST plugin for Grails - Memcached module",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "forks_count": 75,
             "stargazers_count": 118,
-            "watchers_count": 118
+            "watchers_count": 118,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-08T12:44:15.259Z"
+    },
+    {
+        "desc": "Spring Security REST plugin for Grails - Memcached module",
         "issue_tracker_url": "",
         "labels": [
             
@@ -5694,15 +4227,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-rest-memcached",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-rest-memcached"
@@ -5712,28 +4238,22 @@
         "versions": [
             "2.0.0.M2"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2016-01-07T15:40:50.894Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Spring Security REST plugin for Grails - Redis module",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "forks_count": 75,
             "stargazers_count": 118,
-            "watchers_count": 118
+            "watchers_count": 118,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-08T12:44:28.902Z"
+    },
+    {
+        "desc": "Spring Security REST plugin for Grails - Redis module",
         "issue_tracker_url": "",
         "labels": [
             
@@ -5742,15 +4262,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-rest-redis",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-rest-redis"
@@ -5760,28 +4273,22 @@
         "versions": [
             "2.0.0.M2"
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2016-01-07T15:41:17.762Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Spring Security REST plugin for Grails - Profile for test apps",
-        "followers_count": 0,
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "forks_count": 75,
             "stargazers_count": 118,
-            "watchers_count": 118
+            "watchers_count": 118,
+            "has_issues": true
         },
+        "latest_version_created": "2016-01-08T12:44:38.226Z"
+    },
+    {
+        "desc": "Spring Security REST plugin for Grails - Profile for test apps",
         "issue_tracker_url": "",
         "labels": [
             
@@ -5790,15 +4297,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-rest-testapp-profile",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             
@@ -5808,28 +4308,21 @@
         "versions": [
             
         ],
-        "website_url": ""
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "",
         "attributes": [
             
         ],
-        "created": "2015-12-08T10:51:23.256Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-shiro plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-shiro",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-shiro",
-            "forks_count": 8,
-            "stargazers_count": 5,
-            "watchers_count": 5
-        },
+            "full_name": "alvarosanchez/grails-spring-security-rest",
+            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
+            "forks_count": 75,
+            "stargazers_count": 118,
+            "watchers_count": 118,
+            "has_issues": true
+        }
+    },
+    {
+        "desc": "Grails spring-security-shiro plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-shiro/issues",
         "labels": [
             
@@ -5838,15 +4331,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-shiro",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-shiro"
@@ -5856,28 +4342,22 @@
         "versions": [
             "3.0.0"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-shiro/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-shiro/",
         "attributes": [
             
         ],
-        "created": "2015-12-21T05:35:36.995Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails spring-security-ui plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "grails-plugins/grails-spring-security-ui",
-            "html_url": "https://github.com/grails-plugins/grails-spring-security-ui",
-            "forks_count": 72,
-            "stargazers_count": 53,
-            "watchers_count": 53
+            "full_name": "grails-plugins/grails-spring-security-shiro",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-shiro",
+            "forks_count": 8,
+            "stargazers_count": 5,
+            "watchers_count": 5,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-08T10:51:23.763Z"
+    },
+    {
+        "desc": "Grails spring-security-ui plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-ui/issues",
         "labels": [
             
@@ -5886,15 +4366,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "spring-security-ui",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:spring-security-ui"
@@ -5904,28 +4377,22 @@
         "versions": [
             "3.0.0.M1"
         ],
-        "website_url": "http://grails-plugins.github.io/grails-spring-security-ui/"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails-plugins.github.io/grails-spring-security-ui/",
         "attributes": [
             
         ],
-        "created": "2016-01-08T15:42:28.404Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails swagger4jaxrs plugin",
-        "followers_count": 1,
         "githubRepo": {
-            "full_name": "donald-jackson/swagger4jaxrs",
-            "html_url": "https://github.com/donald-jackson/swagger4jaxrs",
-            "forks_count": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0
+            "full_name": "grails-plugins/grails-spring-security-ui",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-ui",
+            "forks_count": 72,
+            "stargazers_count": 53,
+            "watchers_count": 53,
+            "has_issues": true
         },
+        "latest_version_created": "2015-12-21T05:35:37.499Z"
+    },
+    {
+        "desc": "Grails swagger4jaxrs plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/swagger4jaxrs/issues",
         "labels": [
             
@@ -5934,15 +4401,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "swagger4jaxrs",
         "owner": "donald-jackson",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:swagger4jaxrs"
@@ -5952,21 +4412,22 @@
         "versions": [
             "0.4"
         ],
-        "website_url": "http://grails.org/plugin/swagger4jaxrs"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/swagger4jaxrs",
         "attributes": [
             
         ],
-        "created": "2015-10-14T08:44:40.976Z",
-        "custom_licenses": [
-            
-        ],
+        "githubRepo": {
+            "full_name": "donald-jackson/swagger4jaxrs",
+            "html_url": "https://github.com/donald-jackson/swagger4jaxrs",
+            "forks_count": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "has_issues": false
+        },
+        "latest_version_created": "2016-01-08T15:43:48.933Z"
+    },
+    {
         "desc": "Grails views-gradle plugin",
-        "followers_count": 0,
         "issue_tracker_url": "https://github.com/grails3-plugins/views-gradle/issues",
         "labels": [
             
@@ -5975,15 +4436,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            
-        ],
         "name": "views-gradle",
         "owner": "grails",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:views-gradle"
@@ -5999,28 +4453,14 @@
             "1.0.0.RC1",
             "1.0.0.M1"
         ],
-        "website_url": "http://grails.org/plugin/views-gradle"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "http://grails.org/plugin/views-gradle",
         "attributes": [
             
         ],
-        "created": "2015-10-11T19:59:29.294Z",
-        "custom_licenses": [
-            
-        ],
+        "latest_version_created": "2016-01-27T09:36:44.716Z"
+    },
+    {
         "desc": "Grails wkhtmltopdf plugin",
-        "followers_count": 0,
-        "githubRepo": {
-            "full_name": "rlovtangen/grails-wkhtmltopdf",
-            "html_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
-            "forks_count": 5,
-            "stargazers_count": 3,
-            "watchers_count": 3
-        },
         "issue_tracker_url": "https://github.com/rlovtangen/grails-wkhtmltopdf/issues",
         "labels": [
             
@@ -6029,15 +4469,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins"
-        ],
         "name": "wkhtmltopdf",
         "owner": "rlovtangen",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "plugins",
         "system_ids": [
             "org.grails.plugins:wkhtmltopdf"
@@ -6050,28 +4483,22 @@
             "1.0.0.RC3",
             "1.0.0.M1"
         ],
-        "website_url": "https://github.com/rlovtangen/grails-wkhtmltopdf"
-    },
-    {
-        "attribute_names": [
-            
-        ],
+        "website_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
         "attributes": [
             
         ],
-        "created": "2015-03-05T14:09:13.032Z",
-        "custom_licenses": [
-            
-        ],
-        "desc": "Grails wschat plugin",
-        "followers_count": 0,
         "githubRepo": {
-            "full_name": "vahidhedayati/grails-wschat-plugin",
-            "html_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
-            "forks_count": 7,
-            "stargazers_count": 14,
-            "watchers_count": 14
+            "full_name": "rlovtangen/grails-wkhtmltopdf",
+            "html_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
+            "forks_count": 5,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "has_issues": true
         },
+        "latest_version_created": "2015-10-13T06:55:47.608Z"
+    },
+    {
+        "desc": "Grails wschat plugin",
         "issue_tracker_url": "https://github.com/vahidhedayati/grails-wschat-plugin/issues",
         "labels": [
             
@@ -6080,16 +4507,8 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "linked_to_repos": [
-            "plugins",
-            "jcenter"
-        ],
         "name": "wschat",
         "owner": "vahid",
-        "permissions": [
-            
-        ],
-        "rating_count": 0,
         "repo": "maven",
         "system_ids": [
             "org.grails.plugins:grails-wschat-plugin",
@@ -6110,6 +4529,18 @@
             "3.0.2",
             "3.0.1"
         ],
-        "website_url": "https://github.com/vahidhedayati/grails-wschat-plugin"
+        "website_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "vahidhedayati/grails-wschat-plugin",
+            "html_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
+            "forks_count": 7,
+            "stargazers_count": 14,
+            "watchers_count": 14,
+            "has_issues": true
+        },
+        "latest_version_created": "2015-12-01T21:05:40.840Z"
     }
 ]

@@ -2,16 +2,24 @@
 @light-green: #79b94c;
 @header-link-color: #fff;
 
+a {
+  color: @dark-green;
+  &:hover {
+    color: @dark-green;
+  }
+}
+
 .page-width {
-  max-width: 980px;
+  max-width: 1180px;
   margin: auto;
-  padding: 0 10px 10px;
+  padding: 0 20px 10px;
 }
 
 .navbar {
   background: @dark-green;
   border-radius: 0;
   border-width: 0;
+  box-shadow: 0 0 2px 1px #888;
   .navbar-header {
     float: left;
   }
@@ -121,7 +129,11 @@
   }
 }
 
-.plugin-common {
+
+.plugins-list {
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
   .plugin-name {
     color: @dark-green;
     font-size: 18px;
@@ -135,85 +147,9 @@
     display: block;
     font-size: 0.9em;
   }
-
   label {
     margin-bottom: 0;
   }
-  .github-btn {
-    //height: 24px;
-    overflow: hidden;
-    display: inline-block;
-    .gh-btn {
-      float: left;
-      margin-right: 0;
-
-      padding: 1px 5px 1px 4px;
-      color: #333;
-      text-decoration: none;
-      text-shadow: 0 1px 0 #fff;
-      white-space: nowrap;
-      cursor: pointer;
-      border-radius: 3px;
-
-      background-color: #eee;
-      background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fcfcfc),color-stop(100%,#eee));
-      background-image: -webkit-linear-gradient(top,#fcfcfc 0,#eee 100%);
-      background-image: -moz-linear-gradient(top,#fcfcfc 0,#eee 100%);
-      background-image: -ms-linear-gradient(top,#fcfcfc 0,#eee 100%);
-      background-image: -o-linear-gradient(top,#fcfcfc 0,#eee 100%);
-      background-image: linear-gradient(to bottom,#fcfcfc 0,#eee 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);
-      background-repeat: no-repeat;
-      border: 1px solid #d5d5d5;
-
-    }
-    .gh-count:after, .gh-count:before {
-      content: '';
-      position: absolute;
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-color: transparent;
-      border-style: solid;
-    }
-    .gh-count:before {
-      top: 50%;
-      left: -3px;
-      margin-top: -4px;
-      border-width: 4px 4px 4px 0;
-      border-right-color: #fafafa;
-    }
-    .gh-count:after {
-      top: 50%;
-      left: -4px;
-      z-index: -1;
-      margin-top: -5px;
-      border-width: 5px 5px 5px 0;
-      border-right-color: #d4d4d4;
-    }
-    .gh-count {
-      float: left;
-
-      padding: 1px 5px 1px 4px;
-      color: #333;
-      text-decoration: none;
-      text-shadow: 0 1px 0 #fff;
-      white-space: nowrap;
-      cursor: pointer;
-      border-radius: 3px;
-
-      position: relative;
-      margin-left: 4px;
-      background-color: #fafafa;
-      border: 1px solid #d4d4d4;
-    }
-  }
-}
-
-.plugins-list {
-  margin: 0;
-  padding: 0;
-  max-width: 1200px;
   & > li {
     list-style-type: none;
     padding: 10px 0;
@@ -238,14 +174,98 @@
     font-size: 0.9em;
     margin: 8px 0 13px;
   }
-  .dependency-clip {
-    display: none;
-  }
 }
 
 .plugin-page {
+
+  .plugin-main {
+    float: left;
+    width: 73%;
+  }
+  .plugin-side {
+    float: right;
+    width: 22%;
+    margin-top: 12px;
+    .owner-section {
+      font-size: 18px;
+      margin: 10px 0;
+      img {
+        width: 40px;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .dependency-clip {
+      margin: 10px 0 0;
+      //width: 300px;
+      input {
+        background: #fff;
+      }
+      .input-group-addon {
+        border-radius: 0 3px 3px 0;
+        border-left-width: 0;
+      }
+    }
+  }
+  h3 {
+    font-size: 18px;
+    margin: 25px 0 0;
+    color: #444;
+    padding-bottom: 3px;
+  }
+  .attributes-list {
+    margin: 25px 0 20px;
+    padding: 0;
+    li {
+      list-style-type: none;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      label {
+        margin: 0;
+        width: 57px
+      }
+    }
+  }
+  .links-list {
+    margin: 5px 0 20px;
+    padding: 0;
+    li {
+      list-style-type: none;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      img {
+        width: 20px;
+        padding: 0px 3px;
+        margin-right: 5px;
+      }
+      i {
+        font-size: 17px;
+        width: 20px;
+        text-align: center;
+        margin-right: 5px;
+      }
+    }
+  }
+
   .plugin-name {
+    color: @dark-green;
     font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+  }
+  .plugin-description {
+    color: #888;
+    margin: 0 0 8px;
+    display: block;
+    font-size: 0.9em;
   }
   .plugin-info {
     padding-bottom: 10px;
@@ -255,19 +275,8 @@
       margin: 20px 0 10px;
       pre {
         clear: both;
+        padding: 17px;
       }
-    }
-  }
-  .dependency-clip {
-    margin-top: 10px;
-    float: right;
-    width: 300px;
-    input {
-      background: #fff;
-    }
-    .input-group-addon {
-      border-radius: 0 3px 3px 0;
-      border-left-width: 0;
     }
   }
   .readme {
@@ -355,9 +364,96 @@
   background-color: #666;
 }
 
-@media (max-width: 1300px) {
+.github-btn {
+  //height: 24px;
+  overflow: hidden;
+  display: inline-block;
+  .gh-btn {
+    float: left;
+    margin-right: 0;
+
+    padding: 1px 5px 1px 4px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 3px;
+
+    background-color: #eee;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fcfcfc),color-stop(100%,#eee));
+    background-image: -webkit-linear-gradient(top,#fcfcfc 0,#eee 100%);
+    background-image: -moz-linear-gradient(top,#fcfcfc 0,#eee 100%);
+    background-image: -ms-linear-gradient(top,#fcfcfc 0,#eee 100%);
+    background-image: -o-linear-gradient(top,#fcfcfc 0,#eee 100%);
+    background-image: linear-gradient(to bottom,#fcfcfc 0,#eee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);
+    background-repeat: no-repeat;
+    border: 1px solid #d5d5d5;
+
+  }
+  .gh-count:after, .gh-count:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+  }
+  .gh-count:before {
+    top: 50%;
+    left: -3px;
+    margin-top: -4px;
+    border-width: 4px 4px 4px 0;
+    border-right-color: #fafafa;
+  }
+  .gh-count:after {
+    top: 50%;
+    left: -4px;
+    z-index: -1;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #d4d4d4;
+  }
+  .gh-count {
+    float: left;
+
+    padding: 1px 5px 1px 4px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 3px;
+
+    position: relative;
+    margin-left: 4px;
+    background-color: #fafafa;
+    border: 1px solid #d4d4d4;
+  }
+}
+
+@media (max-width: 1410px) {
   .github-fork-ribbon-wrapper {
     display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .plugin-page {
+    .plugin-main {
+      float: none;
+      width: 100%;
+    }
+    .plugin-side {
+      margin-top: 50px;
+      float: none;
+      width: 100%;
+      .dependency-clip {
+        display: none;
+      }
+    }
   }
 }
 
@@ -371,11 +467,6 @@
     }
     .search-section {
       margin-right: 0;
-    }
-  }
-  .plugin-page {
-    .dependency-clip {
-      display: none;
     }
   }
 }

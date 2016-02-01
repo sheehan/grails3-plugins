@@ -34,12 +34,14 @@ grailsplugins.App = class {
     }
 
     showSearch(q = '') {
+        document.title = 'Grails 3 Plugins';
         this.searchView.$el.removeClass('hide');
         this.pluginView.$el.addClass('hide');
         this.searchView.search(q);
     }
 
     showPlugin(pluginName) {
+        document.title = pluginName;
         this.searchView.$el.addClass('hide');
         this.pluginView.$el.removeClass('hide');
         let plugin = this.plugins.findByName(pluginName);

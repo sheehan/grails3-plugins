@@ -1,13 +1,84 @@
-<div class="plugin-info">
-    {{> plugin}}
-    {{#if dependency}}
-        <div class="gradle-format">
+<div class="plugin-main">
+    <div class="plugin-info">
+        <div><a class="plugin-name" href="#plugin/{{name}}">{{name}}</a></div>
+        <span class="plugin-description">{{desc}}</span>
+        {{#if labels}}
+            <div class="plugin-labels">
+                {{#each labels}}
+                    <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="plugin-label label">{{this}}</span></a>
+                {{/each}}
+            </div>
+        {{/if}}
+        {{#if dependency}}
+            <div class="gradle-format">
 <pre class="hljs lang-groovy">
 dependencies {
     {{dependencyScope}} '{{dependency}}'
 }
 </pre>
+            </div>
+        {{/if}}
+    </div>
+    <div class="readme"></div>
+</div>
+
+<div class="plugin-side">
+    {{#if dependency}}
+        <div class="input-group dependency-clip">
+            <input type="text" class="form-control" value="{{dependency}}" readonly>
+            <div class="input-group-addon btn clippy" data-clipboard-text="{{dependency}}"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span></div>
         </div>
     {{/if}}
+    <ul class="attributes-list">
+        {{#if latest_version}}
+            <li>
+                <strong>{{latest_version}}</strong> published {{fromNow latest_version_created}}
+            </li>
+        {{/if}}
+        <li class="owner">
+            <label>Owner</label>
+            <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
+        </li>
+        {{#if licenses}}
+            <li>
+                <label>License</label>
+                {{#each licenses}}
+                    <a href="{{url}}">{{name}}</a>
+                {{/each}}
+            </li>
+        {{/if}}
+        {{#if githubRepo}}
+            <li>
+                <span class="github-btn github-stargazers" id="github-btn"><a class="gh-btn" id="gh-btn" href="{{githubRepo.html_url}}">
+                    <i class="fa fa-github"></i> <span class="gh-text" id="gh-text">Star</span></a><a class="gh-count" id="gh-count" href="{{githubRepo.html_url}}/stargazers">{{githubRepo.stargazers_count}}</a>
+                </span>
+            </li>
+        {{/if}}
+    </ul>
+
+    <h3>Links</h3>
+    <ul class="links-list">
+        <li>
+            <img src="src/img/bintray-black.png">
+            <a href="{{bintrayHref}}">Package</a>
+        </li>
+        {{#if website_url}}
+            <li>
+                <i class="fa fa-book"></i>
+                <a href="{{website_url}}"> Documentation</a>
+            </li>
+        {{/if}}
+        {{#if vcs_url}}
+            <li>
+                <i class="fa fa-code"></i>
+                <a href="{{vcs_url}}"> Source</a>
+            </li>
+        {{/if}}
+        {{#if issue_tracker_url}}
+            <li>
+                <i class="fa fa-bug"></i>
+                <a href="{{issue_tracker_url}}"> Issues</a>
+            </li>
+        {{/if}}
+    </ul>
 </div>
-<div class="readme"></div>

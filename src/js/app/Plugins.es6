@@ -28,6 +28,13 @@ grailsplugins.Plugins = class {
             .sortBy(it => it.toLowerCase())
             .value();
 
+        pluginData.licenses = pluginData.licenses.map(license => {
+            return {
+                name: license,
+                url: 'https://opensource.org/licenses/' + license.replace(/\s/g, '-')
+            };
+        });
+
         pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
         pluginData.bintrayRepo = `${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
     }
@@ -56,7 +63,7 @@ grailsplugins.Plugins = class {
         if (sort === 'name') {
             matches = _.sortBy(matches, it => it.name.toLowerCase());
         } else if (sort === 'date') {
-            matches = _.sortBy(matches, it => it.updated ? new Date(it.updated) : undefined).reverse();
+            matches = _.sortBy(matches, it => it.latest_version_created ? new Date(it.latest_version_created).getTime() : 0).reverse();
         } else if (sort === 'stars') {
             matches = _.sortBy(matches, it => it.githubRepo ? it.githubRepo.stargazers_count : 0).reverse();
         }

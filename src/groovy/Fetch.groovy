@@ -77,11 +77,28 @@ class Fetch {
     }
 
     Map getPackage(String pkg) {
-        Map data = anonymousBintrayClient.get(path: "packages/grails/plugins/$pkg").data
+        HttpResponseDecorator packageResp = anonymousBintrayClient.get(path: "packages/grails/plugins/$pkg")
+
+        Map data = packageResp.data.subMap([
+            'desc',
+            'issue_tracker_url',
+            'labels',
+            'latest_version',
+            'licenses',
+            'name',
+            'owner',
+            'repo',
+            'system_ids',
+            'updated',
+            'vcs_url',
+            'versions',
+            'website_url'
+        ])
+
         data.attributes = anonymousBintrayClient.get(path: "packages/grails/plugins/$pkg/attributes").data
 
         if (data.vcs_url) {
-            def matcher = data.vcs_url =~ /.*github\.com\/([^\/]+\/[^\/]+).*/
+            def matcher = data.vcs_url =~ /.*github\.com\/([^\/]+\/[^\/\.]+).*/
             if (matcher.matches()) {
                 String ownerAndRepo = matcher[0][1]
                 try {
@@ -94,7 +111,15 @@ class Fetch {
                         'forks_count',
                         'stargazers_count',
                         'watchers_count',
+                        'has_issues',
                     ])
+                } catch(org.apache.http.client.HttpResponseException e) {
+                    if (e.statusCode == 404) {
+                        println "github repo not found: $ownerAndRepo"
+                    } else {
+                        println "failed to fetch github repo: $ownerAndRepo"
+                        e.printStackTrace()
+                    }
                 } catch (e) {
                     println "failed to fetch github repo: $ownerAndRepo"
                     e.printStackTrace()
@@ -102,6 +127,10 @@ class Fetch {
             }
         }
 
+        if (data.latest_version) {
+            def versionData = authenticatedBintrayClient.get(path: "packages/grails/plugins/$pkg/versions/${data.latest_version}").data
+            data.latest_version_created = versionData.created
+        }
 
         data
     }
