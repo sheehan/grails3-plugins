@@ -656,7 +656,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -666,9 +666,10 @@
         "system_ids": [
             "org.grails.plugins:cassandra"
         ],
-        "updated": "2016-01-27T10:52:42.208Z",
+        "updated": "2016-02-01T15:10:21.401Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -697,7 +698,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:52:16.841Z"
+        "latest_version_created": "2016-02-01T15:09:58.976Z"
     },
     {
         "desc": "Adds coffeescript transpiling support to the jvm asset-pipeline plugin",
@@ -1667,7 +1668,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1677,9 +1678,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate3"
         ],
-        "updated": "2016-01-27T10:52:52.298Z",
+        "updated": "2016-02-01T15:10:25.372Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -1698,7 +1700,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:52:28.327Z"
+        "latest_version_created": "2016-02-01T15:10:08.593Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1706,7 +1708,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1716,9 +1718,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate4"
         ],
-        "updated": "2016-01-27T10:53:03.897Z",
+        "updated": "2016-02-01T15:10:40.837Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -1737,7 +1740,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:52:38.656Z"
+        "latest_version_created": "2016-02-01T15:10:18.289Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1745,7 +1748,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1755,9 +1758,10 @@
         "system_ids": [
             "org.grails.plugins:hibernate5"
         ],
-        "updated": "2016-02-01T11:32:43.064Z",
+        "updated": "2016-02-01T15:10:44.951Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -1776,7 +1780,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:52:50.264Z"
+        "latest_version_created": "2016-02-01T15:10:28.108Z"
     },
     {
         "desc": "Grails HTTP Builder Helper Plugin",
@@ -2231,7 +2235,7 @@
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2241,9 +2245,10 @@
         "system_ids": [
             "org.grails.plugins:mongodb"
         ],
-        "updated": "2016-01-27T10:53:24.664Z",
+        "updated": "2016-02-01T15:33:21.033Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -2274,7 +2279,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:52:59.666Z"
+        "latest_version_created": "2016-02-01T15:10:36.740Z"
     },
     {
         "desc": null,
@@ -2319,7 +2324,7 @@
             "neo4j",
             "graph"
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2329,9 +2334,10 @@
         "system_ids": [
             "org.grails.plugins:neo4j"
         ],
-        "updated": "2016-02-01T11:32:48.040Z",
+        "updated": "2016-02-01T15:11:02.127Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -2360,7 +2366,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:53:08.427Z"
+        "latest_version_created": "2016-02-01T15:10:45.383Z"
     },
     {
         "desc": "Grails AWS SDK plugin",
@@ -3562,7 +3568,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.0",
+        "latest_version": "5.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3572,9 +3578,10 @@
         "system_ids": [
             "org.grails.plugins:redis-gorm"
         ],
-        "updated": "2016-02-01T11:32:38.588Z",
+        "updated": "2016-02-01T15:11:15.193Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.1",
             "5.0.0",
             "5.0.0.RC4",
             "5.0.0.RC3",
@@ -3593,7 +3600,7 @@
             "watchers_count": 68,
             "has_issues": true
         },
-        "latest_version_created": "2016-01-27T10:53:23.413Z"
+        "latest_version_created": "2016-02-01T15:10:53.480Z"
     },
     {
         "desc": "Grails remote-pagination plugin",
