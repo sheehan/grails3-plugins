@@ -1160,7 +1160,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.1.1",
+        "latest_version": "2.1.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1170,9 +1170,10 @@
         "system_ids": [
             "org.grails.plugins:fields"
         ],
-        "updated": "2015-12-01T10:56:38.485Z",
+        "updated": "2016-02-01T11:25:38.045Z",
         "vcs_url": "https://github.com/grails-fields-plugin/grails-fields/issues",
         "versions": [
+            "2.1.2",
             "2.1.1",
             "2.1.0",
             "2.0.3",
@@ -1193,7 +1194,7 @@
             "watchers_count": 63,
             "has_issues": true
         },
-        "latest_version_created": "2015-12-01T10:56:23.262Z"
+        "latest_version_created": "2016-02-01T11:25:21.945Z"
     },
     {
         "desc": "",
@@ -1754,7 +1755,7 @@
         "system_ids": [
             "org.grails.plugins:hibernate5"
         ],
-        "updated": "2016-01-27T10:53:08.733Z",
+        "updated": "2016-02-01T11:32:43.064Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
             "5.0.0",
@@ -1982,7 +1983,7 @@
         "system_ids": [
             "org.grails.plugins:joda-time"
         ],
-        "updated": "2016-01-20T08:42:36.169Z",
+        "updated": "2016-02-01T11:33:55.646Z",
         "vcs_url": "https://github.com/grails3-plugins/joda-time",
         "versions": [
             "2.0.0"
@@ -2328,7 +2329,7 @@
         "system_ids": [
             "org.grails.plugins:neo4j"
         ],
-        "updated": "2016-01-28T08:29:49.077Z",
+        "updated": "2016-02-01T11:32:48.040Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
             "5.0.0",
@@ -2656,7 +2657,7 @@
         "system_ids": [
             "org.grails.plugins:geb"
         ],
-        "updated": "2015-09-25T19:44:14.211Z",
+        "updated": "2016-02-01T11:34:35.155Z",
         "vcs_url": "https://github.com/grails3-plugins/geb/",
         "versions": [
             "1.0.1",
@@ -2674,8 +2675,8 @@
             "full_name": "grails3-plugins/geb",
             "html_url": "https://github.com/grails3-plugins/geb",
             "forks_count": 2,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "has_issues": true
         },
         "latest_version_created": "2015-09-09T08:17:22.768Z"
@@ -3489,7 +3490,7 @@
         "system_ids": [
             "org.grails.plugins:quartz"
         ],
-        "updated": "2016-01-27T03:05:01.958Z",
+        "updated": "2016-02-01T11:32:06.407Z",
         "vcs_url": "https://github.com/grails-plugins/grails-quartz",
         "versions": [
             "2.0.5",
@@ -3571,7 +3572,7 @@
         "system_ids": [
             "org.grails.plugins:redis-gorm"
         ],
-        "updated": "2016-01-27T10:53:41.961Z",
+        "updated": "2016-02-01T11:32:38.588Z",
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
             "5.0.0",
@@ -3981,7 +3982,7 @@
         "system_ids": [
             "org.grails.plugins:spring-security-core"
         ],
-        "updated": "2016-01-20T08:52:37.249Z",
+        "updated": "2016-02-01T11:33:04.749Z",
         "vcs_url": "https://github.com/grails-plugins/grails-spring-security-core",
         "versions": [
             "3.0.3",
@@ -4127,7 +4128,7 @@
         "system_ids": [
             "org.grails.plugins:spring-security-rest"
         ],
-        "updated": "2016-01-08T12:44:53.520Z",
+        "updated": "2016-02-01T11:33:32.659Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
             "2.0.0.M2",
@@ -4198,7 +4199,7 @@
         "system_ids": [
             "org.grails.plugins:spring-security-rest-grailscache"
         ],
-        "updated": "2016-01-08T12:45:00.424Z",
+        "updated": "2016-02-01T11:33:10.810Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
             "2.0.0.M2"
@@ -4268,7 +4269,7 @@
         "system_ids": [
             "org.grails.plugins:spring-security-rest-redis"
         ],
-        "updated": "2016-01-08T12:44:56.949Z",
+        "updated": "2016-02-01T11:33:38.931Z",
         "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
         "versions": [
             "2.0.0.M2"
