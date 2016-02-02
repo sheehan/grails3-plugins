@@ -1569,8 +1569,8 @@
             "full_name": "grails/grails-views",
             "html_url": "https://github.com/grails/grails-views",
             "forks_count": 3,
-            "stargazers_count": 12,
-            "watchers_count": 12,
+            "stargazers_count": 13,
+            "watchers_count": 13,
             "has_issues": true
         },
         "latest_version_created": "2016-01-27T09:36:59.474Z"
@@ -2582,7 +2582,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.5.0",
+        "latest_version": "2.5.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2592,9 +2592,10 @@
         "system_ids": [
             "org.grails.plugins:facebook-sdk"
         ],
-        "updated": "2015-10-30T11:39:05.066Z",
+        "updated": "2016-02-02T21:55:26.291Z",
         "vcs_url": "https://github.com/agorapulse/grails-facebook-sdk",
         "versions": [
+            "2.5.1",
             "2.5.0",
             "2.4.0"
         ],
@@ -2610,7 +2611,7 @@
             "watchers_count": 28,
             "has_issues": true
         },
-        "latest_version_created": "2015-10-30T11:38:48.622Z"
+        "latest_version_created": "2016-02-02T21:54:39.294Z"
     },
     {
         "desc": "Grails feature-switch plugin",
