@@ -19,6 +19,7 @@ grailsplugins.App = class {
             let q = hashId && hashId.indexOf('#q/') === 0 ? hashId.substring('#q/'.length) : '';
             this.showSearch(q);
         }
+        ga('send', 'pageview', hashId);
     }
 
     onPluginsFetch(plugins) {
