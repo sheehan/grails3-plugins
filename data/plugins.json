@@ -1884,8 +1884,8 @@
             "full_name": "donald-jackson/grails-jaxrs",
             "html_url": "https://github.com/donald-jackson/grails-jaxrs",
             "forks_count": 2,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
             "has_issues": false
         },
         "latest_version_created": "2016-01-08T11:49:54.879Z"
@@ -2607,8 +2607,8 @@
             "full_name": "agorapulse/grails-facebook-sdk",
             "html_url": "https://github.com/agorapulse/grails-facebook-sdk",
             "forks_count": 9,
-            "stargazers_count": 28,
-            "watchers_count": 28,
+            "stargazers_count": 29,
+            "watchers_count": 29,
             "has_issues": true
         },
         "latest_version_created": "2016-02-02T21:54:39.294Z"
