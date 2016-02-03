@@ -286,7 +286,7 @@
         "system_ids": [
             "org.grails.plugins:asynchronous-mail"
         ],
-        "updated": "2016-01-31T11:01:26.310Z",
+        "updated": "2016-02-03T12:54:28.315Z",
         "vcs_url": "https://github.com/kefirfromperm/grails-asynchronous-mail.git",
         "versions": [
             "2.0.0.RC1"
