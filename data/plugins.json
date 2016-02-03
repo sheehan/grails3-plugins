@@ -311,7 +311,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.0",
+        "latest_version": "2.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -321,9 +321,10 @@
         "system_ids": [
             "org.grails.plugins:audit-logging"
         ],
-        "updated": "2016-01-04T07:59:04.262Z",
+        "updated": "2016-02-03T15:17:53.058Z",
         "vcs_url": "https://github.com/robertoschwald/grails-audit-logging-plugin",
         "versions": [
+            "2.0.1",
             "2.0.0"
         ],
         "website_url": "https://robertoschwald.github.io/grails-audit-logging-plugin",
@@ -338,7 +339,7 @@
             "watchers_count": 29,
             "has_issues": true
         },
-        "latest_version_created": "2015-12-29T18:09:17.349Z"
+        "latest_version_created": "2016-02-03T15:17:12.647Z"
     },
     {
         "desc": "Babel.js transformation for Asset-pipeline",
@@ -1655,7 +1656,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "forks_count": 28,
+            "forks_count": 29,
             "stargazers_count": 45,
             "watchers_count": 45,
             "has_issues": true
@@ -3781,7 +3782,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "forks_count": 28,
+            "forks_count": 29,
             "stargazers_count": 45,
             "watchers_count": 45,
             "has_issues": true
