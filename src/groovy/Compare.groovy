@@ -39,7 +39,7 @@ class Compare {
                 return
             }
 
-            if (plugin.updated != match.updated) {
+            if (plugin.latest_version_created != match.latest_version_created) {
                 List versions = plugin.versions - match.versions
                 if (versions) {
                     versions.reverse().each { String version ->

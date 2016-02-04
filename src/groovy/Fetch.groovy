@@ -89,7 +89,6 @@ class Fetch {
             'owner',
             'repo',
             'system_ids',
-            'updated',
             'vcs_url',
             'versions',
             'website_url'
@@ -108,10 +107,7 @@ class Fetch {
                     data.githubRepo = resp.data.subMap([
                         'full_name',
                         'html_url',
-                        'forks_count',
                         'stargazers_count',
-                        'watchers_count',
-                        'has_issues',
                     ])
                 } catch(org.apache.http.client.HttpResponseException e) {
                     if (e.statusCode == 404) {
