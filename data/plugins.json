@@ -468,7 +468,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.0",
+        "latest_version": "3.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -480,6 +480,7 @@
         ],
         "vcs_url": "https://github.com/mathifonseca/grails-browser-detection",
         "versions": [
+            "3.0.1",
             "3.0.0"
         ],
         "website_url": "https://github.com/mathifonseca/grails-browser-detection",
@@ -491,7 +492,7 @@
             "html_url": "https://github.com/mathifonseca/grails-browser-detection",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-01-27T20:15:01.718Z"
+        "latest_version_created": "2016-02-04T13:51:47.223Z"
     },
     {
         "desc": "Grails build-test-data plugin",
@@ -3745,7 +3746,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 118
+            "stargazers_count": 119
         },
         "latest_version_created": "2016-01-08T12:43:46.095Z"
     },
@@ -3776,7 +3777,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 118
+            "stargazers_count": 119
         },
         "latest_version_created": "2016-01-08T12:43:59.706Z"
     },
@@ -3807,7 +3808,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 118
+            "stargazers_count": 119
         },
         "latest_version_created": "2016-01-08T12:44:15.259Z"
     },
@@ -3838,7 +3839,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 118
+            "stargazers_count": 119
         },
         "latest_version_created": "2016-01-08T12:44:28.902Z"
     },
@@ -3869,7 +3870,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 118
+            "stargazers_count": 119
         },
         "latest_version_created": "2016-01-08T12:44:38.226Z"
     },
@@ -3900,7 +3901,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 118
+            "stargazers_count": 119
         }
     },
     {
