@@ -1502,7 +1502,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 45
+            "stargazers_count": 46
         },
         "latest_version_created": "2015-12-01T21:23:17.373Z"
     },
@@ -1898,7 +1898,7 @@
         "githubRepo": {
             "full_name": "bobbywarner/grails-ldap-server",
             "html_url": "https://github.com/bobbywarner/grails-ldap-server",
-            "stargazers_count": 1
+            "stargazers_count": 0
         },
         "latest_version_created": "2015-10-06T13:12:13.182Z"
     },
@@ -1978,7 +1978,7 @@
         "githubRepo": {
             "full_name": "grails3-plugins/mail",
             "html_url": "https://github.com/grails3-plugins/mail",
-            "stargazers_count": 3
+            "stargazers_count": 2
         },
         "latest_version_created": "2015-11-24T16:15:11.330Z"
     },
@@ -3419,7 +3419,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 45
+            "stargazers_count": 46
         },
         "latest_version_created": "2015-12-01T21:23:59.104Z"
     },
