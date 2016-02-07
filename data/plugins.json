@@ -4072,7 +4072,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.11",
+        "latest_version": "3.012",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4085,6 +4085,7 @@
         ],
         "vcs_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
         "versions": [
+            "3.012",
             "3.0.11",
             "3.0.10",
             "3.0.9",
@@ -4106,6 +4107,6 @@
             "html_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
             "stargazers_count": 14
         },
-        "latest_version_created": "2015-12-01T21:05:40.840Z"
+        "latest_version_created": "2016-02-07T21:35:54.201Z"
     }
 ]
