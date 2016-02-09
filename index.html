@@ -20,9 +20,32 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#"><img class="grails-logo" src="src/img/grails-cupsonly-logo-white.svg"> Grails 3 Plugins</a>
         </div>
-        <ul class="navbar-link-list">
-            <li class="bintray"><a href="https://bintray.com/grails/plugins">Bintray</a></li>
-            <li class="twitter"><a href="https://twitter.com/grails_plugins">Twitter</a></li>
+
+        <a href="#" class="dropdown-toggle resources-dropdown-mobile-toggle" data-toggle="dropdown" data-target="" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown resources-dropdown">
+                <a href="#" class="dropdown-toggle resources-dropdown-toggle" data-toggle="dropdown" role="button"
+                   aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">Grails 3 Plugins</li>
+                    <li><a href="https://bintray.com/grails/plugins">on Bintray</a></li>
+                    <li><a href="https://medium.com/@benorama/how-to-publish-your-grails-3-plugin-to-bintray-c341b24f567d">Publishing Guide</a></li>
+                    <li><a href="http://blog.agileorbit.com/2015/10/07/Publishing-Grails-3-Plugins.html">Publishing FAQ</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Grails 2 Plugins</li>
+                    <li><a href="https://grails.org/plugins/">Plugin Portal</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">grails-plugins.org</li>
+                    <li><a href="https://github.com/sheehan/grails3-plugins/">on Github</a></li>
+                    <li><a href="https://twitter.com/grails_plugins">on Twitter</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#about-modal">About</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </nav>
@@ -53,6 +76,29 @@
 <div class="github-fork-ribbon-wrapper right">
     <div class="github-fork-ribbon">
         <a href="https://github.com/sheehan/grails3-plugins">Fork me on GitHub</a>
+    </div>
+</div>
+
+<div id="about-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">About</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <strong>grails-plugins.org</strong> is a static website for searching Grails 3 plugins. It pulls data from
+                    Bintray and Github APIs into a unified interface to make it quick and easy to find and use Grails plugins.
+                    All plugin data is updated hourly.
+                </p>
+                <p>Follow <a href="https://twitter.com/grails_plugins">@grails_plugins</a> on Twitter to keep up with the latest plugin releases.</p>
+                <p>
+                    This website is <a href="https://github.com/sheehan/grails3-plugins">open source</a>.
+                    <iframe src="https://ghbtns.com/github-btn.html?user=sheehan&repo=grails3-plugins&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 

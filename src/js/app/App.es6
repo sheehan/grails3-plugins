@@ -2,6 +2,12 @@ grailsplugins.App = class {
 
     constructor() {
         grailsplugins.Plugins.fetch().then(this.onPluginsFetch.bind(this));
+
+        $('.resources-dropdown-mobile-toggle').click(e => {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.resources-dropdown-toggle').click();
+        });
     }
 
     onHashChange(e) {

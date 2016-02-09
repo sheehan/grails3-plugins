@@ -38,20 +38,29 @@ a {
   .grails-logo {
     margin-left: -5px;
   }
-  .navbar-link-list {
-    float: right;
-    margin: 0;
-    padding: 15px 0;
-    li {
-      list-style-type: none;
-      float: left;
-      margin-left: 15px;
-      a {
+  .navbar-nav {
+    margin: 0px -15px;
+    & > li > a {
+      color: @header-link-color;
+      text-shadow: none;
+      font-size: 20px;
+      &:hover, &:active, &:focus {
         color: @header-link-color;
       }
     }
-    .twitter {
-      display: none;
+  }
+  a.dropdown-toggle {
+    color: @header-link-color;
+  }
+
+  .resources-dropdown.dropdown {
+    & > .dropdown-menu {
+      & > .dropdown-header {
+        font-size: 14px;
+      }
+      & > li a {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -434,9 +443,70 @@ a {
   }
 }
 
+.resources-dropdown-mobile-toggle {
+  display: none;
+}
+
+.modal {
+  .modal-content {
+    border-radius: 5px 5px 3px 3px;
+  }
+  .modal-header {
+    background: @dark-green;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    padding: 8px 15px;
+    .modal-title {
+      font-size: 16px;
+    }
+  }
+}
+
+#about-modal {
+  p {
+    margin-bottom: 15px;
+    &:last-of-type {
+      margin-bottom: 5px;
+    }
+  }
+  iframe {
+    vertical-align: middle;
+  }
+}
+
 @media (max-width: 1410px) {
   .github-fork-ribbon-wrapper {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .page-width {
+    padding-bottom: 0;
+  }
+  .resources-dropdown-mobile-toggle {
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+    font-size: 22px;
+    padding: 5px 10px;
+    margin-right: -5px;
+  }
+  .resources-dropdown .resources-dropdown-toggle {
+    display: none;
+  }
+  .navbar .resources-dropdown.dropdown {
+    & > .dropdown-menu {
+      clear: both;
+      & > .dropdown-header {
+        color: #bbb;
+        font-size: 12px;
+      }
+      & > li a {
+        color: #fff;
+        font-size: 14px;
+      }
+    }
   }
 }
 
@@ -454,12 +524,6 @@ a {
         display: none;
       }
     }
-  }
-}
-
-@media (max-width: 750px) {
-  .navbar .navbar-link-list .twitter {
-    display: list-item;
   }
   .search-page {
     .timeline-wrapper {
