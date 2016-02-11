@@ -1089,6 +1089,36 @@
         "latest_version_created": "2016-02-01T11:25:21.945Z"
     },
     {
+        "desc": "Grails plugin which allows you to view files stored on the file system.",
+        "issue_tracker_url": "https://github.com/intelligrape/File-Viewer-Grails-Plugin/issues",
+        "labels": [
+            
+        ],
+        "latest_version": null,
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "File-Viewer-Grails-Plugin",
+        "owner": "tothenew",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/intelligrape/File-Viewer-Grails-Plugin",
+        "versions": [
+            
+        ],
+        "website_url": "",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "IntelliGrape/File-Viewer-Grails-Plugin",
+            "html_url": "https://github.com/IntelliGrape/File-Viewer-Grails-Plugin",
+            "stargazers_count": 4
+        }
+    },
+    {
         "desc": "",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane/issues",
         "labels": [
@@ -3967,6 +3997,37 @@
             "stargazers_count": 53
         },
         "latest_version_created": "2015-12-21T05:35:37.499Z"
+    },
+    {
+        "desc": "",
+        "issue_tracker_url": null,
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0-RC1",
+        "licenses": [
+            
+        ],
+        "name": "spring-session",
+        "owner": "jeetmp3",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-session"
+        ],
+        "vcs_url": "https://github.com/jeetmp3/spring-session",
+        "versions": [
+            "2.0.0-RC1"
+        ],
+        "website_url": null,
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "jeetmp3/spring-session",
+            "html_url": "https://github.com/jeetmp3/spring-session",
+            "stargazers_count": 2
+        },
+        "latest_version_created": "2016-02-11T10:13:27.146Z"
     },
     {
         "desc": "Grails swagger4jaxrs plugin",
