@@ -34,7 +34,7 @@ class Compare {
     void compare(oldJson, newJson) {
         newJson.each { plugin ->
             Map match = oldJson.find { it.name == plugin.name }
-            if (!match) {
+            if (!match && plugin.latest_version) {
                 tweet "$plugin.name $plugin.latest_version released: http://grails-plugins.org/#plugin/$plugin.name"
                 return
             }
