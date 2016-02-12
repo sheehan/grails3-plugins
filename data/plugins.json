@@ -2180,7 +2180,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.10.44",
+        "latest_version": "1.10.51",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2192,6 +2192,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-aws-sdk",
         "versions": [
+            "1.10.51",
             "1.10.44",
             "1.10.32",
             "1.10.26",
@@ -2207,7 +2208,7 @@
             "html_url": "https://github.com/agorapulse/grails-aws-sdk",
             "stargazers_count": 30
         },
-        "latest_version_created": "2016-01-04T08:49:14.162Z"
+        "latest_version_created": "2016-02-12T10:46:10.424Z"
     },
     {
         "desc": "Grails clojure plugin",
@@ -2893,7 +2894,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.19.2",
+        "latest_version": "3.25.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2905,6 +2906,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-newrelic",
         "versions": [
+            "3.25.0",
             "3.19.2",
             "0.3",
             "0.2",
@@ -2919,7 +2921,7 @@
             "html_url": "https://github.com/agorapulse/grails-newrelic",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-08-31T20:06:32.606Z"
+        "latest_version_created": "2016-02-12T10:53:13.134Z"
     },
     {
         "desc": "This plugin provides hibernate user types to support for Postgresql Native Types like Array, HStore, JSON,\u2026 as well as new criterias to query this native types.",
