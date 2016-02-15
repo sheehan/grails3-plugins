@@ -1,4 +1,4 @@
-grailsplugins.PluginView = class {
+grailsplugins.views.PluginView = class {
 
     constructor($el) {
         this.$el = $el;

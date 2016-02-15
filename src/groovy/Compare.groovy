@@ -21,7 +21,7 @@ class Compare {
     final Twitter twitter
 
     Compare() {
-        ConfigurationBuilder cb = new ConfigurationBuilder();
+        ConfigurationBuilder cb = new ConfigurationBuilder()
         cb.setDebugEnabled(true)
             .setOAuthConsumerKey(TWITTER_CONSUMER_KEY)
             .setOAuthConsumerSecret(TWITTER_CONSUMER_KEY_SECRET)

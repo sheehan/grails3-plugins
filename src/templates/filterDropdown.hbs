@@ -1,0 +1,29 @@
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    {{label}}
+    <span class="caret"></span>
+</a>
+<div class="dropdown-menu search-filter-dropdown pull-right">
+    <div class="search-filter-dropdown-header">
+        {{headerLabel}}
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    </div>
+    <div class="search-filter-dropdown-body">
+        {{#if placeholder}}
+            <div class="search-filter-dropdown-filter"><input class="form-control" type="text" placeholder="{{placeholder}}"/></div>
+        {{/if}}
+        <ul>
+            {{#each items}}
+                <li data-search-text="{{value}}">
+                    <a href="#" data-value="{{value}}" class="{{#if selected}}selected{{/if}}">
+                        {{#if count}}
+                            <span class="badge">{{count}}</span>
+                        {{/if}}
+                        <span class="glyphicon glyphicon-ok checkmark" aria-hidden="true"></span>
+                        <span>{{name}}</span>
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+        <div class="no-matches hide">No matches</div>
+    </div>
+</div>

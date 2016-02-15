@@ -44,22 +44,20 @@ grailsplugins.Plugins = class {
         return attr && attr.values && attr.values[0] ? attr.values[0] : defaultVal;
     }
 
-    search(val, sort = 'name') {
+    search(query) {
         let matches = this._plugins;
 
-        if (val) {
-            let labelMatch = val.match(/label:"?([^"]*)"?/);
-            let ownerMatch = val.match(/owner:"?([^"]*)"?/);
-
-            if (labelMatch) {
-                matches = this._plugins.filter(pluginData => _.contains(pluginData.labels, labelMatch[1]));
-            } else if (ownerMatch) {
-                matches = this._plugins.filter(pluginData => pluginData.owner === ownerMatch[1]);
-            } else {
-                matches = this._plugins.filter(pluginData => pluginData.name.toLowerCase().indexOf(val.toLowerCase()) !== -1);
+        _.each(query.getParams(), (value, field) => {
+            if (field === 'q') {
+                matches = matches.filter(pluginData => pluginData.name.toLowerCase().indexOf(value.toLowerCase()) !== -1);
+            } else if (field === 'label') {
+                matches = matches.filter(pluginData => _.contains(pluginData.labels, value));
+            } else if (field === 'owner') {
+                matches = matches.filter(pluginData => pluginData.owner === value);
             }
-        }
+        });
 
+        let sort = query.getSort() || 'name';
         if (sort === 'name') {
             matches = _.sortBy(matches, it => it.name.toLowerCase());
         } else if (sort === 'date') {
@@ -77,5 +75,27 @@ grailsplugins.Plugins = class {
 
     getLabels() {
         return this._allLabels;
+    }
+
+    getLabelCounts() {
+        return _.chain(this._plugins)
+            .pluck('labels')
+            .flatten()
+            .countBy()
+            .map((v, k) => ({name: k, count: v}))
+            .sortBy('name')
+            .sortBy(it => it.count * -1)
+            .value();
+    }
+
+    getOwnerCounts() {
+        return _.chain(this._plugins)
+            .pluck('owner')
+            .flatten()
+            .countBy()
+            .map((v, k) => ({name: k, count: v}))
+            .sortBy('name')
+            .sortBy(it => it.count * -1)
+            .value();
     }
 };

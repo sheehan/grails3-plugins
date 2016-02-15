@@ -1,6 +1,4 @@
-@dark-green: #4d8618;
-@light-green: #79b94c;
-@header-link-color: #fff;
+@import 'colors.less';
 
 a {
   color: @dark-green;
@@ -76,241 +74,7 @@ a {
 }
 
 .search-section {
-  margin: 0 280px 0 130px;
-}
-
-.search-input-section {
-  padding: 0 0 10px;
-  .form-group {
-    position: relative;
-    margin-bottom: 0;
-  }
-  .glyphicon-search {
-    top: 0;
-    left: 10px;
-    color: #555;
-    font-size: 18px;
-    height: 14px;
-    line-height: 14px;
-    bottom: 0;
-    margin: auto 0;
-  }
-  .glyphicon-remove-sign {
-    position: absolute;
-    right: 5px;
-    top: 0;
-    bottom: 0;
-    height: 14px;
-    line-height: 14px;
-    margin: auto;
-    font-size: 18px;
-    cursor: pointer;
-    color: #bbb;
-    width: 2pc;
-    text-align: center;
-  }
-  .search-input {
-    padding: 12px 47px;
-    font-size: 18px;
-    line-height: 22px;
-    height: auto;
-  }
-}
-
-.search-page {
-  .search-count {
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: #888;
-    .dropdown-toggle {
-      color: #888;
-    }
-    .dropdown-menu {
-      min-width: 120px;
-      .checkmark {
-        margin-right: 5px;
-        visibility: hidden;
-      }
-      a.selected .checkmark {
-        visibility: visible;
-      }
-    }
-  }
-}
-
-
-.plugins-list {
-  margin: 0;
-  padding: 0;
-  max-width: 1200px;
-  .plugin-name {
-    color: @dark-green;
-    font-size: 18px;
-    font-weight: bold;
-    display: inline-block;
-    margin: 5px 0;
-  }
-  .plugin-description {
-    color: #888;
-    margin: 0 0 8px;
-    display: block;
-    font-size: 0.9em;
-  }
-  label {
-    margin-bottom: 0;
-  }
-  & > li {
-    list-style-type: none;
-    padding: 10px 0;
-    border-bottom: 2px solid #eee;
-    margin-bottom: 1px;
-
-    .external-links {
-      margin-left: 10px;
-      opacity: 0;
-      a {
-        margin-right: 5px;
-        img {
-          height: 20px;
-        }
-      }
-    }
-    &:hover .external-links {
-      opacity: 1;
-    }
-  }
-  .plugin-labels {
-    font-size: 0.9em;
-    margin: 8px 0 13px;
-  }
-}
-
-.plugin-page {
-
-  .plugin-main {
-    float: left;
-    width: 73%;
-  }
-  .plugin-side {
-    float: right;
-    width: 22%;
-    margin-top: 12px;
-    .owner-section {
-      font-size: 18px;
-      margin: 10px 0;
-      img {
-        width: 40px;
-        border-radius: 10px;
-        margin-right: 10px;
-      }
-    }
-
-    .dependency-clip {
-      margin: 10px 0 0;
-      //width: 300px;
-      input {
-        background: #fff;
-      }
-      .input-group-addon {
-        border-radius: 0 3px 3px 0;
-        border-left-width: 0;
-      }
-    }
-  }
-  h3 {
-    font-size: 18px;
-    margin: 25px 0 0;
-    color: #444;
-    padding-bottom: 3px;
-  }
-  .attributes-list {
-    margin: 25px 0 20px;
-    padding: 0;
-    li {
-      list-style-type: none;
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-      &:last-of-type {
-        border-bottom: none;
-      }
-      label {
-        margin: 0;
-        width: 57px
-      }
-    }
-  }
-  .links-list {
-    margin: 5px 0 20px;
-    padding: 0;
-    li {
-      list-style-type: none;
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-      &:last-of-type {
-        border-bottom: none;
-      }
-      img {
-        width: 20px;
-        padding: 0px 3px;
-        margin-right: 5px;
-      }
-      i {
-        font-size: 17px;
-        width: 20px;
-        text-align: center;
-        margin-right: 5px;
-      }
-    }
-  }
-
-  .plugin-name {
-    color: @dark-green;
-    font-size: 24px;
-    font-weight: bold;
-    display: inline-block;
-    margin: 5px 0;
-  }
-  .plugin-description {
-    color: #888;
-    margin: 0 0 8px;
-    display: block;
-    font-size: 0.9em;
-  }
-  .plugin-info {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #aaa;
-    .gradle-format {
-      margin: 20px 0 10px;
-      pre {
-        clear: both;
-        padding: 17px;
-      }
-    }
-  }
-  .readme {
-    .not-found {
-      display: block;
-      padding: 10px 5px;
-      color: #666;
-    }
-  }
-  .hljs-string {
-    color: #183691;
-  }
-  .external-links {
-    margin-left: 10px;
-    margin-top: 0px;
-    display: inline-block;
-    height: 29px;
-    vertical-align: middle;
-    a {
-      margin-right: 5px;
-      img {
-        height: 20px;
-      }
-    }
-  }
+  margin: 0 310px 0 0;
 }
 
 .searchby-label {
@@ -325,23 +89,6 @@ a {
   }
   &:hover {
     text-decoration: none;
-  }
-}
-
-.labels-section {
-  width: 110px;
-  float: left;
-  ul.all-labels {
-    padding: 0;
-    margin: 0;
-    li.all-labels-item {
-      list-style-type: none;
-      font-weight: bold;
-      a {
-        display: block;
-        padding: 2px 0;
-      }
-    }
   }
 }
 
@@ -365,7 +112,7 @@ a {
 }
 
 .timeline-wrapper {
-  width: 250px;
+  width: 280px;
   float: right;
 }
 
@@ -532,16 +279,8 @@ a {
     .search-section {
       margin-right: 0;
     }
-  }
-}
-
-@media (max-width: 550px) {
-  .search-page {
-    .labels-section {
+    .search-options {
       display: none;
-    }
-    .search-section {
-      margin-left: 0;
     }
   }
 }

@@ -1,0 +1,126 @@
+@import '../colors.less';
+
+.plugin-page {
+  .plugin-main {
+    float: left;
+    width: 73%;
+  }
+  .plugin-side {
+    float: right;
+    width: 22%;
+    margin-top: 12px;
+    .owner-section {
+      font-size: 18px;
+      margin: 10px 0;
+      img {
+        width: 40px;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+    .dependency-clip {
+      margin: 10px 0 0;
+      //width: 300px;
+      input {
+        background: #fff;
+      }
+      .input-group-addon {
+        border-radius: 0 3px 3px 0;
+        border-left-width: 0;
+      }
+    }
+  }
+  h3 {
+    font-size: 18px;
+    margin: 25px 0 0;
+    color: #444;
+    padding-bottom: 3px;
+  }
+  .attributes-list {
+    margin: 25px 0 20px;
+    padding: 0;
+    li {
+      list-style-type: none;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      label {
+        margin: 0;
+        width: 57px
+      }
+    }
+  }
+  .links-list {
+    margin: 5px 0 20px;
+    padding: 0;
+    li {
+      list-style-type: none;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      img {
+        width: 20px;
+        padding: 0px 3px;
+        margin-right: 5px;
+      }
+      i {
+        font-size: 17px;
+        width: 20px;
+        text-align: center;
+        margin-right: 5px;
+      }
+    }
+  }
+  .plugin-name {
+    color: @dark-green;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+  }
+  .plugin-description {
+    color: #888;
+    margin: 0 0 8px;
+    display: block;
+    font-size: 0.9em;
+  }
+  .plugin-info {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #aaa;
+    .gradle-format {
+      margin: 20px 0 10px;
+      pre {
+        clear: both;
+        padding: 17px;
+      }
+    }
+  }
+  .readme {
+    .not-found {
+      display: block;
+      padding: 10px 5px;
+      color: #666;
+    }
+  }
+  .hljs-string {
+    color: #183691;
+  }
+  .external-links {
+    margin-left: 10px;
+    margin-top: 0px;
+    display: inline-block;
+    height: 29px;
+    vertical-align: middle;
+    a {
+      margin-right: 5px;
+      img {
+        height: 20px;
+      }
+    }
+  }
+}

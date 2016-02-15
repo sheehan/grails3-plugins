@@ -1,0 +1,123 @@
+@import '../colors.less';
+
+.search-page {
+  .search-count {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #888;
+    .search-options {
+      & > li {
+        list-style-type: none;
+        float: left;
+        margin-left: 20px;
+      }
+    }
+    .dropdown-toggle {
+      color: #888;
+    }
+    .dropdown-menu {
+      min-width: 120px;
+      .checkmark {
+        margin-right: 5px;
+        visibility: hidden;
+      }
+      a.selected .checkmark {
+        visibility: visible;
+      }
+    }
+  }
+
+  .dropdown.labels .search-filter-dropdown {
+    min-width: 250px;
+  }
+  .dropdown.owners .search-filter-dropdown {
+    min-width: 250px;
+  }
+  .dropdown.sort .search-filter-dropdown {
+    min-width: 140px;
+  }
+}
+
+.plugins-list {
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  .plugin-name {
+    color: @dark-green;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+  }
+  .plugin-description {
+    color: #888;
+    margin: 0 0 8px;
+    display: block;
+    font-size: 0.9em;
+  }
+  label {
+    margin-bottom: 0;
+  }
+  & > li {
+    list-style-type: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 1px;
+
+    .external-links {
+      margin-left: 10px;
+      opacity: 0;
+      a {
+        margin-right: 5px;
+        img {
+          height: 20px;
+        }
+      }
+    }
+    &:hover .external-links {
+      opacity: 1;
+    }
+  }
+  .plugin-labels {
+    font-size: 0.9em;
+    margin: 8px 0 13px;
+  }
+}
+
+.search-input-section {
+  padding: 0 0 10px;
+  .form-group {
+    position: relative;
+    margin-bottom: 0;
+  }
+  .glyphicon-search {
+    top: 0;
+    left: 10px;
+    color: #555;
+    font-size: 18px;
+    height: 14px;
+    line-height: 14px;
+    bottom: 0;
+    margin: auto 0;
+  }
+  .glyphicon-remove-sign {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    line-height: 14px;
+    margin: auto;
+    font-size: 18px;
+    cursor: pointer;
+    color: #bbb;
+    width: 2pc;
+    text-align: center;
+  }
+  .search-input {
+    padding: 12px 47px;
+    font-size: 18px;
+    line-height: 22px;
+    height: auto;
+  }
+}

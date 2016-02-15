@@ -32,8 +32,8 @@ grailsplugins.App = class {
         window.addEventListener('hashchange', this.onHashChange.bind(this), false);
 
         this.plugins = plugins;
-        this.searchView = new grailsplugins.SearchView($('.search-page'), this.plugins);
-        this.pluginView = new grailsplugins.PluginView($('.plugin-page'));
+        this.searchView = new grailsplugins.views.SearchView($('.search-page'), this.plugins);
+        this.pluginView = new grailsplugins.views.PluginView($('.plugin-page'));
 
         $('.page-loading').remove();
         $('.main-content').removeClass('hide');

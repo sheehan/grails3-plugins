@@ -19,8 +19,6 @@ Handlebars.registerHelper('gradleFormat', function(plugin){
     return buildScript + applyPlugin + pluginScope + sourceSets;
 });
 
-let grailsplugins = {};
-
-window.onload = () => {
-    window.app = new grailsplugins.App();
+let grailsplugins = {
+    views: {}
 };
