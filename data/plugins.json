@@ -3506,7 +3506,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.0",
+        "latest_version": "3.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3514,10 +3514,12 @@
         "owner": "mathifonseca",
         "repo": "grails-plugins",
         "system_ids": [
-            "org.grails.plugins:grails-slack"
+            "org.grails.plugins:grails-slack",
+            "org.grails.plugins:slack"
         ],
         "vcs_url": "https://github.com/mathifonseca/grails-slack",
         "versions": [
+            "3.0.0",
             "2.0.0"
         ],
         "website_url": "https://github.com/mathifonseca/grails-slack",
@@ -3529,7 +3531,7 @@
             "html_url": "https://github.com/mathifonseca/grails-slack",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-01-27T21:06:53.968Z"
+        "latest_version_created": "2016-02-18T18:11:03.941Z"
     },
     {
         "desc": "Grails spring-security-acl plugin",
