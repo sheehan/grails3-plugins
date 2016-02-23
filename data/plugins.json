@@ -405,7 +405,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.2",
+        "latest_version": "3.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -417,6 +417,7 @@
         ],
         "vcs_url": "https://github.com/vahidhedayati/grails-boselecta-plugin/wiki/Version",
         "versions": [
+            "3.0.3",
             "3.0.2",
             "3.0.1"
         ],
@@ -429,7 +430,7 @@
             "html_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-11-13T21:44:45.576Z"
+        "latest_version_created": "2016-02-23T18:21:02.213Z"
     },
     {
         "desc": "Airbrake Client for Grails",
