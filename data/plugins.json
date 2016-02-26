@@ -141,7 +141,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.2.6",
+        "latest_version": "2.2.7",
         "licenses": [
             "Apache-2.0"
         ],
@@ -153,6 +153,7 @@
         ],
         "vcs_url": "",
         "versions": [
+            "2.2.7",
             "2.2.6",
             "2.2.5",
             "2.2.4",
@@ -174,7 +175,7 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-10-13T18:58:32.940Z"
+        "latest_version_created": "2016-02-26T20:20:31.595Z"
     },
     {
         "desc": "Grails json-annotations-marshaller plugin",
@@ -1539,7 +1540,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 51
+            "stargazers_count": 52
         },
         "latest_version_created": "2015-12-01T21:23:17.373Z"
     },
@@ -3460,7 +3461,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 51
+            "stargazers_count": 52
         },
         "latest_version_created": "2015-12-01T21:23:59.104Z"
     },
