@@ -2750,7 +2750,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.5.1",
+        "latest_version": "0.5.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2762,6 +2762,7 @@
         ],
         "vcs_url": "https://github.com/saw303/grails-ic-alender.git",
         "versions": [
+            "0.5.2",
             "0.5.1",
             "0.5.0"
         ],
@@ -2774,7 +2775,7 @@
             "html_url": "https://github.com/saw303/grails-ic-alender",
             "stargazers_count": 7
         },
-        "latest_version_created": "2015-12-15T07:07:39.481Z"
+        "latest_version_created": "2016-02-27T16:20:02.019Z"
     },
     {
         "desc": "Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration",
