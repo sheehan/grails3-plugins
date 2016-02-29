@@ -1496,7 +1496,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.2",
+        "latest_version": "1.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1509,6 +1509,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.3",
             "1.0.2",
             "1.0.1",
             "1.0.0",
@@ -1526,7 +1527,7 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 16
         },
-        "latest_version_created": "2016-02-23T16:18:48.755Z"
+        "latest_version_created": "2016-02-29T09:02:20.853Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -1603,7 +1604,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 52
+            "stargazers_count": 51
         },
         "latest_version_created": "2015-12-01T21:23:17.373Z"
     },
@@ -3556,7 +3557,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 52
+            "stargazers_count": 51
         },
         "latest_version_created": "2015-12-01T21:23:59.104Z"
     },
@@ -4175,7 +4176,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.2",
+        "latest_version": "1.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4187,6 +4188,7 @@
         ],
         "vcs_url": "https://github.com/grails3-plugins/views-gradle",
         "versions": [
+            "1.0.3",
             "1.0.2",
             "1.0.1",
             "1.0.0",
@@ -4194,14 +4196,14 @@
             "1.0.0.RC3",
             "1.0.0.RC2",
             "1.0.0.M2",
-            "1.0.0.RC1",
-            "1.0.0.M1"
+            "1.0.0.M1",
+            "1.0.0.RC1"
         ],
         "website_url": "http://grails.org/plugin/views-gradle",
         "attributes": [
             
         ],
-        "latest_version_created": "2016-02-23T16:18:32.138Z"
+        "latest_version_created": "2016-02-29T09:02:07.476Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
