@@ -1014,6 +1014,37 @@
         "latest_version_created": "2015-06-19T21:55:52.455Z"
     },
     {
+        "desc": "Elasticsearch is a search server based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is released as open source under the terms of the Apache License.\r\nThis is the Grails 3 plugin to support Elasticsearch",
+        "issue_tracker_url": "https://github.com/noamt/elasticsearch-grails-plugin/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "elasticsearch",
+        "owner": "puneetbehl",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:elasticsearch"
+        ],
+        "vcs_url": "https://github.com/noamt/elasticsearch-grails-plugin",
+        "versions": [
+            "1.0.0"
+        ],
+        "website_url": "https://github.com/noamt/elasticsearch-grails-plugin",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "noamt/elasticsearch-grails-plugin",
+            "html_url": "https://github.com/noamt/elasticsearch-grails-plugin",
+            "stargazers_count": 40
+        },
+        "latest_version_created": "2016-02-29T05:13:57.274Z"
+    },
+    {
         "desc": "Compiles hbs or handlebars files for the asset-pipeline into the Ember.TEMPLATES cache",
         "issue_tracker_url": "https://github.com/bertramdev/ember-asset-pipeline/issues",
         "labels": [
@@ -1426,6 +1457,38 @@
             "stargazers_count": 59
         },
         "latest_version_created": "2016-01-28T16:57:00.786Z"
+    },
+    {
+        "desc": "Provides SMS sending capabilities to a Grails application.",
+        "issue_tracker_url": "https://github.com/Novadge/grails-twilio/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.1.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "grails-twilio",
+        "owner": "novadge",
+        "repo": "plugins",
+        "system_ids": [
+            "com.novadge.plugins:grails-twilio",
+            "org.grails.plugins:grails-twilio"
+        ],
+        "vcs_url": "https://github.com/Novadge/grails-twilio",
+        "versions": [
+            "0.1.0"
+        ],
+        "website_url": "http://grails.org/plugin/grails-twilio",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "Novadge/grails-twilio",
+            "html_url": "https://github.com/Novadge/grails-twilio",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2015-11-10T07:40:16.683Z"
     },
     {
         "desc": "Grails Views",
@@ -2182,6 +2245,39 @@
         "latest_version_created": "2016-02-01T15:10:45.383Z"
     },
     {
+        "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
+        "issue_tracker_url": "https://github.com/Novadge/novamail/issues",
+        "labels": [
+            "mail",
+            "email"
+        ],
+        "latest_version": "0.1.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "novamail",
+        "owner": "novadge",
+        "repo": "plugins",
+        "system_ids": [
+            "com.novadge.plugins:novamail",
+            "org.grails.plugins:novamail"
+        ],
+        "vcs_url": "https://github.com/Novadge/novamail",
+        "versions": [
+            "0.1.0"
+        ],
+        "website_url": "http://grails.org/plugin/novamail",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "Novadge/novamail",
+            "html_url": "https://github.com/Novadge/novamail",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2015-11-09T08:58:11.736Z"
+    },
+    {
         "desc": "Grails AWS SDK plugin",
         "issue_tracker_url": "https://github.com/agorapulse/grails-aws-sdk/issues",
         "labels": [
@@ -2561,39 +2657,6 @@
             
         ],
         "latest_version_created": "2015-09-14T01:28:08.002Z"
-    },
-    {
-        "desc": "Grails grails-redis plugin",
-        "issue_tracker_url": "https://github.com/grails-plugins/grails-redis/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.2",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:grails-redis",
-        "owner": "tednaleid",
-        "repo": "grails-plugins",
-        "system_ids": [
-            "org.grails.plugins:grails-redis"
-        ],
-        "vcs_url": "https://github.com/grails-plugins/grails-redis",
-        "versions": [
-            "2.0.2",
-            "2.0.1",
-            "2.0.0"
-        ],
-        "website_url": "http://grails.org/plugin/grails-redis",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "grails-plugins/grails-redis",
-            "html_url": "https://github.com/grails-plugins/grails-redis",
-            "stargazers_count": 49
-        },
-        "latest_version_created": "2015-06-26T04:26:35.141Z"
     },
     {
         "desc": null,
@@ -3262,6 +3325,36 @@
             "stargazers_count": 0
         },
         "latest_version_created": "2015-12-06T02:18:33.815Z"
+    },
+    {
+        "desc": "Grails Redis plugin",
+        "issue_tracker_url": "https://github.com/grails-plugins/grails-redis/issues",
+        "labels": [
+            
+        ],
+        "latest_version": null,
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "redis",
+        "owner": "ctoestreich",
+        "repo": "grails-plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/grails-plugins/grails-redis",
+        "versions": [
+            
+        ],
+        "website_url": "http://grails.org/plugin/redis",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-redis",
+            "html_url": "https://github.com/grails-plugins/grails-redis",
+            "stargazers_count": 49
+        }
     },
     {
         "desc": "GORM - Grails Data Access Framework",
