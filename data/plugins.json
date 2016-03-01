@@ -2847,6 +2847,37 @@
         "latest_version_created": "2015-10-13T15:27:35.321Z"
     },
     {
+        "desc": "Grails HTML Cleaner plugin",
+        "issue_tracker_url": "https://github.com/agorapulse/grails-html-cleaner/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "org.grails.plugins:html-cleaner",
+        "owner": "agorapulse",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:html-cleaner"
+        ],
+        "vcs_url": "https://github.com/agorapulse/grails-html-cleaner",
+        "versions": [
+            "1.0"
+        ],
+        "website_url": "https://github.com/agorapulse/grails-html-cleaner",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-html-cleaner",
+            "html_url": "https://github.com/agorapulse/grails-html-cleaner",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-03-01T11:08:49.960Z"
+    },
+    {
         "desc": "Grails iCalendar plugin",
         "issue_tracker_url": "https://github.com/saw303/grails-ic-alender/issues",
         "labels": [
