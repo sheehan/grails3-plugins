@@ -1041,7 +1041,7 @@
         "githubRepo": {
             "full_name": "noamt/elasticsearch-grails-plugin",
             "html_url": "https://github.com/noamt/elasticsearch-grails-plugin",
-            "stargazers_count": 40
+            "stargazers_count": 41
         },
         "latest_version_created": "2016-02-29T05:13:57.274Z"
     },
@@ -2637,6 +2637,38 @@
             "stargazers_count": 39
         },
         "latest_version_created": "2016-01-10T19:41:20.648Z"
+    },
+    {
+        "desc": "Grails grails-flyway plugin",
+        "issue_tracker_url": "https://github.com/saw303/grails-flyway/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "org.grails.plugins:grails-flyway",
+        "owner": "saw303",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-flyway"
+        ],
+        "vcs_url": "https://github.com/saw303/grails-flyway.git",
+        "versions": [
+            "0.2",
+            "0.1"
+        ],
+        "website_url": "http://grails.org/plugin/grails-flyway",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "saw303/grails-flyway",
+            "html_url": "https://github.com/saw303/grails-flyway",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-02-28T07:05:38.872Z"
     },
     {
         "desc": "Grails grails-markdown plugin",
