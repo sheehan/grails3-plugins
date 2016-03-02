@@ -3135,39 +3135,6 @@
         "latest_version_created": "2015-05-01T22:19:15.720Z"
     },
     {
-        "desc": "Grails request-tracelog plugin",
-        "issue_tracker_url": "https://github.com/nobeans/grails-request-tracelog/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "1.1.1",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:request-tracelog",
-        "owner": "nobeans",
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:request-tracelog"
-        ],
-        "vcs_url": "https://github.com/nobeans/grails-request-tracelog",
-        "versions": [
-            "1.1.1",
-            "1.1.0",
-            "1.0.0"
-        ],
-        "website_url": "http://grails.org/plugin/request-tracelog",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "nobeans/grails-request-tracelog",
-            "html_url": "https://github.com/nobeans/grails-request-tracelog",
-            "stargazers_count": 1
-        },
-        "latest_version_created": "2015-04-27T05:57:35.911Z"
-    },
-    {
         "desc": "Grails Segment plugin",
         "issue_tracker_url": "https://github.com/agorapulse/grails-segmentio/issues",
         "labels": [
@@ -3556,6 +3523,40 @@
             
         ],
         "latest_version_created": "2016-01-04T23:55:24.752Z"
+    },
+    {
+        "desc": "Grails request-tracelog plugin",
+        "issue_tracker_url": "https://github.com/nobeans/grails-request-tracelog/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.1.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "request-tracelog",
+        "owner": "nobeans",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:request-tracelog"
+        ],
+        "vcs_url": "https://github.com/nobeans/grails-request-tracelog",
+        "versions": [
+            "1.1.2",
+            "1.1.1",
+            "1.1.0",
+            "1.0.0"
+        ],
+        "website_url": "http://grails.org/plugin/request-tracelog",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "nobeans/grails-request-tracelog",
+            "html_url": "https://github.com/nobeans/grails-request-tracelog",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-03-02T02:29:01.434Z"
     },
     {
         "desc": "Grails csv plugin",
