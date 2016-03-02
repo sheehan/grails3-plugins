@@ -1,7 +1,8 @@
 grailsplugins.App = class {
 
     constructor() {
-        $('.navbar, .github-fork-ribbon').toggleClass('hide', !!window.frameElement);
+        this.isEmbedded = !!window.frameElement;
+        $('.navbar, .github-fork-ribbon').toggleClass('hide', this.isEmbedded);
         $('body').removeClass('hide');
 
         grailsplugins.Plugins.fetch().then(this.onPluginsFetch.bind(this));
@@ -20,7 +21,7 @@ grailsplugins.App = class {
     }
 
     route() {
-        var hashId = window.location.hash;
+        let hashId = this.isEmbedded ? window.parent.location.hash : window.location.hash;
 
         if (hashId && hashId.indexOf('#plugin/') === 0) {
             this.showPlugin(hashId.substring('#plugin/'.length));
@@ -31,8 +32,24 @@ grailsplugins.App = class {
         ga('send', 'pageview', hashId);
     }
 
+    addHashChangeListener() {
+        if (this.isEmbedded) {
+            window.addEventListener('hashchange', () => {
+                window.parent.location.hash = window.location.hash;
+            }, false);
+            window.parent.addEventListener('hashchange', e => {
+                if (window.location.hash !== window.parent.location.hash) { // forward/back nav
+                    history.replaceState(undefined, undefined, window.parent.location.hash ? window.parent.location.hash : '#');
+                }
+                this.onHashChange(e);
+            }, false);
+        } else {
+            window.addEventListener('hashchange', this.onHashChange.bind(this), false);
+        }
+    }
+
     onPluginsFetch(plugins) {
-        window.addEventListener('hashchange', this.onHashChange.bind(this), false);
+        this.addHashChangeListener();
 
         this.plugins = plugins;
         this.searchView = new grailsplugins.views.SearchView($('.search-page'), this.plugins);
