@@ -1,17 +1,9 @@
 grailsplugins.App = class {
 
     constructor() {
-        var topBarElements = [".navbar", ".github-fork-ribbon"];
-        if (window.frameElement) {
-            for (var i of topBarElements) {
-                $(i).css('display', null);
-                $(i).remove();
-            }
-        } else {
-            for (var i of topBarElements) {
-                $(i).show();
-            }
-        }
+        $('.navbar, .github-fork-ribbon').toggleClass('hide', !!window.frameElement);
+        $('body').removeClass('hide');
+
         grailsplugins.Plugins.fetch().then(this.onPluginsFetch.bind(this));
 
         $('.resources-dropdown-mobile-toggle').click(e => {
