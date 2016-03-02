@@ -1,7 +1,7 @@
 grailsplugins.App = class {
 
     constructor() {
-        this.isEmbedded = !!window.frameElement;
+        this.isEmbedded = window.self !== window.top;
         $('.navbar, .github-fork-ribbon').toggleClass('hide', this.isEmbedded);
         $('body').removeClass('hide');
 
@@ -21,7 +21,8 @@ grailsplugins.App = class {
     }
 
     route() {
-        let hashId = this.isEmbedded ? window.parent.location.hash : window.location.hash;
+        //let hashId = this.isEmbedded ? window.parent.location.hash : window.location.hash;
+        let hashId = window.location.hash;
 
         if (hashId && hashId.indexOf('#plugin/') === 0) {
             this.showPlugin(hashId.substring('#plugin/'.length));
@@ -33,19 +34,19 @@ grailsplugins.App = class {
     }
 
     addHashChangeListener() {
-        if (this.isEmbedded) {
-            window.addEventListener('hashchange', () => {
-                window.parent.location.hash = window.location.hash;
-            }, false);
-            window.parent.addEventListener('hashchange', e => {
-                if (window.location.hash !== window.parent.location.hash) { // forward/back nav
-                    history.replaceState(undefined, undefined, window.parent.location.hash ? window.parent.location.hash : '#');
-                }
-                this.onHashChange(e);
-            }, false);
-        } else {
+        //if (this.isEmbedded) {
+        //    window.addEventListener('hashchange', () => {
+        //        window.parent.location.hash = window.location.hash;
+        //    }, false);
+        //    window.parent.addEventListener('hashchange', e => {
+        //        if (window.location.hash !== window.parent.location.hash) { // forward/back nav
+        //            history.replaceState(undefined, undefined, window.parent.location.hash ? window.parent.location.hash : '#');
+        //        }
+        //        this.onHashChange(e);
+        //    }, false);
+        //} else {
             window.addEventListener('hashchange', this.onHashChange.bind(this), false);
-        }
+        //}
     }
 
     onPluginsFetch(plugins) {
