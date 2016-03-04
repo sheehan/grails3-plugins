@@ -4219,14 +4219,14 @@
         "latest_version_created": "2015-12-21T05:35:37.499Z"
     },
     {
-        "desc": "",
-        "issue_tracker_url": null,
+        "desc": "This plugin provides spring-session support in grails application.",
+        "issue_tracker_url": "https://github.com/jeetmp3/spring-session/issues",
         "labels": [
             
         ],
         "latest_version": "2.0.0-RC1",
         "licenses": [
-            
+            "Apache-2.0"
         ],
         "name": "spring-session",
         "owner": "jeetmp3",
@@ -4238,9 +4238,15 @@
         "versions": [
             "2.0.0-RC1"
         ],
-        "website_url": null,
+        "website_url": "https://github.com/jeetmp3/spring-session",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "jeetmp3/spring-session",
