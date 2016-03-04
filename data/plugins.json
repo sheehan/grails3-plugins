@@ -214,7 +214,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.15",
+        "latest_version": "3.1.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -226,6 +226,7 @@
         ],
         "vcs_url": "https://github.com/grails3-plugins/asset-pipeline",
         "versions": [
+            "3.1.0",
             "3.0.15",
             "3.0.14",
             "3.0.13",
@@ -251,7 +252,7 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-11-24T16:10:55.937Z"
+        "latest_version_created": "2016-03-04T19:25:43.204Z"
     },
     {
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
