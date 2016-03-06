@@ -11,8 +11,8 @@
             overflow: hidden;
         }
         .header {
-            background-color: green;
-            height: 50px;
+            background-color: #4d8618;
+            height: 70px;
         }
         iframe {
             width: 100%;
@@ -24,6 +24,30 @@
 </head>
 <body>
     <div class="header"></div>
-    <iframe src="../index.html"/>
+    <iframe id="plugins-frame" src="../index.html"></iframe>
+
+    <script>
+        (function() {
+            var iframe = document.getElementById('plugins-frame');
+            var iframeWindow = iframe.contentWindow;
+
+            window.addEventListener('hashchange', function() {
+                iframeWindow.postMessage({
+                    type: 'hashchange',
+                    hash: window.location.hash
+                }, '*');
+            });
+            iframeWindow.addEventListener('message', function(e) {
+                window.location.hash = e.data.hash;
+            });
+
+            iframe.onload = function() {
+                iframeWindow.postMessage({
+                    type: 'init',
+                    hash: window.location.hash
+                }, '*');
+            };
+        })();
+    </script>
 </body>
 </html>

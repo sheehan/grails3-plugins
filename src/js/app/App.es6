@@ -3,15 +3,24 @@ grailsplugins.App = class {
     constructor() {
         this.isEmbedded = window.self !== window.top;
         $('.navbar, .github-fork-ribbon').toggleClass('hide', this.isEmbedded);
+        $('.navbar-embedded').toggleClass('hide', !this.isEmbedded);
         $('body').removeClass('hide');
 
-        grailsplugins.Plugins.fetch().then(this.onPluginsFetch.bind(this));
+        if (this.isEmbedded) {
+            $('.navbar-embedded .navbar-brand').click(function(e) {
+                if (!window.location.hash) {
+                    e.preventDefault(); // iframe wackiness
+                }
+            });
+        }
 
         $('.resources-dropdown-mobile-toggle').click(e => {
             e.preventDefault();
             e.stopPropagation();
             $('.resources-dropdown-toggle').click();
         });
+
+        grailsplugins.Plugins.fetch().then(this.onPluginsFetch.bind(this));
     }
 
     onHashChange(e) {
@@ -21,7 +30,6 @@ grailsplugins.App = class {
     }
 
     route() {
-        //let hashId = this.isEmbedded ? window.parent.location.hash : window.location.hash;
         let hashId = window.location.hash;
 
         if (hashId && hashId.indexOf('#plugin/') === 0) {
@@ -34,19 +42,26 @@ grailsplugins.App = class {
     }
 
     addHashChangeListener() {
-        //if (this.isEmbedded) {
-        //    window.addEventListener('hashchange', () => {
-        //        window.parent.location.hash = window.location.hash;
-        //    }, false);
-        //    window.parent.addEventListener('hashchange', e => {
-        //        if (window.location.hash !== window.parent.location.hash) { // forward/back nav
-        //            history.replaceState(undefined, undefined, window.parent.location.hash ? window.parent.location.hash : '#');
-        //        }
-        //        this.onHashChange(e);
-        //    }, false);
-        //} else {
+        if (this.isEmbedded) {
+            window.addEventListener('hashchange', () => {
+                window.postMessage({
+                    type: 'hashchange',
+                    hash: window.location.hash
+                }, '*');
+            }, false);
+            window.addEventListener('message', e => {
+                let hash = e.data.hash;
+                if (window.location.hash !== hash) { // forward/back nav
+                    history.replaceState(undefined, undefined, hash ? hash : '#');
+                }
+                if (e.data.type === 'init') {
+                    this.show();
+                }
+                this.route();
+            }, false);
+        } else {
             window.addEventListener('hashchange', this.onHashChange.bind(this), false);
-        //}
+        }
     }
 
     onPluginsFetch(plugins) {
@@ -56,9 +71,15 @@ grailsplugins.App = class {
         this.searchView = new grailsplugins.views.SearchView($('.search-page'), this.plugins);
         this.pluginView = new grailsplugins.views.PluginView($('.plugin-page'));
 
+        if (!this.isEmbedded) {
+            this.show();
+            this.route();
+        }
+    }
+
+    show() {
         $('.page-loading').remove();
         $('.main-content').removeClass('hide');
-        this.route();
     }
 
     showSearch(q = '') {
