@@ -44,7 +44,7 @@ grailsplugins.App = class {
     addHashChangeListener() {
         if (this.isEmbedded) {
             window.addEventListener('hashchange', () => {
-                window.postMessage({
+                window.parent.postMessage({
                     type: 'hashchange',
                     hash: window.location.hash
                 }, '*');
