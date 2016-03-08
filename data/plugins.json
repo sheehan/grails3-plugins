@@ -1615,7 +1615,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 52
+            "stargazers_count": 53
         },
         "latest_version_created": "2016-03-04T15:11:29.058Z"
     },
@@ -3677,7 +3677,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 52
+            "stargazers_count": 53
         },
         "latest_version_created": "2016-03-04T15:12:42.417Z"
     },
@@ -4338,7 +4338,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0.RC2",
+        "latest_version": "1.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4350,6 +4350,7 @@
         ],
         "vcs_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
         "versions": [
+            "1.0.0.RC4",
             "1.0.0.RC2",
             "1.0.0.RC1",
             "1.0.0.RC3",
@@ -4364,7 +4365,7 @@
             "html_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
             "stargazers_count": 4
         },
-        "latest_version_created": "2015-10-13T06:55:47.608Z"
+        "latest_version_created": "2016-03-08T21:50:28.923Z"
     },
     {
         "desc": "Grails wschat plugin",
