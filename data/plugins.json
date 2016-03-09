@@ -214,7 +214,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.1.0",
+        "latest_version": "3.1.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -226,6 +226,7 @@
         ],
         "vcs_url": "https://github.com/grails3-plugins/asset-pipeline",
         "versions": [
+            "3.1.1",
             "3.1.0",
             "3.0.15",
             "3.0.14",
@@ -252,7 +253,7 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-03-04T19:25:43.204Z"
+        "latest_version_created": "2016-03-09T14:50:37.943Z"
     },
     {
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
@@ -656,7 +657,7 @@
             "resources",
             "assets"
         ],
-        "latest_version": "2.7.0",
+        "latest_version": "2.7.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -668,6 +669,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/coffee-asset-pipeline",
         "versions": [
+            "2.7.2",
             "2.7.0",
             "2.6.9",
             "2.6.7",
@@ -690,7 +692,7 @@
             "html_url": "https://github.com/bertramdev/coffee-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-04T15:10:36.425Z"
+        "latest_version_created": "2016-03-09T14:11:16.531Z"
     },
     {
         "desc": "Grails Console Plugin",
@@ -1056,7 +1058,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.7.0",
+        "latest_version": "2.7.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1068,6 +1070,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/ember-asset-pipeline",
         "versions": [
+            "2.7.2",
             "2.7.0",
             "2.6.9",
             "2.6.7",
@@ -1090,7 +1093,7 @@
             "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-04T15:11:04.293Z"
+        "latest_version_created": "2016-03-09T14:11:29.252Z"
     },
     {
         "desc": "Grails fields plugin",
@@ -1579,7 +1582,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.7.0",
+        "latest_version": "2.7.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1591,6 +1594,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.7.2",
             "2.7.0",
             "2.6.9",
             "2.6.7",
@@ -1617,7 +1621,7 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 53
         },
-        "latest_version_created": "2016-03-04T15:11:29.058Z"
+        "latest_version_created": "2016-03-09T14:11:46.642Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2025,7 +2029,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.7.0",
+        "latest_version": "2.7.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2037,6 +2041,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/less-asset-pipeline",
         "versions": [
+            "2.7.2",
             "2.7.0",
             "2.6.9",
             "2.6.7",
@@ -2065,7 +2070,7 @@
             "html_url": "https://github.com/bertramdev/less-asset-pipeline",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-03-04T15:11:42.531Z"
+        "latest_version_created": "2016-03-09T14:11:56.379Z"
     },
     {
         "desc": "Grails mail plugin",
@@ -3639,7 +3644,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.7.0",
+        "latest_version": "2.7.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3651,6 +3656,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.7.2",
             "2.7.0",
             "2.6.9",
             "2.6.7",
@@ -3679,7 +3685,7 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 53
         },
-        "latest_version_created": "2016-03-04T15:12:42.417Z"
+        "latest_version_created": "2016-03-09T14:12:37.498Z"
     },
     {
         "desc": "Grails scaffolding plugin",
