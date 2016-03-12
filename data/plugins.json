@@ -259,9 +259,14 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            
+            "mail",
+            "grails",
+            "asynchronous",
+            "quartz",
+            "hibernate",
+            "mongodb"
         ],
-        "latest_version": "2.0.0.RC1",
+        "latest_version": "2.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -273,18 +278,25 @@
         ],
         "vcs_url": "https://github.com/kefirfromperm/grails-asynchronous-mail.git",
         "versions": [
+            "2.0.0.RC2",
             "2.0.0.RC1"
         ],
         "website_url": "https://grails.org/plugin/asynchronous-mail",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "kefirfromperm/grails-asynchronous-mail",
             "html_url": "https://github.com/kefirfromperm/grails-asynchronous-mail",
             "stargazers_count": 13
         },
-        "latest_version_created": "2016-01-29T17:29:40.379Z"
+        "latest_version_created": "2016-03-12T13:28:48.772Z"
     },
     {
         "desc": "Grails 3.x Audit-Logging Plugin.",
