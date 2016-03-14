@@ -16,6 +16,7 @@ grailsplugins.views.PluginView = class {
                     type:    'GET'
                 }).done(html => {
                     this.$el.find('.readme').html(html);
+                    this.$el.find('.readme a').attr('target', '_top');
                 }).fail(jqXhr => {
                     if (jqXhr.status === 404) {
                         this._showReadmeNotAvailable();
