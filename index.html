@@ -15,79 +15,22 @@
     <link rel="icon" type="image/png" href="src/img/favicon.ico" />
 </head>
 <body class="hide">
-<nav class="navbar navbar-default">
-    <div class="page-width">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img class="grails-logo" src="src/img/grails-cupsonly-logo-white.svg"> Grails 3 Plugins</a>
-        </div>
-
-        <a href="#" class="dropdown-toggle resources-dropdown-mobile-toggle" data-toggle="dropdown" data-target="" role="button" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-bars"></i>
-        </a>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown resources-dropdown">
-                <a href="#" class="dropdown-toggle resources-dropdown-toggle" data-toggle="dropdown" role="button"
-                   aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-bars"></i>
-                    <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-header">Grails 3 Plugins</li>
-                    <li><a href="https://bintray.com/grails/plugins">on Bintray</a></li>
-                    <li><a href="https://medium.com/@benorama/how-to-publish-your-grails-3-plugin-to-bintray-c341b24f567d">Publishing Guide</a></li>
-                    <li><a href="http://blog.agileorbit.com/2015/10/07/Publishing-Grails-3-Plugins.html">Publishing FAQ</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Grails 2 Plugins</li>
-                    <li><a href="https://grails.org/plugins/">Plugin Portal</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">grails-plugins.org</li>
-                    <li><a href="https://github.com/sheehan/grails3-plugins/">on Github</a></li>
-                    <li><a href="https://twitter.com/grails_plugins">on Twitter</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#about-modal">About</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</nav>
-<nav class="navbar navbar-default navbar-embedded">
-    <div class="page-width">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Grails 3 Plugins</a>
-        </div>
-
-        <a href="#" class="dropdown-toggle resources-dropdown-mobile-toggle" data-toggle="dropdown" data-target="" role="button" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-bars"></i>
-        </a>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown resources-dropdown">
-                <a href="#" class="dropdown-toggle resources-dropdown-toggle" data-toggle="dropdown" role="button"
-                   aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-bars"></i>
-                    <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-header">Publishing</li>
-                    <li><a href="https://medium.com/@benorama/how-to-publish-your-grails-3-plugin-to-bintray-c341b24f567d" target="_top">Publishing Guide</a></li>
-                    <li><a href="http://blog.agileorbit.com/2015/10/07/Publishing-Grails-3-Plugins.html" target="_top">Publishing FAQ</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Grails 3 Plugins</li>
-                    <li><a href="https://bintray.com/grails/plugins" target="_top">on Bintray</a></li>
-                    <li><a href="https://github.com/sheehan/grails3-plugins/" target="_top">on Github</a></li>
-                    <li><a href="https://twitter.com/grails_plugins" target="_top">on Twitter</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Grails 2 Plugins</li>
-                    <li><a href="https://grails.org/plugins/" target="_top">Plugin Portal</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</nav>
 <div class="page-loading"><i class="fa fa-cog fa-spin"></i> Loading plugin data...</div>
 <div class="main-content page-width hide">
     <div class="search-page">
-        <div class="timeline-wrapper">
-            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/grails_plugins" data-widget-id="687778191579181056" data-chrome="nofooter"></a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <div class="sidebar">
+            <ul class="nav-sidebar">
+                <li class="active"><a href="index.html#" class="self-link"><strong>Grails Plugins</strong></a></li>
+                <li><a href="https://grails.org/plugins/" target="_top">Grails 2 Plugin Portal</a></li>
+                <li><a href="https://bintray.com/grails/plugins" target="_top">Bintray Repository</a></li>
+                <li><a href="https://medium.com/@benorama/how-to-publish-your-grails-3-plugin-to-bintray-c341b24f567d" target="_top">Publishing Guide</a></li>
+                <li><a href="http://blog.agileorbit.com/2015/10/07/Publishing-Grails-3-Plugins.html" target="_top">Publishing FAQ</a></li>
+                <li><a href="https://github.com/sheehan/grails3-plugins/" target="_top">Portal on Github</a></li>
+            </ul>
+            <div class="timeline-wrapper">
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/grails_plugins" data-widget-id="687778191579181056" data-chrome="nofooter"></a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
         </div>
         <div class="search-section">
             <div class="search-input-section">
@@ -103,12 +46,6 @@
         </div>
     </div>
     <div class="plugin-page hide"></div>
-</div>
-
-<div class="github-fork-ribbon-wrapper right">
-    <div class="github-fork-ribbon">
-        <a href="https://github.com/sheehan/grails3-plugins">Fork me on GitHub</a>
-    </div>
 </div>
 
 <div id="about-modal" class="modal fade">

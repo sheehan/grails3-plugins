@@ -2,17 +2,17 @@ grailsplugins.App = class {
 
     constructor() {
         this.isEmbedded = window.self !== window.top;
-        $('.navbar, .github-fork-ribbon').toggleClass('hide', this.isEmbedded);
-        $('.navbar-embedded').toggleClass('hide', !this.isEmbedded);
-        $('body').removeClass('hide');
 
         if (this.isEmbedded) {
-            $('.navbar-embedded .navbar-brand').click(function(e) {
+            $('body').delegate('.self-link', 'click', function(e) {
                 if (!window.location.hash) {
                     e.preventDefault(); // iframe wackiness
                 }
             });
+        } else {
+            $('body').html(Handlebars.templates['moved']())
         }
+        $('body').removeClass('hide');
 
         $('.resources-dropdown-mobile-toggle').click(e => {
             e.preventDefault();

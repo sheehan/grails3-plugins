@@ -81,7 +81,7 @@ a {
 }
 
 .search-section {
-  margin: 0 310px 0 0;
+  margin: 0 0 0 310px;
 }
 
 .searchby-label {
@@ -121,8 +121,37 @@ a {
 .timeline-wrapper {
   height: 600px;
   width: 280px;
-  float: right;
   border: 1px solid #ddd;
+}
+
+.sidebar {
+  float: left;
+  ul.nav-sidebar {
+    margin: 0 0 20px;
+    padding: 5px 0;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    li {
+      a {
+        display: block;
+        cursor: pointer;
+        padding: 5px 10px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #343437;
+        &:hover {
+          color: #fff;
+          background-color: #db4800;
+        }
+      }
+      &.active a {
+        background-color: #f2f2f2;
+        &:hover {
+          background-color: #db4800;
+        }
+      }
+    }
+  }
 }
 
 .github-fork-ribbon {
@@ -266,6 +295,11 @@ a {
   }
 }
 
+.moved {
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media (max-width: 750px) {
   .main-content {
     .plugin-page {
@@ -286,8 +320,12 @@ a {
       .timeline-wrapper {
         display: none;
       }
+      .sidebar {
+        width: 100%;
+      }
       .search-section {
-        margin-right: 0;
+        clear: left;
+        margin-left: 0;
       }
       .search-options {
         display: none;
