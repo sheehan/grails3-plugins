@@ -6,7 +6,7 @@ grailsplugins.App = class {
         if (this.isEmbedded) {
             $('body').delegate('.self-link', 'click', function(e) {
                 if (!window.location.hash) {
-                    e.preventDefault(); // iframe wackiness
+                    //e.preventDefault(); // iframe wackiness
                 }
             });
         } else {
