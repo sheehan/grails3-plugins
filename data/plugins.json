@@ -1637,9 +1637,12 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
+        "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            
+            "gorm",
+            "hibernate",
+            "rdms",
+            "database"
         ],
         "latest_version": "5.0.2",
         "licenses": [
@@ -1663,7 +1666,13 @@
         ],
         "website_url": "http://grails.org/",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
@@ -1674,9 +1683,12 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
+        "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            
+            "gorm",
+            "hibernate",
+            "rdms",
+            "database"
         ],
         "latest_version": "5.0.2",
         "licenses": [
@@ -1700,7 +1712,13 @@
         ],
         "website_url": "http://grails.org/",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
