@@ -1711,9 +1711,12 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
+        "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            
+            "gorm",
+            "hibernate",
+            "rdms",
+            "database"
         ],
         "latest_version": "5.0.2",
         "licenses": [
@@ -1737,7 +1740,13 @@
         ],
         "website_url": "http://grails.org/",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
@@ -1778,6 +1787,44 @@
             "stargazers_count": 16
         },
         "latest_version_created": "2016-01-14T19:33:57.326Z"
+    },
+    {
+        "desc": "asset-pipeline plugin to use localized messages in JavaScript.",
+        "issue_tracker_url": "https://github.com/dellermann/i18n-asset-pipeline/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "i18n-asset-pipeline",
+        "owner": "amc-world",
+        "repo": "plugins",
+        "system_ids": [
+            "asset.pipeline.i18n:i18n-asset-pipeline",
+            "org.grails.plugins:i18n-asset-pipeline"
+        ],
+        "vcs_url": "https://github.com/dellermann/i18n-asset-pipeline",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/dellermann/i18n-asset-pipeline",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "dellermann/i18n-asset-pipeline",
+            "html_url": "https://github.com/dellermann/i18n-asset-pipeline",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-03-14T18:11:05.133Z"
     },
     {
         "desc": "Grails excel-export plugin",
@@ -3230,6 +3277,37 @@
         "latest_version_created": "2015-09-02T08:24:43.516Z"
     },
     {
+        "desc": "Grails OAuth 2 Provider Plugin",
+        "issue_tracker_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0-RC1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "org.grails.plugins:spring-security-oauth2-provider",
+        "owner": "bluesliverx",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-oauth2-provider"
+        ],
+        "vcs_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider",
+        "versions": [
+            "3.0.0-RC1"
+        ],
+        "website_url": "http://grails.org/plugin/spring-security-oauth2-provider",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bluesliverx/grails-spring-security-oauth2-provider",
+            "html_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider",
+            "stargazers_count": 46
+        },
+        "latest_version_created": "2016-02-16T16:24:24.645Z"
+    },
+    {
         "desc": "Grails views-markup plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/views-markup/issues",
         "labels": [
@@ -3902,6 +3980,37 @@
             "stargazers_count": 165
         },
         "latest_version_created": "2016-01-11T02:07:58.868Z"
+    },
+    {
+        "desc": "Grails spring-security-facebook plugin",
+        "issue_tracker_url": "https://github.com/grails3-plugins/spring-security-facebook/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.18",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "spring-security-facebook",
+        "owner": "splix",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-facebook"
+        ],
+        "vcs_url": "https://github.com/splix/grails-spring-security-facebook",
+        "versions": [
+            "0.18"
+        ],
+        "website_url": "http://grails.org/plugin/spring-security-facebook",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "splix/grails-spring-security-facebook",
+            "html_url": "https://github.com/splix/grails-spring-security-facebook",
+            "stargazers_count": 35
+        },
+        "latest_version_created": "2016-03-05T15:11:09.763Z"
     },
     {
         "desc": "Grails spring-security-jaxrs plugin",
