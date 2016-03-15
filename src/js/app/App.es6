@@ -51,11 +51,13 @@ grailsplugins.App = class {
             }, false);
             window.addEventListener('message', e => {
                 let hash = e.data.hash;
-                if (window.location.hash !== hash) { // forward/back nav
-                    history.replaceState(undefined, undefined, hash ? hash : '#');
-                }
                 if (e.data.type === 'init') {
+                    window.location.hash = hash;
                     this.show();
+                } else {
+                    if (window.location.hash !== hash) { // forward/back nav
+                        history.replaceState(undefined, undefined, hash ? hash : '#');
+                    }
                 }
                 this.route();
             }, false);
