@@ -636,7 +636,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.2",
+        "latest_version": "5.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -648,6 +648,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.3",
             "5.0.2",
             "5.0.1",
             "5.0.0",
@@ -675,8 +676,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:15.834Z",
-        "latest_version_updated": "2016-02-29T13:42:34.904Z"
+        "latest_version_created": "2016-03-16T14:57:46.823Z",
+        "latest_version_updated": "2016-03-16T14:58:58.967Z"
     },
     {
         "desc": "Adds coffeescript transpiling support to the jvm asset-pipeline plugin",
@@ -1690,7 +1691,7 @@
             "rdms",
             "database"
         ],
-        "latest_version": "5.0.2",
+        "latest_version": "5.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1702,6 +1703,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.3",
             "5.0.2",
             "5.0.1",
             "5.0.0",
@@ -1725,8 +1727,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:21.801Z",
-        "latest_version_updated": "2016-02-29T13:42:38.996Z"
+        "latest_version_created": "2016-03-16T14:58:36.563Z",
+        "latest_version_updated": "2016-03-16T14:59:59.000Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1737,7 +1739,7 @@
             "rdms",
             "database"
         ],
-        "latest_version": "5.0.2",
+        "latest_version": "5.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1749,6 +1751,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.3",
             "5.0.2",
             "5.0.1",
             "5.0.0",
@@ -1772,8 +1775,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:28.252Z",
-        "latest_version_updated": "2016-02-29T13:42:47.503Z"
+        "latest_version_created": "2016-03-16T14:59:20.794Z",
+        "latest_version_updated": "2016-03-16T15:00:24.934Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
