@@ -1559,7 +1559,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            
+            "json",
+            "xml",
+            "markup",
+            "views",
+            "rest"
         ],
         "latest_version": "1.0.5",
         "licenses": [
@@ -1587,7 +1591,13 @@
         ],
         "website_url": "https://github.com/grails/grails-views",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "grails/grails-views",
