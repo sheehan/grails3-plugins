@@ -28,7 +28,8 @@
             "html_url": "https://github.com/cavneb/airbrake-grails",
             "stargazers_count": 4
         },
-        "latest_version_created": "2015-07-27T22:34:48.962Z"
+        "latest_version_created": "2015-07-27T22:34:48.962Z",
+        "latest_version_updated": "2015-07-27T22:35:03.969Z"
     },
     {
         "desc": "Grails ajax-tags plugin",
@@ -60,7 +61,8 @@
             "html_url": "https://github.com/grails3-plugins/ajax-tags",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-01-05T03:48:49.177Z"
+        "latest_version_created": "2016-01-05T03:48:49.177Z",
+        "latest_version_updated": "2016-01-05T03:49:05.796Z"
     },
     {
         "desc": "Grails ajaxdependancyselection plugin",
@@ -92,7 +94,8 @@
             "html_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-02-23T17:58:05.524Z"
+        "latest_version_created": "2016-02-23T17:58:05.524Z",
+        "latest_version_updated": "2016-02-23T17:59:14.132Z"
     },
     {
         "desc": "AngularJS Annotate for Asset Pipeline 2.0+",
@@ -133,7 +136,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-11-16T21:53:22.627Z"
+        "latest_version_created": "2015-11-16T21:53:22.627Z",
+        "latest_version_updated": "2015-11-16T21:54:52.101Z"
     },
     {
         "desc": "AngularJS Templates for Asset Pipeline 2.0+",
@@ -175,7 +179,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-02-26T20:20:31.595Z"
+        "latest_version_created": "2016-02-26T20:20:31.595Z",
+        "latest_version_updated": "2016-02-26T20:21:18.618Z"
     },
     {
         "desc": "Grails json-annotations-marshaller plugin",
@@ -206,7 +211,8 @@
             "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-07-09T11:35:57.579Z"
+        "latest_version_created": "2015-07-09T11:35:57.579Z",
+        "latest_version_updated": "2015-07-09T11:35:57.579Z"
     },
     {
         "desc": "Grails asset-pipeline plugin",
@@ -253,7 +259,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-03-09T14:50:37.943Z"
+        "latest_version_created": "2016-03-09T14:50:37.943Z",
+        "latest_version_updated": "2016-03-09T14:50:55.042Z"
     },
     {
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
@@ -296,7 +303,8 @@
             "html_url": "https://github.com/kefirfromperm/grails-asynchronous-mail",
             "stargazers_count": 13
         },
-        "latest_version_created": "2016-03-12T13:28:48.772Z"
+        "latest_version_created": "2016-03-12T13:28:48.772Z",
+        "latest_version_updated": "2016-03-12T13:29:10.497Z"
     },
     {
         "desc": "Grails 3.x Audit-Logging Plugin.",
@@ -328,7 +336,8 @@
             "html_url": "https://github.com/robertoschwald/grails-audit-logging-plugin",
             "stargazers_count": 29
         },
-        "latest_version_created": "2016-02-03T15:17:12.647Z"
+        "latest_version_created": "2016-02-03T15:17:12.647Z",
+        "latest_version_updated": "2016-02-03T15:17:52.614Z"
     },
     {
         "desc": "Babel.js transformation for Asset-pipeline",
@@ -375,7 +384,8 @@
             "html_url": "https://github.com/errbuddy/babel-asset-pipeline",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-03-05T00:42:53.540Z"
+        "latest_version_created": "2016-03-05T00:42:53.540Z",
+        "latest_version_updated": "2016-03-05T00:43:19.295Z"
     },
     {
         "desc": "Gradle plugin for integrating the Bootstrap Framework",
@@ -413,7 +423,8 @@
             "html_url": "https://github.com/kensiprell/bootstrap-framework",
             "stargazers_count": 12
         },
-        "latest_version_created": "2015-08-21T16:16:54.398Z"
+        "latest_version_created": "2015-08-21T16:16:54.398Z",
+        "latest_version_updated": "2015-08-21T16:17:45.565Z"
     },
     {
         "desc": "Websocket autocomplete/ multi dependency selection plugin for grails 3",
@@ -446,7 +457,8 @@
             "html_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-02-23T18:21:02.213Z"
+        "latest_version_created": "2016-02-23T18:21:02.213Z",
+        "latest_version_updated": "2016-02-23T18:22:10.131Z"
     },
     {
         "desc": "Airbrake Client for Grails",
@@ -478,7 +490,8 @@
             "html_url": "https://github.com/cavneb/airbrake-grails",
             "stargazers_count": 4
         },
-        "latest_version_created": "2015-07-27T22:36:10.159Z"
+        "latest_version_created": "2015-07-27T22:36:10.159Z",
+        "latest_version_updated": "2015-07-27T22:36:10.159Z"
     },
     {
         "desc": "Grails Browser Detection Plugin",
@@ -512,7 +525,8 @@
             "html_url": "https://github.com/mathifonseca/grails-browser-detection",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-03-08T14:45:25.689Z"
+        "latest_version_created": "2016-03-08T14:45:25.689Z",
+        "latest_version_updated": "2016-03-08T14:45:58.086Z"
     },
     {
         "desc": "Grails build-test-data plugin",
@@ -543,7 +557,8 @@
             "html_url": "https://github.com/longwa/build-test-data",
             "stargazers_count": 55
         },
-        "latest_version_created": "2015-10-23T21:52:21.951Z"
+        "latest_version_created": "2015-10-23T21:52:21.951Z",
+        "latest_version_updated": "2015-10-23T21:52:43.830Z"
     },
     {
         "desc": "Grails cache plugin",
@@ -578,7 +593,8 @@
             "html_url": "https://github.com/grails-plugins/grails-cache",
             "stargazers_count": 10
         },
-        "latest_version_created": "2016-01-13T12:35:14.849Z"
+        "latest_version_created": "2016-01-13T12:35:14.849Z",
+        "latest_version_updated": "2016-01-13T12:35:29.899Z"
     },
     {
         "desc": "Grails Cascade Validation Plugin",
@@ -611,7 +627,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cascade-validation",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-01-18T21:53:51.598Z"
+        "latest_version_created": "2016-01-18T21:53:51.598Z",
+        "latest_version_updated": "2016-01-18T21:54:15.407Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -658,7 +675,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:15.834Z"
+        "latest_version_created": "2016-02-29T13:42:15.834Z",
+        "latest_version_updated": "2016-02-29T13:42:34.904Z"
     },
     {
         "desc": "Adds coffeescript transpiling support to the jvm asset-pipeline plugin",
@@ -704,7 +722,8 @@
             "html_url": "https://github.com/bertramdev/coffee-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-09T14:11:16.531Z"
+        "latest_version_created": "2016-03-09T14:11:16.531Z",
+        "latest_version_updated": "2016-03-09T14:16:32.991Z"
     },
     {
         "desc": "Grails Console Plugin",
@@ -745,7 +764,8 @@
             "html_url": "https://github.com/sheehan/grails-console",
             "stargazers_count": 40
         },
-        "latest_version_created": "2016-01-19T05:19:05.194Z"
+        "latest_version_created": "2016-01-19T05:19:05.194Z",
+        "latest_version_updated": "2016-01-19T05:19:25.869Z"
     },
     {
         "desc": "Grails Cookie Plugin",
@@ -785,7 +805,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-01-18T21:14:32.365Z"
+        "latest_version_created": "2016-01-18T21:14:32.365Z",
+        "latest_version_updated": "2016-01-18T21:14:57.104Z"
     },
     {
         "desc": "Grails cookiesession plugin",
@@ -817,7 +838,8 @@
             "html_url": "https://github.com/benlucchesi/grails-cookie-session",
             "stargazers_count": 20
         },
-        "latest_version_created": "2016-02-23T20:50:50.113Z"
+        "latest_version_created": "2016-02-23T20:50:50.113Z",
+        "latest_version_updated": "2016-02-23T20:51:16.340Z"
     },
     {
         "desc": "Grails CXF Plugin",
@@ -866,7 +888,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf",
             "stargazers_count": 38
         },
-        "latest_version_created": "2016-01-18T21:07:24.548Z"
+        "latest_version_created": "2016-01-18T21:07:24.548Z",
+        "latest_version_updated": "2016-01-18T21:08:15.588Z"
     },
     {
         "desc": "Grails CXF Client Plugin",
@@ -907,7 +930,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
             "stargazers_count": 25
         },
-        "latest_version_created": "2016-01-18T21:12:03.043Z"
+        "latest_version_created": "2016-01-18T21:12:03.043Z",
+        "latest_version_updated": "2016-01-18T21:12:27.533Z"
     },
     {
         "desc": "Grails db-reverse-engineer plugin",
@@ -938,7 +962,8 @@
             "html_url": "https://github.com/grails-plugins/grails-db-reverse-engineer",
             "stargazers_count": 13
         },
-        "latest_version_created": "2015-12-23T21:46:48.249Z"
+        "latest_version_created": "2015-12-23T21:46:48.249Z",
+        "latest_version_updated": "2015-12-23T21:47:05.524Z"
     },
     {
         "desc": "Grails oauth plugin",
@@ -969,7 +994,8 @@
             "html_url": "https://github.com/antony/grails-oauth-scribe",
             "stargazers_count": 22
         },
-        "latest_version_created": "2015-09-01T07:04:57.018Z"
+        "latest_version_created": "2015-09-01T07:04:57.018Z",
+        "latest_version_updated": "2015-09-01T07:05:14.119Z"
     },
     {
         "desc": "Grails grails-simple-captcha plugin",
@@ -1000,7 +1026,8 @@
             "html_url": "https://github.com/domurtag/grails-simple-captcha",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-06-19T22:14:42.732Z"
+        "latest_version_created": "2015-06-19T22:14:42.732Z",
+        "latest_version_updated": "2015-06-19T22:14:47.001Z"
     },
     {
         "desc": "Grails runtime-datasources plugin",
@@ -1031,7 +1058,8 @@
             "html_url": "https://github.com/domurtag/runtime-datasources",
             "stargazers_count": 2
         },
-        "latest_version_created": "2015-06-19T21:55:52.455Z"
+        "latest_version_created": "2015-06-19T21:55:52.455Z",
+        "latest_version_updated": "2015-06-19T21:55:56.606Z"
     },
     {
         "desc": "Elasticsearch is a search server based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is released as open source under the terms of the Apache License.\r\nThis is the Grails 3 plugin to support Elasticsearch",
@@ -1062,7 +1090,8 @@
             "html_url": "https://github.com/noamt/elasticsearch-grails-plugin",
             "stargazers_count": 42
         },
-        "latest_version_created": "2016-02-29T05:13:57.274Z"
+        "latest_version_created": "2016-02-29T05:13:57.274Z",
+        "latest_version_updated": "2016-02-29T05:14:28.170Z"
     },
     {
         "desc": "Compiles hbs or handlebars files for the asset-pipeline into the Ember.TEMPLATES cache",
@@ -1105,7 +1134,8 @@
             "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-09T14:11:29.252Z"
+        "latest_version_created": "2016-03-09T14:11:29.252Z",
+        "latest_version_updated": "2016-03-09T14:16:42.114Z"
     },
     {
         "desc": "Grails fields plugin",
@@ -1143,7 +1173,8 @@
             "html_url": "https://github.com/grails-fields-plugin/grails-fields",
             "stargazers_count": 63
         },
-        "latest_version_created": "2016-02-01T11:25:21.945Z"
+        "latest_version_created": "2016-02-01T11:25:21.945Z",
+        "latest_version_updated": "2016-02-01T11:25:38.027Z"
     },
     {
         "desc": "Grails plugin which allows you to view files stored on the file system.",
@@ -1209,7 +1240,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane",
             "stargazers_count": 14
         },
-        "latest_version_created": "2016-03-15T21:03:13.816Z"
+        "latest_version_created": "2016-03-15T21:03:13.816Z",
+        "latest_version_updated": "2016-03-15T21:04:14.217Z"
     },
     {
         "desc": "Grails grails-google-visualization plugin",
@@ -1240,7 +1272,8 @@
             "html_url": "https://github.com/bmuschko/grails-google-visualization",
             "stargazers_count": 24
         },
-        "latest_version_created": "2015-10-09T10:53:18.246Z"
+        "latest_version_created": "2015-10-09T10:53:18.246Z",
+        "latest_version_updated": "2015-10-09T10:53:53.968Z"
     },
     {
         "desc": "Run Groovy scripts in Grails",
@@ -1271,7 +1304,8 @@
             "html_url": "https://github.com/frnktrgr/grails-gscripting",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-08-21T11:31:06.435Z"
+        "latest_version_created": "2015-08-21T11:31:06.435Z",
+        "latest_version_updated": "2015-08-21T11:31:22.173Z"
     },
     {
         "desc": "",
@@ -1305,7 +1339,8 @@
             "html_url": "https://github.com/fingo/grails-hibernate-filter",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-02-05T18:51:18.359Z"
+        "latest_version_created": "2016-02-05T18:51:18.359Z",
+        "latest_version_updated": "2016-02-05T21:49:01.116Z"
     },
     {
         "desc": "",
@@ -1343,7 +1378,8 @@
             "html_url": "https://github.com/gregopet/grails-json-apis",
             "stargazers_count": 4
         },
-        "latest_version_created": "2015-12-07T12:15:42.508Z"
+        "latest_version_created": "2015-12-07T12:15:42.508Z",
+        "latest_version_updated": "2015-12-07T12:23:14.832Z"
     },
     {
         "desc": "Grails grails-mailgun plugin",
@@ -1376,7 +1412,8 @@
             "html_url": "https://github.com/orkonano/grails-mailgun",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-02-14T22:00:27.789Z"
+        "latest_version_created": "2016-02-14T22:00:27.789Z",
+        "latest_version_updated": "2016-02-14T22:00:46.506Z"
     },
     {
         "desc": "Grails grails-middleware plugin",
@@ -1408,7 +1445,8 @@
             "html_url": "https://github.com/driverpt/grails-middleware",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-01-12T13:22:01.110Z"
+        "latest_version_created": "2016-01-12T13:22:01.110Z",
+        "latest_version_updated": "2016-01-12T13:22:19.018Z"
     },
     {
         "desc": "A plugin that allows you to display human readable, relative timestamps.",
@@ -1439,7 +1477,8 @@
             "html_url": "https://github.com/cazacugmihai/grails-pretty-time",
             "stargazers_count": 10
         },
-        "latest_version_created": "2016-01-12T21:25:51.656Z"
+        "latest_version_created": "2016-01-12T21:25:51.656Z",
+        "latest_version_updated": "2016-01-12T21:29:45.022Z"
     },
     {
         "desc": "",
@@ -1479,7 +1518,8 @@
             "html_url": "https://github.com/zyro23/grails-spring-websocket",
             "stargazers_count": 61
         },
-        "latest_version_created": "2016-01-28T16:57:00.786Z"
+        "latest_version_created": "2016-01-28T16:57:00.786Z",
+        "latest_version_updated": "2016-01-28T16:57:35.643Z"
     },
     {
         "desc": "Provides SMS sending capabilities to a Grails application.",
@@ -1511,7 +1551,8 @@
             "html_url": "https://github.com/Novadge/grails-twilio",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-11-10T07:40:16.683Z"
+        "latest_version_created": "2015-11-10T07:40:16.683Z",
+        "latest_version_updated": "2016-02-21T01:00:00.690Z"
     },
     {
         "desc": "Grails Views",
@@ -1551,7 +1592,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 17
         },
-        "latest_version_created": "2016-03-02T17:33:33.067Z"
+        "latest_version_created": "2016-03-02T17:33:33.067Z",
+        "latest_version_updated": "2016-03-02T17:33:59.448Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -1587,7 +1629,8 @@
             "html_url": "https://github.com/appcela/grails3-cors-interceptor",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-07T02:40:04.804Z"
+        "latest_version_created": "2016-03-07T02:40:04.804Z",
+        "latest_version_updated": "2016-03-07T02:43:34.672Z"
     },
     {
         "desc": "",
@@ -1634,7 +1677,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 53
         },
-        "latest_version_created": "2016-03-09T14:11:46.642Z"
+        "latest_version_created": "2016-03-09T14:11:46.642Z",
+        "latest_version_updated": "2016-03-09T14:16:24.365Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1680,7 +1724,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:21.801Z"
+        "latest_version_created": "2016-02-29T13:42:21.801Z",
+        "latest_version_updated": "2016-02-29T13:42:38.996Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1726,7 +1771,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:28.252Z"
+        "latest_version_created": "2016-02-29T13:42:28.252Z",
+        "latest_version_updated": "2016-02-29T13:42:47.503Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1772,7 +1818,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:34.649Z"
+        "latest_version_created": "2016-02-29T13:42:34.649Z",
+        "latest_version_updated": "2016-02-29T13:42:51.580Z"
     },
     {
         "desc": "Grails HTTP Builder Helper Plugin",
@@ -1805,7 +1852,8 @@
             "html_url": "https://github.com/bobbywarner/grails-http-builder-helper",
             "stargazers_count": 16
         },
-        "latest_version_created": "2016-01-14T19:33:57.326Z"
+        "latest_version_created": "2016-01-14T19:33:57.326Z",
+        "latest_version_updated": "2016-01-14T19:34:13.131Z"
     },
     {
         "desc": "asset-pipeline plugin to use localized messages in JavaScript.",
@@ -1843,7 +1891,8 @@
             "html_url": "https://github.com/dellermann/i18n-asset-pipeline",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-03-14T18:11:05.133Z"
+        "latest_version_created": "2016-03-14T18:11:05.133Z",
+        "latest_version_updated": "2016-03-14T18:25:51.558Z"
     },
     {
         "desc": "Grails excel-export plugin",
@@ -1875,7 +1924,8 @@
             "html_url": "https://github.com/TouK/excel-export",
             "stargazers_count": 34
         },
-        "latest_version_created": "2015-07-08T16:06:03.644Z"
+        "latest_version_created": "2015-07-08T16:06:03.644Z",
+        "latest_version_updated": "2015-07-09T10:01:12.417Z"
     },
     {
         "desc": "Grails jaxrs plugin",
@@ -1906,7 +1956,8 @@
             "html_url": "https://github.com/donald-jackson/grails-jaxrs",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-01-08T11:49:54.879Z"
+        "latest_version_created": "2016-01-08T11:49:54.879Z",
+        "latest_version_updated": "2016-01-08T11:50:21.707Z"
     },
     {
         "desc": "Grails Jenjir plugin",
@@ -1937,7 +1988,8 @@
             "html_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-05-24T20:18:59.374Z"
+        "latest_version_created": "2015-05-24T20:18:59.374Z",
+        "latest_version_updated": "2015-11-01T17:07:48.119Z"
     },
     {
         "desc": "Grails Jesque Plugin",
@@ -1980,7 +2032,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-01T17:11:43.446Z"
+        "latest_version_created": "2016-03-01T17:11:43.446Z",
+        "latest_version_updated": "2016-03-01T17:12:10.494Z"
     },
     {
         "desc": "Grails joda-time plugin",
@@ -2006,7 +2059,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-01-04T15:47:36.758Z"
+        "latest_version_created": "2016-01-04T15:47:36.758Z",
+        "latest_version_updated": "2016-01-04T15:47:54.913Z"
     },
     {
         "desc": "Grails 3 plugin for managing JSON marshalling through annotations",
@@ -2037,7 +2091,8 @@
             "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-07-07T15:55:47.519Z"
+        "latest_version_created": "2015-07-07T15:55:47.519Z",
+        "latest_version_updated": "2015-07-07T15:55:47.519Z"
     },
     {
         "desc": "Grails j2ssh plugin",
@@ -2068,7 +2123,8 @@
             "html_url": "https://github.com/vahidhedayati/jssh",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-05-24T18:30:19.851Z"
+        "latest_version_created": "2015-05-24T18:30:19.851Z",
+        "latest_version_updated": "2015-10-30T19:24:18.806Z"
     },
     {
         "desc": "Grails LDAP Server Plugin",
@@ -2099,7 +2155,8 @@
             "html_url": "https://github.com/bobbywarner/grails-ldap-server",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-10-06T13:12:13.182Z"
+        "latest_version_created": "2015-10-06T13:12:13.182Z",
+        "latest_version_updated": "2015-10-06T13:12:28.270Z"
     },
     {
         "desc": "LESS Compiler for the Asset-Pipeline",
@@ -2148,7 +2205,8 @@
             "html_url": "https://github.com/bertramdev/less-asset-pipeline",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-03-09T14:11:56.379Z"
+        "latest_version_created": "2016-03-09T14:11:56.379Z",
+        "latest_version_updated": "2016-03-09T14:15:52.326Z"
     },
     {
         "desc": "Grails mail plugin",
@@ -2182,7 +2240,8 @@
             "html_url": "https://github.com/grails3-plugins/mail",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-03-03T08:06:35.322Z"
+        "latest_version_created": "2016-03-03T08:06:35.322Z",
+        "latest_version_updated": "2016-03-03T08:06:51.740Z"
     },
     {
         "desc": "Grails middleware plugin",
@@ -2213,7 +2272,8 @@
             "html_url": "https://github.com/driverpt/grails-middleware",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-01-26T09:50:25.194Z"
+        "latest_version_created": "2016-01-26T09:50:25.194Z",
+        "latest_version_updated": "2016-01-26T09:50:42.120Z"
     },
     {
         "desc": "GORM for MongoDB",
@@ -2265,7 +2325,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:40.989Z"
+        "latest_version_created": "2016-02-29T13:42:40.989Z",
+        "latest_version_updated": "2016-02-29T13:43:00.401Z"
     },
     {
         "desc": null,
@@ -2296,7 +2357,8 @@
             "html_url": "https://github.com/ejaz-ahmed/grails-multitenant-plugin",
             "stargazers_count": 4
         },
-        "latest_version_created": "2015-12-27T16:18:22.635Z"
+        "latest_version_created": "2015-12-27T16:18:22.635Z",
+        "latest_version_updated": "2015-12-27T16:18:44.752Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2345,7 +2407,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:47.232Z"
+        "latest_version_created": "2016-02-29T13:42:47.232Z",
+        "latest_version_updated": "2016-02-29T13:43:04.707Z"
     },
     {
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
@@ -2378,7 +2441,8 @@
             "html_url": "https://github.com/Novadge/novamail",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-11-09T08:58:11.736Z"
+        "latest_version_created": "2015-11-09T08:58:11.736Z",
+        "latest_version_updated": "2016-02-21T00:57:51.969Z"
     },
     {
         "desc": "Grails AWS SDK plugin",
@@ -2414,7 +2478,8 @@
             "html_url": "https://github.com/agorapulse/grails-aws-sdk",
             "stargazers_count": 30
         },
-        "latest_version_created": "2016-02-12T10:46:10.424Z"
+        "latest_version_created": "2016-02-12T10:46:10.424Z",
+        "latest_version_updated": "2016-02-12T10:46:26.341Z"
     },
     {
         "desc": "Grails clojure plugin",
@@ -2447,7 +2512,8 @@
             "html_url": "https://github.com/grails-plugins/clojure",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-07-31T19:08:46.911Z"
+        "latest_version_created": "2015-07-31T19:08:46.911Z",
+        "latest_version_updated": "2015-07-31T19:09:00.962Z"
     },
     {
         "desc": "Grails CSV plugin",
@@ -2509,7 +2575,8 @@
             "html_url": "https://github.com/yamkazu/database-migration",
             "stargazers_count": 7
         },
-        "latest_version_created": "2015-03-25T00:16:52.956Z"
+        "latest_version_created": "2015-03-25T00:16:52.956Z",
+        "latest_version_updated": "2015-03-25T00:16:55.850Z"
     },
     {
         "desc": "Grails enforcer plugin",
@@ -2540,7 +2607,8 @@
             "html_url": "https://github.com/virtualdogbert/Enforcer",
             "stargazers_count": 2
         },
-        "latest_version_created": "2015-10-02T10:48:15.791Z"
+        "latest_version_created": "2015-10-02T10:48:15.791Z",
+        "latest_version_updated": "2015-10-02T10:48:28.934Z"
     },
     {
         "desc": "Grails export plugin",
@@ -2566,7 +2634,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-06-29T18:40:17.597Z"
+        "latest_version_created": "2015-06-29T18:40:17.597Z",
+        "latest_version_updated": "2015-06-29T18:40:20.900Z"
     },
     {
         "desc": "Grails Facebook SDK plugin",
@@ -2600,7 +2669,8 @@
             "html_url": "https://github.com/agorapulse/grails-facebook-sdk",
             "stargazers_count": 29
         },
-        "latest_version_created": "2016-02-05T17:12:05.091Z"
+        "latest_version_created": "2016-02-05T17:12:05.091Z",
+        "latest_version_updated": "2016-02-05T17:12:25.771Z"
     },
     {
         "desc": "Grails feature-switch plugin",
@@ -2631,7 +2701,8 @@
             "html_url": "https://github.com/desirable-objects/grails-feature-switch",
             "stargazers_count": 11
         },
-        "latest_version_created": "2015-09-09T21:56:07.401Z"
+        "latest_version_created": "2015-09-09T21:56:07.401Z",
+        "latest_version_updated": "2015-09-09T21:56:23.666Z"
     },
     {
         "desc": "Grails geb plugin",
@@ -2667,7 +2738,8 @@
             "html_url": "https://github.com/grails3-plugins/geb",
             "stargazers_count": 2
         },
-        "latest_version_created": "2015-09-09T08:17:22.768Z"
+        "latest_version_created": "2015-09-09T08:17:22.768Z",
+        "latest_version_updated": "2015-09-09T08:17:36.749Z"
     },
     {
         "desc": "The gorm-envers Grails plugin add auditting functionality to GROM in your Grails application using Hibernate Envers. The only thing you need to do is add @Audited annotation to the Domain Class that you want to audit. Hibernate Envers will create audit table in the Database for the annotated domain and log all change history.",
@@ -2701,7 +2773,8 @@
             "html_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-08-09T20:44:00.380Z"
+        "latest_version_created": "2015-08-09T20:44:00.380Z",
+        "latest_version_updated": "2015-08-09T20:44:20.269Z"
     },
     {
         "desc": "Grails AWS Plugin",
@@ -2732,7 +2805,8 @@
             "html_url": "https://github.com/grails-aws/grails-aws",
             "stargazers_count": 39
         },
-        "latest_version_created": "2016-01-10T19:41:20.648Z"
+        "latest_version_created": "2016-01-10T19:41:20.648Z",
+        "latest_version_updated": "2016-01-10T19:41:36.925Z"
     },
     {
         "desc": "Grails grails-flyway plugin",
@@ -2764,7 +2838,8 @@
             "html_url": "https://github.com/saw303/grails-flyway",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-02-28T07:05:38.872Z"
+        "latest_version_created": "2016-02-28T07:05:38.872Z",
+        "latest_version_updated": "2016-02-28T07:05:54.607Z"
     },
     {
         "desc": "Grails grails-markdown plugin",
@@ -2791,7 +2866,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-09-14T01:28:08.002Z"
+        "latest_version_created": "2015-09-14T01:28:08.002Z",
+        "latest_version_updated": "2015-09-14T01:28:22.769Z"
     },
     {
         "desc": null,
@@ -2824,7 +2900,8 @@
             "html_url": "https://github.com/cwang/grails3-cas-client",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-06-03T10:08:44.953Z"
+        "latest_version_created": "2015-06-03T10:08:44.953Z",
+        "latest_version_updated": "2015-06-03T14:47:50.954Z"
     },
     {
         "desc": "Grails grails3-i18n-enums plugin",
@@ -2855,7 +2932,8 @@
             "html_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-09-06T18:40:17.340Z"
+        "latest_version_created": "2015-09-06T18:40:17.340Z",
+        "latest_version_updated": "2015-09-06T18:40:48.978Z"
     },
     {
         "desc": "Grooscript Grails 3 Plugin",
@@ -2900,7 +2978,8 @@
             "html_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-03-01T21:59:29.510Z"
+        "latest_version_created": "2016-03-01T21:59:29.510Z",
+        "latest_version_updated": "2016-03-01T21:59:45.853Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2942,7 +3021,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2015-10-13T15:27:35.321Z"
+        "latest_version_created": "2015-10-13T15:27:35.321Z",
+        "latest_version_updated": "2015-10-13T15:27:52.883Z"
     },
     {
         "desc": "Grails HTML Cleaner plugin",
@@ -2973,7 +3053,8 @@
             "html_url": "https://github.com/agorapulse/grails-html-cleaner",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-01T11:08:49.960Z"
+        "latest_version_created": "2016-03-01T11:08:49.960Z",
+        "latest_version_updated": "2016-03-01T11:09:08.977Z"
     },
     {
         "desc": "Grails iCalendar plugin",
@@ -3006,7 +3087,8 @@
             "html_url": "https://github.com/saw303/grails-ic-alender",
             "stargazers_count": 7
         },
-        "latest_version_created": "2016-02-27T16:20:02.019Z"
+        "latest_version_created": "2016-02-27T16:20:02.019Z",
+        "latest_version_updated": "2016-02-27T16:20:18.578Z"
     },
     {
         "desc": "Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration",
@@ -3037,7 +3119,8 @@
             "html_url": "https://github.com/dtanner/grails-jasypt",
             "stargazers_count": 11
         },
-        "latest_version_created": "2015-08-22T02:22:29.208Z"
+        "latest_version_created": "2015-08-22T02:22:29.208Z",
+        "latest_version_updated": "2015-08-22T02:25:39.083Z"
     },
     {
         "desc": "Grails jms plugin",
@@ -3063,7 +3146,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-07-23T21:37:53.066Z"
+        "latest_version_created": "2015-07-23T21:37:53.066Z",
+        "latest_version_updated": "2015-07-23T21:38:12.080Z"
     },
     {
         "desc": "Grails json-annotations-marshaller plugin",
@@ -3094,7 +3178,8 @@
             "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-07-09T08:53:58.827Z"
+        "latest_version_created": "2015-07-09T08:53:58.827Z",
+        "latest_version_updated": "2015-07-09T08:54:13.388Z"
     },
     {
         "desc": "A simple plugin to log Hibernate statistics across controller actions.",
@@ -3125,7 +3210,8 @@
             "html_url": "https://github.com/ishults/log-hibernate-stats",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-10-05T14:50:40.418Z"
+        "latest_version_created": "2015-10-05T14:50:40.418Z",
+        "latest_version_updated": "2015-10-05T14:51:05.096Z"
     },
     {
         "desc": "Grails NewRelic plugin",
@@ -3161,7 +3247,8 @@
             "html_url": "https://github.com/agorapulse/grails-newrelic",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-03-02T16:35:44.359Z"
+        "latest_version_created": "2016-03-02T16:35:44.359Z",
+        "latest_version_updated": "2016-03-02T16:36:02.846Z"
     },
     {
         "desc": "This plugin provides hibernate user types to support for Postgresql Native Types like Array, HStore, JSON,\u2026 as well as new criterias to query this native types.",
@@ -3197,7 +3284,8 @@
             "html_url": "https://github.com/kaleidos/grails-postgresql-extensions",
             "stargazers_count": 33
         },
-        "latest_version_created": "2015-12-31T11:00:09.663Z"
+        "latest_version_created": "2015-12-31T11:00:09.663Z",
+        "latest_version_updated": "2015-12-31T11:00:33.085Z"
     },
     {
         "desc": "Grails quartz-monitor plugin",
@@ -3228,7 +3316,8 @@
             "html_url": "https://github.com/jamescookie/quartz-monitor",
             "stargazers_count": 28
         },
-        "latest_version_created": "2015-05-01T22:19:15.720Z"
+        "latest_version_created": "2015-05-01T22:19:15.720Z",
+        "latest_version_updated": "2015-05-01T22:19:18.886Z"
     },
     {
         "desc": "Grails Segment plugin",
@@ -3262,7 +3351,8 @@
             "html_url": "https://github.com/agorapulse/grails-segmentio",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-10-09T12:31:49.639Z"
+        "latest_version_created": "2015-10-09T12:31:49.639Z",
+        "latest_version_updated": "2015-10-09T12:32:05.234Z"
     },
     {
         "desc": "Grails Sentry plugin",
@@ -3293,7 +3383,8 @@
             "html_url": "https://github.com/agorapulse/grails-raven",
             "stargazers_count": 5
         },
-        "latest_version_created": "2015-09-02T08:24:43.516Z"
+        "latest_version_created": "2015-09-02T08:24:43.516Z",
+        "latest_version_updated": "2015-09-02T08:24:59.536Z"
     },
     {
         "desc": "Grails views-markup plugin",
@@ -3320,7 +3411,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-09-10T06:41:56.173Z"
+        "latest_version_created": "2015-09-10T06:41:56.173Z",
+        "latest_version_updated": "2015-09-10T06:42:10.420Z"
     },
     {
         "desc": "Grails p6spy-ui plugin",
@@ -3351,7 +3443,8 @@
             "html_url": "https://github.com/burtbeckwith/grails-p6spy-ui",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-01-05T02:56:38.061Z"
+        "latest_version_created": "2016-01-05T02:56:38.061Z",
+        "latest_version_updated": "2016-01-05T02:56:56.105Z"
     },
     {
         "desc": "Accept and process payments with Paypal SDK",
@@ -3382,7 +3475,8 @@
             "html_url": "https://github.com/Novadge/paypal-payments",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-02-22T15:47:53.607Z"
+        "latest_version_created": "2016-02-22T15:47:53.607Z",
+        "latest_version_updated": "2016-02-22T15:48:14.523Z"
     },
     {
         "desc": "A plugin that allows you to create QR codes as part of your Grails application without the need for an external service",
@@ -3414,7 +3508,8 @@
             "html_url": "https://github.com/goeh/grails-qrcode",
             "stargazers_count": 16
         },
-        "latest_version_created": "2015-12-30T18:27:51.681Z"
+        "latest_version_created": "2015-12-30T18:27:51.681Z",
+        "latest_version_updated": "2015-12-30T18:41:41.363Z"
     },
     {
         "desc": "Grails quartz plugin",
@@ -3457,7 +3552,8 @@
             "html_url": "https://github.com/grails-plugins/grails-quartz",
             "stargazers_count": 41
         },
-        "latest_version_created": "2016-02-27T00:13:55.436Z"
+        "latest_version_created": "2016-02-27T00:13:55.436Z",
+        "latest_version_updated": "2016-02-27T00:14:11.207Z"
     },
     {
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
@@ -3491,7 +3587,8 @@
             "html_url": "https://github.com/iamthechad/grails3-recaptcha",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-12-06T02:18:33.815Z"
+        "latest_version_created": "2015-12-06T02:18:33.815Z",
+        "latest_version_updated": "2015-12-06T02:18:55.248Z"
     },
     {
         "desc": "Grails Redis plugin",
@@ -3522,7 +3619,8 @@
             "html_url": "https://github.com/grails-plugins/grails-redis",
             "stargazers_count": 49
         },
-        "latest_version_created": "2016-02-26T16:13:39.649Z"
+        "latest_version_created": "2016-02-26T16:13:39.649Z",
+        "latest_version_updated": "2016-02-29T18:41:28.512Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -3559,7 +3657,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 70
         },
-        "latest_version_created": "2016-02-29T13:42:53.794Z"
+        "latest_version_created": "2016-02-29T13:42:53.794Z",
+        "latest_version_updated": "2016-02-29T13:43:13.326Z"
     },
     {
         "desc": "Grails remote-pagination plugin",
@@ -3590,7 +3689,8 @@
             "html_url": "https://github.com/amitjain1982/remote-pagination",
             "stargazers_count": 10
         },
-        "latest_version_created": "2015-12-22T11:15:07.134Z"
+        "latest_version_created": "2015-12-22T11:15:07.134Z",
+        "latest_version_updated": "2015-12-22T11:15:42.515Z"
     },
     {
         "desc": "Grails RemoteSSH Plugin",
@@ -3622,7 +3722,8 @@
             "html_url": "https://github.com/vahidhedayati/RemoteSSH",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-06-23T20:08:18.298Z"
+        "latest_version_created": "2015-06-23T20:08:18.298Z",
+        "latest_version_updated": "2015-10-30T19:07:42.179Z"
     },
     {
         "desc": "Grails rendering plugin",
@@ -3649,7 +3750,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-01-04T23:55:24.752Z"
+        "latest_version_created": "2016-01-04T23:55:24.752Z",
+        "latest_version_updated": "2016-01-04T23:55:41.984Z"
     },
     {
         "desc": "Grails request-tracelog plugin",
@@ -3683,7 +3785,8 @@
             "html_url": "https://github.com/nobeans/grails-request-tracelog",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-03-02T02:29:01.434Z"
+        "latest_version_created": "2016-03-02T02:29:01.434Z",
+        "latest_version_updated": "2016-03-02T02:29:32.404Z"
     },
     {
         "desc": "Grails csv plugin",
@@ -3714,7 +3817,8 @@
             "html_url": "https://github.com/vsachinv/grails-csv",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-07-15T11:12:42.807Z"
+        "latest_version_created": "2015-07-15T11:12:42.807Z",
+        "latest_version_updated": "2015-07-15T11:13:04.439Z"
     },
     {
         "desc": "",
@@ -3763,7 +3867,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 53
         },
-        "latest_version_created": "2016-03-09T14:12:37.498Z"
+        "latest_version_created": "2016-03-09T14:12:37.498Z",
+        "latest_version_updated": "2016-03-09T14:16:07.988Z"
     },
     {
         "desc": "Grails scaffolding plugin",
@@ -3805,7 +3910,8 @@
             "html_url": "https://github.com/grails3-plugins/scaffolding",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-02-22T16:45:44.713Z"
+        "latest_version_created": "2016-02-22T16:45:44.713Z",
+        "latest_version_updated": "2016-02-22T16:46:02.375Z"
     },
     {
         "desc": "Grails Slack Integration Plugin",
@@ -3838,7 +3944,8 @@
             "html_url": "https://github.com/mathifonseca/grails-slack",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-02-18T18:11:03.941Z"
+        "latest_version_created": "2016-02-18T18:11:03.941Z",
+        "latest_version_updated": "2016-02-18T18:11:38.673Z"
     },
     {
         "desc": "Grails spring-security-acl plugin",
@@ -3870,7 +3977,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-acl",
             "stargazers_count": 20
         },
-        "latest_version_created": "2015-12-20T11:27:33.715Z"
+        "latest_version_created": "2015-12-20T11:27:33.715Z",
+        "latest_version_updated": "2015-12-20T11:27:51.113Z"
     },
     {
         "desc": "Grails spring-security-appinfo plugin",
@@ -3901,7 +4009,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-appinfo",
             "stargazers_count": 2
         },
-        "latest_version_created": "2015-12-08T10:27:42.806Z"
+        "latest_version_created": "2015-12-08T10:27:42.806Z",
+        "latest_version_updated": "2015-12-08T10:28:01.928Z"
     },
     {
         "desc": "Grails spring-security-cas plugin",
@@ -3932,7 +4041,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-cas",
             "stargazers_count": 15
         },
-        "latest_version_created": "2015-12-08T10:57:39.061Z"
+        "latest_version_created": "2015-12-08T10:57:39.061Z",
+        "latest_version_updated": "2015-12-08T10:57:54.445Z"
     },
     {
         "desc": "Grails spring-security-core plugin",
@@ -3967,7 +4077,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-core",
             "stargazers_count": 165
         },
-        "latest_version_created": "2016-01-11T02:07:58.868Z"
+        "latest_version_created": "2016-01-11T02:07:58.868Z",
+        "latest_version_updated": "2016-01-11T02:08:15.232Z"
     },
     {
         "desc": "Grails spring-security-facebook plugin",
@@ -3998,7 +4109,8 @@
             "html_url": "https://github.com/splix/grails-spring-security-facebook",
             "stargazers_count": 35
         },
-        "latest_version_created": "2016-03-05T15:11:09.763Z"
+        "latest_version_created": "2016-03-05T15:11:09.763Z",
+        "latest_version_updated": "2016-03-05T15:11:28.873Z"
     },
     {
         "desc": "Grails spring-security-jaxrs plugin",
@@ -4029,7 +4141,8 @@
             "html_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-01-08T15:55:56.402Z"
+        "latest_version_created": "2016-01-08T15:55:56.402Z",
+        "latest_version_updated": "2016-01-08T15:56:17.018Z"
     },
     {
         "desc": "Grails spring-security-kerberos plugin",
@@ -4060,7 +4173,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-kerberos",
             "stargazers_count": 4
         },
-        "latest_version_created": "2015-12-08T10:42:30.339Z"
+        "latest_version_created": "2015-12-08T10:42:30.339Z",
+        "latest_version_updated": "2015-12-08T10:42:49.390Z"
     },
     {
         "desc": "Grails spring-security-ldap plugin",
@@ -4093,7 +4207,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-ldap",
             "stargazers_count": 8
         },
-        "latest_version_created": "2015-12-22T18:54:27.552Z"
+        "latest_version_created": "2015-12-22T18:54:27.552Z",
+        "latest_version_updated": "2015-12-22T18:54:45.145Z"
     },
     {
         "desc": "Grails OAuth 2 Provider Plugin",
@@ -4124,7 +4239,8 @@
             "html_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider",
             "stargazers_count": 46
         },
-        "latest_version_created": "2016-02-16T16:24:24.645Z"
+        "latest_version_created": "2016-02-16T16:24:24.645Z",
+        "latest_version_updated": "2016-03-15T14:33:49.334Z"
     },
     {
         "desc": "Grails spring-security-rest plugin",
@@ -4156,7 +4272,8 @@
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "stargazers_count": 133
         },
-        "latest_version_created": "2016-01-08T12:43:46.095Z"
+        "latest_version_created": "2016-01-08T12:43:46.095Z",
+        "latest_version_updated": "2016-01-08T12:44:53.510Z"
     },
     {
         "desc": "Spring Security REST plugin for Grails - GORM module",
@@ -4187,7 +4304,8 @@
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "stargazers_count": 133
         },
-        "latest_version_created": "2016-01-08T12:43:59.706Z"
+        "latest_version_created": "2016-01-08T12:43:59.706Z",
+        "latest_version_updated": "2016-01-08T12:44:55.267Z"
     },
     {
         "desc": "Spring Security REST plugin for Grails - Grails cache module",
@@ -4218,7 +4336,8 @@
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "stargazers_count": 133
         },
-        "latest_version_created": "2016-01-08T12:44:15.259Z"
+        "latest_version_created": "2016-01-08T12:44:15.259Z",
+        "latest_version_updated": "2016-01-08T12:45:00.415Z"
     },
     {
         "desc": "Spring Security REST plugin for Grails - Memcached module",
@@ -4249,7 +4368,8 @@
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "stargazers_count": 133
         },
-        "latest_version_created": "2016-01-08T12:44:28.902Z"
+        "latest_version_created": "2016-01-08T12:44:28.902Z",
+        "latest_version_updated": "2016-01-08T12:44:58.662Z"
     },
     {
         "desc": "Spring Security REST plugin for Grails - Redis module",
@@ -4280,7 +4400,8 @@
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
             "stargazers_count": 133
         },
-        "latest_version_created": "2016-01-08T12:44:38.226Z"
+        "latest_version_created": "2016-01-08T12:44:38.226Z",
+        "latest_version_updated": "2016-01-08T12:44:56.941Z"
     },
     {
         "desc": "Spring Security REST plugin for Grails - Profile for test apps",
@@ -4341,7 +4462,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-shiro",
             "stargazers_count": 5
         },
-        "latest_version_created": "2015-12-08T10:51:23.763Z"
+        "latest_version_created": "2015-12-08T10:51:23.763Z",
+        "latest_version_updated": "2015-12-08T10:51:39.077Z"
     },
     {
         "desc": "Grails spring-security-ui plugin",
@@ -4372,7 +4494,8 @@
             "html_url": "https://github.com/grails-plugins/grails-spring-security-ui",
             "stargazers_count": 54
         },
-        "latest_version_created": "2015-12-21T05:35:37.499Z"
+        "latest_version_created": "2015-12-21T05:35:37.499Z",
+        "latest_version_updated": "2015-12-21T05:35:56.924Z"
     },
     {
         "desc": "This plugin provides spring-session support in grails application.",
@@ -4409,7 +4532,8 @@
             "html_url": "https://github.com/jeetmp3/spring-session",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-02-11T10:13:27.146Z"
+        "latest_version_created": "2016-02-11T10:13:27.146Z",
+        "latest_version_updated": "2016-02-11T10:13:54.771Z"
     },
     {
         "desc": "Grails swagger4jaxrs plugin",
@@ -4440,7 +4564,8 @@
             "html_url": "https://github.com/donald-jackson/swagger4jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-01-08T15:43:48.933Z"
+        "latest_version_created": "2016-01-08T15:43:48.933Z",
+        "latest_version_updated": "2016-01-08T15:44:09.173Z"
     },
     {
         "desc": "Grails views-gradle plugin",
@@ -4476,7 +4601,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-03-02T17:33:18.651Z"
+        "latest_version_created": "2016-03-02T17:33:18.651Z",
+        "latest_version_updated": "2016-03-02T17:33:34.490Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
@@ -4512,7 +4638,8 @@
             "html_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-03-14T07:57:57.095Z"
+        "latest_version_created": "2016-03-14T07:57:57.095Z",
+        "latest_version_updated": "2016-03-14T07:58:16.495Z"
     },
     {
         "desc": "Grails wschat plugin",
@@ -4558,6 +4685,7 @@
             "html_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
             "stargazers_count": 16
         },
-        "latest_version_created": "2016-03-10T18:17:18.202Z"
+        "latest_version_created": "2016-03-10T18:17:18.202Z",
+        "latest_version_updated": "2016-03-10T18:18:47.988Z"
     }
 ]

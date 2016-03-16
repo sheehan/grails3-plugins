@@ -126,6 +126,7 @@ class Fetch {
         if (data.latest_version) {
             def versionData = authenticatedBintrayClient.get(path: "packages/grails/plugins/$pkg/versions/${data.latest_version}").data
             data.latest_version_created = versionData.created
+            data.latest_version_updated = versionData.updated
         }
 
         data

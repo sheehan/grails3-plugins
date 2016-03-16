@@ -61,7 +61,7 @@ grailsplugins.Plugins = class {
         if (sort === 'name') {
             matches = _.sortBy(matches, it => it.name.toLowerCase());
         } else if (sort === 'date') {
-            matches = _.sortBy(matches, it => it.latest_version_created ? new Date(it.latest_version_created).getTime() : 0).reverse();
+            matches = _.sortBy(matches, it => it.latest_version_updated ? new Date(it.latest_version_updated).getTime() : 0).reverse();
         } else if (sort === 'stars') {
             matches = _.sortBy(matches, it => it.githubRepo ? it.githubRepo.stargazers_count : 0).reverse();
         }
