@@ -1,12 +1,12 @@
-<div class="nav-back"><a class="btn btn-default self-link" href="#"><i class="fa fa-search"></i> Search Plugins</a></div>
+<div class="nav-back"><a class="btn btn-default self-link" href="{{baseUrl}}#" data-internal><i class="fa fa-search"></i> Search Plugins</a></div>
 <div class="plugin-main">
     <div class="plugin-info">
-        <div><a class="plugin-name" href="#plugin/{{name}}">{{name}}</a></div>
+        <div><a class="plugin-name" href="{{baseUrl}}#plugin/{{name}}" data-internal>{{name}}</a></div>
         <span class="plugin-description">{{desc}}</span>
         {{#if labels}}
             <div class="plugin-labels">
                 {{#each labels}}
-                    <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="plugin-label label">{{this}}</span></a>
+                    <a href="{{baseUrl}}#q/label:{{quoteIfWhitespace this}}" class="searchby-label" data-internal><span class="plugin-label label">{{this}}</span></a>
                 {{/each}}
             </div>
         {{/if}}
@@ -38,7 +38,7 @@ dependencies {
         {{/if}}
         <li class="owner">
             <label>Owner</label>
-            <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
+            <a href="{{baseUrl}}#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner" data-internal><span class="owner">{{owner}}</span></a>
         </li>
         {{#if licenses}}
             <li>

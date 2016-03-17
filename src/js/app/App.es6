@@ -2,17 +2,11 @@ grailsplugins.App = class {
 
     constructor() {
         this.isEmbedded = window.self !== window.top;
+        this.baseUrl = 'https://grails.org/plugins.html';
 
-        if (this.isEmbedded) {
-            $('body').delegate('.self-link', 'click', function(e) {
-                if (!window.location.hash) {
-                    //e.preventDefault(); // iframe wackiness
-                }
-            });
-        } else {
+        if (!this.isEmbedded) {
             $('body').html(Handlebars.templates['moved']())
         }
-        $('body').removeClass('hide');
 
         $('.resources-dropdown-mobile-toggle').click(e => {
             e.preventDefault();
@@ -20,7 +14,15 @@ grailsplugins.App = class {
             $('.resources-dropdown-toggle').click();
         });
 
+        $('body').delegate('a[data-internal]', 'click', e => {
+            e.preventDefault();
+            let href = $(e.currentTarget).attr('href');
+            window.location.hash = href.substr(this.baseUrl.length);
+        });
+
         grailsplugins.Plugins.fetch().then(this.onPluginsFetch.bind(this));
+
+        $('body').removeClass('hide');
     }
 
     onHashChange(e) {

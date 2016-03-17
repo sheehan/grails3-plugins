@@ -10,7 +10,7 @@
     {{#each plugins}}
         <li>
             <div>
-                <a class="plugin-name" href="#plugin/{{name}}">{{name}}</a>
+                <a class="plugin-name" href="{{../baseUrl}}#plugin/{{name}}" data-internal>{{name}}</a>
                 <span class="external-links">
                     {{#if githubRepo}}
                         <a href="{{githubRepo.html_url}}" title="Github repository"><img src="src/img/plainicon.com-50224-svg.svg"></a>
@@ -22,13 +22,13 @@
             {{#if latest_version}}
                 <div class="bintray-section">
                     <strong>{{latest_version}}</strong> published {{fromNow latest_version_updated}} by
-                    <a href="#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner"><span class="owner">{{owner}}</span></a>
+                    <a href="{{../baseUrl}}#q/owner:{{quoteIfWhitespace owner}}" class="searchby-owner" data-internal><span class="owner">{{owner}}</span></a>
                 </div>
             {{/if}}
             {{#if labels}}
                 <div class="plugin-labels">
                     {{#each labels}}
-                        <a href="#q/label:{{quoteIfWhitespace this}}" class="searchby-label"><span class="plugin-label label">{{this}}</span></a>
+                        <a href="{{../baseUrl}}#q/label:{{quoteIfWhitespace this}}" class="searchby-label" data-internal><span class="plugin-label label">{{this}}</span></a>
                     {{/each}}
                 </div>
             {{/if}}
