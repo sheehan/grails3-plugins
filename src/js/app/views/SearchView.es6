@@ -45,7 +45,6 @@ grailsplugins.views.SearchView = class {
         }
 
         this.$el.find('.search-results').html(Handlebars.templates['plugins']({
-            baseUrl: app.baseUrl,
             plugins: matches,
             searchCount: searchCount
         }));

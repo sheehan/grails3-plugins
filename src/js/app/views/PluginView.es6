@@ -8,7 +8,7 @@ grailsplugins.views.PluginView = class {
         this.clipboard && this.clipboard.destroy();
 
         if (plugin) {
-            this.$el.html(Handlebars.templates['plugin'](_.extend({baseUrl: app.baseUrl}, plugin)));
+            this.$el.html(Handlebars.templates['plugin'](plugin));
             if (plugin.githubRepo) {
                 $.ajax({
                     url:     `https://api.github.com/repos/${plugin.githubRepo.full_name}/readme`,
