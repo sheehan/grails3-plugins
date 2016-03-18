@@ -1909,7 +1909,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.0",
+        "latest_version": "2.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1917,12 +1917,11 @@
         "owner": "amc-world",
         "repo": "plugins",
         "system_ids": [
-            "asset.pipeline.i18n:i18n-asset-pipeline",
             "org.grails.plugins:i18n-asset-pipeline"
         ],
         "vcs_url": "https://github.com/dellermann/i18n-asset-pipeline",
         "versions": [
-            "3.0.0"
+            "2.0.0"
         ],
         "website_url": "https://github.com/dellermann/i18n-asset-pipeline",
         "attributes": [
@@ -1939,8 +1938,8 @@
             "html_url": "https://github.com/dellermann/i18n-asset-pipeline",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-03-14T18:11:05.133Z",
-        "latest_version_updated": "2016-03-14T18:25:51.558Z"
+        "latest_version_created": "2016-03-18T12:51:14.808Z",
+        "latest_version_updated": "2016-03-18T12:51:59.082Z"
     },
     {
         "desc": "Grails excel-export plugin",
