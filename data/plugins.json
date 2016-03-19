@@ -1420,7 +1420,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.2",
+        "latest_version": "2.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1432,6 +1432,7 @@
         ],
         "vcs_url": "https://github.com/orkonano/grails-mailgun",
         "versions": [
+            "2.0.3",
             "2.0.2",
             "2.0.1",
             "2.0.0"
@@ -1445,8 +1446,8 @@
             "html_url": "https://github.com/orkonano/grails-mailgun",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-02-14T22:00:27.789Z",
-        "latest_version_updated": "2016-02-14T22:00:46.506Z"
+        "latest_version_created": "2016-03-18T23:44:45.151Z",
+        "latest_version_updated": "2016-03-18T23:45:03.028Z"
     },
     {
         "desc": "Grails grails-middleware plugin",
