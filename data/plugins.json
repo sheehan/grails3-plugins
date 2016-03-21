@@ -1303,7 +1303,7 @@
         "githubRepo": {
             "full_name": "bmuschko/grails-google-visualization",
             "html_url": "https://github.com/bmuschko/grails-google-visualization",
-            "stargazers_count": 24
+            "stargazers_count": 25
         },
         "latest_version_created": "2015-10-09T10:53:18.246Z",
         "latest_version_updated": "2015-10-09T10:53:53.968Z"
@@ -1409,7 +1409,7 @@
         "githubRepo": {
             "full_name": "gregopet/grails-json-apis",
             "html_url": "https://github.com/gregopet/grails-json-apis",
-            "stargazers_count": 4
+            "stargazers_count": 5
         },
         "latest_version_created": "2015-12-07T12:15:42.508Z",
         "latest_version_updated": "2015-12-07T12:23:14.832Z"
