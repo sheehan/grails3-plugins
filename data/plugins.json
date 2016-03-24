@@ -3844,7 +3844,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.1.2",
+        "latest_version": "1.2.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3856,6 +3856,7 @@
         ],
         "vcs_url": "https://github.com/nobeans/grails-request-tracelog",
         "versions": [
+            "1.2.0",
             "1.1.2",
             "1.1.1",
             "1.1.0",
@@ -3870,8 +3871,8 @@
             "html_url": "https://github.com/nobeans/grails-request-tracelog",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-03-02T02:29:01.434Z",
-        "latest_version_updated": "2016-03-02T02:29:32.404Z"
+        "latest_version_created": "2016-03-24T07:32:47.242Z",
+        "latest_version_updated": "2016-03-24T07:33:13.659Z"
     },
     {
         "desc": "Grails csv plugin",
