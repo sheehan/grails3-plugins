@@ -264,6 +264,36 @@
         "latest_version_updated": "2016-03-24T20:12:27.447Z"
     },
     {
+        "desc": "A non-blocking HTTP client for Grails based on Netty",
+        "issue_tracker_url": "https://github.com/grails/grails-http/issues",
+        "labels": [
+            
+        ],
+        "latest_version": null,
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "async-http-builder",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/grails/grails-http",
+        "versions": [
+            
+        ],
+        "website_url": "https://github.com/grails/grails-http",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "grails/grails-http",
+            "html_url": "https://github.com/grails/grails-http",
+            "stargazers_count": 1
+        }
+    },
+    {
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
