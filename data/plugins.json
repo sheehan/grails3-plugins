@@ -1151,7 +1151,7 @@
         "githubRepo": {
             "full_name": "noamt/elasticsearch-grails-plugin",
             "html_url": "https://github.com/noamt/elasticsearch-grails-plugin",
-            "stargazers_count": 42
+            "stargazers_count": 43
         },
         "latest_version_created": "2016-02-29T05:13:57.274Z",
         "latest_version_updated": "2016-02-29T05:14:28.170Z"
@@ -3301,7 +3301,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.26.1.1",
+        "latest_version": "3.27.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3313,6 +3313,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-newrelic",
         "versions": [
+            "3.27.0",
             "3.26.1.1",
             "3.26.1",
             "3.25.0",
@@ -3330,8 +3331,8 @@
             "html_url": "https://github.com/agorapulse/grails-newrelic",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-03-21T20:11:08.428Z",
-        "latest_version_updated": "2016-03-21T20:11:55.248Z"
+        "latest_version_created": "2016-04-04T08:40:40.608Z",
+        "latest_version_updated": "2016-04-04T08:40:57.288Z"
     },
     {
         "desc": "This plugin provides hibernate user types to support for Postgresql Native Types like Array, HStore, JSON,\u2026 as well as new criterias to query this native types.",
