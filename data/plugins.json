@@ -145,7 +145,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.2.7",
+        "latest_version": "2.3.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -157,6 +157,7 @@
         ],
         "vcs_url": "",
         "versions": [
+            "2.3.0",
             "2.2.7",
             "2.2.6",
             "2.2.5",
@@ -179,8 +180,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-02-26T20:20:31.595Z",
-        "latest_version_updated": "2016-02-26T20:21:18.618Z"
+        "latest_version_created": "2016-04-04T15:44:45.798Z",
+        "latest_version_updated": "2016-04-04T15:45:18.361Z"
     },
     {
         "desc": "Grails json-annotations-marshaller plugin",
