@@ -2593,6 +2593,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-aws-sdk",
+            "html_url": "https://github.com/agorapulse/grails-aws-sdk",
+            "stargazers_count": 31
+        },
         "latest_version_created": "2016-02-12T10:46:10.424Z",
         "latest_version_updated": "2016-02-12T10:46:26.341Z"
     },
@@ -2622,6 +2627,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/clojure",
+            "html_url": "https://github.com/grails-plugins/clojure",
+            "stargazers_count": 1
+        },
         "latest_version_created": "2016-03-31T13:32:02.248Z",
         "latest_version_updated": "2016-04-01T15:35:30.963Z"
     },
@@ -2648,7 +2658,12 @@
         "website_url": "http://grails.org/plugin/csv",
         "attributes": [
             
-        ]
+        ],
+        "githubRepo": {
+            "full_name": "vsachinv/grails-csv",
+            "html_url": "https://github.com/vsachinv/grails-csv",
+            "stargazers_count": 0
+        }
     },
     {
         "desc": "Grails database-migration plugin",
@@ -2675,6 +2690,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "yamkazu/database-migration",
+            "html_url": "https://github.com/yamkazu/database-migration",
+            "stargazers_count": 7
+        },
         "latest_version_created": "2015-03-25T00:16:52.956Z",
         "latest_version_updated": "2015-03-25T00:16:55.850Z"
     },
@@ -2702,6 +2722,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "virtualdogbert/Enforcer",
+            "html_url": "https://github.com/virtualdogbert/Enforcer",
+            "stargazers_count": 2
+        },
         "latest_version_created": "2015-10-02T10:48:15.791Z",
         "latest_version_updated": "2015-10-02T10:48:28.934Z"
     },
@@ -2759,6 +2784,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-facebook-sdk",
+            "html_url": "https://github.com/agorapulse/grails-facebook-sdk",
+            "stargazers_count": 29
+        },
         "latest_version_created": "2016-02-05T17:12:05.091Z",
         "latest_version_updated": "2016-02-05T17:12:25.771Z"
     },
@@ -2786,6 +2816,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "desirable-objects/grails-feature-switch",
+            "html_url": "https://github.com/desirable-objects/grails-feature-switch",
+            "stargazers_count": 11
+        },
         "latest_version_created": "2015-09-09T21:56:07.401Z",
         "latest_version_updated": "2015-09-09T21:56:23.666Z"
     },
@@ -2818,6 +2853,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails3-plugins/geb",
+            "html_url": "https://github.com/grails3-plugins/geb",
+            "stargazers_count": 2
+        },
         "latest_version_created": "2016-03-31T13:32:01.322Z",
         "latest_version_updated": "2016-04-01T15:40:37.325Z"
     },
@@ -2848,6 +2888,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "Yingliang-Du/gorm-envers-grails-plugin",
+            "html_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2015-08-09T20:44:00.380Z",
         "latest_version_updated": "2015-08-09T20:44:20.269Z"
     },
@@ -2875,6 +2920,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-aws/grails-aws",
+            "html_url": "https://github.com/grails-aws/grails-aws",
+            "stargazers_count": 39
+        },
         "latest_version_created": "2016-01-10T19:41:20.648Z",
         "latest_version_updated": "2016-01-10T19:41:36.925Z"
     },
@@ -2903,6 +2953,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "saw303/grails-flyway",
+            "html_url": "https://github.com/saw303/grails-flyway",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2016-02-28T07:05:38.872Z",
         "latest_version_updated": "2016-02-28T07:05:54.607Z"
     },
@@ -2960,6 +3015,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "cwang/grails3-cas-client",
+            "html_url": "https://github.com/cwang/grails3-cas-client",
+            "stargazers_count": 1
+        },
         "latest_version_created": "2015-06-03T10:08:44.953Z",
         "latest_version_updated": "2015-06-03T14:47:50.954Z"
     },
@@ -2987,6 +3047,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "sbglasius/I18nEnumsGrails3Plugin",
+            "html_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin",
+            "stargazers_count": 1
+        },
         "latest_version_created": "2015-09-06T18:40:17.340Z",
         "latest_version_updated": "2015-09-06T18:40:48.978Z"
     },
@@ -3028,6 +3093,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "chiquitinxx/grooscript-grails3-plugin",
+            "html_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin",
+            "stargazers_count": 4
+        },
         "latest_version_created": "2016-03-01T21:59:29.510Z",
         "latest_version_updated": "2016-03-01T21:59:45.853Z"
     },
@@ -3066,6 +3136,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "stargazers_count": 72
+        },
         "latest_version_created": "2016-03-31T13:32:02.223Z",
         "latest_version_updated": "2016-04-01T15:35:28.925Z"
     },
@@ -3093,6 +3168,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-html-cleaner",
+            "html_url": "https://github.com/agorapulse/grails-html-cleaner",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2016-03-01T11:08:49.960Z",
         "latest_version_updated": "2016-03-01T11:09:08.977Z"
     },
@@ -3122,6 +3202,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "saw303/grails-ic-alender",
+            "html_url": "https://github.com/saw303/grails-ic-alender",
+            "stargazers_count": 8
+        },
         "latest_version_created": "2016-02-27T16:20:02.019Z",
         "latest_version_updated": "2016-02-27T16:20:18.578Z"
     },
@@ -3149,6 +3234,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "dtanner/grails-jasypt",
+            "html_url": "https://github.com/dtanner/grails-jasypt",
+            "stargazers_count": 11
+        },
         "latest_version_created": "2015-08-22T02:22:29.208Z",
         "latest_version_updated": "2015-08-22T02:25:39.083Z"
     },
@@ -3203,6 +3293,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "anthofo/grails3-json-annotations-marshaller",
+            "html_url": "https://github.com/anthofo/grails3-json-annotations-marshaller",
+            "stargazers_count": 1
+        },
         "latest_version_created": "2015-07-09T08:53:58.827Z",
         "latest_version_updated": "2015-07-09T08:54:13.388Z"
     },
@@ -3230,6 +3325,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "ishults/log-hibernate-stats",
+            "html_url": "https://github.com/ishults/log-hibernate-stats",
+            "stargazers_count": 3
+        },
         "latest_version_created": "2015-10-05T14:50:40.418Z",
         "latest_version_updated": "2015-10-05T14:51:05.096Z"
     },
@@ -3264,6 +3364,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-newrelic",
+            "html_url": "https://github.com/agorapulse/grails-newrelic",
+            "stargazers_count": 3
+        },
         "latest_version_created": "2016-04-04T08:40:40.608Z",
         "latest_version_updated": "2016-04-04T08:40:57.288Z"
     },
@@ -3296,6 +3401,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "kaleidos/grails-postgresql-extensions",
+            "html_url": "https://github.com/kaleidos/grails-postgresql-extensions",
+            "stargazers_count": 35
+        },
         "latest_version_created": "2015-12-31T11:00:09.663Z",
         "latest_version_updated": "2015-12-31T11:00:33.085Z"
     },
@@ -3323,6 +3433,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "jamescookie/quartz-monitor",
+            "html_url": "https://github.com/jamescookie/quartz-monitor",
+            "stargazers_count": 28
+        },
         "latest_version_created": "2015-05-01T22:19:15.720Z",
         "latest_version_updated": "2015-05-01T22:19:18.886Z"
     },
@@ -3353,6 +3468,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-segmentio",
+            "html_url": "https://github.com/agorapulse/grails-segmentio",
+            "stargazers_count": 3
+        },
         "latest_version_created": "2015-10-09T12:31:49.639Z",
         "latest_version_updated": "2015-10-09T12:32:05.234Z"
     },
@@ -3380,6 +3500,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "agorapulse/grails-raven",
+            "html_url": "https://github.com/agorapulse/grails-raven",
+            "stargazers_count": 5
+        },
         "latest_version_created": "2015-09-02T08:24:43.516Z",
         "latest_version_updated": "2015-09-02T08:24:59.536Z"
     },
@@ -3435,6 +3560,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "burtbeckwith/grails-p6spy-ui",
+            "html_url": "https://github.com/burtbeckwith/grails-p6spy-ui",
+            "stargazers_count": 4
+        },
         "latest_version_created": "2016-03-31T15:25:00.206Z",
         "latest_version_updated": "2016-04-01T15:40:04.206Z"
     },
@@ -3462,6 +3592,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "Novadge/paypal-payments",
+            "html_url": "https://github.com/Novadge/paypal-payments",
+            "stargazers_count": 1
+        },
         "latest_version_created": "2016-02-22T15:47:53.607Z",
         "latest_version_updated": "2016-02-22T15:48:14.523Z"
     },
@@ -3490,6 +3625,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "goeh/grails-qrcode",
+            "html_url": "https://github.com/goeh/grails-qrcode",
+            "stargazers_count": 16
+        },
         "latest_version_created": "2015-12-30T18:27:51.681Z",
         "latest_version_updated": "2015-12-30T18:41:41.363Z"
     },
@@ -3529,6 +3669,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-quartz",
+            "html_url": "https://github.com/grails-plugins/grails-quartz",
+            "stargazers_count": 41
+        },
         "latest_version_created": "2016-03-31T13:32:02.186Z",
         "latest_version_updated": "2016-04-01T15:40:06.265Z"
     },
@@ -3557,6 +3702,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-rabbitmq",
+            "html_url": "https://github.com/grails-plugins/grails-rabbitmq",
+            "stargazers_count": 30
+        },
         "latest_version_created": "2016-03-21T04:59:23.106Z",
         "latest_version_updated": "2016-03-21T05:00:01.463Z"
     },
@@ -3587,6 +3737,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "iamthechad/grails3-recaptcha",
+            "html_url": "https://github.com/iamthechad/grails3-recaptcha",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2015-12-06T02:18:33.815Z",
         "latest_version_updated": "2015-12-06T02:18:55.248Z"
     },
@@ -3614,6 +3769,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-redis",
+            "html_url": "https://github.com/grails-plugins/grails-redis",
+            "stargazers_count": 49
+        },
         "latest_version_created": "2016-02-26T16:13:39.649Z",
         "latest_version_updated": "2016-02-29T18:41:28.512Z"
     },
@@ -3648,6 +3808,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "stargazers_count": 72
+        },
         "latest_version_created": "2016-03-31T13:32:02.103Z",
         "latest_version_updated": "2016-03-31T15:29:47.787Z"
     },
@@ -3675,6 +3840,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "amitjain1982/remote-pagination",
+            "html_url": "https://github.com/amitjain1982/remote-pagination",
+            "stargazers_count": 10
+        },
         "latest_version_created": "2015-12-22T11:15:07.134Z",
         "latest_version_updated": "2015-12-22T11:15:42.515Z"
     },
@@ -3703,6 +3873,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "vahidhedayati/RemoteSSH",
+            "html_url": "https://github.com/vahidhedayati/RemoteSSH",
+            "stargazers_count": 3
+        },
         "latest_version_created": "2015-06-23T20:08:18.298Z",
         "latest_version_updated": "2015-10-30T19:07:42.179Z"
     },
@@ -3762,6 +3937,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "nobeans/grails-request-tracelog",
+            "html_url": "https://github.com/nobeans/grails-request-tracelog",
+            "stargazers_count": 3
+        },
         "latest_version_created": "2016-03-24T07:32:47.242Z",
         "latest_version_updated": "2016-03-24T07:33:13.659Z"
     },
@@ -3789,6 +3969,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "ejaz-ahmed/grails-rest-awesome-plugin",
+            "html_url": "https://github.com/ejaz-ahmed/grails-rest-awesome-plugin",
+            "stargazers_count": 2
+        },
         "latest_version_created": "2016-03-25T12:31:53.014Z",
         "latest_version_updated": "2016-03-25T12:32:14.506Z"
     },
@@ -3816,6 +4001,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "vsachinv/grails-csv",
+            "html_url": "https://github.com/vsachinv/grails-csv",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2015-07-15T11:12:42.807Z",
         "latest_version_updated": "2015-07-15T11:13:04.439Z"
     },
@@ -3862,6 +4052,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "bertramdev/asset-pipeline",
+            "html_url": "https://github.com/bertramdev/asset-pipeline",
+            "stargazers_count": 57
+        },
         "latest_version_created": "2016-04-05T12:50:05.700Z",
         "latest_version_updated": "2016-04-05T12:53:00.932Z"
     },
@@ -3900,6 +4095,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails3-plugins/scaffolding",
+            "html_url": "https://github.com/grails3-plugins/scaffolding",
+            "stargazers_count": 5
+        },
         "latest_version_created": "2016-03-31T13:32:01.234Z",
         "latest_version_updated": "2016-03-31T15:29:08.018Z"
     },
@@ -3929,6 +4129,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "mathifonseca/grails-slack",
+            "html_url": "https://github.com/mathifonseca/grails-slack",
+            "stargazers_count": 6
+        },
         "latest_version_created": "2016-02-18T18:11:03.941Z",
         "latest_version_updated": "2016-02-18T18:11:38.673Z"
     },
@@ -3957,6 +4162,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-acl",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-acl",
+            "stargazers_count": 20
+        },
         "latest_version_created": "2016-03-31T13:32:01.455Z",
         "latest_version_updated": "2016-03-31T15:28:52.400Z"
     },
@@ -3984,6 +4194,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-appinfo",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-appinfo",
+            "stargazers_count": 2
+        },
         "latest_version_created": "2016-03-31T15:25:05.605Z",
         "latest_version_updated": "2016-03-31T15:35:29.642Z"
     },
@@ -4011,6 +4226,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-cas",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-cas",
+            "stargazers_count": 15
+        },
         "latest_version_created": "2016-03-31T15:25:02.074Z",
         "latest_version_updated": "2016-03-31T15:32:07.576Z"
     },
@@ -4043,6 +4263,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-core",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-core",
+            "stargazers_count": 167
+        },
         "latest_version_created": "2016-03-31T13:32:02.079Z",
         "latest_version_updated": "2016-03-31T15:27:58.279Z"
     },
@@ -4070,6 +4295,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "splix/grails-spring-security-facebook",
+            "html_url": "https://github.com/splix/grails-spring-security-facebook",
+            "stargazers_count": 35
+        },
         "latest_version_created": "2016-03-05T15:11:09.763Z",
         "latest_version_updated": "2016-03-05T15:11:28.873Z"
     },
@@ -4097,6 +4327,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "donald-jackson/grails-spring-security-jaxrs",
+            "html_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2016-01-08T15:55:56.402Z",
         "latest_version_updated": "2016-01-08T15:56:17.018Z"
     },
@@ -4124,6 +4359,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-kerberos",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-kerberos",
+            "stargazers_count": 4
+        },
         "latest_version_created": "2016-03-31T15:25:00.451Z",
         "latest_version_updated": "2016-03-31T15:29:02.547Z"
     },
@@ -4153,6 +4393,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-ldap",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-ldap",
+            "stargazers_count": 8
+        },
         "latest_version_created": "2016-03-31T13:32:01.430Z",
         "latest_version_updated": "2016-03-31T15:29:59.619Z"
     },
@@ -4180,6 +4425,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "bluesliverx/grails-spring-security-oauth2-provider",
+            "html_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider",
+            "stargazers_count": 47
+        },
         "latest_version_created": "2016-02-16T16:24:24.645Z",
         "latest_version_updated": "2016-03-15T14:33:49.334Z"
     },
@@ -4208,6 +4458,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "alvarosanchez/grails-spring-security-rest",
+            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
+            "stargazers_count": 135
+        },
         "latest_version_created": "2016-03-31T13:32:01.478Z",
         "latest_version_updated": "2016-03-31T15:35:23.063Z"
     },
@@ -4235,6 +4490,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "alvarosanchez/grails-spring-security-rest",
+            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
+            "stargazers_count": 135
+        },
         "latest_version_created": "2016-03-31T15:25:01.297Z",
         "latest_version_updated": "2016-03-31T15:30:05.376Z"
     },
@@ -4262,6 +4522,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "alvarosanchez/grails-spring-security-rest",
+            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
+            "stargazers_count": 135
+        },
         "latest_version_created": "2016-03-31T15:25:00.414Z",
         "latest_version_updated": "2016-03-31T15:28:41.466Z"
     },
@@ -4289,6 +4554,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "alvarosanchez/grails-spring-security-rest",
+            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
+            "stargazers_count": 135
+        },
         "latest_version_created": "2016-03-31T15:25:02.168Z",
         "latest_version_updated": "2016-03-31T15:32:35.707Z"
     },
@@ -4315,7 +4585,12 @@
         "website_url": "",
         "attributes": [
             
-        ]
+        ],
+        "githubRepo": {
+            "full_name": "alvarosanchez/grails-spring-security-rest",
+            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
+            "stargazers_count": 135
+        }
     },
     {
         "desc": "Grails spring-security-shiro plugin",
@@ -4341,6 +4616,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-shiro",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-shiro",
+            "stargazers_count": 5
+        },
         "latest_version_created": "2016-03-31T15:25:01.858Z",
         "latest_version_updated": "2016-03-31T15:31:03.126Z"
     },
@@ -4368,6 +4648,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-spring-security-ui",
+            "html_url": "https://github.com/grails-plugins/grails-spring-security-ui",
+            "stargazers_count": 55
+        },
         "latest_version_created": "2016-03-31T15:25:00.225Z",
         "latest_version_updated": "2016-03-31T15:28:50.778Z"
     },
@@ -4401,6 +4686,11 @@
                 ]
             }
         ],
+        "githubRepo": {
+            "full_name": "jeetmp3/spring-session",
+            "html_url": "https://github.com/jeetmp3/spring-session",
+            "stargazers_count": 2
+        },
         "latest_version_created": "2016-02-11T10:13:27.146Z",
         "latest_version_updated": "2016-02-11T10:13:54.771Z"
     },
@@ -4428,6 +4718,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "donald-jackson/swagger4jaxrs",
+            "html_url": "https://github.com/donald-jackson/swagger4jaxrs",
+            "stargazers_count": 0
+        },
         "latest_version_created": "2016-01-08T15:43:48.933Z",
         "latest_version_updated": "2016-01-08T15:44:09.173Z"
     },
@@ -4466,6 +4761,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "grails/grails-views",
+            "html_url": "https://github.com/grails/grails-views",
+            "stargazers_count": 18
+        },
         "latest_version_created": "2016-03-31T13:31:58.938Z",
         "latest_version_updated": "2016-03-31T15:35:03.083Z"
     },
@@ -4499,6 +4799,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "rlovtangen/grails-wkhtmltopdf",
+            "html_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
+            "stargazers_count": 4
+        },
         "latest_version_created": "2016-03-26T23:59:09.220Z",
         "latest_version_updated": "2016-03-26T23:59:26.619Z"
     },
@@ -4542,6 +4847,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "vahidhedayati/grails-wschat-plugin",
+            "html_url": "https://github.com/vahidhedayati/grails-wschat-plugin",
+            "stargazers_count": 17
+        },
         "latest_version_created": "2016-03-18T14:51:22.116Z",
         "latest_version_updated": "2016-03-18T14:53:27.621Z"
     }
