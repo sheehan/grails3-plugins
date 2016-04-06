@@ -2074,6 +2074,134 @@
         "latest_version_updated": "2016-01-08T11:50:21.707Z"
     },
     {
+        "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-core plugin provides the main functionality of the plugin. This plugin does not include an implementing JAX-RS servlet provider, however, so one of the implementation plugins should be included in projects instead.",
+        "issue_tracker_url": "https://github.com/budjb/grails-jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "jaxrs-core",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:jaxrs-core"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-jaxrs",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-jaxrs",
+            "html_url": "https://github.com/budjb/grails-jaxrs",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-04-06T01:23:14.783Z",
+        "latest_version_updated": "2016-04-06T01:23:39.742Z"
+    },
+    {
+        "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-integration-test plugin provides classes to help with integration testing.",
+        "issue_tracker_url": "https://github.com/budjb/grails-jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "jaxrs-integration-test",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:jaxrs-integration-test"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-jaxrs",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-jaxrs",
+            "html_url": "https://github.com/budjb/grails-jaxrs",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-04-06T01:23:22.242Z",
+        "latest_version_updated": "2016-04-06T01:23:59.805Z"
+    },
+    {
+        "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-jersey1 plugin implements the Jersey 1.x JAX-RS implementation.",
+        "issue_tracker_url": "https://github.com/budjb/grails-jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "jaxrs-jersey1",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:jaxrs-jersey1"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-jaxrs",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-jaxrs",
+            "html_url": "https://github.com/budjb/grails-jaxrs",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-04-06T01:23:28.573Z",
+        "latest_version_updated": "2016-04-06T01:24:10.784Z"
+    },
+    {
+        "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-restlet plugin implements the Restlet JAX-RS implementation.",
+        "issue_tracker_url": "https://github.com/budjb/grails-jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "jaxrs-restlet",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:jaxrs-restlet"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-jaxrs",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-jaxrs",
+            "html_url": "https://github.com/budjb/grails-jaxrs",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-04-06T01:23:34.646Z",
+        "latest_version_updated": "2016-04-06T01:24:22.494Z"
+    },
+    {
         "desc": "Grails Jenjir plugin",
         "issue_tracker_url": "https://github.com/vahidhedayati/grails-jenkins-plugin/issues",
         "labels": [
