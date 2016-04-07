@@ -1712,7 +1712,7 @@
             "grails",
             "plugin"
         ],
-        "latest_version": "0.1.5",
+        "latest_version": "0.1.6",
         "licenses": [
             "MIT"
         ],
@@ -1724,6 +1724,7 @@
         ],
         "vcs_url": "https://github.com/appcela/grails3-cors-interceptor",
         "versions": [
+            "0.1.6",
             "0.1.5",
             "0.1.4",
             "0.1.3",
@@ -1740,8 +1741,8 @@
             "html_url": "https://github.com/appcela/grails3-cors-interceptor",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-03-17T10:01:01.088Z",
-        "latest_version_updated": "2016-03-17T10:04:07.850Z"
+        "latest_version_created": "2016-04-07T06:48:01.767Z",
+        "latest_version_updated": "2016-04-07T06:52:23.306Z"
     },
     {
         "desc": "",
