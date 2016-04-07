@@ -2080,7 +2080,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.0",
+        "latest_version": "3.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2092,6 +2092,7 @@
         ],
         "vcs_url": "https://github.com/budjb/grails-jaxrs",
         "versions": [
+            "3.0.1",
             "3.0.0"
         ],
         "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
@@ -2103,8 +2104,8 @@
             "html_url": "https://github.com/budjb/grails-jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-06T01:23:14.783Z",
-        "latest_version_updated": "2016-04-06T01:23:39.742Z"
+        "latest_version_created": "2016-04-07T18:29:53.236Z",
+        "latest_version_updated": "2016-04-07T18:30:17.337Z"
     },
     {
         "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-integration-test plugin provides classes to help with integration testing.",
@@ -2112,7 +2113,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.0",
+        "latest_version": "3.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2124,6 +2125,7 @@
         ],
         "vcs_url": "https://github.com/budjb/grails-jaxrs",
         "versions": [
+            "3.0.1",
             "3.0.0"
         ],
         "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
@@ -2135,8 +2137,8 @@
             "html_url": "https://github.com/budjb/grails-jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-06T01:23:22.242Z",
-        "latest_version_updated": "2016-04-06T01:23:59.805Z"
+        "latest_version_created": "2016-04-07T18:29:59.432Z",
+        "latest_version_updated": "2016-04-07T18:30:34.362Z"
     },
     {
         "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-jersey1 plugin implements the Jersey 1.x JAX-RS implementation.",
@@ -2144,7 +2146,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.0",
+        "latest_version": "3.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2156,6 +2158,7 @@
         ],
         "vcs_url": "https://github.com/budjb/grails-jaxrs",
         "versions": [
+            "3.0.1",
             "3.0.0"
         ],
         "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
@@ -2167,8 +2170,8 @@
             "html_url": "https://github.com/budjb/grails-jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-06T01:23:28.573Z",
-        "latest_version_updated": "2016-04-06T01:24:10.784Z"
+        "latest_version_created": "2016-04-07T18:30:04.835Z",
+        "latest_version_updated": "2016-04-07T18:30:49.585Z"
     },
     {
         "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-restlet plugin implements the Restlet JAX-RS implementation.",
@@ -2176,7 +2179,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.0",
+        "latest_version": "3.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2188,6 +2191,7 @@
         ],
         "vcs_url": "https://github.com/budjb/grails-jaxrs",
         "versions": [
+            "3.0.1",
             "3.0.0"
         ],
         "website_url": "https://budjb.github.io/grails-jaxrs/3.x/latest/",
@@ -2199,8 +2203,8 @@
             "html_url": "https://github.com/budjb/grails-jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-06T01:23:34.646Z",
-        "latest_version_updated": "2016-04-06T01:24:22.494Z"
+        "latest_version_created": "2016-04-07T18:30:10.020Z",
+        "latest_version_updated": "2016-04-07T18:31:04.379Z"
     },
     {
         "desc": "Grails Jenjir plugin",
