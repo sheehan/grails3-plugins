@@ -967,7 +967,7 @@
             "soap",
             "client"
         ],
-        "latest_version": "3.0.6",
+        "latest_version": "3.0.7",
         "licenses": [
             "Apache-2.0"
         ],
@@ -980,6 +980,7 @@
         ],
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
         "versions": [
+            "3.0.7",
             "3.0.6",
             "3.0.5",
             "3.0.4",
@@ -997,8 +998,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client",
             "stargazers_count": 25
         },
-        "latest_version_created": "2016-01-18T21:12:03.043Z",
-        "latest_version_updated": "2016-01-18T21:12:27.533Z"
+        "latest_version_created": "2016-04-11T19:21:06.065Z",
+        "latest_version_updated": "2016-04-11T19:21:37.751Z"
     },
     {
         "desc": "Grails database-migration plugin",
