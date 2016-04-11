@@ -2043,38 +2043,6 @@
         "latest_version_updated": "2015-07-09T10:01:12.417Z"
     },
     {
-        "desc": "Grails jaxrs plugin",
-        "issue_tracker_url": "https://github.com/grails3-plugins/jaxrs/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "0.12",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "jaxrs",
-        "owner": "donald-jackson",
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:jaxrs"
-        ],
-        "vcs_url": "https://github.com/donald-jackson/grails-jaxrs",
-        "versions": [
-            "0.12"
-        ],
-        "website_url": "http://grails.org/plugin/jaxrs",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "donald-jackson/grails-jaxrs",
-            "html_url": "https://github.com/donald-jackson/grails-jaxrs",
-            "stargazers_count": 1
-        },
-        "latest_version_created": "2016-01-08T11:49:54.879Z",
-        "latest_version_updated": "2016-01-08T11:50:21.707Z"
-    },
-    {
         "desc": "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-core plugin provides the main functionality of the plugin. This plugin does not include an implementing JAX-RS servlet provider, however, so one of the implementation plugins should be included in projects instead.",
         "issue_tracker_url": "https://github.com/budjb/grails-jaxrs/issues",
         "labels": [
@@ -3845,6 +3813,40 @@
         "latest_version_updated": "2016-03-21T05:00:01.463Z"
     },
     {
+        "desc": "A messaging plugin for Grails 3 using RabbitMQ.\r\n\r\nThis plugin gives application authors a powerful framework to quickly get a scalable messaging solution running quickly.",
+        "issue_tracker_url": "https://github.com/budjb/grails-rabbitmq-native/issues",
+        "labels": [
+            "grails",
+            "rabbitmq",
+            "messaging"
+        ],
+        "latest_version": "3.1.2-beta1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "rabbitmq-native",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:rabbitmq-native"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-rabbitmq-native",
+        "versions": [
+            "3.1.2-beta1"
+        ],
+        "website_url": "http://grails.org/plugin/rabbitmq-native",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-rabbitmq-native",
+            "html_url": "https://github.com/budjb/grails-rabbitmq-native",
+            "stargazers_count": 12
+        },
+        "latest_version_created": "2015-11-09T17:10:17.344Z",
+        "latest_version_updated": "2015-11-09T17:36:23.906Z"
+    },
+    {
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
@@ -4436,38 +4438,6 @@
         },
         "latest_version_created": "2016-03-05T15:11:09.763Z",
         "latest_version_updated": "2016-03-05T15:11:28.873Z"
-    },
-    {
-        "desc": "Grails spring-security-jaxrs plugin",
-        "issue_tracker_url": "https://github.com/grails3-plugins/spring-security-jaxrs/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "1.1.0",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "spring-security-jaxrs",
-        "owner": "donald-jackson",
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:spring-security-jaxrs"
-        ],
-        "vcs_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
-        "versions": [
-            "1.1.0"
-        ],
-        "website_url": "http://grails.org/plugin/spring-security-jaxrs",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "donald-jackson/grails-spring-security-jaxrs",
-            "html_url": "https://github.com/donald-jackson/grails-spring-security-jaxrs",
-            "stargazers_count": 0
-        },
-        "latest_version_created": "2016-01-08T15:55:56.402Z",
-        "latest_version_updated": "2016-01-08T15:56:17.018Z"
     },
     {
         "desc": "Grails spring-security-kerberos plugin",
