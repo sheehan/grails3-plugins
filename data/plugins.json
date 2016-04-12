@@ -3592,7 +3592,7 @@
         "labels": [
             
         ],
-        "latest_version": "7.1.0",
+        "latest_version": "7.1.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3604,6 +3604,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-raven",
         "versions": [
+            "7.1.0.1",
             "7.1.0",
             "6.0.0"
         ],
@@ -3616,8 +3617,8 @@
             "html_url": "https://github.com/agorapulse/grails-raven",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-04-06T10:07:47.293Z",
-        "latest_version_updated": "2016-04-06T10:08:05.058Z"
+        "latest_version_created": "2016-04-12T21:48:18.174Z",
+        "latest_version_updated": "2016-04-12T21:48:34.324Z"
     },
     {
         "desc": "Grails views-markup plugin",
