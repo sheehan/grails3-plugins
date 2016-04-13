@@ -1668,7 +1668,7 @@
             "json",
             "views"
         ],
-        "latest_version": "1.0.5",
+        "latest_version": "1.0.6",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1676,10 +1676,12 @@
         "owner": "grails",
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:views-json",
+            "org.grails.plugins:views-markup"
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.6",
             "1.0.5",
             "1.0.3",
             "1.0.0.RC4",
@@ -1706,8 +1708,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 18
         },
-        "latest_version_created": "2016-03-31T13:32:01.338Z",
-        "latest_version_updated": "2016-03-31T16:16:09.501Z"
+        "latest_version_created": "2016-04-13T10:20:38.890Z",
+        "latest_version_updated": "2016-04-13T10:21:19.895Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -4576,7 +4578,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 136
+            "stargazers_count": 137
         },
         "latest_version_created": "2016-03-31T13:32:01.478Z",
         "latest_version_updated": "2016-03-31T15:35:23.063Z"
@@ -4608,7 +4610,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 136
+            "stargazers_count": 137
         },
         "latest_version_created": "2016-03-31T15:25:01.297Z",
         "latest_version_updated": "2016-03-31T15:30:05.376Z"
@@ -4640,7 +4642,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 136
+            "stargazers_count": 137
         },
         "latest_version_created": "2016-03-31T15:25:00.414Z",
         "latest_version_updated": "2016-03-31T15:28:41.466Z"
@@ -4672,7 +4674,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 136
+            "stargazers_count": 137
         },
         "latest_version_created": "2016-03-31T15:25:02.168Z",
         "latest_version_updated": "2016-03-31T15:32:35.707Z"
@@ -4704,7 +4706,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 136
+            "stargazers_count": 137
         }
     },
     {
@@ -4847,7 +4849,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.5",
+        "latest_version": "1.0.6",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4855,10 +4857,11 @@
         "owner": "grails",
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:views-gradle"
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.6",
             "1.0.5",
             "1.0.2",
             "1.0.0.RC4",
@@ -4881,8 +4884,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 18
         },
-        "latest_version_created": "2016-03-31T13:31:58.938Z",
-        "latest_version_updated": "2016-03-31T15:35:03.083Z"
+        "latest_version_created": "2016-04-13T10:20:22.364Z",
+        "latest_version_updated": "2016-04-13T10:20:44.121Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
