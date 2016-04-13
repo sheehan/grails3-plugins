@@ -70,7 +70,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.1",
+        "latest_version": "1.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -82,6 +82,7 @@
         ],
         "vcs_url": "https://github.com/vahidhedayati/ajaxdependancyselection/",
         "versions": [
+            "1.2",
             "1.1",
             "1.0"
         ],
@@ -94,8 +95,8 @@
             "html_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-02-23T17:58:05.524Z",
-        "latest_version_updated": "2016-02-23T17:59:14.132Z"
+        "latest_version_created": "2016-04-13T21:35:04.322Z",
+        "latest_version_updated": "2016-04-13T21:35:50.601Z"
     },
     {
         "desc": "AngularJS Annotate for Asset Pipeline 2.0+",
@@ -465,7 +466,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.3",
+        "latest_version": "3.0.4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -477,6 +478,7 @@
         ],
         "vcs_url": "https://github.com/vahidhedayati/grails-boselecta-plugin/wiki/Version",
         "versions": [
+            "3.0.4",
             "3.0.3",
             "3.0.2",
             "3.0.1"
@@ -490,8 +492,8 @@
             "html_url": "https://github.com/vahidhedayati/grails-boselecta-plugin",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-02-23T18:21:02.213Z",
-        "latest_version_updated": "2016-02-23T18:22:10.131Z"
+        "latest_version_created": "2016-04-13T21:40:04.487Z",
+        "latest_version_updated": "2016-04-13T21:40:52.528Z"
     },
     {
         "desc": "Airbrake Client for Grails",
@@ -2190,7 +2192,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.1",
+        "latest_version": "3.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2202,6 +2204,7 @@
         ],
         "vcs_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
         "versions": [
+            "3.0.2",
             "3.0.1"
         ],
         "website_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
@@ -2213,8 +2216,8 @@
             "html_url": "https://github.com/vahidhedayati/grails-jenkins-plugin",
             "stargazers_count": 1
         },
-        "latest_version_created": "2015-05-24T20:18:59.374Z",
-        "latest_version_updated": "2015-11-01T17:07:48.119Z"
+        "latest_version_created": "2016-04-13T21:30:09.435Z",
+        "latest_version_updated": "2016-04-13T21:31:04.173Z"
     },
     {
         "desc": "Grails Jesque Plugin",
@@ -2328,7 +2331,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.1",
+        "latest_version": "3.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2340,6 +2343,7 @@
         ],
         "vcs_url": "https://github.com/vahidhedayati/jssh/",
         "versions": [
+            "3.0.2",
             "3.0.1"
         ],
         "website_url": "https://github.com/vahidhedayati/jssh/",
@@ -2351,8 +2355,8 @@
             "html_url": "https://github.com/vahidhedayati/jssh",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-05-24T18:30:19.851Z",
-        "latest_version_updated": "2015-10-30T19:24:18.806Z"
+        "latest_version_created": "2016-04-13T21:23:35.719Z",
+        "latest_version_updated": "2016-04-13T21:24:25.374Z"
     },
     {
         "desc": "Grails LDAP Server Plugin",
