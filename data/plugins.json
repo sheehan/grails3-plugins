@@ -4420,7 +4420,7 @@
         "githubRepo": {
             "full_name": "grails-plugins/grails-spring-security-core",
             "html_url": "https://github.com/grails-plugins/grails-spring-security-core",
-            "stargazers_count": 167
+            "stargazers_count": 168
         },
         "latest_version_created": "2016-03-31T13:32:02.079Z",
         "latest_version_updated": "2016-03-31T15:27:58.279Z"
@@ -4518,7 +4518,7 @@
         "githubRepo": {
             "full_name": "grails-plugins/grails-spring-security-ldap",
             "html_url": "https://github.com/grails-plugins/grails-spring-security-ldap",
-            "stargazers_count": 8
+            "stargazers_count": 9
         },
         "latest_version_created": "2016-03-31T13:32:01.430Z",
         "latest_version_updated": "2016-03-31T15:29:59.619Z"
@@ -4773,7 +4773,7 @@
         "githubRepo": {
             "full_name": "grails-plugins/grails-spring-security-ui",
             "html_url": "https://github.com/grails-plugins/grails-spring-security-ui",
-            "stargazers_count": 55
+            "stargazers_count": 56
         },
         "latest_version_created": "2016-03-31T15:25:00.225Z",
         "latest_version_updated": "2016-03-31T15:28:50.778Z"
