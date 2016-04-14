@@ -1670,7 +1670,7 @@
             "json",
             "views"
         ],
-        "latest_version": "1.0.7",
+        "latest_version": "1.0.8",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1683,6 +1683,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.8",
             "1.0.7",
             "1.0.6",
             "1.0.5",
@@ -1709,10 +1710,10 @@
         "githubRepo": {
             "full_name": "grails/grails-views",
             "html_url": "https://github.com/grails/grails-views",
-            "stargazers_count": 18
+            "stargazers_count": 19
         },
-        "latest_version_created": "2016-04-13T14:24:53.177Z",
-        "latest_version_updated": "2016-04-13T14:25:38.860Z"
+        "latest_version_created": "2016-04-14T10:29:20.269Z",
+        "latest_version_updated": "2016-04-14T10:30:06.198Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -4854,7 +4855,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.7",
+        "latest_version": "1.0.8",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4866,6 +4867,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.8",
             "1.0.7",
             "1.0.6",
             "1.0.5",
@@ -4888,10 +4890,10 @@
         "githubRepo": {
             "full_name": "grails/grails-views",
             "html_url": "https://github.com/grails/grails-views",
-            "stargazers_count": 18
+            "stargazers_count": 19
         },
-        "latest_version_created": "2016-04-13T14:24:36.838Z",
-        "latest_version_updated": "2016-04-13T14:24:59.719Z"
+        "latest_version_created": "2016-04-14T10:29:03.379Z",
+        "latest_version_updated": "2016-04-14T10:29:27.502Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
