@@ -2688,7 +2688,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.10.51",
+        "latest_version": "1.10.69",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2700,6 +2700,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-aws-sdk",
         "versions": [
+            "1.10.69",
             "1.10.51",
             "1.10.44",
             "1.10.32",
@@ -2716,8 +2717,8 @@
             "html_url": "https://github.com/agorapulse/grails-aws-sdk",
             "stargazers_count": 33
         },
-        "latest_version_created": "2016-02-12T10:46:10.424Z",
-        "latest_version_updated": "2016-02-12T10:46:26.341Z"
+        "latest_version_created": "2016-04-18T06:46:43.690Z",
+        "latest_version_updated": "2016-04-18T06:46:59.483Z"
     },
     {
         "desc": "Grails clojure plugin",
