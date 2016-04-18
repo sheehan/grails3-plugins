@@ -1193,8 +1193,8 @@
             "html_url": "https://github.com/noamt/elasticsearch-grails-plugin",
             "stargazers_count": 46
         },
-        "latest_version_created": "2016-04-18T17:22:49.228Z",
-        "latest_version_updated": "2016-04-18T17:23:40.126Z"
+        "latest_version_created": "2016-04-18T21:14:44.130Z",
+        "latest_version_updated": "2016-04-18T21:26:34.231Z"
     },
     {
         "desc": "Compiles hbs or handlebars files for the asset-pipeline into the Ember.TEMPLATES cache",
