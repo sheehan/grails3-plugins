@@ -1804,6 +1804,40 @@
         "latest_version_updated": "2016-04-05T12:51:49.398Z"
     },
     {
+        "desc": "Hazelcast Grails Integration",
+        "issue_tracker_url": "https://github.com/enesakar/hazelgrails/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "hazelgrails",
+        "owner": "enesakar",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:hazelgrails"
+        ],
+        "vcs_url": "https://github.com/enesakar/hazelgrails",
+        "versions": [
+            "1.0.2",
+            "1.0.1",
+            "1.0"
+        ],
+        "website_url": "https://github.com/enesakar/hazelgrails",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "enesakar/hazelgrails",
+            "html_url": "https://github.com/enesakar/hazelgrails",
+            "stargazers_count": 9
+        },
+        "latest_version_created": "2016-04-12T08:27:44.066Z",
+        "latest_version_updated": "2016-04-12T08:28:17.926Z"
+    },
+    {
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
@@ -4458,6 +4492,38 @@
         },
         "latest_version_created": "2016-03-05T15:11:09.763Z",
         "latest_version_updated": "2016-03-05T15:11:28.873Z"
+    },
+    {
+        "desc": "A plugin that allows the use of Spring Security features with JAX-RS resources.",
+        "issue_tracker_url": "https://github.com/budjb/grails-spring-security-jaxrs/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "spring-security-jaxrs",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-jaxrs"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-spring-security-jaxrs",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/budjb/grails-spring-security-jaxrs",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-spring-security-jaxrs",
+            "html_url": "https://github.com/budjb/grails-spring-security-jaxrs",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-04-18T13:18:27.714Z",
+        "latest_version_updated": "2016-04-18T13:18:50.721Z"
     },
     {
         "desc": "Grails spring-security-kerberos plugin",
