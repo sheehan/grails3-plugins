@@ -3570,7 +3570,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.2",
+        "latest_version": "1.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3582,6 +3582,7 @@
         ],
         "vcs_url": "https://github.com/jamescookie/quartz-monitor",
         "versions": [
+            "1.3",
             "1.2"
         ],
         "website_url": "http://grails.org/plugin/quartz-monitor",
@@ -3593,8 +3594,8 @@
             "html_url": "https://github.com/jamescookie/quartz-monitor",
             "stargazers_count": 28
         },
-        "latest_version_created": "2015-05-01T22:19:15.720Z",
-        "latest_version_updated": "2015-05-01T22:19:18.886Z"
+        "latest_version_created": "2016-04-19T21:51:14.614Z",
+        "latest_version_updated": "2016-04-19T21:51:32.907Z"
     },
     {
         "desc": "Grails Segment plugin",
