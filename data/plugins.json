@@ -670,7 +670,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -682,6 +682,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "5.0.0.RC4",
@@ -711,8 +712,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:29:20.922Z",
-        "latest_version_updated": "2016-04-11T08:29:57.398Z"
+        "latest_version_created": "2016-04-21T08:17:51.176Z",
+        "latest_version_updated": "2016-04-21T08:18:22.534Z"
     },
     {
         "desc": "CKeditor web WYSIWYG editor integration plugin.",
@@ -1849,7 +1850,7 @@
             "gorm",
             "rdms"
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1861,11 +1862,12 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "5.0.1",
-            "5.0.0.RC4",
             "5.0.0",
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "5.0.0.RC2",
             "5.0.2",
@@ -1886,8 +1888,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:29:48.457Z",
-        "latest_version_updated": "2016-04-11T08:30:23.982Z"
+        "latest_version_created": "2016-04-21T08:18:14.801Z",
+        "latest_version_updated": "2016-04-21T08:18:45.893Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1898,7 +1900,7 @@
             "gorm",
             "rdms"
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1910,15 +1912,16 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "5.0.0.RC1",
             "5.0.0.RC2",
             "5.0.2",
             "5.0.1",
+            "5.0.0.RC4",
             "5.0.0.RC3",
-            "5.0.0",
-            "5.0.0.RC4"
+            "5.0.0"
         ],
         "website_url": "http://grails.org/",
         "attributes": [
@@ -1935,8 +1938,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:30:14.716Z",
-        "latest_version_updated": "2016-04-11T08:30:50.153Z"
+        "latest_version_created": "2016-04-21T08:18:37.361Z",
+        "latest_version_updated": "2016-04-21T08:19:08.163Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -1947,7 +1950,7 @@
             "gorm",
             "rdms"
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1959,6 +1962,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "5.0.0.RC1",
@@ -1966,8 +1970,8 @@
             "5.0.0.RC4",
             "5.0.0",
             "5.0.0.RC3",
-            "5.0.0.RC2",
-            "5.0.2"
+            "5.0.2",
+            "5.0.0.RC2"
         ],
         "website_url": "http://grails.org/",
         "attributes": [
@@ -1984,8 +1988,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:30:42.550Z",
-        "latest_version_updated": "2016-04-11T08:31:17.956Z"
+        "latest_version_created": "2016-04-21T08:19:01.148Z",
+        "latest_version_updated": "2016-04-21T08:19:30.940Z"
     },
     {
         "desc": "Grails HTTP Builder Helper Plugin",
@@ -2555,7 +2559,7 @@
             "gorm",
             "grails"
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2567,6 +2571,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "4.0.0.M1",
@@ -2598,8 +2603,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:31:08.486Z",
-        "latest_version_updated": "2016-04-11T08:31:45.583Z"
+        "latest_version_created": "2016-04-21T08:19:22.472Z",
+        "latest_version_updated": "2016-04-21T08:19:54.665Z"
     },
     {
         "desc": null,
@@ -2641,7 +2646,7 @@
             "graph",
             "neo4j"
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2653,6 +2658,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "5.0.0.RC1",
@@ -2682,8 +2688,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:31:33.912Z",
-        "latest_version_updated": "2016-04-11T08:32:08.544Z"
+        "latest_version_created": "2016-04-21T08:19:45.015Z",
+        "latest_version_updated": "2016-04-21T08:20:19.383Z"
     },
     {
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
@@ -3976,7 +3982,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.4",
+        "latest_version": "5.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3988,6 +3994,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.5",
             "5.0.4",
             "5.0.3",
             "5.0.0.RC3",
@@ -4007,8 +4014,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-11T08:31:57.753Z",
-        "latest_version_updated": "2016-04-11T08:32:29.507Z"
+        "latest_version_created": "2016-04-21T08:20:08.705Z",
+        "latest_version_updated": "2016-04-21T08:20:45.001Z"
     },
     {
         "desc": "Grails remote-pagination plugin",
