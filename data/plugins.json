@@ -3883,7 +3883,7 @@
             "rabbitmq",
             "messaging"
         ],
-        "latest_version": "3.1.2-beta1",
+        "latest_version": "3.2.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3895,6 +3895,7 @@
         ],
         "vcs_url": "https://github.com/budjb/grails-rabbitmq-native",
         "versions": [
+            "3.2.0",
             "3.1.2-beta1"
         ],
         "website_url": "http://grails.org/plugin/rabbitmq-native",
@@ -3906,8 +3907,8 @@
             "html_url": "https://github.com/budjb/grails-rabbitmq-native",
             "stargazers_count": 13
         },
-        "latest_version_created": "2015-11-09T17:10:17.344Z",
-        "latest_version_updated": "2015-11-09T17:36:23.906Z"
+        "latest_version_created": "2016-04-21T15:54:36.407Z",
+        "latest_version_updated": "2016-04-21T15:54:59.372Z"
     },
     {
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
