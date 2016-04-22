@@ -1194,7 +1194,7 @@
         "githubRepo": {
             "full_name": "noamt/elasticsearch-grails-plugin",
             "html_url": "https://github.com/noamt/elasticsearch-grails-plugin",
-            "stargazers_count": 46
+            "stargazers_count": 47
         },
         "latest_version_created": "2016-04-18T21:14:44.130Z",
         "latest_version_updated": "2016-04-18T21:26:34.231Z"
@@ -4452,7 +4452,7 @@
         "owner": "grails",
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:spring-security-core"
         ],
         "vcs_url": "https://github.com/grails-plugins/grails-spring-security-core",
         "versions": [
@@ -4473,7 +4473,7 @@
             "stargazers_count": 168
         },
         "latest_version_created": "2016-03-31T13:32:02.079Z",
-        "latest_version_updated": "2016-03-31T15:27:58.279Z"
+        "latest_version_updated": "2016-04-22T07:03:49.821Z"
     },
     {
         "desc": "Grails spring-security-facebook plugin",
