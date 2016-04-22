@@ -920,7 +920,7 @@
             "cxf",
             "soap"
         ],
-        "latest_version": "3.0.13",
+        "latest_version": "3.0.14",
         "licenses": [
             "Apache-2.0"
         ],
@@ -933,6 +933,7 @@
         ],
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf",
         "versions": [
+            "3.0.14",
             "3.0.13",
             "3.0.12",
             "3.0.11",
@@ -959,8 +960,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf",
             "stargazers_count": 38
         },
-        "latest_version_created": "2016-01-18T21:07:24.548Z",
-        "latest_version_updated": "2016-01-18T21:08:15.588Z"
+        "latest_version_created": "2016-04-21T23:19:07.958Z",
+        "latest_version_updated": "2016-04-21T23:19:51.561Z"
     },
     {
         "desc": "Grails CXF Client Plugin",
