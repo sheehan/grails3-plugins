@@ -1359,6 +1359,38 @@
         "latest_version_updated": "2016-04-18T18:50:28.437Z"
     },
     {
+        "desc": "Creates a simple annotation to mark controller/actions as SSL restricted and performs the appropriate redirect.",
+        "issue_tracker_url": "https://github.com/bertramdev/grails-force-ssl/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "force-ssl",
+        "owner": "bertramlabs",
+        "repo": "grails3-plugins",
+        "system_ids": [
+            "com.bertramlabs.plugins:force-ssl"
+        ],
+        "vcs_url": "https://github.com/bertramdev/grails-force-ssl",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/bertramdev/grails-force-ssl",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/grails-force-ssl",
+            "html_url": "https://github.com/bertramdev/grails-force-ssl",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-04-22T20:53:24.627Z",
+        "latest_version_updated": "2016-04-22T20:53:48.630Z"
+    },
+    {
         "desc": "Grails grails-google-visualization plugin",
         "issue_tracker_url": "https://github.com/bmuschko/grails-google-visualization/issues",
         "labels": [
@@ -2407,6 +2439,38 @@
         },
         "latest_version_created": "2016-04-13T21:23:35.719Z",
         "latest_version_updated": "2016-04-13T21:24:25.374Z"
+    },
+    {
+        "desc": "Karman is a standardized / extensible interface plugin for dealing with various cloud services including Local, S3, and Openstack.",
+        "issue_tracker_url": "https://github.com/bertramdev/karman-core/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.9.21",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "karman-grails",
+        "owner": "bertramlabs",
+        "repo": "karman",
+        "system_ids": [
+            "com.bertramlabs.plugins:karman-grails"
+        ],
+        "vcs_url": "https://github.com/bertramdev/karman-core",
+        "versions": [
+            "0.9.21"
+        ],
+        "website_url": "https://github.com/bertramdev/karman-core",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/karman-core",
+            "html_url": "https://github.com/bertramdev/karman-core",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-04-22T21:34:52.217Z",
+        "latest_version_updated": "2016-04-22T21:35:12.593Z"
     },
     {
         "desc": "Grails LDAP Server Plugin",
@@ -4192,6 +4256,38 @@
         "latest_version_updated": "2016-03-25T12:32:14.506Z"
     },
     {
+        "desc": "Adds retina resolution image tag support for asset-pipeline.",
+        "issue_tracker_url": "https://github.com/bertramdev/retina-tag-grails/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "retina-tag",
+        "owner": "bertramlabs",
+        "repo": "grails3-plugins",
+        "system_ids": [
+            "com.bertramlabs.plugins:retina-tag"
+        ],
+        "vcs_url": "https://github.com/bertramdev/retina-tag-grails",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/bertramdev/retina-tag-grails",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/retina-tag-grails",
+            "html_url": "https://github.com/bertramdev/retina-tag-grails",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-04-22T22:55:05.398Z",
+        "latest_version_updated": "2016-04-22T22:55:30.465Z"
+    },
+    {
         "desc": "Grails csv plugin",
         "issue_tracker_url": "https://github.com/vsachinv/grails-csv/issues",
         "labels": [
@@ -4318,6 +4414,38 @@
         },
         "latest_version_created": "2016-03-31T13:32:01.234Z",
         "latest_version_updated": "2016-03-31T15:29:08.018Z"
+    },
+    {
+        "desc": "Defines a standard corss-plugin security bridge implementation for better decoupling of authentication in plugin heavy applications.",
+        "issue_tracker_url": "https://github.com/bertramdev/grails-security-bridge/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "security-bridge",
+        "owner": "bertramlabs",
+        "repo": "grails3-plugins",
+        "system_ids": [
+            "com.bertramlabs.plugins:security-bridge"
+        ],
+        "vcs_url": "https://github.com/bertramdev/grails-security-bridge",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/bertramdev/grails-security-bridge",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/grails-security-bridge",
+            "html_url": "https://github.com/bertramdev/grails-security-bridge",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-04-22T22:09:29.917Z",
+        "latest_version_updated": "2016-04-22T22:09:54.065Z"
     },
     {
         "desc": "Grails Slack Integration Plugin",
