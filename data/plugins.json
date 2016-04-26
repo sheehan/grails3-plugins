@@ -1714,7 +1714,7 @@
             "json",
             "views"
         ],
-        "latest_version": "1.0.8",
+        "latest_version": "1.0.9",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1727,6 +1727,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.9",
             "1.0.8",
             "1.0.7",
             "1.0.6",
@@ -1756,8 +1757,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 20
         },
-        "latest_version_created": "2016-04-14T10:29:20.269Z",
-        "latest_version_updated": "2016-04-14T10:30:06.198Z"
+        "latest_version_created": "2016-04-26T14:39:41.569Z",
+        "latest_version_updated": "2016-04-26T14:40:24.441Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -5079,7 +5080,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.8",
+        "latest_version": "1.0.9",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5091,6 +5092,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.0.9",
             "1.0.8",
             "1.0.7",
             "1.0.6",
@@ -5102,9 +5104,9 @@
             "1.0.1",
             "1.0.0.RC2",
             "1.0.0.M2",
+            "1.0.3",
             "1.0.4",
             "1.0.0.RC3",
-            "1.0.3",
             "1.0.0.M1"
         ],
         "website_url": "https://grails.org/plugins.html#plugin/views-gradle",
@@ -5116,8 +5118,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 20
         },
-        "latest_version_created": "2016-04-14T10:29:03.379Z",
-        "latest_version_updated": "2016-04-14T10:29:27.502Z"
+        "latest_version_created": "2016-04-26T14:39:23.663Z",
+        "latest_version_updated": "2016-04-26T14:39:44.754Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
