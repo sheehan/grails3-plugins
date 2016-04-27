@@ -1393,6 +1393,38 @@
         "latest_version_updated": "2016-04-25T15:14:19.789Z"
     },
     {
+        "desc": "Grails geb plugin",
+        "issue_tracker_url": "https://github.com/grails3-plugins/geb/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "geb",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:geb"
+        ],
+        "vcs_url": "https://github.com/grails3-plugins/geb",
+        "versions": [
+            "1.0.2"
+        ],
+        "website_url": "http://grails.org/plugin/geb",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "grails3-plugins/geb",
+            "html_url": "https://github.com/grails3-plugins/geb",
+            "stargazers_count": 2
+        },
+        "latest_version_created": "2016-04-27T14:51:23.402Z",
+        "latest_version_updated": "2016-04-27T14:52:58.020Z"
+    },
+    {
         "desc": "Grails grails-google-visualization plugin",
         "issue_tracker_url": "https://github.com/bmuschko/grails-google-visualization/issues",
         "labels": [
