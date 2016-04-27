@@ -269,6 +269,38 @@
         "latest_version_updated": "2016-04-25T16:14:29.329Z"
     },
     {
+        "desc": "The Asset-Pipeline is a plugin used for managing and processing static assets in Grails applications. Asset-Pipeline functions include processing and minification of both CSS and JavaScript files. It is also capable of being extended to compile custom static assets, such as CoffeeScript.",
+        "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.8.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "asset-pipeline-grails",
+        "owner": "bertramlabs",
+        "repo": "asset-pipeline",
+        "system_ids": [
+            "com.bertramlabs.plugins:asset-pipeline-grails"
+        ],
+        "vcs_url": "https://github.com/bertramdev/asset-pipeline",
+        "versions": [
+            "2.8.2"
+        ],
+        "website_url": "https://github.com/bertramdev/asset-pipeline",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/asset-pipeline",
+            "html_url": "https://github.com/bertramdev/asset-pipeline",
+            "stargazers_count": 64
+        },
+        "latest_version_created": "2016-04-27T16:05:26.231Z",
+        "latest_version_updated": "2016-04-27T16:05:45.476Z"
+    },
+    {
         "desc": "A non-blocking HTTP client for Grails based on Netty",
         "issue_tracker_url": "https://github.com/grails/grails-http/issues",
         "labels": [
@@ -758,7 +790,7 @@
             "resources",
             "assets"
         ],
-        "latest_version": "2.8.1",
+        "latest_version": "2.8.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -770,6 +802,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/coffee-asset-pipeline",
         "versions": [
+            "2.8.2",
             "2.8.1",
             "2.8.0",
             "2.7.4",
@@ -796,8 +829,8 @@
             "html_url": "https://github.com/bertramdev/coffee-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-22T20:15:42.070Z",
-        "latest_version_updated": "2016-04-22T20:15:59.485Z"
+        "latest_version_created": "2016-04-27T16:47:15.014Z",
+        "latest_version_updated": "2016-04-27T16:51:15.463Z"
     },
     {
         "desc": "Grails Console Plugin",
@@ -1107,6 +1140,39 @@
         "latest_version_updated": "2015-09-01T07:05:14.119Z"
     },
     {
+        "desc": "This plugin provides a framework and interface for a synchronization mechanism distributed to multiple server instances.  In today's world of horizontal computational\nscale and massive concurrency, it becomes increasingly difficult to synchronize operations outside the context of a single computational space (server/process).  This plugin aims to make that\neasier by providing a simple service to facilitate this, as well as defining an interface for adding low level providers.\n",
+        "issue_tracker_url": "https://github.com/bertramdev/distributed-lock/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "distributed-lock",
+        "owner": "bertramlabs",
+        "repo": "grails3-plugins",
+        "system_ids": [
+            "com.bertramlabs.plugins:distributed-lock"
+        ],
+        "vcs_url": "https://github.com/bertramdev/distributed-lock",
+        "versions": [
+            "3.0.1",
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/bertramdev/distributed-lock",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/distributed-lock",
+            "html_url": "https://github.com/bertramdev/distributed-lock",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-04-26T22:28:21.184Z",
+        "latest_version_updated": "2016-04-26T22:28:45.780Z"
+    },
+    {
         "desc": "Grails grails-simple-captcha plugin",
         "issue_tracker_url": "https://github.com/domurtag/grails-simple-captcha/issues",
         "labels": [
@@ -1209,7 +1275,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.8.1",
+        "latest_version": "2.8.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1221,6 +1287,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/ember-asset-pipeline",
         "versions": [
+            "2.8.2",
             "2.8.1",
             "2.8.0",
             "2.7.4",
@@ -1247,8 +1314,8 @@
             "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-22T20:16:40.109Z",
-        "latest_version_updated": "2016-04-22T20:17:03.146Z"
+        "latest_version_created": "2016-04-27T16:56:35.607Z",
+        "latest_version_updated": "2016-04-27T16:56:56.632Z"
     },
     {
         "desc": "Grails fields plugin",
@@ -1838,7 +1905,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.8.1",
+        "latest_version": "2.8.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1850,6 +1917,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.8.2",
             "2.8.1",
             "2.8.0",
             "2.7.4",
@@ -1880,8 +1948,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 64
         },
-        "latest_version_created": "2016-04-22T20:17:20.406Z",
-        "latest_version_updated": "2016-04-22T20:17:36.970Z"
+        "latest_version_created": "2016-04-27T16:49:05.513Z",
+        "latest_version_updated": "2016-04-27T16:51:28.571Z"
     },
     {
         "desc": "Hazelcast Grails Integration",
@@ -2546,7 +2614,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.8.1",
+        "latest_version": "2.8.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2558,6 +2626,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/less-asset-pipeline",
         "versions": [
+            "2.8.2",
             "2.8.1",
             "2.8.0",
             "2.7.4",
@@ -2590,8 +2659,8 @@
             "html_url": "https://github.com/bertramdev/less-asset-pipeline",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-04-22T20:17:43.261Z",
-        "latest_version_updated": "2016-04-22T20:18:03.945Z"
+        "latest_version_created": "2016-04-27T16:20:51.988Z",
+        "latest_version_updated": "2016-04-27T16:22:07.147Z"
     },
     {
         "desc": "Grails mail plugin",
@@ -4361,7 +4430,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.8.1",
+        "latest_version": "2.8.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4373,6 +4442,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.8.2",
             "2.8.1",
             "2.8.0",
             "2.7.4",
@@ -4405,8 +4475,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 64
         },
-        "latest_version_created": "2016-04-22T20:19:43.434Z",
-        "latest_version_updated": "2016-04-22T20:20:00.554Z"
+        "latest_version_created": "2016-04-27T16:46:02.156Z",
+        "latest_version_updated": "2016-04-27T16:51:03.147Z"
     },
     {
         "desc": "Grails scaffolding plugin",
