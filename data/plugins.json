@@ -4270,7 +4270,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.1",
+        "latest_version": "2.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4278,10 +4278,11 @@
         "owner": "grails",
         "repo": "plugins",
         "system_ids": [
-            
+            "org.grails.plugins:rendering"
         ],
         "vcs_url": "https://github.com/grails3-plugins/rendering",
         "versions": [
+            "2.0.3",
             "2.0.1",
             "2.0.0"
         ],
@@ -4289,8 +4290,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-03-31T13:31:58.972Z",
-        "latest_version_updated": "2016-03-31T15:32:57.781Z"
+        "latest_version_created": "2016-04-27T20:11:55.063Z",
+        "latest_version_updated": "2016-04-27T20:12:19.345Z"
     },
     {
         "desc": "Grails request-tracelog plugin",
