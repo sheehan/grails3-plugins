@@ -833,7 +833,7 @@
         "latest_version_updated": "2016-04-27T16:51:15.463Z"
     },
     {
-        "desc": "Grails Console Plugin",
+        "desc": "A web-based Groovy console for interactive runtime application management and debugging.",
         "issue_tracker_url": "https://github.com/sheehan/grails-console/issues",
         "labels": [
             
