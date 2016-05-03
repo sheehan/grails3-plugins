@@ -2197,7 +2197,7 @@
         "githubRepo": {
             "full_name": "budjb/http-requests",
             "html_url": "https://github.com/budjb/http-requests",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2016-04-28T21:29:16.326Z",
         "latest_version_updated": "2016-04-28T21:30:52.530Z"
@@ -5185,7 +5185,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.4",
+        "latest_version": "3.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5197,6 +5197,7 @@
         ],
         "vcs_url": "https://github.com/donald-jackson/swagger4jaxrs",
         "versions": [
+            "3.0.0",
             "0.4"
         ],
         "website_url": "http://grails.org/plugin/swagger4jaxrs",
@@ -5208,8 +5209,8 @@
             "html_url": "https://github.com/donald-jackson/swagger4jaxrs",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-01-08T15:43:48.933Z",
-        "latest_version_updated": "2016-01-08T15:44:09.173Z"
+        "latest_version_created": "2016-05-03T07:14:38.247Z",
+        "latest_version_updated": "2016-05-03T07:14:58.557Z"
     },
     {
         "desc": "Grails views-gradle plugin",
