@@ -2558,7 +2558,7 @@
             "jedis",
             "queue"
         ],
-        "latest_version": "1.1.1",
+        "latest_version": "1.1.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2571,6 +2571,7 @@
         ],
         "vcs_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque",
         "versions": [
+            "1.1.2",
             "1.1.1",
             "1.1.0",
             "1.0.9",
@@ -2593,8 +2594,8 @@
             "html_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-01T02:33:55.547Z",
-        "latest_version_updated": "2016-04-01T02:34:13.747Z"
+        "latest_version_created": "2016-05-05T18:12:10.821Z",
+        "latest_version_updated": "2016-05-05T18:12:35.896Z"
     },
     {
         "desc": "Grails joda-time plugin",
@@ -4445,7 +4446,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 65
+            "stargazers_count": 66
         },
         "latest_version_created": "2016-04-27T16:46:02.156Z",
         "latest_version_updated": "2016-04-27T16:51:03.147Z"
