@@ -2281,45 +2281,6 @@
         "latest_version_updated": "2016-04-01T15:38:18.146Z"
     },
     {
-        "desc": "The HTTP Requests Plugin provides the http-requests library and artefacts for filters and converters.",
-        "issue_tracker_url": "https://github.com/budjb/http-requests/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "0.1.10.BETA",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "http-requests-grails",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            "com.budjb:http-requests-grails"
-        ],
-        "vcs_url": "https://github.com/budjb/http-requests",
-        "versions": [
-            "0.1.10.BETA",
-            "0.1.9.BETA",
-            "0.1.8.BETA",
-            "0.1.7.BETA",
-            "0.1.6.BETA",
-            "0.1.5.BETA",
-            "0.1.4.BETA",
-            "0.1.3.BETA"
-        ],
-        "website_url": "https://github.com/budjb/http-requests",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "budjb/http-requests",
-            "html_url": "https://github.com/budjb/http-requests",
-            "stargazers_count": 5
-        },
-        "latest_version_created": "2016-05-13T19:07:39.641Z",
-        "latest_version_updated": "2016-05-13T19:07:39.641Z"
-    },
-    {
         "desc": "asset-pipeline plugin to use localized messages in JavaScript.",
         "issue_tracker_url": "https://github.com/dellermann/i18n-asset-pipeline/issues",
         "labels": [
