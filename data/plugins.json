@@ -2285,7 +2285,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.1.9.BETA",
+        "latest_version": "0.1.10.BETA",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2297,6 +2297,7 @@
         ],
         "vcs_url": "https://github.com/budjb/http-requests",
         "versions": [
+            "0.1.10.BETA",
             "0.1.9.BETA",
             "0.1.8.BETA",
             "0.1.7.BETA",
@@ -2314,8 +2315,8 @@
             "html_url": "https://github.com/budjb/http-requests",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-05-12T18:15:55.251Z",
-        "latest_version_updated": "2016-05-12T18:17:32.799Z"
+        "latest_version_created": "2016-05-12T23:40:32.220Z",
+        "latest_version_updated": "2016-05-13T00:05:20.822Z"
     },
     {
         "desc": "asset-pipeline plugin to use localized messages in JavaScript.",
