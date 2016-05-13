@@ -104,7 +104,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.4.0",
+        "latest_version": "2.4.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -116,6 +116,7 @@
         ],
         "vcs_url": "",
         "versions": [
+            "2.4.1",
             "2.4.0",
             "2.3.0",
             "2.2.3",
@@ -137,8 +138,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2015-11-16T21:53:22.627Z",
-        "latest_version_updated": "2015-11-16T21:54:52.101Z"
+        "latest_version_created": "2016-05-13T16:11:46.036Z",
+        "latest_version_updated": "2016-05-13T16:12:01.771Z"
     },
     {
         "desc": "AngularJS Templates for Asset Pipeline 2.0+",
