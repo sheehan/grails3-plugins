@@ -2291,8 +2291,8 @@
             "Apache-2.0"
         ],
         "name": "http-requests-grails",
-        "owner": "budjb",
-        "repo": "grails-plugins",
+        "owner": "grails",
+        "repo": "plugins",
         "system_ids": [
             "com.budjb:http-requests-grails"
         ],
@@ -2316,8 +2316,8 @@
             "html_url": "https://github.com/budjb/http-requests",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-05-12T23:40:32.220Z",
-        "latest_version_updated": "2016-05-13T00:05:20.822Z"
+        "latest_version_created": "2016-05-13T19:07:39.641Z",
+        "latest_version_updated": "2016-05-13T19:07:39.641Z"
     },
     {
         "desc": "asset-pipeline plugin to use localized messages in JavaScript.",
