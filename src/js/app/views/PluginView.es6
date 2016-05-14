@@ -15,8 +15,9 @@ grailsplugins.views.PluginView = class {
                     headers: {'Accept': 'application/vnd.github.VERSION.html'},
                     type:    'GET'
                 }).done(html => {
-                    this.$el.find('.readme').html(html);
-                    this.$el.find('.readme a').attr('target', '_top');
+                    this.$el.find('.readme').removeClass('hide');
+                    this.$el.find('.readme-body').html(html);
+                    this.$el.find('.readme-body a').attr('target', '_top');
                 }).fail(jqXhr => {
                     if (jqXhr.status === 404) {
                         this._showReadmeNotAvailable();
@@ -55,6 +56,8 @@ grailsplugins.views.PluginView = class {
     }
 
     _showReadmeNotAvailable() {
-        this.$el.find('.readme').html('<span class="not-found">Readme not available.</span>');
+        this.$el.find('.readme')
+            .removeClass('hide')
+            .html('<span class="not-found">Readme not available.</span>');
     }
 };
