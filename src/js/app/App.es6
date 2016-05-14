@@ -4,10 +4,6 @@ grailsplugins.App = class {
         this.isEmbedded = window.self !== window.top;
         this.baseUrl = 'https://grails.org/plugins.html';
 
-        if (!this.isEmbedded) {
-            $('body').html(Handlebars.templates['moved']())
-        }
-
         $('.resources-dropdown-mobile-toggle').click(e => {
             e.preventDefault();
             e.stopPropagation();
