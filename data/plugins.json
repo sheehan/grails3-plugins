@@ -1979,6 +1979,38 @@
         "latest_version_updated": "2016-04-07T06:52:23.306Z"
     },
     {
+        "desc": "Plugin to upload multiple files from a web page. Uses HTML5 and CSS3",
+        "issue_tracker_url": "https://github.com/pankajtandon/grails3-uploadr/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "grails3-uploadr",
+        "owner": "pankajtandon",
+        "repo": "plugins",
+        "system_ids": [
+            "com.nayidisha.grails.uploadr:grails3-uploadr"
+        ],
+        "vcs_url": "https://github.com/pankajtandon/grails3-uploadr",
+        "versions": [
+            "3.0"
+        ],
+        "website_url": "https://github.com/pankajtandon/grails3-uploadr",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "pankajtandon/grails3-uploadr",
+            "html_url": "https://github.com/pankajtandon/grails3-uploadr",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-05-07T13:14:55.009Z",
+        "latest_version_updated": "2016-05-07T13:15:12.816Z"
+    },
+    {
         "desc": "",
         "issue_tracker_url": "",
         "labels": [
@@ -2858,6 +2890,39 @@
         },
         "latest_version_created": "2016-03-31T13:32:01.340Z",
         "latest_version_updated": "2016-04-01T15:38:29.966Z"
+    },
+    {
+        "desc": "mailinglist is a Grails plugin which makes use of quartz to dynamically schedule either group or specific email address contact. You create html email templates with images etc, then define time and date for this to be sent. The job is then added to quartz and set to email at given time. The queue can easily be controlled via bootstrap so that nothing is ever lost.\r\n\r\nDo you want to email a person at 11:41 pm or maybe a group of people at 2.15am? then look no further.\r\n\r\nYou can schedule an email to be scheduled and to run on a set date and time.\r\n\r\nSupports HTML emails with inline images as well as attachments has been tested on outlook and result appears to load fine.",
+        "issue_tracker_url": "https://github.com/vahidhedayati/mailinglist/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "mailinglist",
+        "owner": "vahid",
+        "repo": "maven",
+        "system_ids": [
+            "org.grails.plugins:mailinglist"
+        ],
+        "vcs_url": "https://github.com/vahidhedayati/mailinglist",
+        "versions": [
+            "3.0.2",
+            "3.0.1"
+        ],
+        "website_url": "https://github.com/vahidhedayati/mailinglist",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "vahidhedayati/mailinglist",
+            "html_url": "https://github.com/vahidhedayati/mailinglist",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-05-12T20:26:41.885Z",
+        "latest_version_updated": "2016-05-12T20:28:02.126Z"
     },
     {
         "desc": "Grails middleware plugin",
@@ -4545,6 +4610,41 @@
         },
         "latest_version_created": "2016-04-22T22:09:29.917Z",
         "latest_version_updated": "2016-04-22T22:09:54.065Z"
+    },
+    {
+        "desc": "Implements a standard convention for adding seed data to your application..",
+        "issue_tracker_url": "https://github.com/bertramdev/seed-me/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.3",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "seed-me",
+        "owner": "bertramlabs",
+        "repo": "grails3-plugins",
+        "system_ids": [
+            "com.bertramlabs.plugins:seed-me"
+        ],
+        "vcs_url": "https://github.com/bertramdev/seed-me",
+        "versions": [
+            "3.0.3",
+            "3.0.2",
+            "3.0.1",
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/bertramdev/seed-me",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/seed-me",
+            "html_url": "https://github.com/bertramdev/seed-me",
+            "stargazers_count": 4
+        },
+        "latest_version_created": "2016-05-11T22:24:38.212Z",
+        "latest_version_updated": "2016-05-11T22:25:04.506Z"
     },
     {
         "desc": "Grails Segment plugin",
