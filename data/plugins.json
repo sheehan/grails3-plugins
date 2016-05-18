@@ -1112,7 +1112,7 @@
         "githubRepo": {
             "full_name": "grails-plugins/grails-database-migration",
             "html_url": "https://github.com/grails-plugins/grails-database-migration",
-            "stargazers_count": 66
+            "stargazers_count": 67
         },
         "latest_version_created": "2016-03-31T15:25:00.593Z",
         "latest_version_updated": "2016-04-01T15:35:22.228Z"
@@ -2324,7 +2324,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.1.13.BETA",
+        "latest_version": "0.1.14.BETA",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2336,6 +2336,7 @@
         ],
         "vcs_url": "https://github.com/budjb/http-requests",
         "versions": [
+            "0.1.14.BETA",
             "0.1.13.BETA",
             "0.1.12.BETA",
             "0.1.11.BETA",
@@ -2357,8 +2358,8 @@
             "html_url": "https://github.com/budjb/http-requests",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-05-17T21:45:45.343Z",
-        "latest_version_updated": "2016-05-17T21:46:32.781Z"
+        "latest_version_created": "2016-05-18T13:14:35.545Z",
+        "latest_version_updated": "2016-05-18T13:15:08.393Z"
     },
     {
         "desc": "asset-pipeline plugin to use localized messages in JavaScript.",
