@@ -1988,7 +1988,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0",
+        "latest_version": "3.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2000,6 +2000,7 @@
         ],
         "vcs_url": "https://github.com/pankajtandon/grails3-uploadr",
         "versions": [
+            "3.0.1",
             "3.0"
         ],
         "website_url": "https://github.com/pankajtandon/grails3-uploadr",
@@ -2011,8 +2012,8 @@
             "html_url": "https://github.com/pankajtandon/grails3-uploadr",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-05-07T13:14:55.009Z",
-        "latest_version_updated": "2016-05-07T13:15:12.816Z"
+        "latest_version_created": "2016-05-21T20:54:14.683Z",
+        "latest_version_updated": "2016-05-21T20:54:32.889Z"
     },
     {
         "desc": "",
