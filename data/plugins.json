@@ -825,8 +825,8 @@
         "latest_version_updated": "2016-04-02T07:48:12.144Z"
     },
     {
-        "desc": "Adds coffeescript transpiling support to the jvm asset-pipeline plugin",
-        "issue_tracker_url": "https://github.com/bertramdev/coffee-asset-pipeline/issues",
+        "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
+        "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
             "coffee",
             "asset-pipeline",
@@ -843,7 +843,7 @@
         "system_ids": [
             "com.bertramlabs.plugins:coffee-asset-pipeline"
         ],
-        "vcs_url": "https://github.com/bertramdev/coffee-asset-pipeline",
+        "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
             "2.9.0",
             "2.8.2",
@@ -864,14 +864,20 @@
             "2.0.5",
             "2.0.2"
         ],
-        "website_url": "https://github.com/bertramdev/coffee-asset-pipeline",
+        "website_url": "http://www.asset-pipeline.com",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
-            "full_name": "bertramdev/coffee-asset-pipeline",
-            "html_url": "https://github.com/bertramdev/coffee-asset-pipeline",
-            "stargazers_count": 0
+            "full_name": "bertramdev/asset-pipeline",
+            "html_url": "https://github.com/bertramdev/asset-pipeline",
+            "stargazers_count": 73
         },
         "latest_version_created": "2016-05-23T20:53:17.058Z",
         "latest_version_updated": "2016-05-23T20:53:33.160Z"
@@ -1321,7 +1327,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.8.2",
+        "latest_version": "2.9.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1333,6 +1339,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/ember-asset-pipeline",
         "versions": [
+            "2.9.0",
             "2.8.2",
             "2.8.1",
             "2.8.0",
@@ -1360,8 +1367,8 @@
             "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-04-27T16:56:35.607Z",
-        "latest_version_updated": "2016-04-27T16:56:56.632Z"
+        "latest_version_created": "2016-05-23T21:03:24.214Z",
+        "latest_version_updated": "2016-05-23T21:03:42.875Z"
     },
     {
         "desc": "Grails Facebook SDK plugin",
@@ -2051,12 +2058,12 @@
         "latest_version_updated": "2016-05-21T20:54:32.889Z"
     },
     {
-        "desc": "",
-        "issue_tracker_url": "",
+        "desc": "Provides native Handlebars file support in the asset-pipeline. Easily convert .hbs or .handlebars files into javascript template caches for use with the handlebars runtime.",
+        "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
             
         ],
-        "latest_version": "2.8.2",
+        "latest_version": "2.9.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2068,6 +2075,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.9.0",
             "2.8.2",
             "2.8.1",
             "2.8.0",
@@ -2090,17 +2098,23 @@
             "2.0.13",
             "1.3.0"
         ],
-        "website_url": "",
+        "website_url": "http://www.asset-pipeline.com",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 73
         },
-        "latest_version_created": "2016-04-27T16:49:05.513Z",
-        "latest_version_updated": "2016-04-27T16:51:28.571Z"
+        "latest_version_created": "2016-05-23T21:00:27.895Z",
+        "latest_version_updated": "2016-05-23T21:00:44.235Z"
     },
     {
         "desc": "Hazelcast Grails Integration",
@@ -4566,8 +4580,8 @@
         "latest_version_updated": "2015-07-15T11:13:04.439Z"
     },
     {
-        "desc": "",
-        "issue_tracker_url": "",
+        "desc": "Provides fast and easy .sass and .scss file support for Transpiling to CSS. This plugin takes advantage of jsass and libsass for maximum performance.",
+        "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
             
         ],
@@ -4608,9 +4622,15 @@
             "2.0.1",
             "2.0.0"
         ],
-        "website_url": "",
+        "website_url": "http://www.asset-pipeline.com",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Development"
+                ]
+            }
         ],
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
