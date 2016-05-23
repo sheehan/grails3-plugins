@@ -1,39 +1,10 @@
 @import '../colors.less';
 
-.plugin-page {
+.plugin-section {
 
   .nav-back {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
-  }
-  .plugin-main {
-    float: left;
-    width: 75%;
-  }
-  .plugin-side {
-    float: right;
-    width: 22%;
-    margin-top: 12px;
-    .owner-section {
-      font-size: 18px;
-      margin: 10px 0;
-      img {
-        width: 40px;
-        border-radius: 10px;
-        margin-right: 10px;
-      }
-    }
-    .dependency-clip {
-      margin: 10px 0 0;
-      //width: 300px;
-      input {
-        background: #fff;
-      }
-      .input-group-addon {
-        border-radius: 0 3px 3px 0;
-        border-left-width: 0;
-      }
-    }
   }
   h3 {
     font-size: 18px;
@@ -41,66 +12,72 @@
     color: #444;
     padding-bottom: 3px;
   }
+  .attributes-bar {
+    border: solid #ddd;
+    border-width: 1px 0;
+    padding: 7px 0;
+    margin-bottom: 10px;
+  }
   .attributes-list {
-    margin: 25px 0 20px;
     padding: 0;
+    float: left;
+    margin: 0;
     li {
       list-style-type: none;
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-      &:last-of-type {
-        border-bottom: none;
-      }
+      float: left;
+      margin-right: 10px;
       label {
         margin: 0;
-        width: 57px
       }
     }
   }
   .links-list {
-    margin: 5px 0 20px;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+    float: right;
     li {
       list-style-type: none;
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-      &:last-of-type {
-        border-bottom: none;
-      }
+      float: left;
+      margin-left: 20px;
       img {
         width: 20px;
         padding: 0px 3px;
-        margin-right: 5px;
       }
       i {
         font-size: 17px;
         width: 20px;
         text-align: center;
-        margin-right: 5px;
       }
     }
   }
   .plugin-name {
     color: @dark-green;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
-    display: inline-block;
     margin: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
   }
   .plugin-description {
     color: #888;
-    margin: 0 0 8px;
+    margin: 15px 0 30px;
     display: block;
     font-size: 0.9em;
   }
-  .plugin-info {
-    margin-bottom: 15px;
-    .gradle-format {
-      margin: 20px 0 10px;
-      pre {
-        clear: both;
-        padding: 17px;
-      }
+  .version-info {
+    margin: 0 0 30px;
+  }
+  .gradle-format {
+    overflow: hidden;
+    pre {
+      clear: both;
+      padding: 17px;
+      margin: 0;
+      border: 1px solid #ddd;
+      border-radius: 3px;
     }
   }
   .readme {
@@ -143,5 +120,35 @@
         height: 20px;
       }
     }
+  }
+
+  .dependency-clip {
+    width: 300px;
+    input {
+      background: #fff;
+    }
+    .input-group-addon {
+      border-radius: 0 3px 3px 0;
+      border-left-width: 0;
+    }
+  }
+
+  .bintray-section {
+    margin: 0 0 5px;
+  }
+
+  .plugin-labels {
+    margin-bottom: 20px;
+  }
+
+  .github-stargazers {
+    margin-top: 7px;
+  }
+
+  .docs-message {
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
   }
 }

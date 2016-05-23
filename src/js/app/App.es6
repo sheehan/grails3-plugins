@@ -68,8 +68,8 @@ grailsplugins.App = class {
         this.addHashChangeListener();
 
         this.plugins = plugins;
-        this.searchView = new grailsplugins.views.SearchView($('.search-page'), this.plugins);
-        this.pluginView = new grailsplugins.views.PluginView($('.plugin-page'));
+        this.searchView = new grailsplugins.views.SearchView($('.search-section'), this.plugins);
+        this.pluginView = new grailsplugins.views.PluginView($('.plugin-section'));
 
         if (!this.isEmbedded) {
             this.show();
@@ -84,15 +84,15 @@ grailsplugins.App = class {
 
     showSearch(q = '') {
         document.title = 'Grails 3 Plugins';
-        this.searchView.$el.removeClass('hide');
-        this.pluginView.$el.addClass('hide');
+        $('.search-section').removeClass('hide');
+        $('.plugin-section').addClass('hide');
         this.searchView.search(q);
     }
 
     showPlugin(pluginName) {
         document.title = pluginName;
-        this.searchView.$el.addClass('hide');
-        this.pluginView.$el.removeClass('hide');
+        $('.search-section').addClass('hide');
+        $('.plugin-section').removeClass('hide');
         let plugin = this.plugins.findByName(pluginName);
         this.pluginView.showPlugin(plugin);
     }

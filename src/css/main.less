@@ -80,7 +80,7 @@ a {
   }
 }
 
-.search-section {
+.page {
   margin: 0 0 0 310px;
 }
 
@@ -124,8 +124,13 @@ a {
   border: 1px solid #ddd;
 }
 
-.sidebar {
+
+.sticky-wrapper {
   float: left;
+  width: 280px;
+}
+.sidebar {
+  position: fixed;
   ul.nav-sidebar {
     margin: 0 0 20px;
     padding: 5px 0;
@@ -247,18 +252,6 @@ a {
   }
 }
 
-#about-modal {
-  p {
-    margin-bottom: 15px;
-    &:last-of-type {
-      margin-bottom: 5px;
-    }
-  }
-  iframe {
-    vertical-align: middle;
-  }
-}
-
 @media (max-width: 1410px) {
   .github-fork-ribbon-wrapper {
     display: none;
@@ -300,35 +293,47 @@ a {
   margin-top: 20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
   .main-content {
-    .plugin-page {
+    .plugin-section {
       .plugin-main {
-        float: none;
         width: 100%;
-      }
-      .plugin-side {
-        margin-top: 50px;
-        float: none;
-        width: 100%;
-        .dependency-clip {
-          display: none;
-        }
       }
     }
-    .search-page {
-      .timeline-wrapper {
-        display: none;
+    .timeline-wrapper {
+      display: none;
+    }
+    .sidebar {
+      width: 100%;
+      position: static;
+    }
+    .page {
+      margin-left: 0;
+    }
+    .search-options {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .main-content {
+    .plugin-section {
+      .attributes-list {
+        float: none;
+        margin-bottom: 15px;
+        li {
+          float: none;
+          margin-bottom: 5px;
+        }
       }
-      .sidebar {
-        width: 100%;
-      }
-      .search-section {
-        clear: left;
-        margin-left: 0;
-      }
-      .search-options {
-        display: none;
+      .links-list {
+        float: none;
+        li {
+          float: none;
+          margin-left: 0;
+          margin-bottom: 5px;
+        }
       }
     }
   }

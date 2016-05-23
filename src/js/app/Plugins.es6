@@ -37,6 +37,10 @@ grailsplugins.Plugins = class {
 
         pluginData.bintrayHref = `https://bintray.com/${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
         pluginData.bintrayRepo = `${pluginData.owner}/${pluginData.repo}/${pluginData.name}`;
+
+        if (/(grails\.org)|(github\.com)|(grails-plugins\.org)/.test(pluginData.website_url)) {
+            pluginData.website_url = undefined; // ignore these
+        }
     }
 
     _parseAttr(pluginData, name, defaultVal) {

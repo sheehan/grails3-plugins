@@ -9,7 +9,11 @@ grailsplugins.views.PluginView = class {
 
         if (plugin) {
             this.$el.html(Handlebars.templates['plugin'](plugin));
-            if (plugin.githubRepo) {
+            if (plugin.website_url) {
+                this.$el.find('.docs-message')
+                    .removeClass('hide')
+                    .html(Handlebars.templates['pluginDocs'](plugin));
+            } else if (plugin.githubRepo) {
                 $.ajax({
                     url:     `https://api.github.com/repos/${plugin.githubRepo.full_name}/readme`,
                     headers: {'Accept': 'application/vnd.github.VERSION.html'},
@@ -20,11 +24,11 @@ grailsplugins.views.PluginView = class {
                     this.$el.find('.readme-body a').attr('target', '_top');
                 }).fail(jqXhr => {
                     if (jqXhr.status === 404) {
-                        this._showReadmeNotAvailable();
+                        this.showDocumentationNotAvailable();
                     }
                 });
             } else {
-                this._showReadmeNotAvailable();
+                this.showDocumentationNotAvailable();
             }
 
 
@@ -55,9 +59,9 @@ grailsplugins.views.PluginView = class {
         }
     }
 
-    _showReadmeNotAvailable() {
-        this.$el.find('.readme')
+    showDocumentationNotAvailable() {
+        this.$el.find('.docs-message')
             .removeClass('hide')
-            .html('<span class="not-found">Readme not available.</span>');
+            .html('<span class="not-found">Documentation not available.</span>');
     }
 };
