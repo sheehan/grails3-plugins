@@ -10,6 +10,8 @@ grailsplugins.App = class {
             $('.resources-dropdown-toggle').click();
         });
 
+        $('a.self-link').attr('href', this.baseUrl + '#');
+
         $('body').delegate('a[data-internal]', 'click', e => {
             e.preventDefault();
             let href = $(e.currentTarget).attr('href');
@@ -42,9 +44,10 @@ grailsplugins.App = class {
     addHashChangeListener() {
         if (this.isEmbedded) {
             window.addEventListener('hashchange', () => {
+                let hash = window.location.hash ? window.location.hash : '#';
                 window.parent.postMessage({
                     type: 'hashchange',
-                    hash: window.location.hash
+                    hash: hash
                 }, '*');
             }, false);
             window.addEventListener('message', e => {
