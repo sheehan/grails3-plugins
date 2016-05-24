@@ -275,7 +275,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.9.0",
+        "latest_version": "2.9.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -287,6 +287,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.9.1",
             "2.9.0",
             "2.8.2"
         ],
@@ -297,10 +298,10 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 74
+            "stargazers_count": 75
         },
-        "latest_version_created": "2016-05-23T20:51:53.737Z",
-        "latest_version_updated": "2016-05-23T20:52:11.358Z"
+        "latest_version_created": "2016-05-24T12:22:07.501Z",
+        "latest_version_updated": "2016-05-24T12:22:25.301Z"
     },
     {
         "desc": "A non-blocking HTTP client for Grails based on Netty",
@@ -833,7 +834,7 @@
             "resources",
             "assets"
         ],
-        "latest_version": "2.9.0",
+        "latest_version": "2.9.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -845,6 +846,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.9.1",
             "2.9.0",
             "2.8.2",
             "2.8.1",
@@ -877,10 +879,10 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 74
+            "stargazers_count": 75
         },
-        "latest_version_created": "2016-05-23T20:53:17.058Z",
-        "latest_version_updated": "2016-05-23T20:53:33.160Z"
+        "latest_version_created": "2016-05-24T12:23:17.074Z",
+        "latest_version_updated": "2016-05-24T12:23:33.030Z"
     },
     {
         "desc": "A web-based Groovy console for interactive runtime application management and debugging.",
@@ -1327,7 +1329,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.9.0",
+        "latest_version": "2.9.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1339,6 +1341,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/ember-asset-pipeline",
         "versions": [
+            "2.9.1",
             "2.9.0",
             "2.8.2",
             "2.8.1",
@@ -1367,8 +1370,8 @@
             "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-05-23T21:03:24.214Z",
-        "latest_version_updated": "2016-05-23T21:03:42.875Z"
+        "latest_version_created": "2016-05-24T12:24:04.328Z",
+        "latest_version_updated": "2016-05-24T12:24:23.487Z"
     },
     {
         "desc": "Grails Facebook SDK plugin",
@@ -2063,7 +2066,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.9.0",
+        "latest_version": "2.9.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2075,6 +2078,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.9.1",
             "2.9.0",
             "2.8.2",
             "2.8.1",
@@ -2111,10 +2115,10 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 74
+            "stargazers_count": 75
         },
-        "latest_version_created": "2016-05-23T21:00:27.895Z",
-        "latest_version_updated": "2016-05-23T21:00:44.235Z"
+        "latest_version_created": "2016-05-24T12:25:35.292Z",
+        "latest_version_updated": "2016-05-24T12:25:51.023Z"
     },
     {
         "desc": "Hazelcast Grails Integration",
@@ -2901,7 +2905,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.9.0",
+        "latest_version": "2.9.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2913,6 +2917,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/less-asset-pipeline",
         "versions": [
+            "2.9.1",
             "2.9.0",
             "2.8.2",
             "2.8.1",
@@ -2947,8 +2952,8 @@
             "html_url": "https://github.com/bertramdev/less-asset-pipeline",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-05-23T20:56:10.766Z",
-        "latest_version_updated": "2016-05-23T20:56:26.886Z"
+        "latest_version_created": "2016-05-24T12:27:52.624Z",
+        "latest_version_updated": "2016-05-24T12:28:09.630Z"
     },
     {
         "desc": "Grails mail plugin",
@@ -4585,7 +4590,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.9.0",
+        "latest_version": "2.9.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4597,6 +4602,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.9.1",
             "2.9.0",
             "2.8.2",
             "2.8.1",
@@ -4635,10 +4641,10 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 74
+            "stargazers_count": 75
         },
-        "latest_version_created": "2016-05-23T20:57:17.182Z",
-        "latest_version_updated": "2016-05-23T20:57:33.635Z"
+        "latest_version_created": "2016-05-24T12:30:04.853Z",
+        "latest_version_updated": "2016-05-24T12:30:20.806Z"
     },
     {
         "desc": "Grails scaffolding plugin",
