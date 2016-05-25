@@ -1995,7 +1995,7 @@
             "grails",
             "plugin"
         ],
-        "latest_version": "0.1.6",
+        "latest_version": "1.0.0",
         "licenses": [
             "MIT"
         ],
@@ -2007,6 +2007,7 @@
         ],
         "vcs_url": "https://github.com/appcela/grails3-cors-interceptor",
         "versions": [
+            "1.0.0",
             "0.1.6",
             "0.1.5",
             "0.1.4",
@@ -2024,8 +2025,8 @@
             "html_url": "https://github.com/appcela/grails3-cors-interceptor",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-04-07T06:48:01.767Z",
-        "latest_version_updated": "2016-04-07T06:52:23.306Z"
+        "latest_version_created": "2016-05-25T07:13:36.545Z",
+        "latest_version_updated": "2016-05-25T07:19:01.499Z"
     },
     {
         "desc": "Plugin to upload multiple files from a web page. Uses HTML5 and CSS3",
