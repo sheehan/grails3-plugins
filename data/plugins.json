@@ -1902,7 +1902,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.1.1",
+        "latest_version": "0.1.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1915,6 +1915,7 @@
         ],
         "vcs_url": "https://github.com/Novadge/grails-twilio",
         "versions": [
+            "0.1.2",
             "0.1.1",
             "0.1.0"
         ],
@@ -1927,8 +1928,8 @@
             "html_url": "https://github.com/Novadge/grails-twilio",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-05-18T17:11:02.393Z",
-        "latest_version_updated": "2016-05-18T17:11:33.075Z"
+        "latest_version_created": "2016-05-26T15:04:12.542Z",
+        "latest_version_updated": "2016-05-26T15:04:34.227Z"
     },
     {
         "desc": "Grails Views",
