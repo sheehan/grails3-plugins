@@ -2467,7 +2467,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.4.1",
+        "latest_version": "0.4.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2479,6 +2479,7 @@
         ],
         "vcs_url": "https://github.com/salex772/i18n-javascript",
         "versions": [
+            "0.4.2",
             "0.4.1"
         ],
         "website_url": "https://github.com/salex772/i18n-javascript",
@@ -2490,8 +2491,8 @@
             "html_url": "https://github.com/salex772/i18n-javascript",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-05-21T20:16:52.774Z",
-        "latest_version_updated": "2016-05-21T20:17:11.578Z"
+        "latest_version_created": "2016-05-26T08:33:42.647Z",
+        "latest_version_updated": "2016-05-26T08:34:01.678Z"
     },
     {
         "desc": "Grails excel-export plugin",
