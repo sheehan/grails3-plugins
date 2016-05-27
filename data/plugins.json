@@ -142,6 +142,38 @@
         "latest_version_updated": "2016-05-13T16:12:01.771Z"
     },
     {
+        "desc": "Provides scaffolding for AngularJS 1.x applications",
+        "issue_tracker_url": "https://github.com/grails-plugins/grails-angular-scaffolding/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.0.M1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "angular-scaffolding",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:angular-scaffolding"
+        ],
+        "vcs_url": "https://github.com/grails-plugins/grails-angular-scaffolding",
+        "versions": [
+            "1.0.0.M1"
+        ],
+        "website_url": "https://github.com/grails-plugins/grails-angular-scaffolding",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "grails-plugins/grails-angular-scaffolding",
+            "html_url": "https://github.com/grails-plugins/grails-angular-scaffolding",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-05-27T07:43:33.060Z",
+        "latest_version_updated": "2016-05-27T07:44:00.059Z"
+    },
+    {
         "desc": "AngularJS Templates for Asset Pipeline 2.0+",
         "issue_tracker_url": "https://github.com/craigburke/angular-template-asset-pipeline/issues",
         "labels": [
@@ -788,7 +820,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:06:32.757Z",
         "latest_version_updated": "2016-05-23T08:07:05.703Z"
@@ -883,6 +915,45 @@
         },
         "latest_version_created": "2016-05-24T12:23:17.074Z",
         "latest_version_updated": "2016-05-24T12:23:33.030Z"
+    },
+    {
+        "desc": "Provides Compass/SCSS Build support using the jruby runtime. Any compass project can be adjusted to be built by the asset-pipeline and used in applications.",
+        "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.9.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "compass-asset-pipeline",
+        "owner": "bertramlabs",
+        "repo": "asset-pipeline",
+        "system_ids": [
+            "com.bertramlabs.plugins:compass-asset-pipeline"
+        ],
+        "vcs_url": "https://github.com/bertramdev/asset-pipeline.git",
+        "versions": [
+            "2.9.1",
+            "2.9.0"
+        ],
+        "website_url": "http://www.asset-pipeline.com",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/asset-pipeline",
+            "html_url": "https://github.com/bertramdev/asset-pipeline",
+            "stargazers_count": 77
+        },
+        "latest_version_created": "2016-05-24T12:23:54.475Z",
+        "latest_version_updated": "2016-05-24T12:24:10.205Z"
     },
     {
         "desc": "A web-based Groovy console for interactive runtime application management and debugging.",
@@ -2204,7 +2275,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:06:51.461Z",
         "latest_version_updated": "2016-05-23T08:07:26.333Z"
@@ -2256,7 +2327,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:07:10.220Z",
         "latest_version_updated": "2016-05-23T08:07:42.960Z"
@@ -2308,7 +2379,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:07:28.015Z",
         "latest_version_updated": "2016-05-23T08:08:02.625Z"
@@ -3112,7 +3183,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:07:47.839Z",
         "latest_version_updated": "2016-05-23T08:08:18.949Z"
@@ -3199,7 +3270,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:08:04.966Z",
         "latest_version_updated": "2016-05-23T08:08:35.678Z"
@@ -3781,7 +3852,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-03-31T13:32:02.223Z",
         "latest_version_updated": "2016-04-01T15:35:28.925Z"
@@ -4357,7 +4428,7 @@
         "githubRepo": {
             "full_name": "grails/grails-data-mapping",
             "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-05-23T08:08:23.115Z",
         "latest_version_updated": "2016-05-23T08:08:51.107Z"
