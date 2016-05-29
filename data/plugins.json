@@ -487,7 +487,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.4.5",
+        "latest_version": "2.0.6",
         "licenses": [
             "BSD 2-Clause"
         ],
@@ -501,6 +501,7 @@
         ],
         "vcs_url": "https://github.com/errbuddy/babel-asset-pipeline",
         "versions": [
+            "2.0.6",
             "1.4.5",
             "1.4.4",
             "1.4.3",
@@ -526,8 +527,8 @@
             "html_url": "https://github.com/errbuddy/babel-asset-pipeline",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-03-05T00:42:53.540Z",
-        "latest_version_updated": "2016-03-05T00:43:19.295Z"
+        "latest_version_created": "2016-05-29T11:21:54.544Z",
+        "latest_version_updated": "2016-05-29T11:22:13.976Z"
     },
     {
         "desc": "Gradle plugin for integrating the Bootstrap Framework",
