@@ -2015,7 +2015,7 @@
             "json",
             "views"
         ],
-        "latest_version": "1.0.12",
+        "latest_version": "1.1.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2028,6 +2028,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.1.0.M2",
             "1.0.12",
             "1.1.0.M1",
             "1.0.11",
@@ -2062,8 +2063,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 21
         },
-        "latest_version_created": "2016-05-27T08:51:43.707Z",
-        "latest_version_updated": "2016-05-27T08:52:32.342Z"
+        "latest_version_created": "2016-05-31T07:25:07.778Z",
+        "latest_version_updated": "2016-05-31T07:26:03.541Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -5619,7 +5620,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.12",
+        "latest_version": "1.1.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5631,6 +5632,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.1.0.M2",
             "1.0.12",
             "1.1.0.M1",
             "1.0.11",
@@ -5661,8 +5663,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 21
         },
-        "latest_version_created": "2016-05-27T08:51:26.209Z",
-        "latest_version_updated": "2016-05-27T08:51:52.805Z"
+        "latest_version_created": "2016-05-31T07:24:49.049Z",
+        "latest_version_updated": "2016-05-31T07:25:10.289Z"
     },
     {
         "desc": "Grails views-json-templates plugin",
@@ -5670,7 +5672,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.1.0.M1",
+        "latest_version": "1.1.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5682,14 +5684,15 @@
         ],
         "vcs_url": "https://github.com/grails3-plugins/views-json-templates",
         "versions": [
+            "1.1.0.M2",
             "1.1.0.M1"
         ],
         "website_url": "http://grails.org/plugin/views-json-templates",
         "attributes": [
             
         ],
-        "latest_version_created": "2016-05-27T08:07:12.719Z",
-        "latest_version_updated": "2016-05-27T08:07:37.989Z"
+        "latest_version_created": "2016-05-31T07:25:21.364Z",
+        "latest_version_updated": "2016-05-31T07:25:44.172Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
