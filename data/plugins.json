@@ -3370,7 +3370,7 @@
             "mail",
             "email"
         ],
-        "latest_version": "0.1.0",
+        "latest_version": "0.1.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3383,6 +3383,7 @@
         ],
         "vcs_url": "https://github.com/Novadge/novamail",
         "versions": [
+            "0.1.1",
             "0.1.0"
         ],
         "website_url": "http://grails.org/plugin/novamail",
@@ -3394,8 +3395,8 @@
             "html_url": "https://github.com/Novadge/novamail",
             "stargazers_count": 0
         },
-        "latest_version_created": "2015-11-09T08:58:11.736Z",
-        "latest_version_updated": "2016-02-21T00:57:51.969Z"
+        "latest_version_created": "2016-05-31T11:53:56.625Z",
+        "latest_version_updated": "2016-05-31T11:54:46.402Z"
     },
     {
         "desc": "Grails clojure plugin",
