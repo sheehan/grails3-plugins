@@ -368,7 +368,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 80
+            "stargazers_count": 81
         },
         "latest_version_created": "2016-05-24T12:22:07.501Z",
         "latest_version_updated": "2016-05-24T12:22:25.301Z"
@@ -525,7 +525,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.7",
+        "latest_version": "2.0.8",
         "licenses": [
             "BSD 2-Clause"
         ],
@@ -539,6 +539,7 @@
         ],
         "vcs_url": "https://github.com/errbuddy/babel-asset-pipeline",
         "versions": [
+            "2.0.8",
             "2.0.7",
             "2.0.6",
             "1.4.5",
@@ -566,8 +567,8 @@
             "html_url": "https://github.com/errbuddy/babel-asset-pipeline",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-06-02T12:42:16.084Z",
-        "latest_version_updated": "2016-06-02T12:42:33.859Z"
+        "latest_version_created": "2016-06-03T14:02:52.871Z",
+        "latest_version_updated": "2016-06-03T14:03:12.716Z"
     },
     {
         "desc": "Gradle plugin for integrating the Bootstrap Framework",
@@ -953,7 +954,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 80
+            "stargazers_count": 81
         },
         "latest_version_created": "2016-05-24T12:23:17.074Z",
         "latest_version_updated": "2016-05-24T12:23:33.030Z"
@@ -992,7 +993,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 80
+            "stargazers_count": 81
         },
         "latest_version_created": "2016-05-24T12:23:54.475Z",
         "latest_version_updated": "2016-05-24T12:24:10.205Z"
@@ -2234,7 +2235,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 80
+            "stargazers_count": 81
         },
         "latest_version_created": "2016-05-24T12:25:35.292Z",
         "latest_version_updated": "2016-05-24T12:25:51.023Z"
@@ -4839,7 +4840,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 80
+            "stargazers_count": 81
         },
         "latest_version_created": "2016-05-24T12:30:04.853Z",
         "latest_version_updated": "2016-05-24T12:30:20.806Z"
