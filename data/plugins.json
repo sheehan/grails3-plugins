@@ -3441,6 +3441,39 @@
         "latest_version_updated": "2016-05-31T11:54:46.402Z"
     },
     {
+        "desc": "Grails actuator-ui plugin",
+        "issue_tracker_url": "https://github.com/dmahapatro/grails-actuator-ui/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "org.grails.plugins:actuator-ui",
+        "owner": "dmahapatro",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:actuator-ui"
+        ],
+        "vcs_url": "https://github.com/dmahapatro/grails-actuator-ui",
+        "versions": [
+            "0.2",
+            "0.1"
+        ],
+        "website_url": "http://grails.org/plugin/actuator-ui",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "dmahapatro/grails-actuator-ui",
+            "html_url": "https://github.com/dmahapatro/grails-actuator-ui",
+            "stargazers_count": 13
+        },
+        "latest_version_created": "2015-11-17T02:11:16.344Z",
+        "latest_version_updated": "2015-11-17T02:18:43.690Z"
+    },
+    {
         "desc": "Grails clojure plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/clojure/issues",
         "labels": [
@@ -5622,6 +5655,47 @@
         },
         "latest_version_created": "2016-02-11T10:13:27.146Z",
         "latest_version_updated": "2016-02-11T10:13:54.771Z"
+    },
+    {
+        "desc": "Spring WS Plugin for Grails 3",
+        "issue_tracker_url": "https://github.com/dmahapatro/grails-springws/tree/grails3/issues",
+        "labels": [
+            "grails",
+            "grails3",
+            "Spring WS",
+            "SOAP"
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "springws",
+        "owner": "dmahapatro",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:springws"
+        ],
+        "vcs_url": "https://github.com/dmahapatro/grails-springws/tree/grails3",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/dmahapatro/grails-springws/tree/grails3",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "dmahapatro/grails-springws",
+            "html_url": "https://github.com/dmahapatro/grails-springws",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-06-09T18:26:32.336Z",
+        "latest_version_updated": "2016-06-09T18:26:47.245Z"
     },
     {
         "desc": "Grails swagger4jaxrs plugin",
