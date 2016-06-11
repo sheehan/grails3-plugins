@@ -88,10 +88,12 @@ grailsplugins.App = class {
         $('.search-section').removeClass('hide');
         $('.plugin-section').addClass('hide');
 
+        let scrollTop = 0;
         if (this._lastSearchScrollTop) {
-            $('body').scrollTop(this._lastSearchScrollTop);
+            scrollTop = this._lastSearchScrollTop;
             this._lastSearchScrollTop = undefined;
         }
+        $('body').scrollTop(scrollTop);
 
         if (this._lastSearch !== q) {
             this._lastSearch = q;
