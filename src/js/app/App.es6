@@ -23,12 +23,6 @@ grailsplugins.App = class {
         $('body').removeClass('hide');
     }
 
-    onHashChange(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        this.route();
-    }
-
     route() {
         let hashId = window.location.hash;
 
@@ -63,7 +57,11 @@ grailsplugins.App = class {
                 this.route();
             }, false);
         } else {
-            window.addEventListener('hashchange', this.onHashChange.bind(this), false);
+            window.addEventListener('hashchange', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                this.route();
+            }, false);
         }
     }
 
@@ -89,10 +87,21 @@ grailsplugins.App = class {
         document.title = 'Grails 3 Plugins';
         $('.search-section').removeClass('hide');
         $('.plugin-section').addClass('hide');
-        this.searchView.search(q);
+
+        if (this._lastSearchScrollTop) {
+            $('body').scrollTop(this._lastSearchScrollTop);
+            this._lastSearchScrollTop = undefined;
+        }
+
+        if (this._lastSearch !== q) {
+            this._lastSearch = q;
+            this.searchView.search(q);
+        }
     }
 
     showPlugin(pluginName) {
+        this._lastSearchScrollTop = $('body').scrollTop();
+
         document.title = pluginName;
         $('.search-section').addClass('hide');
         $('.plugin-section').removeClass('hide');

@@ -66,16 +66,18 @@
 
     .external-links {
       margin-left: 10px;
-      opacity: 0;
+      float: right;
+      line-height: 35px;
       a {
-        margin-right: 5px;
+        opacity: 0.2;
+        margin-left: 5px;
         img {
-          height: 20px;
+          height: 17px;
+        }
+        &:hover {
+          opacity: 1;
         }
       }
-    }
-    &:hover .external-links {
-      opacity: 1;
     }
   }
   .plugin-labels {
