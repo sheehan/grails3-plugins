@@ -93,7 +93,7 @@
         "githubRepo": {
             "full_name": "vahidhedayati/ajaxdependancyselection",
             "html_url": "https://github.com/vahidhedayati/ajaxdependancyselection",
-            "stargazers_count": 4
+            "stargazers_count": 5
         },
         "latest_version_created": "2016-04-13T21:35:04.322Z",
         "latest_version_updated": "2016-04-13T21:35:50.601Z"
@@ -476,7 +476,7 @@
         "githubRepo": {
             "full_name": "robertoschwald/grails-audit-logging-plugin",
             "html_url": "https://github.com/robertoschwald/grails-audit-logging-plugin",
-            "stargazers_count": 30
+            "stargazers_count": 31
         },
         "latest_version_created": "2016-02-03T15:17:12.647Z",
         "latest_version_updated": "2016-02-03T15:17:52.614Z"
@@ -1037,7 +1037,7 @@
         "githubRepo": {
             "full_name": "sheehan/grails-console",
             "html_url": "https://github.com/sheehan/grails-console",
-            "stargazers_count": 44
+            "stargazers_count": 45
         },
         "latest_version_created": "2016-04-30T18:44:29.291Z",
         "latest_version_updated": "2016-04-30T18:44:47.003Z"
@@ -3179,7 +3179,7 @@
         "githubRepo": {
             "full_name": "vahidhedayati/mailinglist",
             "html_url": "https://github.com/vahidhedayati/mailinglist",
-            "stargazers_count": 1
+            "stargazers_count": 2
         },
         "latest_version_created": "2016-05-12T20:26:41.885Z",
         "latest_version_updated": "2016-05-12T20:28:02.126Z"
@@ -3444,7 +3444,9 @@
         "desc": "Grails actuator-ui plugin",
         "issue_tracker_url": "https://github.com/dmahapatro/grails-actuator-ui/issues",
         "labels": [
-            
+            "grails3",
+            "spring-boot",
+            "spring-boot-actuator"
         ],
         "latest_version": "0.2",
         "licenses": [
@@ -4010,7 +4012,7 @@
         "githubRepo": {
             "full_name": "saw303/grails-ic-alender",
             "html_url": "https://github.com/saw303/grails-ic-alender",
-            "stargazers_count": 8
+            "stargazers_count": 9
         },
         "latest_version_created": "2016-02-27T16:20:02.019Z",
         "latest_version_updated": "2016-02-27T16:20:18.578Z"
@@ -5422,7 +5424,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 143
+            "stargazers_count": 144
         },
         "latest_version_created": "2016-03-31T13:32:01.478Z",
         "latest_version_updated": "2016-03-31T15:35:23.063Z"
@@ -5454,7 +5456,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 143
+            "stargazers_count": 144
         },
         "latest_version_created": "2016-03-31T15:25:01.297Z",
         "latest_version_updated": "2016-03-31T15:30:05.376Z"
@@ -5486,7 +5488,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 143
+            "stargazers_count": 144
         },
         "latest_version_created": "2016-03-31T15:25:00.414Z",
         "latest_version_updated": "2016-03-31T15:28:41.466Z"
@@ -5518,7 +5520,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 143
+            "stargazers_count": 144
         },
         "latest_version_created": "2016-03-31T15:25:02.168Z",
         "latest_version_updated": "2016-03-31T15:32:35.707Z"
@@ -5550,7 +5552,7 @@
         "githubRepo": {
             "full_name": "alvarosanchez/grails-spring-security-rest",
             "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 143
+            "stargazers_count": 144
         }
     },
     {
@@ -5846,7 +5848,7 @@
         "githubRepo": {
             "full_name": "rlovtangen/grails-wkhtmltopdf",
             "html_url": "https://github.com/rlovtangen/grails-wkhtmltopdf",
-            "stargazers_count": 5
+            "stargazers_count": 6
         },
         "latest_version_created": "2016-04-26T09:29:06.003Z",
         "latest_version_updated": "2016-04-26T09:29:22.107Z"
