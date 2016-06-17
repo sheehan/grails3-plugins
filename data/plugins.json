@@ -1958,7 +1958,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.59.0",
+        "latest_version": "1.60.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1970,6 +1970,7 @@
         ],
         "vcs_url": "https://github.com/javamelody/grails-melody-plugin",
         "versions": [
+            "1.60.0",
             "1.59.0"
         ],
         "website_url": "https://github.com/javamelody/grails-melody-plugin",
@@ -1981,8 +1982,8 @@
             "html_url": "https://github.com/javamelody/grails-melody-plugin",
             "stargazers_count": 12
         },
-        "latest_version_created": "2016-05-21T05:29:46.871Z",
-        "latest_version_updated": "2016-05-21T05:30:04.627Z"
+        "latest_version_created": "2016-06-17T03:34:57.940Z",
+        "latest_version_updated": "2016-06-17T03:35:23.489Z"
     },
     {
         "desc": "Grails grails-middleware plugin",
