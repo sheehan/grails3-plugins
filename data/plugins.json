@@ -2133,7 +2133,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0",
+        "latest_version": "1.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2145,6 +2145,7 @@
         ],
         "vcs_url": "https://github.com/ondrej-kvasnovsky/grails-vaadin-plugin",
         "versions": [
+            "1.0.1",
             "1.0.0"
         ],
         "website_url": "http://vaadinongrails.com",
@@ -2162,8 +2163,8 @@
             "html_url": "https://github.com/ondrej-kvasnovsky/grails-vaadin-plugin",
             "stargazers_count": 47
         },
-        "latest_version_created": "2016-06-20T22:16:18.870Z",
-        "latest_version_updated": "2016-06-20T22:16:39.084Z"
+        "latest_version_created": "2016-06-21T13:27:53.549Z",
+        "latest_version_updated": "2016-06-21T13:32:22.758Z"
     },
     {
         "desc": "Grails Views",
