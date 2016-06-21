@@ -2128,6 +2128,44 @@
         "latest_version_updated": "2016-06-19T10:51:51.802Z"
     },
     {
+        "desc": "Vaadin plugin for Grails.",
+        "issue_tracker_url": "https://github.com/ondrej-kvasnovsky/grails-vaadin-plugin",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "grails-vaadin-plugin",
+        "owner": "ondrej-kvasnovsky",
+        "repo": "plugins",
+        "system_ids": [
+            "com.vaadinongrails:grails-vaadin-plugin"
+        ],
+        "vcs_url": "https://github.com/ondrej-kvasnovsky/grails-vaadin-plugin",
+        "versions": [
+            "1.0.0"
+        ],
+        "website_url": "http://vaadinongrails.com",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Development"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "ondrej-kvasnovsky/grails-vaadin-plugin",
+            "html_url": "https://github.com/ondrej-kvasnovsky/grails-vaadin-plugin",
+            "stargazers_count": 47
+        },
+        "latest_version_created": "2016-06-20T22:16:18.870Z",
+        "latest_version_updated": "2016-06-20T22:16:39.084Z"
+    },
+    {
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
