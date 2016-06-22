@@ -5462,6 +5462,104 @@
         "latest_version_updated": "2016-03-31T15:29:59.619Z"
     },
     {
+        "desc": "This plugin provides the capability to authenticate via oauth. Depends on grails-spring-security-core.",
+        "issue_tracker_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.1.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "spring-security-oauth2",
+        "owner": "matrixcrawler",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-oauth2"
+        ],
+        "vcs_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2",
+        "versions": [
+            "1.1.0",
+            "1.0.0"
+        ],
+        "website_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "MatrixCrawler/grails-spring-security-oauth2",
+            "html_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-06-21T17:09:01.354Z",
+        "latest_version_updated": "2016-06-21T17:09:16.021Z"
+    },
+    {
+        "desc": "This plugin provides the capability to authenticate via facebook-oauth provider. Depends on grails-spring-security-oauth2.",
+        "issue_tracker_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-facebook/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "spring-security-oauth2-facebook",
+        "owner": "matrixcrawler",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-oauth2-facebook"
+        ],
+        "vcs_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-facebook",
+        "versions": [
+            "1.0.0"
+        ],
+        "website_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-facebook",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "MatrixCrawler/grails-spring-security-oauth2-facebook",
+            "html_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-facebook",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-06-21T18:48:53.598Z",
+        "latest_version_updated": "2016-06-21T18:49:08.401Z"
+    },
+    {
+        "desc": "This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2.",
+        "issue_tracker_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-google/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.1.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "spring-security-oauth2-google",
+        "owner": "matrixcrawler",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-oauth2-google"
+        ],
+        "vcs_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-google",
+        "versions": [
+            "1.1.0",
+            "1.0.0"
+        ],
+        "website_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-google",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "MatrixCrawler/grails-spring-security-oauth2-google",
+            "html_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-google",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-06-21T17:12:56.171Z",
+        "latest_version_updated": "2016-06-21T17:13:10.299Z"
+    },
+    {
         "desc": "Grails OAuth 2 Provider Plugin",
         "issue_tracker_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider/issues",
         "labels": [
