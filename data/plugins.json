@@ -29,7 +29,7 @@
         "githubRepo": {
             "full_name": "dmahapatro/grails-actuator-ui",
             "html_url": "https://github.com/dmahapatro/grails-actuator-ui",
-            "stargazers_count": 13
+            "stargazers_count": 14
         },
         "latest_version_created": "2015-11-17T02:11:16.344Z",
         "latest_version_updated": "2016-06-15T01:40:10.676Z"
@@ -438,7 +438,7 @@
         "githubRepo": {
             "full_name": "grails/grails-http",
             "html_url": "https://github.com/grails/grails-http",
-            "stargazers_count": 2
+            "stargazers_count": 3
         }
     },
     {
