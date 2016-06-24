@@ -1358,7 +1358,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.1",
+        "latest_version": "3.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1370,6 +1370,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/distributed-lock",
         "versions": [
+            "3.0.2",
             "3.0.1",
             "3.0.0"
         ],
@@ -1382,8 +1383,8 @@
             "html_url": "https://github.com/bertramdev/distributed-lock",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-04-26T22:28:21.184Z",
-        "latest_version_updated": "2016-04-26T22:28:45.780Z"
+        "latest_version_created": "2016-06-24T20:44:50.920Z",
+        "latest_version_updated": "2016-06-24T20:45:07.160Z"
     },
     {
         "desc": "Grails grails-simple-captcha plugin",
