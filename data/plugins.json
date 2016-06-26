@@ -139,7 +139,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.1.0",
+        "latest_version": "0.1.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -151,6 +151,7 @@
         ],
         "vcs_url": "https://github.com/rvanderwerf/grails-alexa-skills",
         "versions": [
+            "0.1.1",
             "0.1.0"
         ],
         "website_url": "",
@@ -168,8 +169,8 @@
             "html_url": "https://github.com/rvanderwerf/grails-alexa-skills",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-06-02T22:48:12.701Z",
-        "latest_version_updated": "2016-06-02T22:48:30.951Z"
+        "latest_version_created": "2016-06-26T03:25:12.631Z",
+        "latest_version_updated": "2016-06-26T03:25:25.968Z"
     },
     {
         "desc": "AngularJS Annotate for Asset Pipeline 2.0+",
