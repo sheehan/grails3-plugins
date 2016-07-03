@@ -4601,8 +4601,8 @@
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
-            "recaptcha",
-            "mailhide"
+            "mailhide",
+            "recaptcha"
         ],
         "latest_version": "3.0.1",
         "licenses": [
