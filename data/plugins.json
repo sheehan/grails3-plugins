@@ -5916,8 +5916,8 @@
         "labels": [
             "grails",
             "grails3",
-            "SOAP",
-            "Spring WS"
+            "Spring WS",
+            "SOAP"
         ],
         "latest_version": "3.0.2",
         "licenses": [
