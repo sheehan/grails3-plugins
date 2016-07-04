@@ -448,12 +448,12 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            "mail",
-            "grails",
             "asynchronous",
-            "quartz",
+            "grails",
             "hibernate",
-            "mongodb"
+            "mail",
+            "mongodb",
+            "quartz"
         ],
         "latest_version": "2.0.0.RC3",
         "licenses": [
@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "asset-pipeline",
-            "assets",
             "coffee",
-            "resources"
+            "asset-pipeline",
+            "resources",
+            "assets"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -2536,9 +2536,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3033,10 +3033,10 @@
         "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            "jedis",
             "jesque",
-            "queue",
-            "redis"
+            "redis",
+            "jedis",
+            "queue"
         ],
         "latest_version": "1.1.4",
         "licenses": [
@@ -3979,9 +3979,9 @@
         "desc": null,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
-            "plugins",
+            "grails",
             "ja-sig cas client",
-            "grails"
+            "plugins"
         ],
         "latest_version": "3.0",
         "licenses": [
@@ -4045,10 +4045,10 @@
         "desc": "Grooscript Grails 3 Plugin",
         "issue_tracker_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin/issues",
         "labels": [
+            "javascript",
+            "groovy",
             "grails",
             "grooscript",
-            "groovy",
-            "javascript",
             "plugin"
         ],
         "latest_version": "1.2.2",
@@ -5916,8 +5916,8 @@
         "labels": [
             "grails",
             "grails3",
-            "Spring WS",
-            "SOAP"
+            "SOAP",
+            "Spring WS"
         ],
         "latest_version": "3.0.2",
         "licenses": [
