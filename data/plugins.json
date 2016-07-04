@@ -3979,9 +3979,9 @@
         "desc": null,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
-            "grails",
+            "plugins",
             "ja-sig cas client",
-            "plugins"
+            "grails"
         ],
         "latest_version": "3.0",
         "licenses": [
