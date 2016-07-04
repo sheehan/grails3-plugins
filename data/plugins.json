@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "json",
             "markup",
+            "xml",
             "rest",
-            "views",
-            "xml"
+            "json",
+            "views"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
@@ -3979,9 +3979,9 @@
         "desc": null,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
-            "plugins",
+            "grails",
             "ja-sig cas client",
-            "grails"
+            "plugins"
         ],
         "latest_version": "3.0",
         "licenses": [
