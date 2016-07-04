@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "coffee",
             "asset-pipeline",
-            "resources",
-            "assets"
+            "assets",
+            "coffee",
+            "resources"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "markup",
-            "xml",
-            "rest",
             "json",
-            "views"
+            "markup",
+            "rest",
+            "views",
+            "xml"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
