@@ -3033,10 +3033,10 @@
         "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            "jesque",
-            "redis",
             "jedis",
-            "queue"
+            "jesque",
+            "queue",
+            "redis"
         ],
         "latest_version": "1.1.4",
         "licenses": [
@@ -3979,9 +3979,9 @@
         "desc": null,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
-            "plugins",
+            "grails",
             "ja-sig cas client",
-            "grails"
+            "plugins"
         ],
         "latest_version": "3.0",
         "licenses": [
