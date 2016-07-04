@@ -448,12 +448,12 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            "asynchronous",
-            "grails",
-            "hibernate",
             "mail",
-            "mongodb",
-            "quartz"
+            "grails",
+            "asynchronous",
+            "quartz",
+            "hibernate",
+            "mongodb"
         ],
         "latest_version": "2.0.0.RC3",
         "licenses": [
@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "coffee",
             "asset-pipeline",
-            "resources",
-            "assets"
+            "assets",
+            "coffee",
+            "resources"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -1719,8 +1719,8 @@
         "desc": "",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane/issues",
         "labels": [
-            "filterpane",
-            "filter"
+            "filter",
+            "filterpane"
         ],
         "latest_version": "3.0.6",
         "licenses": [
@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "markup",
-            "xml",
-            "rest",
             "json",
-            "views"
+            "markup",
+            "rest",
+            "views",
+            "xml"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3979,9 +3979,9 @@
         "desc": null,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
-            "grails",
+            "plugins",
             "ja-sig cas client",
-            "plugins"
+            "grails"
         ],
         "latest_version": "3.0",
         "licenses": [
@@ -4045,10 +4045,10 @@
         "desc": "Grooscript Grails 3 Plugin",
         "issue_tracker_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin/issues",
         "labels": [
-            "javascript",
-            "groovy",
             "grails",
             "grooscript",
+            "groovy",
+            "javascript",
             "plugin"
         ],
         "latest_version": "1.2.2",
@@ -4566,8 +4566,8 @@
         "issue_tracker_url": "https://github.com/budjb/grails-rabbitmq-native/issues",
         "labels": [
             "grails",
-            "rabbitmq",
-            "messaging"
+            "messaging",
+            "rabbitmq"
         ],
         "latest_version": "3.3.0",
         "licenses": [
@@ -4601,8 +4601,8 @@
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
-            "recaptcha",
-            "mailhide"
+            "mailhide",
+            "recaptcha"
         ],
         "latest_version": "3.0.1",
         "licenses": [
@@ -5916,8 +5916,8 @@
         "labels": [
             "grails",
             "grails3",
-            "SOAP",
-            "Spring WS"
+            "Spring WS",
+            "SOAP"
         ],
         "latest_version": "3.0.2",
         "licenses": [
