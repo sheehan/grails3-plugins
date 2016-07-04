@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
+            "grails",
             "cookie-service",
             "cookieservice",
-            "grails",
             "request",
             "response"
         ],
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3398,10 +3398,10 @@
         "desc": "GORM for MongoDB",
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
-            "groovylang",
-            "mongodb",
             "gorm",
-            "grails"
+            "grails",
+            "groovylang",
+            "mongodb"
         ],
         "latest_version": "5.0.10",
         "licenses": [
@@ -3591,8 +3591,8 @@
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
         "issue_tracker_url": "https://github.com/Novadge/novamail/issues",
         "labels": [
-            "mail",
-            "email"
+            "email",
+            "mail"
         ],
         "latest_version": "0.1.1",
         "licenses": [
