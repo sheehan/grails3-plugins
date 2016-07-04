@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
-            "grails",
             "cookie-service",
             "cookieservice",
+            "grails",
             "request",
             "response"
         ],
@@ -4532,8 +4532,8 @@
         "desc": "The RabbitMQ plugin provides integration with the RabbitMQ Messaging System.",
         "issue_tracker_url": "http://jira.codehaus.org/browse/GRAILSPLUGINS",
         "labels": [
-            "Grails 3",
-            "rabbitmq"
+            "rabbitmq",
+            "Grails 3"
         ],
         "latest_version": "2.0.0",
         "licenses": [
