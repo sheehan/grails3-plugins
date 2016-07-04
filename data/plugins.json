@@ -2536,9 +2536,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3033,10 +3033,10 @@
         "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            "jedis",
             "jesque",
-            "queue",
-            "redis"
+            "redis",
+            "jedis",
+            "queue"
         ],
         "latest_version": "1.1.4",
         "licenses": [
@@ -3398,10 +3398,10 @@
         "desc": "GORM for MongoDB",
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
-            "gorm",
-            "grails",
             "groovylang",
-            "mongodb"
+            "mongodb",
+            "gorm",
+            "grails"
         ],
         "latest_version": "5.0.10",
         "licenses": [
@@ -3591,8 +3591,8 @@
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
         "issue_tracker_url": "https://github.com/Novadge/novamail/issues",
         "labels": [
-            "email",
-            "mail"
+            "mail",
+            "email"
         ],
         "latest_version": "0.1.1",
         "licenses": [
@@ -4566,8 +4566,8 @@
         "issue_tracker_url": "https://github.com/budjb/grails-rabbitmq-native/issues",
         "labels": [
             "grails",
-            "rabbitmq",
-            "messaging"
+            "messaging",
+            "rabbitmq"
         ],
         "latest_version": "3.3.0",
         "licenses": [
@@ -4601,8 +4601,8 @@
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
-            "recaptcha",
-            "mailhide"
+            "mailhide",
+            "recaptcha"
         ],
         "latest_version": "3.0.1",
         "licenses": [
