@@ -448,12 +448,12 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            "asynchronous",
-            "grails",
-            "hibernate",
             "mail",
-            "mongodb",
-            "quartz"
+            "grails",
+            "asynchronous",
+            "quartz",
+            "hibernate",
+            "mongodb"
         ],
         "latest_version": "2.0.0.RC3",
         "licenses": [
@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
+            "grails",
             "cookie-service",
             "cookieservice",
-            "grails",
             "request",
             "response"
         ],
@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "json",
             "markup",
+            "xml",
             "rest",
-            "views",
-            "xml"
+            "json",
+            "views"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
@@ -2342,7 +2342,7 @@
         "githubRepo": {
             "full_name": "pankajtandon/grails3-uploadr",
             "html_url": "https://github.com/pankajtandon/grails3-uploadr",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2016-06-11T13:54:19.463Z",
         "latest_version_updated": "2016-06-11T13:54:37.332Z"
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
