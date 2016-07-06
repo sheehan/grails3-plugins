@@ -1223,9 +1223,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client/issues",
         "labels": [
             "apache",
+            "client",
             "cxf",
-            "soap",
-            "client"
+            "soap"
         ],
         "latest_version": "3.0.7",
         "licenses": [
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -4604,8 +4604,8 @@
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
-            "recaptcha",
-            "mailhide"
+            "mailhide",
+            "recaptcha"
         ],
         "latest_version": "3.0.1",
         "licenses": [
