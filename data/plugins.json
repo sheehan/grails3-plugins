@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "coffee",
             "asset-pipeline",
-            "resources",
-            "assets"
+            "assets",
+            "coffee",
+            "resources"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
+            "grails",
             "cookie-service",
             "cookieservice",
-            "grails",
             "request",
             "response"
         ],
@@ -1719,8 +1719,8 @@
         "desc": "",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane/issues",
         "labels": [
-            "filterpane",
-            "filter"
+            "filter",
+            "filterpane"
         ],
         "latest_version": "3.0.6",
         "licenses": [
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3033,10 +3033,10 @@
         "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            "jedis",
             "jesque",
-            "queue",
-            "redis"
+            "redis",
+            "jedis",
+            "queue"
         ],
         "latest_version": "1.1.7",
         "licenses": [
@@ -3594,8 +3594,8 @@
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
         "issue_tracker_url": "https://github.com/Novadge/novamail/issues",
         "labels": [
-            "mail",
-            "email"
+            "email",
+            "mail"
         ],
         "latest_version": "0.1.1",
         "licenses": [
@@ -4048,10 +4048,10 @@
         "desc": "Grooscript Grails 3 Plugin",
         "issue_tracker_url": "https://github.com/chiquitinxx/grooscript-grails3-plugin/issues",
         "labels": [
-            "javascript",
-            "groovy",
             "grails",
             "grooscript",
+            "groovy",
+            "javascript",
             "plugin"
         ],
         "latest_version": "1.2.2",
@@ -4569,8 +4569,8 @@
         "issue_tracker_url": "https://github.com/budjb/grails-rabbitmq-native/issues",
         "labels": [
             "grails",
-            "messaging",
-            "rabbitmq"
+            "rabbitmq",
+            "messaging"
         ],
         "latest_version": "3.3.0",
         "licenses": [
@@ -5250,7 +5250,7 @@
         "githubRepo": {
             "full_name": "mathifonseca/grails-slack",
             "html_url": "https://github.com/mathifonseca/grails-slack",
-            "stargazers_count": 6
+            "stargazers_count": 7
         },
         "latest_version_created": "2016-07-01T23:14:28.343Z",
         "latest_version_updated": "2016-07-01T23:14:50.198Z"
@@ -5919,8 +5919,8 @@
         "labels": [
             "grails",
             "grails3",
-            "SOAP",
-            "Spring WS"
+            "Spring WS",
+            "SOAP"
         ],
         "latest_version": "3.0.2",
         "licenses": [
