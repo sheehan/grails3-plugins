@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "asset-pipeline",
-            "assets",
             "coffee",
-            "resources"
+            "asset-pipeline",
+            "resources",
+            "assets"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
-            "grails",
             "cookie-service",
             "cookieservice",
+            "grails",
             "request",
             "response"
         ],
@@ -1223,9 +1223,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client/issues",
         "labels": [
             "apache",
+            "client",
             "cxf",
-            "soap",
-            "client"
+            "soap"
         ],
         "latest_version": "3.0.7",
         "licenses": [
@@ -1719,8 +1719,8 @@
         "desc": "",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane/issues",
         "labels": [
-            "filter",
-            "filterpane"
+            "filterpane",
+            "filter"
         ],
         "latest_version": "3.0.6",
         "licenses": [
@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "markup",
-            "xml",
-            "rest",
             "json",
-            "views"
+            "markup",
+            "rest",
+            "views",
+            "xml"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3982,9 +3982,9 @@
         "desc": null,
         "issue_tracker_url": "https://github.com/cwang/grails3-cas-client/issues",
         "labels": [
-            "plugins",
+            "grails",
             "ja-sig cas client",
-            "grails"
+            "plugins"
         ],
         "latest_version": "3.0",
         "licenses": [
@@ -4535,8 +4535,8 @@
         "desc": "The RabbitMQ plugin provides integration with the RabbitMQ Messaging System.",
         "issue_tracker_url": "http://jira.codehaus.org/browse/GRAILSPLUGINS",
         "labels": [
-            "rabbitmq",
-            "Grails 3"
+            "Grails 3",
+            "rabbitmq"
         ],
         "latest_version": "2.0.0",
         "licenses": [
@@ -5919,8 +5919,8 @@
         "labels": [
             "grails",
             "grails3",
-            "Spring WS",
-            "SOAP"
+            "SOAP",
+            "Spring WS"
         ],
         "latest_version": "3.0.2",
         "licenses": [
