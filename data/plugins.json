@@ -448,12 +448,12 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            "mail",
-            "grails",
             "asynchronous",
-            "quartz",
+            "grails",
             "hibernate",
-            "mongodb"
+            "mail",
+            "mongodb",
+            "quartz"
         ],
         "latest_version": "2.0.0.RC3",
         "licenses": [
@@ -616,9 +616,9 @@
         "desc": "Gradle plugin for integrating the Bootstrap Framework",
         "issue_tracker_url": "https://github.com/kensiprell/bootstrap-framework/issues",
         "labels": [
-            "gradle",
             "bootstrap",
-            "font awesome"
+            "font awesome",
+            "gradle"
         ],
         "latest_version": "1.0.3",
         "licenses": [
@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "coffee",
             "asset-pipeline",
-            "resources",
-            "assets"
+            "assets",
+            "coffee",
+            "resources"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -1719,8 +1719,8 @@
         "desc": "",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-filterpane/issues",
         "labels": [
-            "filterpane",
-            "filter"
+            "filter",
+            "filterpane"
         ],
         "latest_version": "3.0.6",
         "licenses": [
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2536,9 +2536,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3033,10 +3033,10 @@
         "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            "jesque",
-            "redis",
             "jedis",
-            "queue"
+            "jesque",
+            "queue",
+            "redis"
         ],
         "latest_version": "1.1.7",
         "licenses": [
@@ -3401,10 +3401,10 @@
         "desc": "GORM for MongoDB",
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
-            "groovylang",
-            "mongodb",
             "gorm",
-            "grails"
+            "grails",
+            "groovylang",
+            "mongodb"
         ],
         "latest_version": "5.0.10",
         "licenses": [
@@ -4569,8 +4569,8 @@
         "issue_tracker_url": "https://github.com/budjb/grails-rabbitmq-native/issues",
         "labels": [
             "grails",
-            "rabbitmq",
-            "messaging"
+            "messaging",
+            "rabbitmq"
         ],
         "latest_version": "3.3.0",
         "licenses": [
