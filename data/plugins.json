@@ -3556,7 +3556,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.28.0",
+        "latest_version": "3.30.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3568,6 +3568,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-newrelic",
         "versions": [
+            "3.30.0",
             "3.28.0",
             "3.27.0",
             "3.26.1.1",
@@ -3587,8 +3588,8 @@
             "html_url": "https://github.com/agorapulse/grails-newrelic",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-05-03T11:45:04.055Z",
-        "latest_version_updated": "2016-05-03T11:45:20.235Z"
+        "latest_version_created": "2016-07-06T21:47:03.863Z",
+        "latest_version_updated": "2016-07-06T21:47:18.084Z"
     },
     {
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
@@ -5155,7 +5156,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.3",
+        "latest_version": "2.0.4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5167,6 +5168,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-segmentio",
         "versions": [
+            "2.0.4",
             "2.0.3",
             "2.0.1",
             "2.0.0",
@@ -5182,8 +5184,8 @@
             "html_url": "https://github.com/agorapulse/grails-segmentio",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-05-03T11:46:54.271Z",
-        "latest_version_updated": "2016-05-03T11:47:10.328Z"
+        "latest_version_created": "2016-07-06T21:38:07.122Z",
+        "latest_version_updated": "2016-07-06T21:38:21.317Z"
     },
     {
         "desc": "Grails Sentry plugin",
@@ -5191,7 +5193,7 @@
         "labels": [
             
         ],
-        "latest_version": "7.2.1",
+        "latest_version": "7.3.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5203,6 +5205,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-raven",
         "versions": [
+            "7.3.0",
             "7.2.1",
             "7.1.0.1",
             "7.1.0",
@@ -5217,8 +5220,8 @@
             "html_url": "https://github.com/agorapulse/grails-raven",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-05-03T11:42:28.712Z",
-        "latest_version_updated": "2016-05-03T11:42:45.217Z"
+        "latest_version_created": "2016-07-06T21:44:18.929Z",
+        "latest_version_updated": "2016-07-06T21:44:32.400Z"
     },
     {
         "desc": "Grails Slack Integration Plugin",
