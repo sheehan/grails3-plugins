@@ -616,9 +616,9 @@
         "desc": "Gradle plugin for integrating the Bootstrap Framework",
         "issue_tracker_url": "https://github.com/kensiprell/bootstrap-framework/issues",
         "labels": [
+            "gradle",
             "bootstrap",
-            "font awesome",
-            "gradle"
+            "font awesome"
         ],
         "latest_version": "1.0.3",
         "licenses": [
@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "asset-pipeline",
-            "assets",
             "coffee",
-            "resources"
+            "asset-pipeline",
+            "resources",
+            "assets"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
-            "grails",
             "cookie-service",
             "cookieservice",
+            "grails",
             "request",
             "response"
         ],
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2536,9 +2536,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2592,9 +2592,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
+            "hibernate",
             "database",
             "gorm",
-            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3401,10 +3401,10 @@
         "desc": "GORM for MongoDB",
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
-            "gorm",
-            "grails",
             "groovylang",
-            "mongodb"
+            "mongodb",
+            "gorm",
+            "grails"
         ],
         "latest_version": "5.0.10",
         "licenses": [
@@ -3594,8 +3594,8 @@
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
         "issue_tracker_url": "https://github.com/Novadge/novamail/issues",
         "labels": [
-            "email",
-            "mail"
+            "mail",
+            "email"
         ],
         "latest_version": "0.1.1",
         "licenses": [
@@ -4569,8 +4569,8 @@
         "issue_tracker_url": "https://github.com/budjb/grails-rabbitmq-native/issues",
         "labels": [
             "grails",
-            "rabbitmq",
-            "messaging"
+            "messaging",
+            "rabbitmq"
         ],
         "latest_version": "3.3.0",
         "licenses": [
