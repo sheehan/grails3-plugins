@@ -448,12 +448,12 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            "asynchronous",
-            "grails",
-            "hibernate",
             "mail",
-            "mongodb",
-            "quartz"
+            "grails",
+            "asynchronous",
+            "quartz",
+            "hibernate",
+            "mongodb"
         ],
         "latest_version": "2.0.0.RC3",
         "licenses": [
@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
+            "grails",
             "cookie-service",
             "cookieservice",
-            "grails",
             "request",
             "response"
         ],
@@ -1223,9 +1223,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cxf-client/issues",
         "labels": [
             "apache",
-            "client",
             "cxf",
-            "soap"
+            "soap",
+            "client"
         ],
         "latest_version": "3.0.7",
         "licenses": [
@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "json",
             "markup",
+            "xml",
             "rest",
-            "views",
-            "xml"
+            "json",
+            "views"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
@@ -2480,9 +2480,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -2536,9 +2536,9 @@
         "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
-            "hibernate",
             "database",
             "gorm",
+            "hibernate",
             "rdms"
         ],
         "latest_version": "5.0.10",
@@ -3033,10 +3033,10 @@
         "desc": "Grails Jesque Plugin",
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-jesque/issues",
         "labels": [
-            "jesque",
-            "redis",
             "jedis",
-            "queue"
+            "jesque",
+            "queue",
+            "redis"
         ],
         "latest_version": "1.1.7",
         "licenses": [
@@ -3401,10 +3401,10 @@
         "desc": "GORM for MongoDB",
         "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
         "labels": [
-            "groovylang",
-            "mongodb",
             "gorm",
-            "grails"
+            "grails",
+            "groovylang",
+            "mongodb"
         ],
         "latest_version": "5.0.10",
         "licenses": [
@@ -4604,8 +4604,8 @@
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
-            "recaptcha",
-            "mailhide"
+            "mailhide",
+            "recaptcha"
         ],
         "latest_version": "3.0.1",
         "licenses": [
