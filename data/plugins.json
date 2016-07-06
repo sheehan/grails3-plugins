@@ -448,12 +448,12 @@
         "desc": "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job.",
         "issue_tracker_url": "https://github.com/kefirfromperm/grails-asynchronous-mail/issues",
         "labels": [
-            "mail",
-            "grails",
             "asynchronous",
-            "quartz",
+            "grails",
             "hibernate",
-            "mongodb"
+            "mail",
+            "mongodb",
+            "quartz"
         ],
         "latest_version": "2.0.0.RC3",
         "licenses": [
@@ -616,9 +616,9 @@
         "desc": "Gradle plugin for integrating the Bootstrap Framework",
         "issue_tracker_url": "https://github.com/kensiprell/bootstrap-framework/issues",
         "labels": [
-            "gradle",
             "bootstrap",
-            "font awesome"
+            "font awesome",
+            "gradle"
         ],
         "latest_version": "1.0.3",
         "licenses": [
@@ -948,10 +948,10 @@
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
-            "coffee",
             "asset-pipeline",
-            "resources",
-            "assets"
+            "assets",
+            "coffee",
+            "resources"
         ],
         "latest_version": "2.9.4",
         "licenses": [
@@ -1097,9 +1097,9 @@
         "issue_tracker_url": "https://github.com/Grails-Plugin-Consortium/grails-cookie/issues",
         "labels": [
             "cookie",
-            "grails",
             "cookie-service",
             "cookieservice",
+            "grails",
             "request",
             "response"
         ],
@@ -2215,11 +2215,11 @@
         "desc": "Grails Views",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
-            "markup",
-            "xml",
-            "rest",
             "json",
-            "views"
+            "markup",
+            "rest",
+            "views",
+            "xml"
         ],
         "latest_version": "1.1.0.M2",
         "licenses": [
@@ -3594,8 +3594,8 @@
         "desc": "The Novamail plug-in provides e-mail sending and retrieving capabilities to a Grails application. It is also capable of sending emails asynchronously by using a scheduled Job",
         "issue_tracker_url": "https://github.com/Novadge/novamail/issues",
         "labels": [
-            "mail",
-            "email"
+            "email",
+            "mail"
         ],
         "latest_version": "0.1.1",
         "licenses": [
@@ -4604,8 +4604,8 @@
         "desc": "Grails 3 ReCaptcha and MailHide plugin",
         "issue_tracker_url": "https://github.com/iamthechad/grails3-recaptcha/issues",
         "labels": [
-            "mailhide",
-            "recaptcha"
+            "recaptcha",
+            "mailhide"
         ],
         "latest_version": "3.0.1",
         "licenses": [
@@ -5919,8 +5919,8 @@
         "labels": [
             "grails",
             "grails3",
-            "Spring WS",
-            "SOAP"
+            "SOAP",
+            "Spring WS"
         ],
         "latest_version": "3.0.2",
         "licenses": [
