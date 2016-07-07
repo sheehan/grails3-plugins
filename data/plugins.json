@@ -1616,7 +1616,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.5.3",
+        "latest_version": "2.6.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1628,6 +1628,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-facebook-sdk",
         "versions": [
+            "2.6.0",
             "2.5.3",
             "2.5.2",
             "2.5.1",
@@ -1643,8 +1644,8 @@
             "html_url": "https://github.com/agorapulse/grails-facebook-sdk",
             "stargazers_count": 29
         },
-        "latest_version_created": "2016-05-03T13:00:57.051Z",
-        "latest_version_updated": "2016-05-03T13:01:40.789Z"
+        "latest_version_created": "2016-07-07T10:26:18.872Z",
+        "latest_version_updated": "2016-07-07T10:26:33.385Z"
     },
     {
         "desc": "Grails fields plugin",
