@@ -1923,6 +1923,38 @@
         "latest_version_updated": "2016-02-05T21:49:01.116Z"
     },
     {
+        "desc": "This plugin allows you to integrate reports Jasperreports into your Grails application.",
+        "issue_tracker_url": "https://github.com/puneetbehl/grails-jasper/issues",
+        "labels": [
+            "Jasper"
+        ],
+        "latest_version": "v2.0.0.RC1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "grails-jasper",
+        "owner": "puneetbehl",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/puneetbehl/grails-jasper",
+        "versions": [
+            "v2.0.0.RC1"
+        ],
+        "website_url": "",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "puneetbehl/grails-jasper",
+            "html_url": "https://github.com/puneetbehl/grails-jasper",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-07-08T20:53:32.077Z",
+        "latest_version_updated": "2016-07-08T20:53:32.093Z"
+    },
+    {
         "desc": "",
         "issue_tracker_url": "https://github.com/gregopet/grails-json-apis/issues",
         "labels": [
