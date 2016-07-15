@@ -409,7 +409,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-06-16T20:32:39.044Z",
         "latest_version_updated": "2016-06-16T20:33:01.773Z"
@@ -1001,7 +1001,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-06-16T20:34:08.239Z",
         "latest_version_updated": "2016-06-16T20:34:27.859Z"
@@ -1043,7 +1043,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-06-16T20:35:16.829Z",
         "latest_version_updated": "2016-06-16T20:35:34.323Z"
@@ -1860,7 +1860,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.4",
+        "latest_version": "1.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1872,6 +1872,7 @@
         ],
         "vcs_url": "https://github.com/frnktrgr/grails-gscripting",
         "versions": [
+            "1.0.5",
             "1.0.4",
             "1.0.0"
         ],
@@ -1884,8 +1885,8 @@
             "html_url": "https://github.com/frnktrgr/grails-gscripting",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-04-27T10:35:09.547Z",
-        "latest_version_updated": "2016-04-27T10:35:25.009Z"
+        "latest_version_created": "2016-07-15T13:15:02.675Z",
+        "latest_version_updated": "2016-07-15T13:15:18.592Z"
     },
     {
         "desc": "",
@@ -2442,7 +2443,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-06-16T20:36:14.946Z",
         "latest_version_updated": "2016-06-16T20:36:35.822Z"
@@ -5072,7 +5073,7 @@
         "githubRepo": {
             "full_name": "bertramdev/asset-pipeline",
             "html_url": "https://github.com/bertramdev/asset-pipeline",
-            "stargazers_count": 81
+            "stargazers_count": 82
         },
         "latest_version_created": "2016-06-16T20:38:27.000Z",
         "latest_version_updated": "2016-06-16T20:38:45.907Z"
