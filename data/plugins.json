@@ -5625,7 +5625,7 @@
         "githubRepo": {
             "full_name": "MatrixCrawler/grails-spring-security-oauth2",
             "html_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2",
-            "stargazers_count": 1
+            "stargazers_count": 2
         },
         "latest_version_created": "2016-06-21T17:09:01.354Z",
         "latest_version_updated": "2016-06-21T17:09:16.021Z"
@@ -5657,7 +5657,7 @@
         "githubRepo": {
             "full_name": "MatrixCrawler/grails-spring-security-oauth2-facebook",
             "html_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-facebook",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2016-06-21T18:48:53.598Z",
         "latest_version_updated": "2016-06-21T18:49:08.401Z"
@@ -5690,7 +5690,7 @@
         "githubRepo": {
             "full_name": "MatrixCrawler/grails-spring-security-oauth2-google",
             "html_url": "https://github.com/MatrixCrawler/grails-spring-security-oauth2-google",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2016-06-21T17:12:56.171Z",
         "latest_version_updated": "2016-06-21T17:13:10.299Z"
