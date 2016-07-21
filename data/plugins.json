@@ -945,6 +945,39 @@
         "latest_version_updated": "2016-04-02T07:48:12.144Z"
     },
     {
+        "desc": "CMEditor is a simple way to use the popular CodeMirror web editor in grails applications. You can use it to edit pretty much anything that can be mapped to a file-like object. I.e. something with a filename and text-content. If your model requires additional fields this is supported, too.     For example managing your library could be done by mapping filename to \"Frank Tr\u00c3\u00b6ger - CMEditor\". The tabbed editor then could manage everything: Author, title, publication year and - of course - the books content in a nice-to-use CodeMirror editor. You could even edit multiple books simultaneously.     Check out our demo grails project at https://github.com/RRZE-PP/grails-cmeditor-demo.     ",
+        "issue_tracker_url": "https://github.com/RRZE-PP/grails-cmeditor/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.6.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "cmeditor",
+        "owner": "frnktrgr",
+        "repo": "maven",
+        "system_ids": [
+            "org.grails.plugins:cmeditor"
+        ],
+        "vcs_url": "https://github.com/RRZE-PP/grails-cmeditor",
+        "versions": [
+            "2.6.1",
+            "2.6.0"
+        ],
+        "website_url": "https://github.com/RRZE-PP/grails-cmeditor",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "RRZE-PP/grails-cmeditor",
+            "html_url": "https://github.com/RRZE-PP/grails-cmeditor",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-07-21T10:15:54.381Z",
+        "latest_version_updated": "2016-07-21T10:16:36.360Z"
+    },
+    {
         "desc": "Easily process coffee-script files with the asset-pipeline plugin. Package includes both jvm coffee runtime as well as the ability to use the coffeescript npm module if detected.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
@@ -2099,6 +2132,38 @@
         "latest_version_updated": "2016-01-12T13:22:19.018Z"
     },
     {
+        "desc": "Adds support for using Google's libphonenumber library to validate phone numbers",
+        "issue_tracker_url": "https://github.com/ataylor284/grails-phonenumbers/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.11",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "grails-phonenumbers",
+        "owner": "ataylor284",
+        "repo": "plugins",
+        "system_ids": [
+            "ca.redtoad:grails-phonenumbers"
+        ],
+        "vcs_url": "https://github.com/ataylor284/grails-phonenumbers",
+        "versions": [
+            "0.11"
+        ],
+        "website_url": "https://github.com/ataylor284/grails-phonenumbers",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "ataylor284/grails-phonenumbers",
+            "html_url": "https://github.com/ataylor284/grails-phonenumbers",
+            "stargazers_count": 12
+        },
+        "latest_version_created": "2016-07-17T19:05:01.807Z",
+        "latest_version_updated": "2016-07-17T19:05:16.148Z"
+    },
+    {
         "desc": "A plugin that allows you to display human readable, relative timestamps.",
         "issue_tracker_url": "https://github.com/cazacugmihai/grails-pretty-time/issues",
         "labels": [
@@ -2582,7 +2647,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.10",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2594,6 +2659,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "6.0.0.M2",
             "5.0.10",
             "5.0.9",
             "5.0.8",
@@ -2626,8 +2692,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 85
         },
-        "latest_version_created": "2016-06-28T15:02:16.986Z",
-        "latest_version_updated": "2016-06-28T15:02:34.813Z"
+        "latest_version_created": "2016-07-21T10:35:10.769Z",
+        "latest_version_updated": "2016-07-21T10:48:33.883Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2638,7 +2704,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.10",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2650,6 +2716,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "6.0.0.M2",
             "5.0.10",
             "5.0.9",
             "5.0.8",
@@ -2682,8 +2749,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 85
         },
-        "latest_version_created": "2016-06-28T15:02:26.070Z",
-        "latest_version_updated": "2016-06-28T15:02:36.180Z"
+        "latest_version_created": "2016-07-21T10:24:16.499Z",
+        "latest_version_updated": "2016-07-21T10:24:33.854Z"
     },
     {
         "desc": "Grails HTML Cleaner plugin",
