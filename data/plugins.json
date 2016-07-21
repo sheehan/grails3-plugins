@@ -857,11 +857,12 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
+        "issue_tracker_url": "https://github.com/grails/gorm-cassandra/issues",
         "labels": [
-            
+            "cassandra",
+            "gorm"
         ],
-        "latest_version": "5.0.10",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -871,8 +872,9 @@
         "system_ids": [
             "org.grails.plugins:cassandra"
         ],
-        "vcs_url": "https://github.com/grails/grails-data-mapping",
+        "vcs_url": "https://github.com/grails/gorm-cassandra",
         "versions": [
+            "6.0.0.M2",
             "5.0.10",
             "5.0.9",
             "5.0.8",
@@ -902,15 +904,21 @@
         ],
         "website_url": "http://grails.org/",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
         ],
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 85
+            "full_name": "grails/gorm-cassandra",
+            "html_url": "https://github.com/grails/gorm-cassandra",
+            "stargazers_count": 0
         },
-        "latest_version_created": "2016-06-28T15:01:57.735Z",
-        "latest_version_updated": "2016-06-28T15:02:17.269Z"
+        "latest_version_created": "2016-07-21T13:27:10.764Z",
+        "latest_version_updated": "2016-07-21T13:27:27.593Z"
     },
     {
         "desc": "CKeditor web WYSIWYG editor integration plugin.",
@@ -3610,7 +3618,7 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
+        "issue_tracker_url": "https://github.com/grails/gorm-neo4j/issues",
         "labels": [
             "gorm",
             "graph",
@@ -3626,7 +3634,7 @@
         "system_ids": [
             "org.grails.plugins:neo4j"
         ],
-        "vcs_url": "https://github.com/grails/grails-data-mapping",
+        "vcs_url": "https://github.com/grails/gorm-neo4j",
         "versions": [
             "6.0.0.M2",
             "5.0.10",
@@ -3658,12 +3666,18 @@
         ],
         "website_url": "http://grails.org/",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 85
+            "full_name": "grails/gorm-neo4j",
+            "html_url": "https://github.com/grails/gorm-neo4j",
+            "stargazers_count": 2
         },
         "latest_version_created": "2016-07-21T12:54:05.638Z",
         "latest_version_updated": "2016-07-21T12:54:23.399Z"
@@ -4792,7 +4806,7 @@
         "labels": [
             
         ],
-        "latest_version": "5.0.10",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4804,6 +4818,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "6.0.0.M2",
             "5.0.10",
             "5.0.9",
             "5.0.8",
@@ -4830,8 +4845,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 85
         },
-        "latest_version_created": "2016-06-28T15:02:52.743Z",
-        "latest_version_updated": "2016-06-28T15:03:10.791Z"
+        "latest_version_created": "2016-07-21T13:53:05.666Z",
+        "latest_version_updated": "2016-07-21T13:53:23.597Z"
     },
     {
         "desc": "Grails remote-pagination plugin",
@@ -5026,6 +5041,47 @@
         },
         "latest_version_created": "2016-04-22T22:55:05.398Z",
         "latest_version_updated": "2016-04-22T22:55:30.465Z"
+    },
+    {
+        "desc": "Provides a RxGORM Object Mapping implementation for communication with REST web services",
+        "issue_tracker_url": "https://github.com/grails/gorm-rest-client/issues",
+        "labels": [
+            "gorm",
+            "json",
+            "rest",
+            "rxjava"
+        ],
+        "latest_version": "1.0.0.M1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "rx-gorm-rest-client",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:rx-gorm-rest-client"
+        ],
+        "vcs_url": "https://github.com/grails/gorm-rest-client",
+        "versions": [
+            "1.0.0.M1"
+        ],
+        "website_url": "https://github.com/grails/gorm-rest-client",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "grails/gorm-rest-client",
+            "html_url": "https://github.com/grails/gorm-rest-client",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-07-21T13:25:23.491Z",
+        "latest_version_updated": "2016-07-21T13:25:40.325Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -5235,7 +5291,7 @@
         "githubRepo": {
             "full_name": "agileorbit/grails-schwartz",
             "html_url": "https://github.com/agileorbit/grails-schwartz",
-            "stargazers_count": 2
+            "stargazers_count": 3
         },
         "latest_version_created": "2016-07-12T04:26:26.939Z",
         "latest_version_updated": "2016-07-12T04:26:47.130Z"
