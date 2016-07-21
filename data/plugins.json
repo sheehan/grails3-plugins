@@ -3509,14 +3509,14 @@
     },
     {
         "desc": "GORM for MongoDB",
-        "issue_tracker_url": "http://jira.grails.org/browse/GPMONGODB",
+        "issue_tracker_url": "https://github.com/grails/gorm-mongodb/issues",
         "labels": [
             "gorm",
             "grails",
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "5.0.10",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3526,8 +3526,9 @@
         "system_ids": [
             "org.grails.plugins:mongodb"
         ],
-        "vcs_url": "https://github.com/grails/grails-data-mapping",
+        "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "6.0.0.M2",
             "5.0.10",
             "5.0.9",
             "5.0.8",
@@ -3559,15 +3560,21 @@
         ],
         "website_url": "http://grails.org",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 85
+            "full_name": "grails/gorm-mongodb",
+            "html_url": "https://github.com/grails/gorm-mongodb",
+            "stargazers_count": 0
         },
-        "latest_version_created": "2016-06-28T15:02:34.792Z",
-        "latest_version_updated": "2016-06-28T15:02:52.968Z"
+        "latest_version_created": "2016-07-21T12:19:04.665Z",
+        "latest_version_updated": "2016-07-21T12:19:42.372Z"
     },
     {
         "desc": null,
@@ -3609,7 +3616,7 @@
             "graph",
             "neo4j"
         ],
-        "latest_version": "5.0.10",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3621,6 +3628,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "6.0.0.M2",
             "5.0.10",
             "5.0.9",
             "5.0.8",
@@ -3657,8 +3665,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 85
         },
-        "latest_version_created": "2016-06-28T15:02:44.330Z",
-        "latest_version_updated": "2016-06-28T15:02:54.394Z"
+        "latest_version_created": "2016-07-21T12:54:05.638Z",
+        "latest_version_updated": "2016-07-21T12:54:23.399Z"
     },
     {
         "desc": "Grails NewRelic plugin",
@@ -5021,11 +5029,13 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
+        "issue_tracker_url": "https://github.com/grails/gorm-mongodb/issues",
         "labels": [
-            
+            "gorm",
+            "mongodb",
+            "rxjava"
         ],
-        "latest_version": "6.0.0.M1",
+        "latest_version": "6.0.0.M2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5035,21 +5045,28 @@
         "system_ids": [
             "org.grails.plugins:rx-mongodb"
         ],
-        "vcs_url": "https://github.com/grails/grails-data-mapping",
+        "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "6.0.0.M2",
             "6.0.0.M1"
         ],
-        "website_url": "https://grails.github.io/grails-data-mapping/latest/",
+        "website_url": "https://gorm.grails.org/latest/rx",
         "attributes": [
-            
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Official"
+                ]
+            }
         ],
         "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 85
+            "full_name": "grails/gorm-mongodb",
+            "html_url": "https://github.com/grails/gorm-mongodb",
+            "stargazers_count": 0
         },
-        "latest_version_created": "2016-05-30T14:53:04.947Z",
-        "latest_version_updated": "2016-05-30T14:53:38.963Z"
+        "latest_version_created": "2016-07-21T12:19:19.258Z",
+        "latest_version_updated": "2016-07-21T12:19:44.122Z"
     },
     {
         "desc": "Grails csv plugin",
