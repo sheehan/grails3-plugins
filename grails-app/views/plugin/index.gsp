@@ -11,6 +11,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/github.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
 
+    <g:if test="${plugin instanceof Map}">
+        <!-— facebook open graph tags -->
+        <meta property="og:type" content="website" />
+        %{--<meta property="og:url" content="http://ruraljuror.com/" />--}%
+        <meta property="og:title" content="${plugin.name}" />
+        <meta property="og:description" content="${plugin.desc}" />
+        %{--<meta property="og:image" content="http://ruraljuror.com/heroimage.png" />--}%
+
+        <!-— twitter card tags additive with the og: tags -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" value="${domain}" />
+        <meta name="twitter:title" value="${plugin.name}" />
+        <meta name="twitter:description" value="${plugin.desc}" />
+        %{--<meta name="twitter:image" content="http://ruraljuror.com/heroimage.png" />--}%
+        %{--<meta name="twitter:url" value="http://www.ruraljuror.com/" />--}%
+        <meta name="twitter:label1" value="Last Updated" />
+        <meta name="twitter:data1" value="${lastUpdated}" />
+        <meta name="twitter:label2" value="Stars" />
+        <meta name="twitter:data2" value=":star: ${stars}" />
+    </g:if>
+
     <asset:stylesheet src="manifest.css"/>
     <asset:link rel="shortcut icon" href="favicon.ico" type="image"/>
 </head>
@@ -69,7 +90,7 @@
     ga('create', 'UA-72486221-1', 'auto');
     ga('send', 'pageview');
 
-    window.app = new grailsplugins.App(<%= (json ?: []) as grails.converters.JSON  %>);
+    window.app = new grailsplugins.App(<%= (json ?: []) as JSON  %>);
 </script>
 </body>
 </html>

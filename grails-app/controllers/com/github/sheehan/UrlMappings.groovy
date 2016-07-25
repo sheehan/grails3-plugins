@@ -11,7 +11,7 @@ class UrlMappings {
 
         "/"(controller: 'plugin', action: 'index')
         "/plugin/json"(controller: 'plugin', action: 'json')
-        "/plugin/$plugin"(controller: 'plugin', action: 'index')
+        "/plugin/$plugin"(controller: 'plugin', action: 'plugin')
         "/q/$query"(controller: 'plugin', action: 'index')
 
         "500"(view:'/error')
