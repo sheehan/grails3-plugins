@@ -4464,7 +4464,7 @@
         "githubRepo": {
             "full_name": "kaleidos/grails-postgresql-extensions",
             "html_url": "https://github.com/kaleidos/grails-postgresql-extensions",
-            "stargazers_count": 40
+            "stargazers_count": 41
         },
         "latest_version_created": "2016-04-24T19:25:40.777Z",
         "latest_version_updated": "2016-04-24T19:26:01.949Z"
@@ -5412,6 +5412,40 @@
         },
         "latest_version_created": "2016-07-06T21:38:07.122Z",
         "latest_version_updated": "2016-07-06T21:38:21.317Z"
+    },
+    {
+        "desc": "Selfie is a Grails Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
+        "issue_tracker_url": "https://github.com/bertramdev/selfie/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "selfie",
+        "owner": "bertramlabs",
+        "repo": "grails3-plugins",
+        "system_ids": [
+            "com.bertramlabs.plugins:selfie"
+        ],
+        "vcs_url": "https://github.com/bertramdev/selfie",
+        "versions": [
+            "1.0.1",
+            "1.0.0",
+            "1.0.0.SNAPSHOT"
+        ],
+        "website_url": "https://github.com/bertramdev/selfie",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "bertramdev/selfie",
+            "html_url": "https://github.com/bertramdev/selfie",
+            "stargazers_count": 9
+        },
+        "latest_version_created": "2016-05-17T20:01:57.020Z",
+        "latest_version_updated": "2016-05-17T20:02:22.237Z"
     },
     {
         "desc": "Grails Sentry plugin",
