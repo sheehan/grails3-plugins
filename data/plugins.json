@@ -459,7 +459,7 @@
             "mongodb",
             "quartz"
         ],
-        "latest_version": "2.0.0.RC3",
+        "latest_version": "2.0.0.RC4",
         "licenses": [
             "Apache-2.0"
         ],
@@ -471,6 +471,7 @@
         ],
         "vcs_url": "https://github.com/kefirfromperm/grails-asynchronous-mail.git",
         "versions": [
+            "2.0.0.RC4",
             "2.0.0.RC3",
             "2.0.0.RC2",
             "2.0.0.RC1"
@@ -490,8 +491,8 @@
             "html_url": "https://github.com/kefirfromperm/grails-asynchronous-mail",
             "stargazers_count": 13
         },
-        "latest_version_created": "2016-06-04T07:54:18.431Z",
-        "latest_version_updated": "2016-06-04T07:54:41.426Z"
+        "latest_version_created": "2016-08-02T15:56:03.732Z",
+        "latest_version_updated": "2016-08-02T15:56:22.699Z"
     },
     {
         "desc": "Grails 3.x Audit-Logging Plugin.",
