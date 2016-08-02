@@ -3380,7 +3380,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.10.0",
+        "latest_version": "2.10.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3392,6 +3392,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/less-asset-pipeline",
         "versions": [
+            "2.10.1",
             "2.10.0",
             "2.9.5",
             "2.9.4",
@@ -3432,8 +3433,8 @@
             "html_url": "https://github.com/bertramdev/less-asset-pipeline",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-07-28T21:51:24.620Z",
-        "latest_version_updated": "2016-07-28T21:51:34.856Z"
+        "latest_version_created": "2016-08-02T13:08:13.408Z",
+        "latest_version_updated": "2016-08-02T13:08:31.621Z"
     },
     {
         "desc": "Grails mail plugin",
@@ -5222,7 +5223,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.10.0",
+        "latest_version": "2.10.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5234,6 +5235,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.10.1",
             "2.10.0",
             "2.9.5",
             "2.9.4",
@@ -5280,8 +5282,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 85
         },
-        "latest_version_created": "2016-07-28T21:52:22.879Z",
-        "latest_version_updated": "2016-07-28T21:52:38.617Z"
+        "latest_version_created": "2016-08-02T13:09:12.572Z",
+        "latest_version_updated": "2016-08-02T13:09:28.926Z"
     },
     {
         "desc": "Grails scaffolding plugin",
