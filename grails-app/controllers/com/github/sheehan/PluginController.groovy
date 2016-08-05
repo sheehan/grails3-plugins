@@ -30,7 +30,7 @@ class PluginController {
 
         if (plugin.latest_version_updated) {
             DateFormat utc = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-            DateFormat display = new SimpleDateFormat('MMM dd, yyyy')
+            DateFormat display = new SimpleDateFormat('MMM d, yyyy')
             Date date = utc.parse(plugin.latest_version_updated)
             model.lastUpdated = display.format(date)
         }
