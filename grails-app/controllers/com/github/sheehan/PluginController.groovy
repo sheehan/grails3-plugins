@@ -22,13 +22,10 @@ class PluginController {
             baseUrl: createLink(uri: '/')
         ]
 
-        String lastUpdated
-
         Map model = [
             json  : json,
             plugin: plugin,
             domain: request.getServerName().replaceAll(".*\\.(?=.*\\.)", ""),
-//            lastUpdated:
         ]
 
         if (plugin.latest_version_updated) {

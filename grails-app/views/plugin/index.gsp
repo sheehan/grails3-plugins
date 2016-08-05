@@ -28,10 +28,12 @@
         <meta name="twitter:description" value="${plugin.desc}" />
         %{--<meta name="twitter:image" content="http://ruraljuror.com/heroimage.png" />--}%
         %{--<meta name="twitter:url" value="http://www.ruraljuror.com/" />--}%
-        <meta name="twitter:label1" value="Last Updated" />
-        <meta name="twitter:data1" value="${lastUpdated}" />
-        <meta name="twitter:label2" value="Stars" />
-        <meta name="twitter:data2" value=":star: ${stars}" />
+        <g:if test="${plugin.latest_version}">
+            <meta name="twitter:label1" value="Latest Version" />
+            <meta name="twitter:data1" value="${plugin.latest_version}" />
+            <meta name="twitter:label2" value="Published" />
+            <meta name="twitter:data2" value="${lastUpdated}" />
+        </g:if>
     </g:if>
 
     <asset:stylesheet src="manifest.css"/>
