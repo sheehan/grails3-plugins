@@ -19,14 +19,15 @@
         %{--<meta property="og:url" content="http://ruraljuror.com/" />--}%
         <meta property="og:title" content="${plugin.name}" />
         <meta property="og:description" content="${plugin.desc}" />
-        %{--<meta property="og:image" content="http://ruraljuror.com/heroimage.png" />--}%
+        <meta property="og:image" content="https://grails.org/img/favicon.ico" />
+        <meta property="og:site_name" content="grails.org">
 
         <!-— twitter card tags additive with the og: tags -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:domain" value="${domain}" />
         <meta name="twitter:title" value="${plugin.name}" />
         <meta name="twitter:description" value="${plugin.desc}" />
-        %{--<meta name="twitter:image" content="http://ruraljuror.com/heroimage.png" />--}%
+        <meta name="twitter:image" content="https://grails.org/img/favicon.ico" />
         %{--<meta name="twitter:url" value="http://www.ruraljuror.com/" />--}%
         <g:if test="${plugin.latest_version}">
             <meta name="twitter:label1" value="Latest Version" />
