@@ -1,0 +1,102 @@
+//@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500,700|Open+Sans:400,600);
+
+.grails-header {
+
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: none;
+
+  /* customizing bootstrap nav bar */
+  .navbar {
+    margin-bottom: 0px;
+    padding-right: 110px;
+  }
+  .navbar .container {
+    margin: 10px;
+  }
+  .navbar-default a {
+    color: #ffffff !important;
+    font-size: 18px !important;
+    text-decoration: none;
+  }
+  .grails-icon img {
+    width: 40px;
+
+  }
+  .navbar-default, .navbar-static-top {
+    background: #4D8618;
+    border: 0px;
+  }
+  a.navbar-brand {
+    color: white !important;
+    font-size: 19px !important;
+    text-shadow: none;
+  }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: white;
+    text-shadow: none;
+  }
+  .navbar-nav > li.active > a {
+    color: white !important;
+  }
+  .navbar-nav > li > a:hover {
+    background-color: #db4800 !important;
+    color: white !important;
+  }
+  .navbar-nav > li > a {
+    color: #c0d3db;
+    text-shadow: none;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #db4800;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      width: auto;
+    }
+  }
+
+  /* specific to index.html */
+
+  @media (max-width: 999px) {
+    #fork-me {
+      display: none;
+    }
+
+    .navbar {
+      padding-right: 0px;
+    }
+  }
+
+  #fork-me {
+    position: fixed;
+    padding: 0px 50px 0px 50px;
+    top: 40px;
+    right: -60px;
+    background-color: #a60000;
+    color: #ffffff;
+    font-size: 1em;
+    z-index: 1001;
+    transform: rotate(+45deg);
+    text-align: center;
+    font-weight: bolder;
+    border: #c14646;
+    border-style: dashed;
+    border-width: 1px;
+  }
+
+  #fork-me p {
+    margin: 0;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .presentations .img.screenshot, .video .metadata {
+    float: none;
+  }
+}

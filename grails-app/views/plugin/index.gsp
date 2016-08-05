@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/github.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,700|Open+Sans:400,600" />
+
     <g:if test="${plugin instanceof Map}">
         <!-— facebook open graph tags -->
         <meta property="og:type" content="website" />
@@ -36,6 +38,7 @@
     <asset:link rel="shortcut icon" href="favicon.ico" type="image"/>
 </head>
 <body class="hide">
+<g:render template="header" />
 <div class="page-loading"><i class="fa fa-cog fa-spin"></i> Loading plugin data...</div>
 <div class="main-content page-width hide">
     <div class="sidebar">
