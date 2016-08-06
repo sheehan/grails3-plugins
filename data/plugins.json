@@ -1109,7 +1109,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.7",
+        "latest_version": "2.0.8",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1121,6 +1121,7 @@
         ],
         "vcs_url": "https://github.com/sheehan/grails-console",
         "versions": [
+            "2.0.8",
             "2.0.7",
             "2.0.6",
             "2.0.5",
@@ -1145,8 +1146,8 @@
             "html_url": "https://github.com/sheehan/grails-console",
             "stargazers_count": 47
         },
-        "latest_version_created": "2016-07-31T14:18:44.510Z",
-        "latest_version_updated": "2016-07-31T14:18:59.482Z"
+        "latest_version_created": "2016-08-06T03:21:05.551Z",
+        "latest_version_updated": "2016-08-06T03:21:20.349Z"
     },
     {
         "desc": "Grails Cookie Plugin",
