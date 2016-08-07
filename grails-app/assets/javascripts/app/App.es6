@@ -46,6 +46,18 @@ grailsplugins.App = class {
         this.pluginView = new grailsplugins.views.PluginView($('.plugin-section'));
 
         this.show();
+
+        $('.sidebar').sticky({topSpacing: 20});
+
+        $('.socialize-button').click(e => {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.socialize-menu').animate({right: 0});
+            $('body').one('click', () => {
+                $('.socialize-menu').animate({right: -300});
+            });
+        });
+
         page.start();
     }
 
