@@ -1824,7 +1824,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.2",
+        "latest_version": "3.0.3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1836,6 +1836,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/grails-force-ssl",
         "versions": [
+            "3.0.3",
             "3.0.2",
             "3.0.1",
             "3.0.0"
@@ -1849,8 +1850,8 @@
             "html_url": "https://github.com/bertramdev/grails-force-ssl",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-05-16T21:22:41.105Z",
-        "latest_version_updated": "2016-05-16T21:23:05.308Z"
+        "latest_version_created": "2016-08-08T17:53:10.769Z",
+        "latest_version_updated": "2016-08-08T17:53:27.307Z"
     },
     {
         "desc": "Grails geb plugin",
