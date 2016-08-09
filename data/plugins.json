@@ -4050,7 +4050,7 @@
         "githubRepo": {
             "full_name": "Yingliang-Du/gorm-envers-grails-plugin",
             "html_url": "https://github.com/Yingliang-Du/gorm-envers-grails-plugin",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2015-08-09T20:44:00.380Z",
         "latest_version_updated": "2015-08-09T20:44:20.269Z"
@@ -4930,7 +4930,7 @@
         "licenses": [
             "Apache-2.0"
         ],
-        "name": "RemoteSSH",
+        "name": "remotessh",
         "owner": "vahid",
         "repo": "maven",
         "system_ids": [
@@ -4951,7 +4951,7 @@
             "stargazers_count": 3
         },
         "latest_version_created": "2015-06-23T20:08:18.298Z",
-        "latest_version_updated": "2016-08-09T15:55:44.745Z"
+        "latest_version_updated": "2016-08-09T16:36:49.900Z"
     },
     {
         "desc": "Grails rendering plugin",
