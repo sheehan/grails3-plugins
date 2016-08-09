@@ -4926,7 +4926,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.1",
+        "latest_version": "3.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -4934,12 +4934,11 @@
         "owner": "vahid",
         "repo": "maven",
         "system_ids": [
-            "org.grails.plugins:RemoteSSH"
+            "org.grails.plugins:remotessh"
         ],
         "vcs_url": "https://github.com/vahidhedayati/RemoteSSH",
         "versions": [
-            "3.0.1",
-            "0.4"
+            "3.0.5"
         ],
         "website_url": "https://github.com/vahidhedayati/RemoteSSH",
         "attributes": [
@@ -4950,8 +4949,8 @@
             "html_url": "https://github.com/vahidhedayati/RemoteSSH",
             "stargazers_count": 3
         },
-        "latest_version_created": "2015-06-23T20:08:18.298Z",
-        "latest_version_updated": "2016-08-09T16:36:49.900Z"
+        "latest_version_created": "2016-08-09T17:26:31.617Z",
+        "latest_version_updated": "2016-08-09T17:27:53.927Z"
     },
     {
         "desc": "Grails rendering plugin",
