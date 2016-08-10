@@ -5485,7 +5485,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.1",
+        "latest_version": "1.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5497,6 +5497,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/selfie",
         "versions": [
+            "1.0.2",
             "1.0.1",
             "1.0.0",
             "1.0.0.SNAPSHOT"
@@ -5510,8 +5511,8 @@
             "html_url": "https://github.com/bertramdev/selfie",
             "stargazers_count": 9
         },
-        "latest_version_created": "2016-05-17T20:01:57.020Z",
-        "latest_version_updated": "2016-05-17T20:02:22.237Z"
+        "latest_version_created": "2016-08-10T16:51:21.029Z",
+        "latest_version_updated": "2016-08-10T16:51:37.333Z"
     },
     {
         "desc": "Grails Sentry plugin",
