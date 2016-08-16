@@ -731,7 +731,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.2.0",
+        "latest_version": "3.3.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -743,6 +743,7 @@
         ],
         "vcs_url": "https://github.com/mathifonseca/grails-browser-detection",
         "versions": [
+            "3.3.0",
             "3.2.0",
             "3.1.0",
             "3.0.1",
@@ -757,8 +758,8 @@
             "html_url": "https://github.com/mathifonseca/grails-browser-detection",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-03-08T14:45:25.689Z",
-        "latest_version_updated": "2016-03-08T14:45:58.086Z"
+        "latest_version_created": "2016-08-16T14:55:32.871Z",
+        "latest_version_updated": "2016-08-16T14:55:58.099Z"
     },
     {
         "desc": "Grails build-test-data plugin",
