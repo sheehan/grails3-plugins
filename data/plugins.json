@@ -1457,6 +1457,38 @@
         "latest_version_updated": "2016-06-26T22:16:17.172Z"
     },
     {
+        "desc": "The Distributed Mutex plugin provides a way to create mutexes backed by a database row. This helps when writing distributed systems that need to lock a resource but database transactions are not sufficient to encapsulate the resource being accessed.",
+        "issue_tracker_url": "https://github.com/budjb/grails-distributed-mutex/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "3.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "distributed-mutex",
+        "owner": "budjb",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:distributed-mutex"
+        ],
+        "vcs_url": "https://github.com/budjb/grails-distributed-mutex",
+        "versions": [
+            "3.0.0"
+        ],
+        "website_url": "https://github.com/budjb/grails-distributed-mutex",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "budjb/grails-distributed-mutex",
+            "html_url": "https://github.com/budjb/grails-distributed-mutex",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-08-10T20:55:10.960Z",
+        "latest_version_updated": "2016-08-10T20:55:30.694Z"
+    },
+    {
         "desc": "Grails grails-simple-captcha plugin",
         "issue_tracker_url": "https://github.com/domurtag/grails-simple-captcha/issues",
         "labels": [
@@ -5931,6 +5963,39 @@
         },
         "latest_version_created": "2016-06-21T18:48:53.598Z",
         "latest_version_updated": "2016-06-21T18:49:08.401Z"
+    },
+    {
+        "desc": "This plugin provides the capability to authenticate via Github-oauth provider. Depends on grails-spring-security-oauth2.",
+        "issue_tracker_url": "https://github.com/rpalcolea/grails-spring-security-oauth2-github/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "spring-security-oauth2-github",
+        "owner": "rpalcolea",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:spring-security-oauth2-github"
+        ],
+        "vcs_url": "https://github.com/rpalcolea/grails-spring-security-oauth2-github",
+        "versions": [
+            "1.0.1",
+            "1.0.0"
+        ],
+        "website_url": "https://github.com/rpalcolea/grails-spring-security-oauth2-github",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "rpalcolea/grails-spring-security-oauth2-github",
+            "html_url": "https://github.com/rpalcolea/grails-spring-security-oauth2-github",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-08-14T18:10:28.953Z",
+        "latest_version_updated": "2016-08-14T18:10:48.590Z"
     },
     {
         "desc": "This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2.",
