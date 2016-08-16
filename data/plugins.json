@@ -3367,7 +3367,7 @@
         "labels": [
             
         ],
-        "latest_version": "0.9.24",
+        "latest_version": "0.9.25",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3379,6 +3379,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/karman-core",
         "versions": [
+            "0.9.25",
             "0.9.24",
             "0.9.23",
             "0.9.22",
@@ -3393,8 +3394,8 @@
             "html_url": "https://github.com/bertramdev/karman-core",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-08-15T21:49:08.682Z",
-        "latest_version_updated": "2016-08-15T21:49:25.068Z"
+        "latest_version_created": "2016-08-16T20:49:35.517Z",
+        "latest_version_updated": "2016-08-16T20:49:58.215Z"
     },
     {
         "desc": "Grails LDAP Server Plugin",
