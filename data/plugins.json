@@ -1928,7 +1928,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0",
+        "latest_version": "2.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1940,6 +1940,7 @@
         ],
         "vcs_url": "https://github.com/bmuschko/grails-google-visualization",
         "versions": [
+            "2.1",
             "2.0"
         ],
         "website_url": "http://grails.org/plugin/grails-google-visualization",
@@ -1951,8 +1952,8 @@
             "html_url": "https://github.com/bmuschko/grails-google-visualization",
             "stargazers_count": 28
         },
-        "latest_version_created": "2015-10-09T10:53:18.246Z",
-        "latest_version_updated": "2015-10-09T10:53:53.968Z"
+        "latest_version_created": "2016-08-17T21:33:50.065Z",
+        "latest_version_updated": "2016-08-17T21:34:22.693Z"
     },
     {
         "desc": "Run Groovy scripts in Grails",
