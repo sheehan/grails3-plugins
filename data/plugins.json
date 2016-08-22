@@ -6446,7 +6446,7 @@
         "latest_version_updated": "2016-05-18T10:06:43.552Z"
     },
     {
-        "desc": "Provides a more friendly way to update your application or plugin version.",
+        "desc": "Provides a friendlier way to update your application or plugin version.",
         "issue_tracker_url": "https://github.com/mathifonseca/grails-version-update/issues",
         "labels": [
             
