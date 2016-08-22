@@ -5609,7 +5609,7 @@
         "labels": [
             
         ],
-        "latest_version": "7.4.0",
+        "latest_version": "7.6.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5621,6 +5621,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-raven",
         "versions": [
+            "7.6.0",
             "7.4.0",
             "7.3.0",
             "7.2.1",
@@ -5637,8 +5638,8 @@
             "html_url": "https://github.com/agorapulse/grails-raven",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-07-22T07:59:43.914Z",
-        "latest_version_updated": "2016-07-22T07:59:59.091Z"
+        "latest_version_created": "2016-08-22T14:03:52.175Z",
+        "latest_version_updated": "2016-08-22T14:04:32.817Z"
     },
     {
         "desc": "Grails Slack Integration Plugin",
