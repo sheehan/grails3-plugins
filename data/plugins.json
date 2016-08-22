@@ -1927,6 +1927,40 @@
         "latest_version_updated": "2016-04-27T14:52:58.020Z"
     },
     {
+        "desc": "Full plugin description",
+        "issue_tracker_url": "https://github.com/uberall/grails-executor/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "0.4",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "grails-executor",
+        "owner": "uberall",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:grails-executor"
+        ],
+        "vcs_url": "https://github.com/uberall/grails-executor",
+        "versions": [
+            "0.4",
+            "0.2",
+            "0.1"
+        ],
+        "website_url": "https://github.com/uberall/grails-executor",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "uberall/grails-executor",
+            "html_url": "https://github.com/uberall/grails-executor",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-08-19T07:41:07.256Z",
+        "latest_version_updated": "2016-08-19T07:41:22.220Z"
+    },
+    {
         "desc": "Grails grails-google-visualization plugin",
         "issue_tracker_url": "https://github.com/bmuschko/grails-google-visualization/issues",
         "labels": [
@@ -6412,6 +6446,38 @@
         "latest_version_updated": "2016-05-18T10:06:43.552Z"
     },
     {
+        "desc": "Provides a more friendly way to update your application or plugin version.",
+        "issue_tracker_url": "https://github.com/mathifonseca/grails-version-update/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "version-update",
+        "owner": "mathifonseca",
+        "repo": "grails-plugins",
+        "system_ids": [
+            "org.grails.plugins:version-update"
+        ],
+        "vcs_url": "https://github.com/mathifonseca/grails-version-update",
+        "versions": [
+            "2.0.0"
+        ],
+        "website_url": "https://github.com/mathifonseca/grails-version-update",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "mathifonseca/grails-version-update",
+            "html_url": "https://github.com/mathifonseca/grails-version-update",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-08-18T15:54:55.030Z",
+        "latest_version_updated": "2016-08-18T15:55:16.965Z"
+    },
+    {
         "desc": "Grails views-gradle plugin",
         "issue_tracker_url": "https://github.com/grails/grails-views/issues",
         "labels": [
@@ -6579,5 +6645,37 @@
         },
         "latest_version_created": "2016-03-18T14:51:22.116Z",
         "latest_version_updated": "2016-03-18T14:53:27.621Z"
+    },
+    {
+        "desc": "This plugin uses OWASP ESAPI library to sanitize request parameters. This reduces the risk of dangerous XSS request parameters possibly being rendered on the client.",
+        "issue_tracker_url": "https://github.com/rpalcolea/grails-xss-sanitizer/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "xss-sanitizer",
+        "owner": "rpalcolea",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:xss-sanitizer"
+        ],
+        "vcs_url": "https://github.com/rpalcolea/grails-xss-sanitizer",
+        "versions": [
+            "1.0.0"
+        ],
+        "website_url": "https://github.com/rpalcolea/grails-xss-sanitizer",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "rpalcolea/grails-xss-sanitizer",
+            "html_url": "https://github.com/rpalcolea/grails-xss-sanitizer",
+            "stargazers_count": 0
+        },
+        "latest_version_created": "2016-08-14T18:45:27.911Z",
+        "latest_version_updated": "2016-08-14T18:45:47.903Z"
     }
 ]
