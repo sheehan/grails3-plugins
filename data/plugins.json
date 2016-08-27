@@ -2314,7 +2314,7 @@
         ],
         "latest_version": "2.0.1",
         "licenses": [
-            "AGPL-V3"
+            "Apache-2.0"
         ],
         "name": "grails-sendgrid",
         "owner": "desirable-objects",
