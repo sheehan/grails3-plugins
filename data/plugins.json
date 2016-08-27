@@ -936,7 +936,7 @@
         "labels": [
             
         ],
-        "latest_version": "4.5.4.0",
+        "latest_version": "4.5.9.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -948,6 +948,7 @@
         ],
         "vcs_url": "https://github.com/stefanogualdi/grails-ckeditor",
         "versions": [
+            "4.5.9.0",
             "4.5.4.0"
         ],
         "website_url": "https://github.com/stefanogualdi/grails-ckeditor",
@@ -959,8 +960,8 @@
             "html_url": "https://github.com/stefanogualdi/grails-ckeditor",
             "stargazers_count": 18
         },
-        "latest_version_created": "2016-04-02T07:47:45.471Z",
-        "latest_version_updated": "2016-04-02T07:48:12.144Z"
+        "latest_version_created": "2016-08-27T09:07:39.349Z",
+        "latest_version_updated": "2016-08-27T09:08:35.958Z"
     },
     {
         "desc": "CMEditor is a simple way to use the popular CodeMirror web editor in grails applications. You can use it to edit pretty much anything that can be mapped to a file-like object. I.e. something with a filename and text-content. If your model requires additional fields this is supported, too.     For example managing your library could be done by mapping filename to \"Frank Tr\u00c3\u00b6ger - CMEditor\". The tabbed editor then could manage everything: Author, title, publication year and - of course - the books content in a nice-to-use CodeMirror editor. You could even edit multiple books simultaneously.     Check out our demo grails project at https://github.com/RRZE-PP/grails-cmeditor-demo.     ",
