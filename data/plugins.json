@@ -5591,7 +5591,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.6",
+        "latest_version": "3.0.7",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5603,6 +5603,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/seed-me",
         "versions": [
+            "3.0.7",
             "3.0.6",
             "3.0.5",
             "3.0.3",
@@ -5619,8 +5620,8 @@
             "html_url": "https://github.com/bertramdev/seed-me",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-06-07T19:41:27.368Z",
-        "latest_version_updated": "2016-06-07T19:41:52.380Z"
+        "latest_version_created": "2016-08-29T17:47:33.255Z",
+        "latest_version_updated": "2016-08-29T17:47:55.661Z"
     },
     {
         "desc": "Grails Segment plugin",
