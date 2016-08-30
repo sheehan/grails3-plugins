@@ -3724,7 +3724,7 @@
             "stargazers_count": 0
         },
         "latest_version_created": "2016-08-30T14:20:37.923Z",
-        "latest_version_updated": "2016-08-30T14:21:07.824Z"
+        "latest_version_updated": "2016-08-30T19:25:09.841Z"
     },
     {
         "desc": "GORM for MongoDB",
@@ -6196,7 +6196,7 @@
         "githubRepo": {
             "full_name": "bluesliverx/grails-spring-security-oauth2-provider",
             "html_url": "https://github.com/bluesliverx/grails-spring-security-oauth2-provider",
-            "stargazers_count": 50
+            "stargazers_count": 51
         },
         "latest_version_created": "2016-02-16T16:24:24.645Z",
         "latest_version_updated": "2016-03-15T14:33:49.334Z"
