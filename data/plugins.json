@@ -3690,7 +3690,7 @@
             "messaging",
             "sms"
         ],
-        "latest_version": "1.0.1",
+        "latest_version": "1.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3702,6 +3702,7 @@
         ],
         "vcs_url": "https://github.com/osaetinevbuoma/modninfobip",
         "versions": [
+            "1.0.2",
             "1.0.1",
             "1.0"
         ],
@@ -3720,8 +3721,8 @@
             "html_url": "https://github.com/osaetinevbuoma/modninfobip",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-08-20T09:38:29.275Z",
-        "latest_version_updated": "2016-08-20T09:38:51.563Z"
+        "latest_version_created": "2016-08-30T14:20:37.923Z",
+        "latest_version_updated": "2016-08-30T14:21:07.824Z"
     },
     {
         "desc": "GORM for MongoDB",
