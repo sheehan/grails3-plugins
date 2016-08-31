@@ -3735,7 +3735,8 @@
         "owner": "modnsolutions",
         "repo": "plugins-libraries",
         "system_ids": [
-            "com.modnsolutions:modninfobip"
+            "com.modnsolutions:modninfobip",
+            "org.grails.plugins:modninfobip"
         ],
         "vcs_url": "https://github.com/osaetinevbuoma/modninfobip",
         "versions": [
@@ -3759,7 +3760,7 @@
             "stargazers_count": 0
         },
         "latest_version_created": "2016-08-30T14:20:37.923Z",
-        "latest_version_updated": "2016-08-30T19:25:09.841Z"
+        "latest_version_updated": "2016-08-31T14:10:50.476Z"
     },
     {
         "desc": "GORM for MongoDB",
@@ -3871,7 +3872,7 @@
             "graph",
             "neo4j"
         ],
-        "latest_version": "6.0.0.M2",
+        "latest_version": "6.0.0.RC1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3883,6 +3884,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-neo4j",
         "versions": [
+            "6.0.0.RC1",
             "6.0.0.M2",
             "5.0.10",
             "5.0.9",
@@ -3900,14 +3902,14 @@
             "4.0.0.RC1",
             "4.0.0",
             "5.0.0.RC2",
+            "5.0.1",
+            "5.0.0.RC4",
             "5.0.0.RC3",
             "4.0.3",
             "4.0.7",
             "5.0.0",
             "5.0.2",
             "4.0.4",
-            "5.0.0.RC4",
-            "5.0.1",
             "4.0.6",
             "4.0.1"
         ],
@@ -3926,8 +3928,8 @@
             "html_url": "https://github.com/grails/gorm-neo4j",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-07-21T12:54:05.638Z",
-        "latest_version_updated": "2016-07-21T12:54:23.399Z"
+        "latest_version_created": "2016-08-31T14:13:39.492Z",
+        "latest_version_updated": "2016-08-31T14:14:02.699Z"
     },
     {
         "desc": "Grails NewRelic plugin",
@@ -5308,7 +5310,7 @@
             "rest",
             "rxjava"
         ],
-        "latest_version": "1.0.0.M1",
+        "latest_version": "1.0.0.RC1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5320,6 +5322,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-rest-client",
         "versions": [
+            "1.0.0.RC1",
             "1.0.0.M1"
         ],
         "website_url": "https://github.com/grails/gorm-rest-client",
@@ -5337,8 +5340,8 @@
             "html_url": "https://github.com/grails/gorm-rest-client",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-07-21T13:25:23.491Z",
-        "latest_version_updated": "2016-07-21T13:25:40.325Z"
+        "latest_version_created": "2016-08-31T14:32:03.111Z",
+        "latest_version_updated": "2016-08-31T14:32:20.817Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
