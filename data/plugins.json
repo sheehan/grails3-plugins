@@ -4068,7 +4068,7 @@
         "latest_version_updated": "2015-03-25T00:16:55.850Z"
     },
     {
-        "desc": "Grails enforcer plugin",
+        "desc": "A plugin for enforcing business rules/permissions, that works with Spring Security Core, is easier to implement, and extend. It can also be used as an alternative to Spring Security ACL",
         "issue_tracker_url": "https://github.com/virtualdogbert/Enforcer/issues",
         "labels": [
             
