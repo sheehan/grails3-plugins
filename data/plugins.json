@@ -386,7 +386,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -398,6 +398,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -420,8 +421,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 93
         },
-        "latest_version_created": "2016-08-18T15:20:25.890Z",
-        "latest_version_updated": "2016-08-18T15:20:43.858Z"
+        "latest_version_created": "2016-09-03T15:22:27.015Z",
+        "latest_version_updated": "2016-09-03T15:22:42.847Z"
     },
     {
         "desc": "A non-blocking HTTP client for Grails based on Netty",
@@ -1008,7 +1009,7 @@
             "coffee",
             "resources"
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1020,6 +1021,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -1064,8 +1066,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 93
         },
-        "latest_version_created": "2016-08-18T15:23:34.058Z",
-        "latest_version_updated": "2016-08-18T15:23:48.870Z"
+        "latest_version_created": "2016-09-03T15:23:51.948Z",
+        "latest_version_updated": "2016-09-03T15:24:07.381Z"
     },
     {
         "desc": "Provides Compass/SCSS Build support using the jruby runtime. Any compass project can be adjusted to be built by the asset-pipeline and used in applications.",
@@ -1073,7 +1075,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1085,6 +1087,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline.git",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -1112,8 +1115,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 93
         },
-        "latest_version_created": "2016-08-18T15:29:17.251Z",
-        "latest_version_updated": "2016-08-18T15:29:31.045Z"
+        "latest_version_created": "2016-09-03T15:25:00.484Z",
+        "latest_version_updated": "2016-09-03T15:25:16.209Z"
     },
     {
         "desc": "A web-based Groovy console for interactive runtime application management and debugging.",
@@ -1633,7 +1636,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1645,6 +1648,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/ember-asset-pipeline",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -1683,8 +1687,8 @@
             "html_url": "https://github.com/bertramdev/ember-asset-pipeline",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-08-18T15:29:25.499Z",
-        "latest_version_updated": "2016-08-18T15:29:42.538Z"
+        "latest_version_created": "2016-09-03T15:25:19.159Z",
+        "latest_version_updated": "2016-09-03T15:25:39.621Z"
     },
     {
         "desc": "Provides easy integration with DataTables.net (Table plug-in for jQuery)",
@@ -2678,7 +2682,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2690,6 +2694,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -2738,8 +2743,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 93
         },
-        "latest_version_created": "2016-08-18T15:30:01.387Z",
-        "latest_version_updated": "2016-08-18T15:30:15.015Z"
+        "latest_version_created": "2016-09-03T15:26:12.440Z",
+        "latest_version_updated": "2016-09-03T15:26:27.664Z"
     },
     {
         "desc": "Grails handlebars templates renderer plugin",
@@ -3589,7 +3594,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3601,6 +3606,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/less-asset-pipeline",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -3645,8 +3651,8 @@
             "html_url": "https://github.com/bertramdev/less-asset-pipeline",
             "stargazers_count": 6
         },
-        "latest_version_created": "2016-08-18T15:31:04.944Z",
-        "latest_version_updated": "2016-08-18T15:31:19.545Z"
+        "latest_version_created": "2016-09-03T15:27:20.583Z",
+        "latest_version_updated": "2016-09-03T15:27:37.087Z"
     },
     {
         "desc": "Grails mail plugin",
@@ -5491,7 +5497,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.11.1",
+        "latest_version": "2.11.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5503,6 +5509,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/asset-pipeline",
         "versions": [
+            "2.11.2",
             "2.11.1",
             "2.11.0",
             "2.10.2",
@@ -5553,8 +5560,8 @@
             "html_url": "https://github.com/bertramdev/asset-pipeline",
             "stargazers_count": 93
         },
-        "latest_version_created": "2016-08-18T15:33:24.375Z",
-        "latest_version_updated": "2016-08-18T15:33:38.748Z"
+        "latest_version_created": "2016-09-03T15:29:01.808Z",
+        "latest_version_updated": "2016-09-03T15:29:16.747Z"
     },
     {
         "desc": "Grails scaffolding plugin",
@@ -5669,7 +5676,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.8",
+        "latest_version": "3.0.9",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5681,6 +5688,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/seed-me",
         "versions": [
+            "3.0.9",
             "3.0.8",
             "3.0.7",
             "3.0.6",
@@ -5699,8 +5707,8 @@
             "html_url": "https://github.com/bertramdev/seed-me",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-09-02T14:56:55.071Z",
-        "latest_version_updated": "2016-09-02T14:57:11.302Z"
+        "latest_version_created": "2016-09-03T15:13:34.490Z",
+        "latest_version_updated": "2016-09-03T15:13:51.585Z"
     },
     {
         "desc": "Grails Segment plugin",
