@@ -2650,7 +2650,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0",
+        "latest_version": "1.0.2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2662,6 +2662,7 @@
         ],
         "vcs_url": "https://github.com/rpalcolea/grails-gravatar",
         "versions": [
+            "1.0.2",
             "1.0.0"
         ],
         "website_url": "https://github.com/rpalcolea/grails-gravatar",
@@ -2673,8 +2674,8 @@
             "html_url": "https://github.com/rpalcolea/grails-gravatar",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-08-28T17:39:04.101Z",
-        "latest_version_updated": "2016-08-28T17:39:23.280Z"
+        "latest_version_created": "2016-09-04T02:10:53.224Z",
+        "latest_version_updated": "2016-09-04T02:11:12.657Z"
     },
     {
         "desc": "Provides native Handlebars file support in the asset-pipeline. Easily convert .hbs or .handlebars files into javascript template caches for use with the handlebars runtime.",
