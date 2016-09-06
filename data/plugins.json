@@ -6418,36 +6418,6 @@
         "latest_version_updated": "2016-03-31T15:32:35.707Z"
     },
     {
-        "desc": "Spring Security REST plugin for Grails - Profile for test apps",
-        "issue_tracker_url": "",
-        "labels": [
-            
-        ],
-        "latest_version": null,
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "spring-security-rest-testapp-profile",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-        "versions": [
-            
-        ],
-        "website_url": "",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "alvarosanchez/grails-spring-security-rest",
-            "html_url": "https://github.com/alvarosanchez/grails-spring-security-rest",
-            "stargazers_count": 153
-        }
-    },
-    {
         "desc": "Grails spring-security-shiro plugin",
         "issue_tracker_url": "https://github.com/grails-plugins/grails-spring-security-shiro/issues",
         "labels": [
