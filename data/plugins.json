@@ -5718,7 +5718,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.4",
+        "latest_version": "2.0.5",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5730,6 +5730,7 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-segmentio",
         "versions": [
+            "2.0.5",
             "2.0.4",
             "2.0.3",
             "2.0.1",
@@ -5746,8 +5747,8 @@
             "html_url": "https://github.com/agorapulse/grails-segmentio",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-07-06T21:38:07.122Z",
-        "latest_version_updated": "2016-07-06T21:38:21.317Z"
+        "latest_version_created": "2016-09-08T11:18:57.088Z",
+        "latest_version_updated": "2016-09-08T11:19:13.280Z"
     },
     {
         "desc": "Selfie is a Grails Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
