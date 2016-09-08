@@ -1605,7 +1605,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.0.0",
+        "latest_version": "1.0.1",
         "licenses": [
             "Apache-2.0"
         ],
@@ -1617,6 +1617,7 @@
         ],
         "vcs_url": "https://github.com/grails-plugins/grails-embedded-mongodb",
         "versions": [
+            "1.0.1",
             "1.0.0"
         ],
         "website_url": "https://github.com/grails-plugins/grails-embedded-mongodb",
@@ -1628,8 +1629,8 @@
             "html_url": "https://github.com/grails-plugins/grails-embedded-mongodb",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-06-15T19:26:57.281Z",
-        "latest_version_updated": "2016-06-15T19:27:22.111Z"
+        "latest_version_created": "2016-09-08T15:56:53.070Z",
+        "latest_version_updated": "2016-09-08T15:57:08.383Z"
     },
     {
         "desc": "Compiles hbs or handlebars files for the asset-pipeline into the Ember.TEMPLATES cache",
