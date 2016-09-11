@@ -1,11 +1,14 @@
 package com.github.sheehan
 
+import grails.converters.JSON
 import groovy.json.JsonSlurper
 
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 
 class PluginController {
+
+    PluginService pluginService
 
     def index() {
         Map json = [
@@ -43,7 +46,6 @@ class PluginController {
     }
 
     def json() {
-        response.setContentType("application/json")
-        render this.class.getClassLoader().getResourceAsStream("plugins.json").text
+        render pluginService.plugins as JSON
     }
 }

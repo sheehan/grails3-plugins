@@ -1,4 +1,4 @@
-package xxx
+package com.github.sheehan
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
