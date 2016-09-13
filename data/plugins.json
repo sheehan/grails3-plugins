@@ -3869,7 +3869,7 @@
         "githubRepo": {
             "full_name": "grails/gorm-mongodb",
             "html_url": "https://github.com/grails/gorm-mongodb",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2016-08-31T13:39:19.480Z",
         "latest_version_updated": "2016-08-31T13:39:42.266Z"
@@ -5423,7 +5423,7 @@
         "githubRepo": {
             "full_name": "grails/gorm-mongodb",
             "html_url": "https://github.com/grails/gorm-mongodb",
-            "stargazers_count": 0
+            "stargazers_count": 1
         },
         "latest_version_created": "2016-08-31T13:39:25.748Z",
         "latest_version_updated": "2016-08-31T13:39:43.448Z"
