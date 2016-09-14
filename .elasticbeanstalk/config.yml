@@ -1,0 +1,12 @@
+branch-defaults:
+  master:
+    environment: grails-plugins-prod
+deploy:
+  artifact: build/libs/grails-plugins.jar
+global:
+  application_name: grails-plugins
+  default_ec2_keyname: bobbywarner-agileorbit-useast1
+  default_platform: 64bit Amazon Linux 2016.03 v2.1.6 running Java 8
+  default_region: us-east-1
+  profile: agileorbit
+  sc: git
