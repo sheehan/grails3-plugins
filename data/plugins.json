@@ -4788,7 +4788,7 @@
         "githubRepo": {
             "full_name": "jamescookie/quartz-monitor",
             "html_url": "https://github.com/jamescookie/quartz-monitor",
-            "stargazers_count": 29
+            "stargazers_count": 30
         },
         "latest_version_created": "2016-04-19T21:51:14.614Z",
         "latest_version_updated": "2016-04-19T21:51:32.907Z"
@@ -5679,7 +5679,7 @@
         "labels": [
             
         ],
-        "latest_version": "3.0.9",
+        "latest_version": "3.1.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5691,6 +5691,7 @@
         ],
         "vcs_url": "https://github.com/bertramdev/seed-me",
         "versions": [
+            "3.1.0",
             "3.0.9",
             "3.0.8",
             "3.0.7",
@@ -5710,8 +5711,8 @@
             "html_url": "https://github.com/bertramdev/seed-me",
             "stargazers_count": 5
         },
-        "latest_version_created": "2016-09-03T15:13:34.490Z",
-        "latest_version_updated": "2016-09-03T15:13:51.585Z"
+        "latest_version_created": "2016-09-14T01:18:34.593Z",
+        "latest_version_updated": "2016-09-14T01:18:53.720Z"
     },
     {
         "desc": "Grails Segment plugin",
