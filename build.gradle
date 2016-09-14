@@ -91,5 +91,5 @@ task stage() {
 }
 
 jar {
-    archiveName 'plugins.jar'
+    archiveName 'grails-plugins.jar'
 }
