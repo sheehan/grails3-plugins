@@ -5167,6 +5167,45 @@
         "latest_version_updated": "2016-09-15T13:11:02.488Z"
     },
     {
+        "desc": "Remora is a Grails Image / File Upload Plugin formally based on Selfie plugin. Use Remora to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
+        "issue_tracker_url": "https://github.com/neilabdev/remora/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "remora",
+        "owner": "neilab",
+        "repo": "plugins",
+        "system_ids": [
+            "com.neilab.plugins.remora:remora"
+        ],
+        "vcs_url": "https://github.com/neilabdev/remora",
+        "versions": [
+            "1.0.1",
+            "1.0"
+        ],
+        "website_url": "https://github.com/neilabdev/remora",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "neilabdev/remora",
+            "html_url": "https://github.com/neilabdev/remora",
+            "stargazers_count": 1
+        },
+        "latest_version_created": "2016-09-15T13:57:21.567Z",
+        "latest_version_updated": "2016-09-15T13:57:34.735Z"
+    },
+    {
         "desc": "Grails remote-pagination plugin",
         "issue_tracker_url": "https://github.com/amitjain1982/remote-pagination/issues",
         "labels": [
