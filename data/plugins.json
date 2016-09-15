@@ -876,7 +876,7 @@
             "cassandra",
             "gorm"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -888,6 +888,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-cassandra",
         "versions": [
+            "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -933,8 +934,8 @@
             "html_url": "https://github.com/grails/gorm-cassandra",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-14T13:24:48.301Z",
-        "latest_version_updated": "2016-09-14T13:25:06.728Z"
+        "latest_version_created": "2016-09-15T13:02:06.687Z",
+        "latest_version_updated": "2016-09-15T13:02:24.148Z"
     },
     {
         "desc": "CKeditor web WYSIWYG editor integration plugin.",
@@ -5120,7 +5121,7 @@
             "nosql",
             "redis"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5132,6 +5133,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-redis",
         "versions": [
+            "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -5161,8 +5163,8 @@
             "html_url": "https://github.com/grails/gorm-redis",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-14T13:25:48.114Z",
-        "latest_version_updated": "2016-09-14T13:25:57.710Z"
+        "latest_version_created": "2016-09-15T13:10:45.487Z",
+        "latest_version_updated": "2016-09-15T13:11:02.488Z"
     },
     {
         "desc": "Grails remote-pagination plugin",
@@ -5366,7 +5368,7 @@
             "rest",
             "rxjava"
         ],
-        "latest_version": "1.0.0.RC1",
+        "latest_version": "1.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5378,6 +5380,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-rest-client",
         "versions": [
+            "1.0.0.RC2",
             "1.0.0.RC1",
             "1.0.0.M1"
         ],
@@ -5396,8 +5399,8 @@
             "html_url": "https://github.com/grails/gorm-rest-client",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-08-31T14:32:03.111Z",
-        "latest_version_updated": "2016-08-31T14:32:20.817Z"
+        "latest_version_created": "2016-09-15T13:18:07.492Z",
+        "latest_version_updated": "2016-09-15T13:18:24.721Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
