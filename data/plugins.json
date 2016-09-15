@@ -2520,7 +2520,7 @@
             "views",
             "xml"
         ],
-        "latest_version": "1.1.0.RC2",
+        "latest_version": "1.1.0.RC3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2533,6 +2533,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.1.0.RC3",
             "1.1.0.RC2",
             "1.1.0.RC1",
             "1.1.0.M2",
@@ -2570,8 +2571,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 24
         },
-        "latest_version_created": "2016-09-01T07:17:50.494Z",
-        "latest_version_updated": "2016-09-01T07:18:28.146Z"
+        "latest_version_created": "2016-09-15T12:41:35.766Z",
+        "latest_version_updated": "2016-09-15T12:42:11.660Z"
     },
     {
         "desc": "Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.",
@@ -2883,7 +2884,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2895,6 +2896,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-hibernate4",
         "versions": [
+            "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -2930,8 +2932,8 @@
             "html_url": "https://github.com/grails/gorm-hibernate4",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-14T13:25:07.859Z",
-        "latest_version_updated": "2016-09-14T13:25:26.898Z"
+        "latest_version_created": "2016-09-15T12:12:20.028Z",
+        "latest_version_updated": "2016-09-15T12:12:38.081Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2942,7 +2944,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2954,6 +2956,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -2989,8 +2992,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 90
         },
-        "latest_version_created": "2016-09-14T13:25:18.210Z",
-        "latest_version_updated": "2016-09-14T13:25:28.102Z"
+        "latest_version_created": "2016-09-15T12:11:39.687Z",
+        "latest_version_updated": "2016-09-15T12:11:57.218Z"
     },
     {
         "desc": "Grails HTML Cleaner plugin",
@@ -3818,7 +3821,7 @@
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3830,6 +3833,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -3877,8 +3881,8 @@
             "html_url": "https://github.com/grails/gorm-mongodb",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-09-14T13:25:27.708Z",
-        "latest_version_updated": "2016-09-14T13:25:46.304Z"
+        "latest_version_created": "2016-09-15T12:52:55.164Z",
+        "latest_version_updated": "2016-09-15T12:53:18.071Z"
     },
     {
         "desc": null,
@@ -3920,7 +3924,7 @@
             "graph",
             "neo4j"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3932,6 +3936,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-neo4j",
         "versions": [
+            "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -3977,8 +3982,8 @@
             "html_url": "https://github.com/grails/gorm-neo4j",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-09-14T13:25:37.695Z",
-        "latest_version_updated": "2016-09-14T13:25:56.574Z"
+        "latest_version_created": "2016-09-15T12:47:06.537Z",
+        "latest_version_updated": "2016-09-15T12:47:38.878Z"
     },
     {
         "desc": "Grails NewRelic plugin",
@@ -5402,7 +5407,7 @@
             "mongodb",
             "rxjava"
         ],
-        "latest_version": "6.0.0.RC1",
+        "latest_version": "6.0.0.RC2",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5414,6 +5419,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "6.0.0.RC2",
             "6.0.0.RC1",
             "6.0.0.M2",
             "6.0.0.M1"
@@ -5433,8 +5439,8 @@
             "html_url": "https://github.com/grails/gorm-mongodb",
             "stargazers_count": 1
         },
-        "latest_version_created": "2016-08-31T13:39:25.748Z",
-        "latest_version_updated": "2016-08-31T13:39:43.448Z"
+        "latest_version_created": "2016-09-15T12:53:00.855Z",
+        "latest_version_updated": "2016-09-15T12:53:19.529Z"
     },
     {
         "desc": "A plugin that integrates Grails with RxJava",
@@ -6648,7 +6654,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.1.0.RC2",
+        "latest_version": "1.1.0.RC3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -6660,6 +6666,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-views",
         "versions": [
+            "1.1.0.RC3",
             "1.1.0.RC2",
             "1.1.0.RC1",
             "1.1.0.M2",
@@ -6693,8 +6700,8 @@
             "html_url": "https://github.com/grails/grails-views",
             "stargazers_count": 24
         },
-        "latest_version_created": "2016-09-01T07:17:31.466Z",
-        "latest_version_updated": "2016-09-01T07:17:46.414Z"
+        "latest_version_created": "2016-09-15T12:41:20.974Z",
+        "latest_version_updated": "2016-09-15T12:41:35.249Z"
     },
     {
         "desc": "Grails views-json-templates plugin",
@@ -6702,7 +6709,7 @@
         "labels": [
             
         ],
-        "latest_version": "1.1.0.RC2",
+        "latest_version": "1.1.0.RC3",
         "licenses": [
             "Apache-2.0"
         ],
@@ -6714,6 +6721,7 @@
         ],
         "vcs_url": "https://github.com/grails3-plugins/views-json-templates",
         "versions": [
+            "1.1.0.RC3",
             "1.1.0.RC2",
             "1.1.0.RC1",
             "1.1.0.M2",
@@ -6723,8 +6731,8 @@
         "attributes": [
             
         ],
-        "latest_version_created": "2016-09-01T07:18:01.019Z",
-        "latest_version_updated": "2016-09-01T07:18:15.342Z"
+        "latest_version_created": "2016-09-15T12:41:46.072Z",
+        "latest_version_updated": "2016-09-15T12:42:00.544Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
