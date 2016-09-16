@@ -120,3 +120,16 @@ grails:
 endpoints:
     jmx:
         unique-names: true
+twitter:
+    consumerKey: ${GP_TWITTER_CONSUMER_KEY}
+    consumerSecret: ${GP_TWITTER_CONSUMER_SECRET}
+    accessToken: ${GP_TWITTER_ACCESS_TOKEN}
+    accessTokenSecret: ${GP_TWITTER_ACCESS_TOKEN_SECRET}
+github:
+    username: ${GP_GITHUB_USERNAME}
+    token: ${GP_GITHUB_TOKEN}
+bintray:
+    username: ${GP_BINTRAY_USERNAME}
+    token: ${GP_BINTRAY_TOKEN}
+quartz:
+    pluginEnabled: ${GP_QUARTZ_ENABLED}
