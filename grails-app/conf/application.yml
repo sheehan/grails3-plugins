@@ -121,6 +121,7 @@ endpoints:
     jmx:
         unique-names: true
 twitter:
+    enabled: false
     consumerKey: ${GP_TWITTER_CONSUMER_KEY}
     consumerSecret: ${GP_TWITTER_CONSUMER_SECRET}
     accessToken: ${GP_TWITTER_ACCESS_TOKEN}
