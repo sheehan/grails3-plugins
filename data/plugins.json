@@ -877,7 +877,7 @@
             "cassandra",
             "gorm"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -889,6 +889,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-cassandra",
         "versions": [
+            "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
@@ -935,8 +936,8 @@
             "html_url": "https://github.com/grails/gorm-cassandra",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-15T13:02:06.687Z",
-        "latest_version_updated": "2016-09-15T13:02:24.148Z"
+        "latest_version_created": "2016-09-21T12:28:23.416Z",
+        "latest_version_updated": "2016-09-21T12:28:42.600Z"
     },
     {
         "desc": "CKeditor web WYSIWYG editor integration plugin.",
@@ -2829,7 +2830,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.11",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2841,6 +2842,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.12",
             "5.0.11",
             "5.0.10",
             "5.0.9",
@@ -2874,8 +2876,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 92
         },
-        "latest_version_created": "2016-09-14T13:24:58.118Z",
-        "latest_version_updated": "2016-09-14T13:25:08.047Z"
+        "latest_version_created": "2016-09-21T12:28:32.975Z",
+        "latest_version_updated": "2016-09-21T12:28:53.070Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2886,7 +2888,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2898,6 +2900,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-hibernate4",
         "versions": [
+            "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
@@ -2934,8 +2937,8 @@
             "html_url": "https://github.com/grails/gorm-hibernate4",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-15T12:12:20.028Z",
-        "latest_version_updated": "2016-09-15T12:12:38.081Z"
+        "latest_version_created": "2016-09-21T12:28:44.299Z",
+        "latest_version_updated": "2016-09-21T12:29:03.531Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -2946,7 +2949,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2958,6 +2961,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
@@ -2994,8 +2998,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 92
         },
-        "latest_version_created": "2016-09-15T12:11:39.687Z",
-        "latest_version_updated": "2016-09-15T12:11:57.218Z"
+        "latest_version_created": "2016-09-21T12:28:54.815Z",
+        "latest_version_updated": "2016-09-21T12:29:14.711Z"
     },
     {
         "desc": "Grails HTML Cleaner plugin",
@@ -3824,7 +3828,7 @@
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3836,6 +3840,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
@@ -3884,8 +3889,8 @@
             "html_url": "https://github.com/grails/gorm-mongodb",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-09-15T12:52:55.164Z",
-        "latest_version_updated": "2016-09-15T12:53:18.071Z"
+        "latest_version_created": "2016-09-21T12:29:05.812Z",
+        "latest_version_updated": "2016-09-21T12:29:25.729Z"
     },
     {
         "desc": null,
@@ -3927,7 +3932,7 @@
             "graph",
             "neo4j"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3939,6 +3944,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-neo4j",
         "versions": [
+            "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
@@ -3985,8 +3991,8 @@
             "html_url": "https://github.com/grails/gorm-neo4j",
             "stargazers_count": 4
         },
-        "latest_version_created": "2016-09-15T12:47:06.537Z",
-        "latest_version_updated": "2016-09-15T12:47:38.878Z"
+        "latest_version_created": "2016-09-21T12:29:16.995Z",
+        "latest_version_updated": "2016-09-21T12:29:38.583Z"
     },
     {
         "desc": "Grails NewRelic plugin",
@@ -5123,7 +5129,7 @@
             "nosql",
             "redis"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "5.0.12",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5135,6 +5141,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-redis",
         "versions": [
+            "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
             "6.0.0.RC1",
@@ -5165,8 +5172,8 @@
             "html_url": "https://github.com/grails/gorm-redis",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-15T13:10:45.487Z",
-        "latest_version_updated": "2016-09-15T13:11:02.488Z"
+        "latest_version_created": "2016-09-21T12:29:29.844Z",
+        "latest_version_updated": "2016-09-21T12:29:49.374Z"
     },
     {
         "desc": "Remora is a Grails Image / File Upload Plugin formally based on Selfie plugin. Use Remora to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
