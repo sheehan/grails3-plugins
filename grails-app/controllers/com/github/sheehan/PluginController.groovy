@@ -46,6 +46,7 @@ class PluginController {
     }
 
     def json() {
-        render pluginService.plugins as JSON
+        Map results = pluginService.plugins
+        render results as JSON
     }
 }
