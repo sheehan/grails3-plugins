@@ -18,10 +18,12 @@ class SyncPluginsJobService implements SchwartzJob {
 		log.info 'Fetching latest plugin data'
 
 		Compare compare = pluginService.refreshPlugins()
-		compare.newVersions.each { Compare.NewVersion newVersion ->
-			String name = newVersion.plugin.name
-			String version = newVersion.version
-			twitterService.tweet "$name $version released: https://grails.org/plugin/$name"
+		if (compare) {
+			compare.newVersions.each { Compare.NewVersion newVersion ->
+				String name = newVersion.plugin.name
+				String version = newVersion.version
+				twitterService.tweet "$name $version released: https://grails.org/plugin/$name"
+			}
 		}
 
 		log.info 'Plugin data updated'

@@ -8,8 +8,7 @@ class PluginService {
     List<Map> plugins
 
     Compare refreshPlugins() {
-        List<Map> plugins = bintrayService.fetchPackages()
-        plugins.each { Map data ->
+        List<Map> plugins = bintrayService.fetchPackages().collect { Map data ->
             if (data.vcs_url) {
                 def matcher = data.vcs_url =~ /.*github\.com\/([^\/]+\/[^\/\.]+).*/
                 if (matcher.matches()) {
@@ -20,6 +19,8 @@ class PluginService {
                     }
                 }
             }
+
+            data
         }
 
         Compare compare = this.plugins ? new Compare(this.plugins, plugins) : null
