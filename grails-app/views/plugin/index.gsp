@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,700|Open+Sans:400,600" />
 
     <g:if test="${plugin instanceof Map}">
+        <title>${plugin.name}</title>
+        <meta name="description" content="${plugin.desc}" />
+
         <!-— facebook open graph tags -->
         <meta property="og:type" content="website" />
         %{--<meta property="og:url" content="http://ruraljuror.com/" />--}%
@@ -28,6 +31,7 @@
         <meta name="twitter:title" value="${plugin.name}" />
         <meta name="twitter:description" value="${plugin.desc}" />
         <meta name="twitter:image" content="https://grails.org/img/favicon.ico" />
+        <meta name="twitter:image:src" content="https://grails.org/img/favicon.ico" />
         %{--<meta name="twitter:url" value="http://www.ruraljuror.com/" />--}%
         <g:if test="${plugin.latest_version}">
             <meta name="twitter:label1" value="Latest Version" />
