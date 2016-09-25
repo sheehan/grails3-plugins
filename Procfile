@@ -1,1 +1,1 @@
-web: java -Dgrails.env=prod -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/plugins.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/grails-plugins.jar

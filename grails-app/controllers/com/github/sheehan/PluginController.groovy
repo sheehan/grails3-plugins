@@ -18,7 +18,7 @@ class PluginController {
     }
 
     def plugin() {
-        def pluginsJson = new JsonSlurper().parseText(this.class.getClassLoader().getResourceAsStream("plugins.json").text)
+        def pluginsJson = pluginService.plugins
         Map plugin = pluginsJson.find { it.name == params.plugin }
 
         Map json = [

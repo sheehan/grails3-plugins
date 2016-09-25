@@ -19,10 +19,9 @@
 
         <!-— facebook open graph tags -->
         <meta property="og:type" content="website" />
-        %{--<meta property="og:url" content="http://ruraljuror.com/" />--}%
         <meta property="og:title" content="${plugin.name}" />
         <meta property="og:description" content="${plugin.desc}" />
-        <meta property="og:image" content="https://grails.org/img/favicon.ico" />
+        <meta property="og:image" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
         <meta property="og:site_name" content="grails.org">
 
         <!-— twitter card tags additive with the og: tags -->
@@ -30,9 +29,7 @@
         <meta name="twitter:domain" value="${domain}" />
         <meta name="twitter:title" value="${plugin.name}" />
         <meta name="twitter:description" value="${plugin.desc}" />
-        <meta name="twitter:image" content="https://grails.org/img/favicon.ico" />
-        <meta name="twitter:image:src" content="https://grails.org/img/favicon.ico" />
-        %{--<meta name="twitter:url" value="http://www.ruraljuror.com/" />--}%
+        <meta name="twitter:image:src" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
         <g:if test="${plugin.latest_version}">
             <meta name="twitter:label1" value="Latest Version" />
             <meta name="twitter:data1" value="${plugin.latest_version}" />
