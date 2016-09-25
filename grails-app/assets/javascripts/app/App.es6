@@ -47,8 +47,6 @@ grailsplugins.App = class {
 
         this.show();
 
-        $('.sidebar').sticky({topSpacing: 20});
-
         $('.socialize-button').click(e => {
             e.preventDefault();
             e.stopPropagation();

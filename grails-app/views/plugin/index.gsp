@@ -67,7 +67,7 @@
             <li><a href="https://github.com/sheehan/grails3-plugins/" target="_top">Portal on Github</a></li>
         </ul>
         <div class="timeline-wrapper">
-            <a class="twitter-timeline" href="https://twitter.com/grails_plugins" height="598"></a>
+            <a class="twitter-timeline" href="https://twitter.com/grails_plugins" height="600" data-chrome="nofooter"></a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
@@ -99,7 +99,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/groovy.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/page.js/1.7.1/page.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.js"></script>
 <asset:javascript src="manifest.js"/>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
