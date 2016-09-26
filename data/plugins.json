@@ -28,6 +28,11 @@
         "attributes": [
             
         ],
+        "githubRepo": {
+            "full_name": "dmahapatro/grails-actuator-ui",
+            "html_url": "https://github.com/dmahapatro/grails-actuator-ui",
+            "stargazers_count": 17
+        },
         "latest_version_created": "2016-09-04T04:00:26.031Z",
         "latest_version_updated": "2016-09-04T04:00:40.837Z"
     },
@@ -1724,36 +1729,6 @@
         },
         "latest_version_created": "2016-06-23T21:34:10.931Z",
         "latest_version_updated": "2016-06-23T21:34:32.676Z"
-    },
-    {
-        "desc": "Load configs with grails.config.locations like in Grails 2.x",
-        "issue_tracker_url": "https://github.com/sbglasius/external-config/issues",
-        "labels": [
-            
-        ],
-        "latest_version": null,
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "external-config",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/sbglasius/external-config",
-        "versions": [
-            
-        ],
-        "website_url": "https://github.com/sbglasius/external-config",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "sbglasius/external-config",
-            "html_url": "https://github.com/sbglasius/external-config",
-            "stargazers_count": 3
-        }
     },
     {
         "desc": "Grails Facebook SDK plugin",
