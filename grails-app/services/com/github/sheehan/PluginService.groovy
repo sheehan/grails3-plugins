@@ -5,8 +5,6 @@ class PluginService {
     GithubService githubService
     BintrayService bintrayService
 
-    List<Map> plugins
-
     Compare refreshPlugins() {
         List<Map> plugins = bintrayService.fetchPackages().collect { Map data ->
             if (data.vcs_url) {
@@ -23,8 +21,8 @@ class PluginService {
             data
         }
 
-        Compare compare = this.plugins ? new Compare(this.plugins, plugins) : null
-        this.plugins = plugins
+        Compare compare = Plugins.get() ? new Compare(Plugins.get(), plugins) : null
+        Plugins.set plugins
 
         compare
     }

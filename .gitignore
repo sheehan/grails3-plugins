@@ -6,3 +6,4 @@ classes
 .gradle
 .asscache
 application.properties
+*.db

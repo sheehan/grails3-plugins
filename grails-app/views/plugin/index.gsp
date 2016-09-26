@@ -16,20 +16,17 @@
     <g:if test="${plugin instanceof Map}">
         <title>${plugin.name}</title>
         <meta name="description" content="${plugin.desc}" />
-
-        <!-— facebook open graph tags -->
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
+        <meta property="og:site_name" content="Grails 3 Plugin Portal">
         <meta property="og:title" content="${plugin.name}" />
         <meta property="og:description" content="${plugin.desc}" />
-        <meta property="og:image" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
-        <meta property="og:site_name" content="grails.org">
-
-        <!-— twitter card tags additive with the og: tags -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:domain" value="${domain}" />
         <meta name="twitter:title" value="${plugin.name}" />
         <meta name="twitter:description" value="${plugin.desc}" />
-        <meta name="twitter:image:src" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
+        <meta name="twitter:site" content="@grails_plugins" />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
+
         <g:if test="${plugin.latest_version}">
             <meta name="twitter:label1" value="Latest Version" />
             <meta name="twitter:data1" value="${plugin.latest_version}" />
@@ -37,6 +34,22 @@
             <meta name="twitter:data2" value="${lastUpdated}" />
         </g:if>
     </g:if>
+    <g:else>
+        <g:set var="name" value="Grails 3 Plugin Portal" />
+        <g:set var="description" value="A portal for searching Grails 3 plugins!" />
+        <title>${name}</title>
+        <meta name="description" content="${description}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
+        <meta property="og:site_name" content="grails.org">
+        <meta property="og:title" content="${name}" />
+        <meta property="og:description" content="${description}" />
+        <meta name="twitter:title" value="${name}" />
+        <meta name="twitter:description" value="${description}" />
+        <meta name="twitter:site" content="@grails_plugins" />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="${asset.assetPath(src: 'grails-logo-light.png', absolute: true)}" />
+    </g:else>
 
     <asset:stylesheet src="manifest.css"/>
     <asset:link rel="shortcut icon" href="favicon.ico" type="image"/>

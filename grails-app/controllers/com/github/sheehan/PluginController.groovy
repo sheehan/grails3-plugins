@@ -18,8 +18,8 @@ class PluginController {
     }
 
     def plugin() {
-        def pluginsJson = pluginService.plugins
-        Map plugin = pluginsJson.find { it.name == params.plugin }
+        def plugins = Plugins.get()
+        Map plugin = plugins.find { it.name == params.plugin }
 
         Map json = [
             baseUrl: createLink(uri: '/')
@@ -46,6 +46,6 @@ class PluginController {
     }
 
     def json() {
-        render pluginService.plugins as JSON
+        render Plugins.get() as JSON
     }
 }
