@@ -5145,7 +5145,7 @@
             "nosql",
             "redis"
         ],
-        "latest_version": "5.0.12",
+        "latest_version": "6.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5157,6 +5157,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-redis",
         "versions": [
+            "6.0.0",
             "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
@@ -5188,8 +5189,8 @@
             "html_url": "https://github.com/grails/gorm-redis",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-21T12:29:29.844Z",
-        "latest_version_updated": "2016-09-21T12:29:49.374Z"
+        "latest_version_created": "2016-09-27T15:47:52.523Z",
+        "latest_version_updated": "2016-09-27T15:48:10.407Z"
     },
     {
         "desc": "Remora is a Grails Image / File Upload Plugin formally based on Selfie plugin. Use Remora to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
