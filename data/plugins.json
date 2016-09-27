@@ -2898,7 +2898,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.12",
+        "latest_version": "6.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2910,6 +2910,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-hibernate4",
         "versions": [
+            "6.0.0",
             "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
@@ -2947,8 +2948,8 @@
             "html_url": "https://github.com/grails/gorm-hibernate4",
             "stargazers_count": 0
         },
-        "latest_version_created": "2016-09-21T12:28:44.299Z",
-        "latest_version_updated": "2016-09-21T12:29:03.531Z"
+        "latest_version_created": "2016-09-27T13:06:06.298Z",
+        "latest_version_updated": "2016-09-27T13:06:23.603Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
@@ -3839,7 +3840,7 @@
             "groovylang",
             "mongodb"
         ],
-        "latest_version": "5.0.12",
+        "latest_version": "6.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -3851,6 +3852,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "6.0.0",
             "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
@@ -3900,8 +3902,8 @@
             "html_url": "https://github.com/grails/gorm-mongodb",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-09-21T12:29:05.812Z",
-        "latest_version_updated": "2016-09-21T12:29:25.729Z"
+        "latest_version_created": "2016-09-27T13:42:42.211Z",
+        "latest_version_updated": "2016-09-27T13:43:16.881Z"
     },
     {
         "desc": null,
@@ -5470,7 +5472,7 @@
             "mongodb",
             "rxjava"
         ],
-        "latest_version": "6.0.0.RC2",
+        "latest_version": "6.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5482,6 +5484,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-mongodb",
         "versions": [
+            "6.0.0",
             "6.0.0.RC2",
             "6.0.0.RC1",
             "6.0.0.M2",
@@ -5502,8 +5505,8 @@
             "html_url": "https://github.com/grails/gorm-mongodb",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-09-15T12:53:00.855Z",
-        "latest_version_updated": "2016-09-15T12:53:19.529Z"
+        "latest_version_created": "2016-09-27T13:42:52.888Z",
+        "latest_version_updated": "2016-09-27T13:43:14.904Z"
     },
     {
         "desc": "A plugin that integrates Grails with RxJava",
