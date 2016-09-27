@@ -2959,7 +2959,7 @@
             "hibernate",
             "rdms"
         ],
-        "latest_version": "5.0.12",
+        "latest_version": "6.0.0",
         "licenses": [
             "Apache-2.0"
         ],
@@ -2971,6 +2971,7 @@
         ],
         "vcs_url": "https://github.com/grails/grails-data-mapping",
         "versions": [
+            "6.0.0",
             "5.0.12",
             "6.0.0.RC2",
             "5.0.11",
@@ -3008,8 +3009,8 @@
             "html_url": "https://github.com/grails/grails-data-mapping",
             "stargazers_count": 94
         },
-        "latest_version_created": "2016-09-21T12:28:54.815Z",
-        "latest_version_updated": "2016-09-21T12:29:14.711Z"
+        "latest_version_created": "2016-09-27T12:33:15.068Z",
+        "latest_version_updated": "2016-09-27T12:33:33.943Z"
     },
     {
         "desc": "Grails HTML Cleaner plugin",
