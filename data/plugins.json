@@ -5434,7 +5434,7 @@
             "rest",
             "rxjava"
         ],
-        "latest_version": "1.0.0.RC2",
+        "latest_version": "1.0.0.RELEASE",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5446,6 +5446,7 @@
         ],
         "vcs_url": "https://github.com/grails/gorm-rest-client",
         "versions": [
+            "1.0.0.RELEASE",
             "1.0.0.RC2",
             "1.0.0.RC1",
             "1.0.0.M1"
@@ -5465,8 +5466,8 @@
             "html_url": "https://github.com/grails/gorm-rest-client",
             "stargazers_count": 3
         },
-        "latest_version_created": "2016-09-15T13:18:07.492Z",
-        "latest_version_updated": "2016-09-15T13:18:24.721Z"
+        "latest_version_created": "2016-09-28T09:24:54.955Z",
+        "latest_version_updated": "2016-09-28T09:25:12.545Z"
     },
     {
         "desc": "GORM - Grails Data Access Framework",
