@@ -4506,8 +4506,8 @@
             
         ],
         "githubRepo": {
-            "full_name": "sbglasius/I18nEnumsGrails3Plugin",
-            "html_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin",
+            "full_name": "sbglasius/i18n-enums",
+            "html_url": "https://github.com/sbglasius/i18n-enums",
             "stargazers_count": 2
         },
         "latest_version_created": "2015-09-06T18:40:17.340Z",
@@ -5544,7 +5544,7 @@
         "githubRepo": {
             "full_name": "grails-plugins/grails-rxjava",
             "html_url": "https://github.com/grails-plugins/grails-rxjava",
-            "stargazers_count": 1
+            "stargazers_count": 2
         },
         "latest_version_created": "2016-09-27T14:54:12.475Z",
         "latest_version_updated": "2016-09-27T14:54:28.782Z"
