@@ -2698,6 +2698,38 @@
         "latest_version_updated": "2016-09-04T02:11:12.657Z"
     },
     {
+        "desc": "Grails GreenMail Plugin",
+        "issue_tracker_url": "https://github.com/gpc/greenmail/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0.RC1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "greenmail",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:greenmail"
+        ],
+        "vcs_url": "https://github.com/gpc/greenmail",
+        "versions": [
+            "2.0.0.RC1"
+        ],
+        "website_url": "https://github.com/gpc/greenmail",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "gpc/greenmail",
+            "html_url": "https://github.com/gpc/greenmail",
+            "stargazers_count": 12
+        },
+        "latest_version_created": "2016-10-01T00:37:10.067Z",
+        "latest_version_updated": "2016-10-01T00:37:25.489Z"
+    },
+    {
         "desc": "Provides native Handlebars file support in the asset-pipeline. Easily convert .hbs or .handlebars files into javascript template caches for use with the handlebars runtime.",
         "issue_tracker_url": "https://github.com/bertramdev/asset-pipeline/issues",
         "labels": [
