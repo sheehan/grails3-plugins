@@ -3199,6 +3199,46 @@
         "latest_version_updated": "2016-03-18T12:51:59.082Z"
     },
     {
+        "desc": "Successor for the Grails 2.x plugin. Now ported to Grails 3.x ",
+        "issue_tracker_url": "https://github.com/sbglasius/i18n-enums/issues",
+        "labels": [
+            "enums",
+            "grails",
+            "i18n"
+        ],
+        "latest_version": "2.0.2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "i18n-enums",
+        "owner": "sbglasius",
+        "repo": "plugins",
+        "system_ids": [
+            "org.grails.plugins:i18n-enums"
+        ],
+        "vcs_url": "https://github.com/sbglasius/i18n-enums",
+        "versions": [
+            "2.0.2"
+        ],
+        "website_url": "http://sbglasius.github.io/i18n-enums/",
+        "attributes": [
+            {
+                "name": "maturity",
+                "type": "string",
+                "values": [
+                    "Stable"
+                ]
+            }
+        ],
+        "githubRepo": {
+            "full_name": "sbglasius/i18n-enums",
+            "html_url": "https://github.com/sbglasius/i18n-enums",
+            "stargazers_count": 2
+        },
+        "latest_version_created": "2016-10-02T20:28:30.682Z",
+        "latest_version_updated": "2016-10-02T20:28:57.098Z"
+    },
+    {
         "desc": "Render all Grails i18n messages to Javascript",
         "issue_tracker_url": "https://github.com/salex772/i18n-javascript/issues",
         "labels": [
@@ -4513,38 +4553,6 @@
         },
         "latest_version_created": "2015-06-03T10:08:44.953Z",
         "latest_version_updated": "2015-06-03T14:47:50.954Z"
-    },
-    {
-        "desc": "Grails grails3-i18n-enums plugin",
-        "issue_tracker_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.0",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:grails3-i18n-enums",
-        "owner": "sbglasius",
-        "repo": "plugins",
-        "system_ids": [
-            "org.grails.plugins:grails3-i18n-enums"
-        ],
-        "vcs_url": "https://github.com/sbglasius/I18nEnumsGrails3Plugin",
-        "versions": [
-            "2.0.0"
-        ],
-        "website_url": "http://grails.org/plugin/grails3-i18n-enums",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "sbglasius/i18n-enums",
-            "html_url": "https://github.com/sbglasius/i18n-enums",
-            "stargazers_count": 2
-        },
-        "latest_version_created": "2015-09-06T18:40:17.340Z",
-        "latest_version_updated": "2015-09-06T18:40:48.978Z"
     },
     {
         "desc": "Grooscript Grails 3 Plugin",
