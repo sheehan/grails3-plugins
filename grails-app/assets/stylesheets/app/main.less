@@ -10,11 +10,11 @@ a {
 .page-width {
   max-width: 1180px;
   margin: auto;
-  padding: 0 20px 10px;
 }
 
 .main-content {
   margin-top: 20px;
+  padding: 0 20px 10px;
 }
 
 .page-loading {
@@ -28,7 +28,7 @@ a {
 }
 
 .page {
-  margin: 0 0 0 310px;
+  margin: 0 310px 0 0;
 }
 
 .searchby-label {
@@ -73,32 +73,24 @@ a {
 
 
 .sidebar {
-  float: left;
-  ul.nav-sidebar {
-    margin: 0 0 20px;
-    padding: 5px 0;
-    border: 1px solid #ddd;
-    list-style-type: none;
-    li {
-      a {
-        display: block;
-        cursor: pointer;
-        padding: 5px 10px;
-        font-weight: 400;
-        text-decoration: none;
-        color: #343437;
-        &:hover {
-          color: #fff;
-          background-color: #db4800;
-        }
-      }
-      &.active a {
-        background-color: #f2f2f2;
-        &:hover {
-          background-color: #db4800;
-        }
-      }
-    }
+  float: right;
+}
+
+.sidebar-message {
+  width: 280px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #767676;
+  font-size: 12px;
+  line-height: 18px;
+  h3 {
+    font-size: 12px;
+    margin-top: 0;
+    color: #444;
+  }
+  p {
+    margin: 0;
   }
 }
 
@@ -247,11 +239,10 @@ a {
       display: none;
     }
     .sidebar {
-      width: 100%;
-      position: static;
+      display: none;
     }
     .page {
-      margin-left: 0;
+      margin-right: 0;
     }
     .search-options {
       display: none;

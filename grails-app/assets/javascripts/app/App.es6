@@ -47,15 +47,6 @@ grailsplugins.App = class {
 
         this.show();
 
-        $('.socialize-button').click(e => {
-            e.preventDefault();
-            e.stopPropagation();
-            $('.socialize-menu').animate({right: 0});
-            $('body').one('click', () => {
-                $('.socialize-menu').animate({right: -300});
-            });
-        });
-
         page.start();
     }
 

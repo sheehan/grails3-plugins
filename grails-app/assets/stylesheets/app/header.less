@@ -1,176 +1,125 @@
 
 .grails-header {
-
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #4D8618;
   text-shadow: none;
 
-  /* customizing bootstrap nav bar */
   .navbar {
-    margin-bottom: 0px;
-    padding-right: 110px;
-  }
-  .navbar .container {
-    margin: 10px;
-  }
-  .navbar-default a {
-    color: #ffffff !important;
-    font-size: 18px !important;
-    text-decoration: none;
+    margin-bottom: 0;
   }
   .grails-icon img {
     width: 40px;
 
   }
   .navbar-default, .navbar-static-top {
-    background: #4D8618;
-    border: 0px;
+    background: inherit;
+    border: none;
+    box-shadow: none;
   }
-  a.navbar-brand {
-    color: white !important;
-    font-size: 19px !important;
-    text-shadow: none;
-  }
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: transparent;
-    color: white;
-    text-shadow: none;
-  }
-  .navbar-nav > li.active > a {
-    color: white !important;
-  }
-  .navbar-nav > li > a:hover {
-    background-color: #db4800 !important;
-    color: white !important;
-  }
-  .navbar-nav > li > a {
-    color: #c0d3db;
-    text-shadow: none;
-  }
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-  }
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #db4800;
-  }
+}
 
-  @media (min-width: 768px) {
-    .container {
-      width: auto;
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: none;
+}
+
+// http://work.smarchal.com/twbscolor/less/4d86184d8618ecf0f1ecf0f10
+@bgDefault: #4D8618;
+@bgHighlight: #db4800;
+@colDefault: #ecf0f1;
+@colHighlight: #ecf0f1;
+@dropDown: false;
+.ddm() when (@dropDown) {
+  > li > .dropdown-menu {
+    background-color: @bgDefault;
+    > li {
+      > a {
+        color: @colDefault;
+        &:hover, &:focus {
+          color: @colHighlight;
+          background-color: @bgHighlight;
+        }
+      }
+      > .divider {
+        background-color: @bgHighlight;
+      }
     }
   }
-
-  /* specific to index.html */
-
-  @media (max-width: 999px) {
-    #fork-me {
-      display: none;
-    }
-
-    .navbar {
-      padding-right: 0px;
+  .open .dropdown-menu > .active {
+    > a, > a:hover, > a:focus {
+      color: @colHighlight;
+      background-color: @bgHighlight;
     }
   }
+}
 
-  #fork-me {
-    position: absolute;
-    padding: 0px 50px 0px 50px;
-    top: 40px;
-    right: -60px;
-    background-color: #a60000;
-    color: #ffffff;
-    font-size: 1em;
-    z-index: 1001;
-    transform: rotate(+45deg);
-    text-align: center;
-    font-weight: bolder;
-    border: #c14646;
-    border-style: dashed;
-    border-width: 1px;
+.navbar-default {
+  background-color: @bgDefault;
+  border-color: @bgHighlight;
+  .navbar-brand {
+    color: @colDefault;
+    &:hover, &:focus {
+      color: @colHighlight;
+    }
   }
-
-  #fork-me p {
-    margin: 0;
-    line-height: 25px;
+  .navbar-text {
+    color: @colDefault;
+  }
+  .navbar-nav {
+    > li {
+      > a {
+        color: @colDefault;
+        &:hover, &:focus {
+          color: @colHighlight;
+        }
+      }
+    }
+    .ddm;
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: @colHighlight;
+        background-color: @bgHighlight;
+      }
+    }
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: @colHighlight;
+        background: @bgHighlight;
+      }
+    }
+  }
+  .navbar-toggle {
+    border-color: @bgHighlight;
+    &:hover, &:focus {
+      background-color: @bgHighlight;
+    }
+    .icon-bar {
+      background-color: @colDefault;
+    }
+  }
+  .navbar-collapse,
+  .navbar-form {
+    border-color: @colDefault;
+  }
+  .navbar-link {
+    color: @colDefault;
+    &:hover {
+      color: @colHighlight;
+    }
   }
 }
 
-@media screen and (max-width: 767px) {
-  .presentations .img.screenshot, .video .metadata {
-    float: none;
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: @colDefault;
+      &:hover, &:focus {
+        color: @colHighlight;
+      }
+    }
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: @colHighlight;
+        background-color: @bgHighlight;
+      }
+    }
   }
-}
-
-.socialize-menu {
-  position: fixed;
-  top: 0;
-  left: auto;
-  width: 300px;
-  height: 100%;
-  background: #79B94C;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  right: -300px;
-  z-index: 1002;
-}
-
-.socialize-menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none
-}
-
-.socialize-menu h2 {
-  margin: 0;
-  padding: 1em;
-  color: white;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  font-weight: 300;
-  font-size: 2em
-}
-
-.socialize-menu ul li {
-  display: block
-}
-
-.socialize-menu ul li a {
-  display: block;
-  position: relative;
-  padding: 1em 1em 1em 45px;
-  outline: 0;
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
-  color: #f3efe0;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
-  letter-spacing: 1px;
-  font-weight: 400;
-  text-decoration: none
-}
-
-.socialize-menu ul li a span.fa {
-  display: block;
-  position: absolute;
-  left: 12px;
-  top: 17px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center
-}
-
-.socialize-menu ul li a span.fa.fa-tasks, .socialize-menu ul li a span.fa.fa-envelope {
-  top: 18px;
-  font-size: 18px
-}
-
-.socialize-menu ul li:first-child a {
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(0, 0, 0, 0.2)
-}
-
-.socialize-menu ul li a:hover {
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 0);
-  color: #fff
-}
-
-body {
-  width: 100%;
-  overflow-x: hidden;
 }
