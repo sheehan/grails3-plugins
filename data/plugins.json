@@ -976,6 +976,40 @@
         "latest_version_updated": "2016-08-27T09:08:35.958Z"
     },
     {
+        "desc": "Grails clojure plugin",
+        "issue_tracker_url": "https://github.com/grails3-plugins/clojure/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0.RC2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "clojure",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/grails-plugins/clojure",
+        "versions": [
+            "2.0.0.RC2",
+            "2.0.0.M1",
+            "2.0.0.RC1"
+        ],
+        "website_url": "http://grails-plugins.github.io/clojure/latest/",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "grails-plugins/clojure",
+            "html_url": "https://github.com/grails-plugins/clojure",
+            "stargazers_count": 2
+        },
+        "latest_version_created": "2016-03-31T13:32:02.248Z",
+        "latest_version_updated": "2016-10-03T14:35:20.885Z"
+    },
+    {
         "desc": "CMEditor is a simple way to use the popular CodeMirror web editor in grails applications. You can use it to edit pretty much anything that can be mapped to a file-like object. I.e. something with a filename and text-content. If your model requires additional fields this is supported, too.     For example managing your library could be done by mapping filename to \"Frank Tr\u00c3\u00b6ger - CMEditor\". The tabbed editor then could manage everything: Author, title, publication year and - of course - the books content in a nice-to-use CodeMirror editor. You could even edit multiple books simultaneously.     Check out our demo grails project at https://github.com/RRZE-PP/grails-cmeditor-demo.     ",
         "issue_tracker_url": "https://github.com/RRZE-PP/grails-cmeditor/issues",
         "labels": [
@@ -1730,6 +1764,38 @@
         },
         "latest_version_created": "2016-06-23T21:34:10.931Z",
         "latest_version_updated": "2016-06-23T21:34:32.676Z"
+    },
+    {
+        "desc": "Grails export plugin",
+        "issue_tracker_url": "https://github.com/gpc/export/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "export",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/gpc/export",
+        "versions": [
+            "2.0.0"
+        ],
+        "website_url": "",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "gpc/export",
+            "html_url": "https://github.com/gpc/export",
+            "stargazers_count": 8
+        },
+        "latest_version_created": "2016-03-31T15:25:00.244Z",
+        "latest_version_updated": "2016-10-03T14:39:59.228Z"
     },
     {
         "desc": "\t\r\nLoad configs with grails.config.locations like in Grails 2.x",
@@ -2868,6 +2934,49 @@
     },
     {
         "desc": "GORM - Grails Data Access Framework",
+        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
+        "labels": [
+            
+        ],
+        "latest_version": "4.3.10.7",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "hibernate",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/grails/grails-data-mapping",
+        "versions": [
+            "4.3.10.7",
+            "4.3.7.0.M1",
+            "4.3.10.3",
+            "4.3.8.0.M2",
+            "4.3.10.6",
+            "4.3.8.0.M4",
+            "4.3.8.1",
+            "4.3.8.0.M3",
+            "4.3.10.4",
+            "4.3.10.5",
+            "4.3.8.0",
+            "4.3.8.0.RC1"
+        ],
+        "website_url": "http://grails.org/",
+        "attributes": [
+            
+        ],
+        "githubRepo": {
+            "full_name": "grails/grails-data-mapping",
+            "html_url": "https://github.com/grails/grails-data-mapping",
+            "stargazers_count": 94
+        },
+        "latest_version_created": "2016-03-31T13:32:02.223Z",
+        "latest_version_updated": "2016-10-03T14:41:45.240Z"
+    },
+    {
+        "desc": "GORM - Grails Data Access Framework",
         "issue_tracker_url": "https://github.com/grails/grails-data-mapping/issues",
         "labels": [
             "database",
@@ -3533,6 +3642,33 @@
         "latest_version_updated": "2016-07-13T14:28:59.185Z"
     },
     {
+        "desc": "Grails jms plugin",
+        "issue_tracker_url": "https://github.com/grails3-plugins/jms/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "2.0.0.M1",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "jms",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/grails3-plugins/jms",
+        "versions": [
+            "2.0.0.M1"
+        ],
+        "website_url": "http://grails.org/plugin/jms",
+        "attributes": [
+            
+        ],
+        "latest_version_created": "2016-03-31T15:25:00.210Z",
+        "latest_version_updated": "2016-10-03T14:41:54.392Z"
+    },
+    {
         "desc": "Grails joda-time plugin",
         "issue_tracker_url": "https://github.com/grails3-plugins/joda-time/issues",
         "labels": [
@@ -4162,40 +4298,6 @@
         "latest_version_updated": "2016-05-31T11:54:46.402Z"
     },
     {
-        "desc": "Grails clojure plugin",
-        "issue_tracker_url": "https://github.com/grails3-plugins/clojure/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.0.RC2",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:clojure",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/grails-plugins/clojure",
-        "versions": [
-            "2.0.0.RC2",
-            "2.0.0.M1",
-            "2.0.0.RC1"
-        ],
-        "website_url": "http://grails-plugins.github.io/clojure/latest/",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "grails-plugins/clojure",
-            "html_url": "https://github.com/grails-plugins/clojure",
-            "stargazers_count": 2
-        },
-        "latest_version_created": "2016-03-31T13:32:02.248Z",
-        "latest_version_updated": "2016-04-01T15:35:30.963Z"
-    },
-    {
         "desc": "Grails CSV plugin",
         "issue_tracker_url": "https://github.com/vsachinv/grails-csv/issues",
         "labels": [
@@ -4290,38 +4392,6 @@
         },
         "latest_version_created": "2016-08-31T00:33:54.031Z",
         "latest_version_updated": "2016-08-31T00:54:19.631Z"
-    },
-    {
-        "desc": "Grails export plugin",
-        "issue_tracker_url": "https://github.com/gpc/export/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.0",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:export",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/gpc/export",
-        "versions": [
-            "2.0.0"
-        ],
-        "website_url": "",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "gpc/export",
-            "html_url": "https://github.com/gpc/export",
-            "stargazers_count": 8
-        },
-        "latest_version_created": "2016-03-31T15:25:00.244Z",
-        "latest_version_updated": "2016-04-01T15:40:35.199Z"
     },
     {
         "desc": "Grails feature-switch plugin",
@@ -4601,49 +4671,6 @@
         "latest_version_updated": "2016-03-01T21:59:45.853Z"
     },
     {
-        "desc": "GORM - Grails Data Access Framework",
-        "issue_tracker_url": "http://jira.grails.org/browse/GRAILS",
-        "labels": [
-            
-        ],
-        "latest_version": "4.3.10.7",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:hibernate",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/grails/grails-data-mapping",
-        "versions": [
-            "4.3.10.7",
-            "4.3.7.0.M1",
-            "4.3.10.3",
-            "4.3.8.0.M2",
-            "4.3.10.6",
-            "4.3.8.0.M4",
-            "4.3.8.1",
-            "4.3.8.0.M3",
-            "4.3.10.4",
-            "4.3.10.5",
-            "4.3.8.0",
-            "4.3.8.0.RC1"
-        ],
-        "website_url": "http://grails.org/",
-        "attributes": [
-            
-        ],
-        "githubRepo": {
-            "full_name": "grails/grails-data-mapping",
-            "html_url": "https://github.com/grails/grails-data-mapping",
-            "stargazers_count": 94
-        },
-        "latest_version_created": "2016-03-31T13:32:02.223Z",
-        "latest_version_updated": "2016-04-01T15:35:28.925Z"
-    },
-    {
         "desc": "Grails iCalendar plugin",
         "issue_tracker_url": "https://github.com/saw303/grails-ic-alender/issues",
         "labels": [
@@ -4709,33 +4736,6 @@
         },
         "latest_version_created": "2015-08-22T02:22:29.208Z",
         "latest_version_updated": "2015-08-22T02:25:39.083Z"
-    },
-    {
-        "desc": "Grails jms plugin",
-        "issue_tracker_url": "https://github.com/grails3-plugins/jms/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "2.0.0.M1",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:jms",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/grails3-plugins/jms",
-        "versions": [
-            "2.0.0.M1"
-        ],
-        "website_url": "http://grails.org/plugin/jms",
-        "attributes": [
-            
-        ],
-        "latest_version_created": "2016-03-31T15:25:00.210Z",
-        "latest_version_updated": "2016-04-01T15:41:12.573Z"
     },
     {
         "desc": "Grails json-annotations-marshaller plugin",
@@ -4871,34 +4871,6 @@
         },
         "latest_version_created": "2016-04-19T21:51:14.614Z",
         "latest_version_updated": "2016-04-19T21:51:32.907Z"
-    },
-    {
-        "desc": "Grails views-markup plugin",
-        "issue_tracker_url": "https://github.com/grails3-plugins/views-markup/issues",
-        "labels": [
-            
-        ],
-        "latest_version": "1.0.0.M2",
-        "licenses": [
-            "Apache-2.0"
-        ],
-        "name": "org.grails.plugins:views-markup",
-        "owner": "grails",
-        "repo": "plugins",
-        "system_ids": [
-            
-        ],
-        "vcs_url": "https://github.com/grails3-plugins/views-markup",
-        "versions": [
-            "1.0.0.M2",
-            "1.0.0.M1"
-        ],
-        "website_url": "http://grails.org/plugin/views-markup",
-        "attributes": [
-            
-        ],
-        "latest_version_created": "2016-03-31T13:31:58.961Z",
-        "latest_version_updated": "2016-04-01T15:41:14.537Z"
     },
     {
         "desc": "Grails p6spy-ui plugin",
@@ -5848,7 +5820,7 @@
         "labels": [
             
         ],
-        "latest_version": "2.0.5",
+        "latest_version": "2.0.7",
         "licenses": [
             "Apache-2.0"
         ],
@@ -5860,6 +5832,8 @@
         ],
         "vcs_url": "https://github.com/agorapulse/grails-segmentio",
         "versions": [
+            "2.0.7",
+            "2.0.6",
             "2.0.5",
             "2.0.4",
             "2.0.3",
@@ -5877,8 +5851,8 @@
             "html_url": "https://github.com/agorapulse/grails-segment",
             "stargazers_count": 2
         },
-        "latest_version_created": "2016-09-08T11:18:57.088Z",
-        "latest_version_updated": "2016-09-08T11:19:13.280Z"
+        "latest_version_created": "2016-10-03T14:36:07.723Z",
+        "latest_version_updated": "2016-10-03T14:36:22.332Z"
     },
     {
         "desc": "Selfie is a Grails Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
@@ -6852,6 +6826,34 @@
         ],
         "latest_version_created": "2016-09-27T14:55:38.401Z",
         "latest_version_updated": "2016-09-27T14:55:53.803Z"
+    },
+    {
+        "desc": "Grails views-markup plugin",
+        "issue_tracker_url": "https://github.com/grails3-plugins/views-markup/issues",
+        "labels": [
+            
+        ],
+        "latest_version": "1.0.0.M2",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "name": "views-markup",
+        "owner": "grails",
+        "repo": "plugins",
+        "system_ids": [
+            
+        ],
+        "vcs_url": "https://github.com/grails3-plugins/views-markup",
+        "versions": [
+            "1.0.0.M2",
+            "1.0.0.M1"
+        ],
+        "website_url": "http://grails.org/plugin/views-markup",
+        "attributes": [
+            
+        ],
+        "latest_version_created": "2016-03-31T13:31:58.961Z",
+        "latest_version_updated": "2016-10-03T14:41:34.209Z"
     },
     {
         "desc": "Grails wkhtmltopdf plugin",
